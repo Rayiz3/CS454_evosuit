@@ -1,0 +1,403 @@
+The method looks like: 
+```java
+    public static int toInt(final String str) {
+        return toInt(str, 0);
+    }
+```
+The corresponding tests written by developer looks like: 
+```java
+    @Test
+    public void testToIntString() {
+        assertTrue("toInt(String) 1 failed", NumberUtils.toInt("12345") == 12345);
+        assertTrue("toInt(String) 2 failed", NumberUtils.toInt("abc") == 0);
+        assertTrue("toInt(empty) failed", NumberUtils.toInt("") == 0);
+        assertTrue("toInt(null) failed", NumberUtils.toInt(null) == 0);
+    }
+    @Test
+    public void testToIntStringI() {
+        assertTrue("toInt(String,int) 1 failed", NumberUtils.toInt("12345", 5) == 12345);
+        assertTrue("toInt(String,int) 2 failed", NumberUtils.toInt("1234.5", 5) == 5);
+    }
+```
+Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 
+
+Here are some regression tests for the `toInt` method:
+
+1. Test with a valid positive integer string:
+```java
+@Test
+public void testToInt_ValidPositiveInteger() {
+    int result = NumberUtils.toInt("12345");
+    assertEquals(12345, result);
+}
+```
+
+2. Test with a string containing non-numeric characters:
+```java
+@Test
+public void testToInt_NonNumericString() {
+    int result = NumberUtils.toInt("abc");
+    assertEquals(0, result);
+}
+```
+
+3. Test with an empty string:
+```java
+@Test
+public void testToInt_EmptyString() {
+    int result = NumberUtils.toInt("");
+    assertEquals(0, result);
+}
+```
+
+4. Test with a null string:
+```java
+@Test
+public void testToInt_NullString() {
+    int result = NumberUtils.toInt(null);
+    assertEquals(0, result);
+}
+```
+
+5. Test with a decimal string and a default value:
+```java
+@Test
+public void testToInt_DecimalStringWithDefaultValue() {
+    int result = NumberUtils.toInt("1234.5", 5);
+    assertEquals(5, result);
+}
+```
+
+These tests cover different scenarios such as valid positive integer input, non-numeric input, empty input, null input, and decimal input with a default value.The method looks like: 
+```java
+    public static int toInt(final String str, final int defaultValue) {
+        if(str == null) {
+            return defaultValue;
+        }
+        try {
+            return Integer.parseInt(str);
+        } catch (final NumberFormatException nfe) {
+            return defaultValue;
+        }
+    }
+```
+The corresponding tests written by developer looks like: 
+```java
+    @Test
+    public void testToIntString() {
+        assertTrue("toInt(String) 1 failed", NumberUtils.toInt("12345") == 12345);
+        assertTrue("toInt(String) 2 failed", NumberUtils.toInt("abc") == 0);
+        assertTrue("toInt(empty) failed", NumberUtils.toInt("") == 0);
+        assertTrue("toInt(null) failed", NumberUtils.toInt(null) == 0);
+    }
+    @Test
+    public void testToIntStringI() {
+        assertTrue("toInt(String,int) 1 failed", NumberUtils.toInt("12345", 5) == 12345);
+        assertTrue("toInt(String,int) 2 failed", NumberUtils.toInt("1234.5", 5) == 5);
+    }
+```
+Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 
+
+Regression Tests:
+1. Test when the input string is a positive number:
+```java
+    @Test
+    public void testToIntString_PositiveNumber() {
+        assertTrue("toInt(String) failed", NumberUtils.toInt("98765") == 98765);
+    }
+```
+2. Test when the input string is a negative number:
+```java
+    @Test
+    public void testToIntString_NegativeNumber() {
+        assertTrue("toInt(String) failed", NumberUtils.toInt("-54321") == -54321);
+    }
+```
+3. Test when the input string is a non-numeric character:
+```java
+    @Test
+    public void testToIntString_NonNumericCharacter() {
+        assertTrue("toInt(String) failed", NumberUtils.toInt("abc") == 0);
+    }
+```
+4. Test when the input string is empty:
+```java
+    @Test
+    public void testToIntString_EmptyString() {
+        assertTrue("toInt(String) failed", NumberUtils.toInt("") == 0);
+    }
+```
+5. Test when the input string is null:
+```java
+    @Test
+    public void testToIntString_NullString() {
+        assertTrue("toInt(String) failed", NumberUtils.toInt(null) == 0);
+    }
+```The method looks like: 
+```java
+    public static long toLong(final String str) {
+        return toLong(str, 0L);
+    }
+```
+The corresponding tests written by developer looks like: 
+```java
+    @Test
+    public void testToLongString() {
+        assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
+        assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
+        assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
+        assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
+        assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
+        assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
+        assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
+        assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
+    }
+    @Test
+    public void testToLongStringL() {
+        assertTrue("toLong(String,long) 1 failed", NumberUtils.toLong("12345", 5l) == 12345l);
+        assertTrue("toLong(String,long) 2 failed", NumberUtils.toLong("1234.5", 5l) == 5l);
+    }
+```
+Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 
+
+Regression Test 1:
+```java
+@Test
+public void testToLongString() {
+    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
+    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
+    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
+    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
+    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
+    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
+    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
+    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
+}
+
+@Test
+public void testToLongString_withLongInput() {
+    assertTrue("toLong(String) with Long input failed", NumberUtils.toLong("9223372036854775807") == 9223372036854775807L);
+    assertTrue("toLong(String) with Long.MIN_VALUE+1 failed", NumberUtils.toLong("-9223372036854775808") == -9223372036854775808L);
+}
+
+@Test
+public void testToLongString_withDecimalInput() {
+    assertTrue("toLong(String) with Decimal input failed", NumberUtils.toLong("1234.5") == 0L);
+    assertTrue("toLong(String) with Decimal input and default value failed", NumberUtils.toLong("1234.5", 5l) == 5L);
+}
+```
+
+Regression Test 2:
+```java
+@Test
+public void testToLongString() {
+    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
+    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
+    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
+    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
+    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
+    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
+    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
+    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
+}
+
+@Test
+public void testToLongString_withDefaultInput() {
+    assertTrue("toLong(String) with default input failed", NumberUtils.toLong("12345", 0l) == 12345l);
+    assertTrue("toLong(String) with default input and non-number failed", NumberUtils.toLong("abc", 0l) == 0l);
+}
+```
+
+Regression Test 3:
+```java
+@Test
+public void testToLongString() {
+    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
+    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
+    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
+    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
+    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
+    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
+    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
+    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
+}
+
+@Test
+public void testToLongString_withDifferentCases() {
+    assertTrue("toLong(String) with lowercase 'l' failed", NumberUtils.toLong("12345L") == 0l);
+    assertTrue("toLong(String) with uppercase 'L' failed", NumberUtils.toLong("1l") == 0l);
+}
+```
+
+Regression Test 4:
+```java
+@Test
+public void testToLongString() {
+    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
+    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
+    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
+    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
+    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
+    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
+    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
+    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
+}
+
+@Test
+public void testToLongString_withEmptyInput() {
+    assertTrue("toLong(String) with empty input failed", NumberUtils.toLong("", 5l) == 0l);
+    assertTrue("toLong(String) with empty input and default value failed", NumberUtils.toLong("", 5l) == 5l);
+}
+```
+
+Regression Test 5:
+```java
+@Test
+public void testToLongString() {
+    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
+    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
+    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
+    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
+    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
+    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
+    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
+    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
+}
+
+@Test
+public void testToLongString_withNullInput() {
+    assertTrue("toLong(String) with null input failed", NumberUtils.toLong(null, 5l) == 0l);
+    assertTrue("toLong(String) with null input and default value failed", NumberUtils.toLong(null, 5l) == 5l);
+}
+```The method looks like: 
+```java
+    public static long toLong(final String str, final long defaultValue) {
+        if (str == null) {
+            return defaultValue;
+        }
+        try {
+            return Long.parseLong(str);
+        } catch (final NumberFormatException nfe) {
+            return defaultValue;
+        }
+    }
+```
+The corresponding tests written by developer looks like: 
+```java
+    @Test
+    public void testToLongString() {
+        assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
+        assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
+        assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
+        assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
+        assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
+        assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
+        assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
+        assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
+    }
+    @Test
+    public void testToLongStringL() {
+        assertTrue("toLong(String,long) 1 failed", NumberUtils.toLong("12345", 5l) == 12345l);
+        assertTrue("toLong(String,long) 2 failed", NumberUtils.toLong("1234.5", 5l) == 5l);
+    }
+```
+Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 
+
+Regression Test 1:
+```java
+@Test
+public void testToLongString_InputStringNotNull_ReturnsLongValue() {
+    long result = NumberUtils.toLong("12345", 0l);
+    assertEquals(12345l, result);
+}
+
+@Test
+public void testToLongString_InputStringIsNull_ReturnsDefaultValue() {
+    long result = NumberUtils.toLong(null, 0l);
+    assertEquals(0l, result);
+}
+```
+
+Regression Test 2:
+```java
+@Test
+public void testToLongString_InputStringIsValidLong_ReturnsLongValue() {
+    long result = NumberUtils.toLong("1L", 0l);
+    assertEquals(1l, result);
+}
+
+@Test
+public void testToLongString_InputStringIsInvalidLong_ReturnsDefaultValue() {
+    long result = NumberUtils.toLong("abc", 0l);
+    assertEquals(0l, result);
+}
+```
+
+Regression Test 3:
+```java
+@Test
+public void testToLongString_InputStringIsLongMaxValue_ReturnsLongMaxValue() {
+    long result = NumberUtils.toLong(Long.MAX_VALUE+"", 0l);
+    assertEquals(Long.MAX_VALUE, result);
+}
+
+@Test
+public void testToLongString_InputStringIsLongMinValue_ReturnsLongMinValue() {
+    long result = NumberUtils.toLong(Long.MIN_VALUE+"", 0l);
+    assertEquals(Long.MIN_VALUE, result);
+}
+```
+
+Regression Test 4:
+```java
+@Test
+public void testToLongString_InputStringIsEmpty_ReturnsDefaultValue() {
+    long result = NumberUtils.toLong("", 0l);
+    assertEquals(0l, result);
+}
+
+@Test
+public void testToLongString_InputStringIsInvalidNumber_ReturnsDefaultValue() {
+    long result = NumberUtils.toLong("1l", 0l);
+    assertEquals(0l, result);
+}
+```
+
+Regression Test 5:
+```java
+@Test
+public void testToLongStringWithDefault_InputStringIsValidLong_ReturnsLongValue() {
+    long result = NumberUtils.toLong("12345", 5l);
+    assertEquals(12345l, result);
+}
+
+@Test
+public void testToLongStringWithDefault_InputStringIsInvalidNumber_ReturnsDefaultValue() {
+    long result = NumberUtils.toLong("1234.5", 5l);
+    assertEquals(5l, result);
+}
+```The method looks like: 
+```java
+    public static float toFloat(final String str) {
+        return toFloat(str, 0.0f);
+    }
+```
+The corresponding tests written by developer looks like: 
+```java
+    @Test
+    public void testToFloatString() {
+        assertTrue("toFloat(String) 1 failed", NumberUtils.toFloat("-1.2345") == -1.2345f);
+        assertTrue("toFloat(String) 2 failed", NumberUtils.toFloat("1.2345") == 1.2345f);
+        assertTrue("toFloat(String) 3 failed", NumberUtils.toFloat("abc") == 0.0f);
+        assertTrue("toFloat(Float.MAX_VALUE) failed", NumberUtils.toFloat(Float.MAX_VALUE+"") ==  Float.MAX_VALUE);
+        assertTrue("toFloat(Float.MIN_VALUE) failed", NumberUtils.toFloat(Float.MIN_VALUE+"") == Float.MIN_VALUE);
+        assertTrue("toFloat(empty) failed", NumberUtils.toFloat("") == 0.0f);
+        assertTrue("toFloat(null) failed", NumberUtils.toFloat(null) == 0.0f);
+    }
+    @Test
+    public void testToFloatStringF() {
+        assertTrue("toFloat(String,int) 1 failed", NumberUtils.toFloat("1.2345", 5.1f) == 1.2345f);
+        assertTrue("toFloat(String,int) 2 failed", NumberUtils.toFloat("a", 5.0f) == 5.0f);
+    }
+```
+Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 
