@@ -1,403 +1,893 @@
+
 The method looks like: 
 ```java
-    public static int toInt(final String str) {
-        return toInt(str, 0);
+    public Elements elements() {
+        return elements;
+    }
+
+```
+Distinguish whether this is the public or private method.
+
+Based on the given code snippet, this is a public method. 
+
+Public methods are denoted with the keyword "public" followed by the return type of the method. In this case, the method is named "elements" (without any parameters), and it returns an instance of the "Elements" class. Therefore, the method is declared as a public method.
+
+
+The test cases covering given method looks like: 
+```java
+    @Test public void hasAssociatedControls() {
+        //"button", "fieldset", "input", "keygen", "object", "output", "select", "textarea"
+        String html = "<form id=1><button id=1><fieldset id=2 /><input id=3><keygen id=4><object id=5><output id=6>" +
+                "<select id=7><option></select><textarea id=8><p id=9>";
+        Document doc = Jsoup.parse(html);
+
+        FormElement form = (FormElement) doc.select("form").first();
+        assertEquals(8, form.elements().size());
+    }
+    @Test public void controlsAddedAfterParseAreLinkedWithForms() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form />");
+
+        Element formEl = doc.select("form").first();
+        formEl.append("<input name=foo value=bar>");
+
+        assertTrue(formEl instanceof FormElement);
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("foo=bar", data.get(0).toString());
+    }
+    @Test public void formsAddedAfterParseAreFormElements() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form action='http://example.com/search'><input name='q' value='search'>");
+        Element formEl = doc.select("form").first();
+        assertTrue(formEl instanceof FormElement);
+
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
+    }
+
+```
+
+Provide regression test cases of the given method by changing the input of the covering tests.
+Only the input value of the method in each test should be changed.
+You should fill in the below format.
+I have to parse your response, therefore your response should only have one format below.
+
+```java
+<insert all regression tests into here (do not separate)>
+```
+
+
+```java
+    @Test public void hasAssociatedControls() {
+        //"button", "fieldset", "input", "keygen", "object", "output", "select", "textarea"
+        String html = "<form id=1><button id=1><fieldset id=2 /><input id=3><keygen id=4><object id=5><output id=6>" +
+                "<select id=7><option></select><textarea id=8><p id=9>";
+        Document doc = Jsoup.parse(html);
+
+        FormElement form = (FormElement) doc.select("form").first();
+        assertEquals(8, form.elements().size());
+    }
+    @Test public void controlsAddedAfterParseAreLinkedWithForms() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form />");
+
+        Element formEl = doc.select("form").first();
+        formEl.append("<input name=foo value=bar>");
+
+        assertTrue(formEl instanceof FormElement);
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("foo=bar", data.get(0).toString());
+    }
+    @Test public void formsAddedAfterParseAreFormElements() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form action='http://example.com/search'><input name='q' value='search'>");
+        Element formEl = doc.select("form").first();
+        assertTrue(formEl instanceof FormElement);
+
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
+    }
+    @Test public void hasNoAssociatedControls() {
+        String html = "<div id=1><button id=1><fieldset id=2 /><input id=3><keygen id=4><object id=5><output id=6>" +
+                "<select id=7><option></select><textarea id=8><p id=9>";
+        Document doc = Jsoup.parse(html);
+
+        FormElement form = (FormElement) doc.select("form").first();
+        assertEquals(0, form.elements().size());
+    }
+    @Test public void controlsAddedBeforeParseAreNotLinkedWithForms() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form />");
+
+        Element formEl = doc.select("form").first();
+        doc.body().append("<input name=foo value=bar>");
+
+        assertTrue(formEl instanceof FormElement);
+        FormElement form = (FormElement) formEl;
+        assertEquals(0, form.elements().size());
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(0, data.size());
+    }
+    @Test public void formsAddedBeforeParseAreNotFormElements() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form action='http://example.com/search'><input name='q' value='search'>");
+        Element formEl = doc.select("form").first();
+        assertFalse(formEl instanceof FormElement);
+
+        FormElement form = (FormElement) formEl;
+        assertEquals(0, form.elements().size());
     }
 ```
-The corresponding tests written by developer looks like: 
+
+The method looks like: 
 ```java
-    @Test
-    public void testToIntString() {
-        assertTrue("toInt(String) 1 failed", NumberUtils.toInt("12345") == 12345);
-        assertTrue("toInt(String) 2 failed", NumberUtils.toInt("abc") == 0);
-        assertTrue("toInt(empty) failed", NumberUtils.toInt("") == 0);
-        assertTrue("toInt(null) failed", NumberUtils.toInt(null) == 0);
+    public FormElement addElement(Element element) {
+        elements.add(element);
+        return this;
     }
-    @Test
-    public void testToIntStringI() {
-        assertTrue("toInt(String,int) 1 failed", NumberUtils.toInt("12345", 5) == 12345);
-        assertTrue("toInt(String,int) 2 failed", NumberUtils.toInt("1234.5", 5) == 5);
+
+```
+Distinguish whether this is the public or private method.
+
+Based on the given code snippet, it appears that the method is declared as public since the access modifier "public" is explicitly specified in the method signature.
+
+
+The test cases covering given method looks like: 
+```java
+    @Test public void createsFormData() {
+        String html = "<form><input name='one' value='two'><select name='three'><option value='not'>" +
+                "<option value='four' selected><option value='five' selected><textarea name=six>seven</textarea>" +
+                "<input name='seven' type='radio' value='on' checked><input name='seven' type='radio' value='off'>" +
+                "<input name='eight' type='checkbox' checked><input name='nine' type='checkbox' value='unset'>" +
+                "<input name='ten' value='text' disabled>" +
+                "</form>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+
+        assertEquals(6, data.size());
+        assertEquals("one=two", data.get(0).toString());
+        assertEquals("three=four", data.get(1).toString());
+        assertEquals("three=five", data.get(2).toString());
+        assertEquals("six=seven", data.get(3).toString());
+        assertEquals("seven=on", data.get(4).toString()); // set
+        assertEquals("eight=on", data.get(5).toString()); // default
+        // nine should not appear, not checked checkbox
+        // ten should not appear, disabled
     }
-```
-Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 
+    @Test public void hasAssociatedControls() {
+        //"button", "fieldset", "input", "keygen", "object", "output", "select", "textarea"
+        String html = "<form id=1><button id=1><fieldset id=2 /><input id=3><keygen id=4><object id=5><output id=6>" +
+                "<select id=7><option></select><textarea id=8><p id=9>";
+        Document doc = Jsoup.parse(html);
 
-Here are some regression tests for the `toInt` method:
+        FormElement form = (FormElement) doc.select("form").first();
+        assertEquals(8, form.elements().size());
+    }
+    @Test public void actionWithNoValue() {
+        String html = "<form><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.com/");
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
 
-1. Test with a valid positive integer string:
-```java
-@Test
-public void testToInt_ValidPositiveInteger() {
-    int result = NumberUtils.toInt("12345");
-    assertEquals(12345, result);
-}
-```
+        assertEquals("http://example.com/", con.request().url().toExternalForm());
+    }
+    @Test public void createsSubmitableConnection() {
+        String html = "<form action='/search'><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.com/");
+        doc.select("[name=q]").attr("value", "jsoup");
 
-2. Test with a string containing non-numeric characters:
-```java
-@Test
-public void testToInt_NonNumericString() {
-    int result = NumberUtils.toInt("abc");
-    assertEquals(0, result);
-}
-```
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
 
-3. Test with an empty string:
-```java
-@Test
-public void testToInt_EmptyString() {
-    int result = NumberUtils.toInt("");
-    assertEquals(0, result);
-}
-```
+        assertEquals(Connection.Method.GET, con.request().method());
+        assertEquals("http://example.com/search", con.request().url().toExternalForm());
+        List<Connection.KeyVal> dataList = (List<Connection.KeyVal>) con.request().data();
+        assertEquals("q=jsoup", dataList.get(0).toString());
 
-4. Test with a null string:
-```java
-@Test
-public void testToInt_NullString() {
-    int result = NumberUtils.toInt(null);
-    assertEquals(0, result);
-}
-```
+        doc.select("form").attr("method", "post");
+        Connection con2 = form.submit();
+        assertEquals(Connection.Method.POST, con2.request().method());
+    }
+    @Test public void adoptedFormsRetainInputs() {
+        // test for https://github.com/jhy/jsoup/issues/249
+        String html = "<html>\n" +
+                "<body>  \n" +
+                "  <table>\n" +
+                "      <form action=\"/hello.php\" method=\"post\">\n" +
+                "      <tr><td>User:</td><td> <input type=\"text\" name=\"user\" /></td></tr>\n" +
+                "      <tr><td>Password:</td><td> <input type=\"password\" name=\"pass\" /></td></tr>\n" +
+                "      <tr><td><input type=\"submit\" name=\"login\" value=\"login\" /></td></tr>\n" +
+                "   </form>\n" +
+                "  </table>\n" +
+                "</body>\n" +
+                "</html>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(3, data.size());
+        assertEquals("user", data.get(0).key());
+        assertEquals("pass", data.get(1).key());
+        assertEquals("login", data.get(2).key());
+    }
+    @Test public void actionWithNoBaseUri() {
+        String html = "<form><input name='q'></form>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = ((FormElement) doc.select("form").first());
 
-5. Test with a decimal string and a default value:
-```java
-@Test
-public void testToInt_DecimalStringWithDefaultValue() {
-    int result = NumberUtils.toInt("1234.5", 5);
-    assertEquals(5, result);
-}
-```
 
-These tests cover different scenarios such as valid positive integer input, non-numeric input, empty input, null input, and decimal input with a default value.The method looks like: 
-```java
-    public static int toInt(final String str, final int defaultValue) {
-        if(str == null) {
-            return defaultValue;
-        }
+        boolean threw = false;
         try {
-            return Integer.parseInt(str);
-        } catch (final NumberFormatException nfe) {
-            return defaultValue;
+            Connection con = form.submit();
+        } catch (IllegalArgumentException e) {
+            threw = true;
+            assertEquals("Could not determine a form action URL for submit. Ensure you set a base URI when parsing.",
+                    e.getMessage());
         }
+        assertTrue(threw);
     }
-```
-The corresponding tests written by developer looks like: 
-```java
-    @Test
-    public void testToIntString() {
-        assertTrue("toInt(String) 1 failed", NumberUtils.toInt("12345") == 12345);
-        assertTrue("toInt(String) 2 failed", NumberUtils.toInt("abc") == 0);
-        assertTrue("toInt(empty) failed", NumberUtils.toInt("") == 0);
-        assertTrue("toInt(null) failed", NumberUtils.toInt(null) == 0);
+    @Test public void usesOnForCheckboxValueIfNoValueSet() {
+        Document doc = Jsoup.parse("<form><input type=checkbox checked name=foo></form>");
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("on", data.get(0).value());
+        assertEquals("foo", data.get(0).key());
     }
-    @Test
-    public void testToIntStringI() {
-        assertTrue("toInt(String,int) 1 failed", NumberUtils.toInt("12345", 5) == 12345);
-        assertTrue("toInt(String,int) 2 failed", NumberUtils.toInt("1234.5", 5) == 5);
+    @Test public void controlsAddedAfterParseAreLinkedWithForms() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form />");
+
+        Element formEl = doc.select("form").first();
+        formEl.append("<input name=foo value=bar>");
+
+        assertTrue(formEl instanceof FormElement);
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("foo=bar", data.get(0).toString());
     }
-```
-Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 
+    @Test public void formsAddedAfterParseAreFormElements() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form action='http://example.com/search'><input name='q' value='search'>");
+        Element formEl = doc.select("form").first();
+        assertTrue(formEl instanceof FormElement);
 
-Regression Tests:
-1. Test when the input string is a positive number:
-```java
-    @Test
-    public void testToIntString_PositiveNumber() {
-        assertTrue("toInt(String) failed", NumberUtils.toInt("98765") == 98765);
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
     }
-```
-2. Test when the input string is a negative number:
-```java
-    @Test
-    public void testToIntString_NegativeNumber() {
-        assertTrue("toInt(String) failed", NumberUtils.toInt("-54321") == -54321);
+    @Test public void removeFormElement() {
+        String html = "<html>\n" +
+                "  <body> \n" +
+                "      <form action=\"/hello.php\" method=\"post\">\n" +
+                "      User:<input type=\"text\" name=\"user\" />\n" +
+                "      Password:<input type=\"password\" name=\"pass\" />\n" +
+                "      <input type=\"submit\" name=\"login\" value=\"login\" />\n" +
+                "   </form>\n" +
+                "  </body>\n" +
+                "</html>  ";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.selectFirst("form");
+        Element pass = form.selectFirst("input[name=pass]");
+        pass.remove();
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(2, data.size());
+        assertEquals("user", data.get(0).key());
+        assertEquals("login", data.get(1).key());
+        assertEquals(null, doc.selectFirst("input[name=pass]"));
     }
+
 ```
-3. Test when the input string is a non-numeric character:
+
+Provide regression test cases of the given method by changing the input of the covering tests.
+Only the input value of the method in each test should be changed.
+You should fill in the below format.
+I have to parse your response, therefore your response should only have one format below.
+
 ```java
-    @Test
-    public void testToIntString_NonNumericCharacter() {
-        assertTrue("toInt(String) failed", NumberUtils.toInt("abc") == 0);
+<insert all regression tests into here (do not separate)>
+```
+
+
+```java
+@Test public void createsFormData() {
+        String html = "<form><input name='one' value='three'><select name='four'><option value='not'>" +
+                "<option value='five' selected><option value='six' selected><textarea name=seven>eight</textarea>" +
+                "<input name='nine' type='radio' value='off' checked><input name='nine' type='radio' value='on'>" +
+                "<input name='ten' type='checkbox' checked><input name='eleven' type='checkbox' value='unset'>" +
+                "<input name='twelve' value='text' disabled>" +
+                "</form>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+
+        assertEquals(6, data.size());
+        assertEquals("one=three", data.get(0).toString());
+        assertEquals("four=five", data.get(1).toString());
+        assertEquals("four=six", data.get(2).toString());
+        assertEquals("seven=eight", data.get(3).toString());
+        assertEquals("nine=off", data.get(4).toString()); // set
+        assertEquals("ten=on", data.get(5).toString()); // default
+        // eleven should not appear, not checked checkbox
+        // twelve should not appear, disabled
     }
-```
-4. Test when the input string is empty:
-```java
-    @Test
-    public void testToIntString_EmptyString() {
-        assertTrue("toInt(String) failed", NumberUtils.toInt("") == 0);
+    @Test public void hasAssociatedControls() {
+        //"button", "fieldset", "input", "keygen", "object", "output", "select", "textarea"
+        String html = "<form id=1><button id=2><fieldset id=3 /><input id=4><keygen id=5><object id=6><output id=7>" +
+                "<select id=8><option></select><textarea id=9><p id=10>";
+        Document doc = Jsoup.parse(html);
+
+        FormElement form = (FormElement) doc.select("form").first();
+        assertEquals(8, form.elements().size());
     }
-```
-5. Test when the input string is null:
-```java
-    @Test
-    public void testToIntString_NullString() {
-        assertTrue("toInt(String) failed", NumberUtils.toInt(null) == 0);
+    @Test public void actionWithNoValue() {
+        String html = "<form><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.net/");
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
+
+        assertEquals("http://example.net/", con.request().url().toExternalForm());
     }
-```The method looks like: 
-```java
-    public static long toLong(final String str) {
-        return toLong(str, 0L);
+    @Test public void createsSubmitableConnection() {
+        String html = "<form action='/search'><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.net/");
+        doc.select("[name=q]").attr("value", "regex");
+
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
+
+        assertEquals(Connection.Method.GET, con.request().method());
+        assertEquals("http://example.net/search", con.request().url().toExternalForm());
+        List<Connection.KeyVal> dataList = (List<Connection.KeyVal>) con.request().data();
+        assertEquals("q=regex", dataList.get(0).toString());
+
+        doc.select("form").attr("method", "post");
+        Connection con2 = form.submit();
+        assertEquals(Connection.Method.POST, con2.request().method());
     }
-```
-The corresponding tests written by developer looks like: 
-```java
-    @Test
-    public void testToLongString() {
-        assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
-        assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
-        assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
-        assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
-        assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
-        assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
-        assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
-        assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
+    @Test public void adoptedFormsRetainInputs() {
+        // test for https://github.com/jhy/jsoup/issues/249
+        String html = "<html>\n" +
+                "<body>  \n" +
+                "  <table>\n" +
+                "      <form action=\"/hello.php\" method=\"post\">\n" +
+                "      <tr><td>User:</td><td> <input type=\"text\" name=\"user\" /></td></tr>\n" +
+                "      <tr><td>Password:</td><td> <input type=\"password\" name=\"pass\" /></td></tr>\n" +
+                "      <tr><td><input type=\"submit\" name=\"login\" value=\"login\" /></td></tr>\n" +
+                "   </form>\n" +
+                "  </table>\n" +
+                "</body>\n" +
+                "</html>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(3, data.size());
+        assertEquals("user", data.get(0).key());
+        assertEquals("pass", data.get(1).key());
+        assertEquals("login", data.get(2).key());
     }
-    @Test
-    public void testToLongStringL() {
-        assertTrue("toLong(String,long) 1 failed", NumberUtils.toLong("12345", 5l) == 12345l);
-        assertTrue("toLong(String,long) 2 failed", NumberUtils.toLong("1234.5", 5l) == 5l);
-    }
-```
-Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 
+    @Test public void actionWithNoBaseUri() {
+        String html = "<form><input name='q'></form>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = ((FormElement) doc.select("form").first());
 
-Regression Test 1:
-```java
-@Test
-public void testToLongString() {
-    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
-    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
-    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
-    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
-    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
-    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
-    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
-    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
-}
 
-@Test
-public void testToLongString_withLongInput() {
-    assertTrue("toLong(String) with Long input failed", NumberUtils.toLong("9223372036854775807") == 9223372036854775807L);
-    assertTrue("toLong(String) with Long.MIN_VALUE+1 failed", NumberUtils.toLong("-9223372036854775808") == -9223372036854775808L);
-}
-
-@Test
-public void testToLongString_withDecimalInput() {
-    assertTrue("toLong(String) with Decimal input failed", NumberUtils.toLong("1234.5") == 0L);
-    assertTrue("toLong(String) with Decimal input and default value failed", NumberUtils.toLong("1234.5", 5l) == 5L);
-}
-```
-
-Regression Test 2:
-```java
-@Test
-public void testToLongString() {
-    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
-    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
-    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
-    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
-    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
-    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
-    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
-    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
-}
-
-@Test
-public void testToLongString_withDefaultInput() {
-    assertTrue("toLong(String) with default input failed", NumberUtils.toLong("12345", 0l) == 12345l);
-    assertTrue("toLong(String) with default input and non-number failed", NumberUtils.toLong("abc", 0l) == 0l);
-}
-```
-
-Regression Test 3:
-```java
-@Test
-public void testToLongString() {
-    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
-    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
-    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
-    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
-    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
-    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
-    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
-    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
-}
-
-@Test
-public void testToLongString_withDifferentCases() {
-    assertTrue("toLong(String) with lowercase 'l' failed", NumberUtils.toLong("12345L") == 0l);
-    assertTrue("toLong(String) with uppercase 'L' failed", NumberUtils.toLong("1l") == 0l);
-}
-```
-
-Regression Test 4:
-```java
-@Test
-public void testToLongString() {
-    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
-    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
-    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
-    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
-    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
-    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
-    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
-    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
-}
-
-@Test
-public void testToLongString_withEmptyInput() {
-    assertTrue("toLong(String) with empty input failed", NumberUtils.toLong("", 5l) == 0l);
-    assertTrue("toLong(String) with empty input and default value failed", NumberUtils.toLong("", 5l) == 5l);
-}
-```
-
-Regression Test 5:
-```java
-@Test
-public void testToLongString() {
-    assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
-    assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
-    assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
-    assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
-    assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
-    assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
-    assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
-    assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
-}
-
-@Test
-public void testToLongString_withNullInput() {
-    assertTrue("toLong(String) with null input failed", NumberUtils.toLong(null, 5l) == 0l);
-    assertTrue("toLong(String) with null input and default value failed", NumberUtils.toLong(null, 5l) == 5l);
-}
-```The method looks like: 
-```java
-    public static long toLong(final String str, final long defaultValue) {
-        if (str == null) {
-            return defaultValue;
-        }
+        boolean threw = false;
         try {
-            return Long.parseLong(str);
-        } catch (final NumberFormatException nfe) {
-            return defaultValue;
+            Connection con = form.submit();
+        } catch (IllegalArgumentException e) {
+            threw = true;
+            assertEquals("Could not determine a form action URL for submit. Ensure you set a base URI when parsing.",
+                    e.getMessage());
         }
+        assertTrue(threw);
+    }
+    @Test public void usesOnForCheckboxValueIfNoValueSet() {
+        Document doc = Jsoup.parse("<form><input type=checkbox checked name=foo></form>");
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("on", data.get(0).value());
+        assertEquals("foo", data.get(0).key());
+    }
+    @Test public void controlsAddedAfterParseAreLinkedWithForms() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form />");
+
+        Element formEl = doc.select("form").first();
+        formEl.append("<input name=foo value=bar>");
+
+        assertTrue(formEl instanceof FormElement);
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("foo=bar", data.get(0).toString());
+    }
+    @Test public void formsAddedAfterParseAreFormElements() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form action='http://example.net/search'><input name='q' value='search'>");
+        Element formEl = doc.select("form").first();
+        assertTrue(formEl instanceof FormElement);
+
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
+    }
+    @Test public void removeFormElement() {
+        String html = "<html>\n" +
+                "  <body> \n" +
+                "      <form action=\"/hello.php\" method=\"post\">\n" +
+                "      User:<input type=\"text\" name=\"user\" />\n" +
+                "      Password:<input type=\"password\" name=\"pass\" />\n" +
+                "      <input type=\"submit\" name=\"login\" value=\"login\" />\n" +
+                "   </form>\n" +
+                "  </body>\n" +
+                "</html>  ";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.selectFirst("form");
+        Element pass = form.selectFirst("input[name=pass]");
+        pass.remove();
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(2, data.size());
+        assertEquals("user", data.get(0).key());
+        assertEquals("login", data.get(1).key());
+        assertEquals(null, doc.selectFirst("input[name=pass]"));
     }
 ```
-The corresponding tests written by developer looks like: 
+
+
+The method looks like: 
 ```java
-    @Test
-    public void testToLongString() {
-        assertTrue("toLong(String) 1 failed", NumberUtils.toLong("12345") == 12345l);
-        assertTrue("toLong(String) 2 failed", NumberUtils.toLong("abc") == 0l);
-        assertTrue("toLong(String) 3 failed", NumberUtils.toLong("1L") == 0l);
-        assertTrue("toLong(String) 4 failed", NumberUtils.toLong("1l") == 0l);
-        assertTrue("toLong(Long.MAX_VALUE) failed", NumberUtils.toLong(Long.MAX_VALUE+"") == Long.MAX_VALUE);
-        assertTrue("toLong(Long.MIN_VALUE) failed", NumberUtils.toLong(Long.MIN_VALUE+"") == Long.MIN_VALUE);
-        assertTrue("toLong(empty) failed", NumberUtils.toLong("") == 0l);
-        assertTrue("toLong(null) failed", NumberUtils.toLong(null) == 0l);
+    public Connection submit() {
+        String action = hasAttr("action") ? absUrl("action") : baseUri();
+        Validate.notEmpty(action, "Could not determine a form action URL for submit. Ensure you set a base URI when parsing.");
+        Connection.Method method = attr("method").toUpperCase().equals("POST") ?
+                Connection.Method.POST : Connection.Method.GET;
+
+        return Jsoup.connect(action)
+                .data(formData())
+                .method(method);
     }
-    @Test
-    public void testToLongStringL() {
-        assertTrue("toLong(String,long) 1 failed", NumberUtils.toLong("12345", 5l) == 12345l);
-        assertTrue("toLong(String,long) 2 failed", NumberUtils.toLong("1234.5", 5l) == 5l);
+
+```
+Distinguish whether this is the public or private method.
+
+Based on the code snippet provided, this method is the public method. The method signature starts with the "public" access modifier, which indicates that it can be accessed from other classes and packages.
+
+
+The test cases covering given method looks like: 
+```java
+    @Test public void createsSubmitableConnection() {
+        String html = "<form action='/search'><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.com/");
+        doc.select("[name=q]").attr("value", "jsoup");
+
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
+
+        assertEquals(Connection.Method.GET, con.request().method());
+        assertEquals("http://example.com/search", con.request().url().toExternalForm());
+        List<Connection.KeyVal> dataList = (List<Connection.KeyVal>) con.request().data();
+        assertEquals("q=jsoup", dataList.get(0).toString());
+
+        doc.select("form").attr("method", "post");
+        Connection con2 = form.submit();
+        assertEquals(Connection.Method.POST, con2.request().method());
+    }
+    @Test public void actionWithNoValue() {
+        String html = "<form><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.com/");
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
+
+        assertEquals("http://example.com/", con.request().url().toExternalForm());
+    }
+    @Test public void actionWithNoBaseUri() {
+        String html = "<form><input name='q'></form>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = ((FormElement) doc.select("form").first());
+
+
+        boolean threw = false;
+        try {
+            Connection con = form.submit();
+        } catch (IllegalArgumentException e) {
+            threw = true;
+            assertEquals("Could not determine a form action URL for submit. Ensure you set a base URI when parsing.",
+                    e.getMessage());
+        }
+        assertTrue(threw);
+    }
+
+```
+
+Provide regression test cases of the given method by changing the input of the covering tests.
+Only the input value of the method in each test should be changed.
+You should fill in the below format.
+I have to parse your response, therefore your response should only have one format below.
+
+```java
+<insert all regression tests into here (do not separate)>
+```
+
+
+```java
+@Test public void createsSubmitableConnection() {
+    String html = "<form action='/search'><input name='q'></form>";
+    Document doc = Jsoup.parse(html, "http://example.com/");
+    doc.select("[name=q]").attr("value", "jsoup");
+
+    FormElement form = ((FormElement) doc.select("form").first());
+    Connection con = form.submit();
+
+    assertEquals(Connection.Method.GET, con.request().method());
+    assertEquals("http://example.com/search", con.request().url().toExternalForm());
+    List<Connection.KeyVal> dataList = (List<Connection.KeyVal>) con.request().data();
+    assertEquals("q=jsoup", dataList.get(0).toString());
+
+    doc.select("form").attr("method", "post");
+    Connection con2 = form.submit();
+    assertEquals(Connection.Method.POST, con2.request().method());
+}
+
+@Test public void actionWithNoValue() {
+    String html = "<form><input name='q'></form>";
+    Document doc = Jsoup.parse(html, "http://example.com/");
+    FormElement form = ((FormElement) doc.select("form").first());
+    Connection con = form.submit();
+
+    assertEquals("http://example.com/", con.request().url().toExternalForm());
+}
+
+@Test public void actionWithNoBaseUri() {
+    String html = "<form><input name='q'></form>";
+    Document doc = Jsoup.parse(html);
+    FormElement form = ((FormElement) doc.select("form").first());
+
+    boolean threw = false;
+    try {
+        Connection con = form.submit();
+    } catch (IllegalArgumentException e) {
+        threw = true;
+        assertEquals("Could not determine a form action URL for submit. Ensure you set a base URI when parsing.",
+                e.getMessage());
+    }
+    assertTrue(threw);
+}
+
+@Test public void createsSubmitableConnection_withEmptyValue() { // Regression test case
+    String html = "<form action='/search'><input name='q'></form>";
+    Document doc = Jsoup.parse(html, "http://example.com/");
+    doc.select("[name=q]").attr("value", "");
+
+    FormElement form = ((FormElement) doc.select("form").first());
+    Connection con = form.submit();
+
+    assertEquals(Connection.Method.GET, con.request().method());
+    assertEquals("http://example.com/search", con.request().url().toExternalForm());
+    List<Connection.KeyVal> dataList = (List<Connection.KeyVal>) con.request().data();
+    assertEquals("q=", dataList.get(0).toString());
+
+    doc.select("form").attr("method", "post");
+    Connection con2 = form.submit();
+    assertEquals(Connection.Method.POST, con2.request().method());
+}
+
+@Test public void actionWithNoValue_withDifferentBaseUrl() { // Regression test case
+    String html = "<form><input name='q'></form>";
+    Document doc = Jsoup.parse(html, "http://example2.com/");
+    FormElement form = ((FormElement) doc.select("form").first());
+    Connection con = form.submit();
+
+    assertEquals("http://example2.com/", con.request().url().toExternalForm());
+}
+
+@Test public void actionWithNoBaseUri_withDifferentInputElement() { // Regression test case
+    String html = "<form><input name='q' value='test'></form>";
+    Document doc = Jsoup.parse(html);
+    FormElement form = ((FormElement) doc.select("form").first());
+
+    boolean threw = false;
+    try {
+        Connection con = form.submit();
+    } catch (IllegalArgumentException e) {
+        threw = true;
+        assertEquals("Could not determine a form action URL for submit. Ensure you set a base URI when parsing.",
+                e.getMessage());
+    }
+    assertTrue(threw);
+}
+```
+
+
+The method looks like: 
+```java
+    public List<Connection.KeyVal> formData() {
+        ArrayList<Connection.KeyVal> data = new ArrayList<>();
+
+        // iterate the form control elements and accumulate their values
+        for (Element el: elements) {
+            if (!el.tag().isFormSubmittable()) continue; // contents are form listable, superset of submitable
+            if (el.hasAttr("disabled")) continue; // skip disabled form inputs
+            String name = el.attr("name");
+            if (name.length() == 0) continue;
+            String type = el.attr("type");
+
+            if ("select".equals(el.tagName())) {
+                Elements options = el.select("option[selected]");
+                boolean set = false;
+                for (Element option: options) {
+                    data.add(HttpConnection.KeyVal.create(name, option.val()));
+                    set = true;
+                }
+                if (!set) {
+                    Element option = el.select("option").first();
+                    if (option != null)
+                        data.add(HttpConnection.KeyVal.create(name, option.val()));
+                }
+            } else if ("checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type)) {
+                // only add checkbox or radio if they have the checked attribute
+                if (el.hasAttr("checked")) {
+                    final String val = el.val().length() >  0 ? el.val() : "on";
+                    data.add(HttpConnection.KeyVal.create(name, val));
+                }
+            } else {
+                data.add(HttpConnection.KeyVal.create(name, el.val()));
+            }
+        }
+        return data;
+    }
+
+```
+Distinguish whether this is the public or private method.
+
+Based on the method signature, `public List<Connection.KeyVal> formData()`, it can be determined that this is a public method.
+
+
+The test cases covering given method looks like: 
+```java
+    @Test public void actionWithNoValue() {
+        String html = "<form><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.com/");
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
+
+        assertEquals("http://example.com/", con.request().url().toExternalForm());
+    }
+    @Test public void createsFormData() {
+        String html = "<form><input name='one' value='two'><select name='three'><option value='not'>" +
+                "<option value='four' selected><option value='five' selected><textarea name=six>seven</textarea>" +
+                "<input name='seven' type='radio' value='on' checked><input name='seven' type='radio' value='off'>" +
+                "<input name='eight' type='checkbox' checked><input name='nine' type='checkbox' value='unset'>" +
+                "<input name='ten' value='text' disabled>" +
+                "</form>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+
+        assertEquals(6, data.size());
+        assertEquals("one=two", data.get(0).toString());
+        assertEquals("three=four", data.get(1).toString());
+        assertEquals("three=five", data.get(2).toString());
+        assertEquals("six=seven", data.get(3).toString());
+        assertEquals("seven=on", data.get(4).toString()); // set
+        assertEquals("eight=on", data.get(5).toString()); // default
+        // nine should not appear, not checked checkbox
+        // ten should not appear, disabled
+    }
+    @Test public void createsSubmitableConnection() {
+        String html = "<form action='/search'><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.com/");
+        doc.select("[name=q]").attr("value", "jsoup");
+
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
+
+        assertEquals(Connection.Method.GET, con.request().method());
+        assertEquals("http://example.com/search", con.request().url().toExternalForm());
+        List<Connection.KeyVal> dataList = (List<Connection.KeyVal>) con.request().data();
+        assertEquals("q=jsoup", dataList.get(0).toString());
+
+        doc.select("form").attr("method", "post");
+        Connection con2 = form.submit();
+        assertEquals(Connection.Method.POST, con2.request().method());
+    }
+    @Test public void controlsAddedAfterParseAreLinkedWithForms() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form />");
+
+        Element formEl = doc.select("form").first();
+        formEl.append("<input name=foo value=bar>");
+
+        assertTrue(formEl instanceof FormElement);
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("foo=bar", data.get(0).toString());
+    }
+    @Test public void adoptedFormsRetainInputs() {
+        // test for https://github.com/jhy/jsoup/issues/249
+        String html = "<html>\n" +
+                "<body>  \n" +
+                "  <table>\n" +
+                "      <form action=\"/hello.php\" method=\"post\">\n" +
+                "      <tr><td>User:</td><td> <input type=\"text\" name=\"user\" /></td></tr>\n" +
+                "      <tr><td>Password:</td><td> <input type=\"password\" name=\"pass\" /></td></tr>\n" +
+                "      <tr><td><input type=\"submit\" name=\"login\" value=\"login\" /></td></tr>\n" +
+                "   </form>\n" +
+                "  </table>\n" +
+                "</body>\n" +
+                "</html>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(3, data.size());
+        assertEquals("user", data.get(0).key());
+        assertEquals("pass", data.get(1).key());
+        assertEquals("login", data.get(2).key());
+    }
+    @Test public void removeFormElement() {
+        String html = "<html>\n" +
+                "  <body> \n" +
+                "      <form action=\"/hello.php\" method=\"post\">\n" +
+                "      User:<input type=\"text\" name=\"user\" />\n" +
+                "      Password:<input type=\"password\" name=\"pass\" />\n" +
+                "      <input type=\"submit\" name=\"login\" value=\"login\" />\n" +
+                "   </form>\n" +
+                "  </body>\n" +
+                "</html>  ";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.selectFirst("form");
+        Element pass = form.selectFirst("input[name=pass]");
+        pass.remove();
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(2, data.size());
+        assertEquals("user", data.get(0).key());
+        assertEquals("login", data.get(1).key());
+        assertEquals(null, doc.selectFirst("input[name=pass]"));
+    }
+    @Test public void usesOnForCheckboxValueIfNoValueSet() {
+        Document doc = Jsoup.parse("<form><input type=checkbox checked name=foo></form>");
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("on", data.get(0).value());
+        assertEquals("foo", data.get(0).key());
+    }
+
+```
+
+Provide regression test cases of the given method by changing the input of the covering tests.
+Only the input value of the method in each test should be changed.
+You should fill in the below format.
+I have to parse your response, therefore your response should only have one format below.
+
+```java
+<insert all regression tests into here (do not separate)>
+```
+
+
+```java
+    @Test public void actionWithNoValue() {
+        String html = "<form><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.com/");
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
+
+        assertEquals("http://example.com/", con.request().url().toExternalForm());
+    }
+    @Test public void createsFormData() {
+        String html = "<form><input name='one' value='two'><select name='three'><option value='not'>" +
+                "<option value='four' selected><option value='five'><textarea name=six>seven</textarea>" +
+                "<input name='seven' type='radio' value='on'><input name='seven' type='radio' value='off'>" +
+                "<input name='eight' type='checkbox'><input name='nine' type='checkbox' value='unset'>" +
+                "<input name='ten' value='text' disabled>" +
+                "</form>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+
+        assertEquals(5, data.size());
+        assertEquals("one=two", data.get(0).toString());
+        assertEquals("three=four", data.get(1).toString());
+        assertEquals("three=", data.get(2).toString());
+        assertEquals("six=seven", data.get(3).toString());
+        assertEquals("seven=", data.get(4).toString());
+    }
+    @Test public void createsSubmitableConnection() {
+        String html = "<form action='/search'><input name='q'></form>";
+        Document doc = Jsoup.parse(html, "http://example.com/");
+        doc.select("[name=q]").attr("value", "jsoup");
+
+        FormElement form = ((FormElement) doc.select("form").first());
+        Connection con = form.submit();
+
+        assertEquals(Connection.Method.GET, con.request().method());
+        assertEquals("http://example.com/search", con.request().url().toExternalForm());
+        List<Connection.KeyVal> dataList = (List<Connection.KeyVal>) con.request().data();
+        assertEquals("q=jsoup", dataList.get(0).toString());
+
+        doc.select("form").attr("method", "post");
+        Connection con2 = form.submit();
+        assertEquals(Connection.Method.POST, con2.request().method());
+    }
+    @Test public void controlsAddedAfterParseAreLinkedWithForms() {
+        Document doc = Jsoup.parse("<body />");
+        doc.body().html("<form />");
+
+        Element formEl = doc.select("form").first();
+        formEl.append("<input name=foo value=bar>");
+
+        assertTrue(formEl instanceof FormElement);
+        FormElement form = (FormElement) formEl;
+        assertEquals(1, form.elements().size());
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("foo=bar", data.get(0).toString());
+    }
+    @Test public void adoptedFormsRetainInputs() {
+        // test for https://github.com/jhy/jsoup/issues/249
+        String html = "<html>\n" +
+                "<body>  \n" +
+                "  <table>\n" +
+                "      <form action=\"/hello.php\" method=\"post\">\n" +
+                "      <tr><td>User:</td><td> <input type=\"text\" name=\"user\" /></td></tr>\n" +
+                "      <tr><td>Password:</td><td> <input type=\"password\" name=\"pass\" /></td></tr>\n" +
+                "      <tr><td><input type=\"submit\" name=\"login\" value=\"login\" /></td></tr>\n" +
+                "   </form>\n" +
+                "  </table>\n" +
+                "</body>\n" +
+                "</html>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(3, data.size());
+        assertEquals("user", data.get(0).key());
+        assertEquals("pass", data.get(1).key());
+        assertEquals("login", data.get(2).key());
+    }
+    @Test public void removeFormElement() {
+        String html = "<html>\n" +
+                "  <body> \n" +
+                "      <form action=\"/hello.php\" method=\"post\">\n" +
+                "      User:<input type=\"text\" name=\"user\" />\n" +
+                "      Password:<input type=\"password\" name=\"pass\" />\n" +
+                "      <input type=\"submit\" name=\"login\" value=\"login\" />\n" +
+                "   </form>\n" +
+                "  </body>\n" +
+                "</html>  ";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.selectFirst("form");
+        Element pass = form.selectFirst("input[name=pass]");
+        pass.remove();
+
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(2, data.size());
+        assertEquals("user", data.get(0).key());
+        assertEquals("login", data.get(1).key());
+        assertEquals(null, doc.selectFirst("input[name=pass]"));
+    }
+    @Test public void usesOnForCheckboxValueIfNoValueSet() {
+        Document doc = Jsoup.parse("<form><input type=checkbox checked name=foo></form>");
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals("on", data.get(0).value());
+        assertEquals("foo", data.get(0).key());
+    }
+    @Test public void emptyForm() {
+        String html = "<form></form>";
+        Document doc = Jsoup.parse(html);
+        FormElement form = (FormElement) doc.select("form").first();
+        List<Connection.KeyVal> data = form.formData();
+        assertEquals(0, data.size());
     }
 ```
-Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 
-
-Regression Test 1:
-```java
-@Test
-public void testToLongString_InputStringNotNull_ReturnsLongValue() {
-    long result = NumberUtils.toLong("12345", 0l);
-    assertEquals(12345l, result);
-}
-
-@Test
-public void testToLongString_InputStringIsNull_ReturnsDefaultValue() {
-    long result = NumberUtils.toLong(null, 0l);
-    assertEquals(0l, result);
-}
-```
-
-Regression Test 2:
-```java
-@Test
-public void testToLongString_InputStringIsValidLong_ReturnsLongValue() {
-    long result = NumberUtils.toLong("1L", 0l);
-    assertEquals(1l, result);
-}
-
-@Test
-public void testToLongString_InputStringIsInvalidLong_ReturnsDefaultValue() {
-    long result = NumberUtils.toLong("abc", 0l);
-    assertEquals(0l, result);
-}
-```
-
-Regression Test 3:
-```java
-@Test
-public void testToLongString_InputStringIsLongMaxValue_ReturnsLongMaxValue() {
-    long result = NumberUtils.toLong(Long.MAX_VALUE+"", 0l);
-    assertEquals(Long.MAX_VALUE, result);
-}
-
-@Test
-public void testToLongString_InputStringIsLongMinValue_ReturnsLongMinValue() {
-    long result = NumberUtils.toLong(Long.MIN_VALUE+"", 0l);
-    assertEquals(Long.MIN_VALUE, result);
-}
-```
-
-Regression Test 4:
-```java
-@Test
-public void testToLongString_InputStringIsEmpty_ReturnsDefaultValue() {
-    long result = NumberUtils.toLong("", 0l);
-    assertEquals(0l, result);
-}
-
-@Test
-public void testToLongString_InputStringIsInvalidNumber_ReturnsDefaultValue() {
-    long result = NumberUtils.toLong("1l", 0l);
-    assertEquals(0l, result);
-}
-```
-
-Regression Test 5:
-```java
-@Test
-public void testToLongStringWithDefault_InputStringIsValidLong_ReturnsLongValue() {
-    long result = NumberUtils.toLong("12345", 5l);
-    assertEquals(12345l, result);
-}
-
-@Test
-public void testToLongStringWithDefault_InputStringIsInvalidNumber_ReturnsDefaultValue() {
-    long result = NumberUtils.toLong("1234.5", 5l);
-    assertEquals(5l, result);
-}
-```The method looks like: 
-```java
-    public static float toFloat(final String str) {
-        return toFloat(str, 0.0f);
-    }
-```
-The corresponding tests written by developer looks like: 
-```java
-    @Test
-    public void testToFloatString() {
-        assertTrue("toFloat(String) 1 failed", NumberUtils.toFloat("-1.2345") == -1.2345f);
-        assertTrue("toFloat(String) 2 failed", NumberUtils.toFloat("1.2345") == 1.2345f);
-        assertTrue("toFloat(String) 3 failed", NumberUtils.toFloat("abc") == 0.0f);
-        assertTrue("toFloat(Float.MAX_VALUE) failed", NumberUtils.toFloat(Float.MAX_VALUE+"") ==  Float.MAX_VALUE);
-        assertTrue("toFloat(Float.MIN_VALUE) failed", NumberUtils.toFloat(Float.MIN_VALUE+"") == Float.MIN_VALUE);
-        assertTrue("toFloat(empty) failed", NumberUtils.toFloat("") == 0.0f);
-        assertTrue("toFloat(null) failed", NumberUtils.toFloat(null) == 0.0f);
-    }
-    @Test
-    public void testToFloatStringF() {
-        assertTrue("toFloat(String,int) 1 failed", NumberUtils.toFloat("1.2345", 5.1f) == 1.2345f);
-        assertTrue("toFloat(String,int) 2 failed", NumberUtils.toFloat("a", 5.0f) == 5.0f);
-    }
-```
-Provide regression tests of method based on developer tests. Maximum number of regression tests is 5. 

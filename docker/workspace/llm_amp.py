@@ -5,12 +5,12 @@ import re
 import time
 import sys
 import difflib
+import csv
 import tiktoken
 
 ### have to be changed with private key !!!! ###
-openai.api_key = "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"
-# openai.organization = "org-mSMx268bkMcTa5gXwsDGN8Af"
-### have to be changed with private key !!!! ###
+openai.api_key = "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"
+### have to be changed with private key !!!! ###    
 
 JAVA_ANALYZER="java_analyzer/target/java-analyzer-1.0-SNAPSHOT-shaded.jar"
 
@@ -84,24 +84,158 @@ class D4JEnv:
             self.analyze_src_file(path_to_src, mod_class, True)
             path_to_test = os.path.join(self.dir_src_tests, mod_class.replace('.', '/') + 'Test.java')
             self.analyze_src_file(path_to_test, mod_class, False)
+        
+        for mod_class in self.classes_modified:
+            path = mod_class.split('.')[:-1]
+            path = "/".join(path)
+            if not os.path.exists(f"./data/{self.pid}-{self.vid}b/1/{path}"):
+                os.system(f"mkdir -p ./data/{self.pid}-{self.vid}b/1/{path}")
             
+    # amplify new testcases based on the provided code/testcase sources
+    # write output for each method in prompt.txt
     def amplify_test(self):
-        # src_under_test = self.get_src()
-        # dev_test = self.get_dev_test()
-
         src_methods = self.collect_src_method()
         dev_tests = self.collect_dev_test()
         prompt = open("prompt.txt", "w")
 
+        # using test coverage to match method
         for mod_class, methods in src_methods.items():
-            test_suite = dev_tests[mod_class]
 
-            # read code source from file
+            # open file for wirting regression(result)
+            
+            r = open("./result.java", "w", errors='ignore')
+
+            # open file for reading source
             path_to_src = os.path.join(self.dir_src_classes,  mod_class.replace('.', '/') + '.java')
             s = open(os.path.join(self.buggy_dir, path_to_src), "r", errors='ignore')
             src_under_test = s.readlines()
 
-            # read testcase source from file
+            # open file for reading testcase
+            path_to_test = os.path.join(self.dir_src_tests, mod_class.replace('.', '/') + 'Test.java')
+            t = open(os.path.join(self.buggy_dir, path_to_test), "r", errors='ignore')
+            test_src = t.readlines()
+            
+            for line in test_src:
+                if line.startswith("package") or line.startswith("import"):
+                    r.write(line)
+            r.write("\npublic class " + mod_class.split('.')[-1] + "_LLMTest {\n")
+
+            test_cnt = 0
+
+            for method in methods:
+                method_name = method["signature"].split('(')[0].split('.')[-1]
+                method_src = "".join(src_under_test[method["begin_line"]-1:method["end_line"]])
+                covering_tests = self.collect_covering_test(method_name, mod_class, test_src)
+                
+                ### LLM part ###
+
+                # STEP 1 : identify whether the object is public or private
+                first_prompt = f'''
+The method looks like: 
+```java
+{method_src}
+```
+Distinguish whether this is the public or private method.
+'''
+                # STEP 2 : get testcases by changing input value of ordinary testcases
+                second_prompt = f'''
+The test cases covering given method looks like: 
+```java
+{covering_tests}
+```
+
+Provide regression test cases of the given method by changing the input of the covering tests.
+Only the input value of the method in each test should be changed.
+You should fill in the below format.
+I have to parse your response, therefore your response should only have one format below.
+
+```java
+<insert all regression tests into here (do not separate)>
+```
+'''
+                messages = [
+                    {
+                        "role": "user",
+                        "content": first_prompt
+                    }
+                ]
+                prompt.write(first_prompt)
+                response = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo-0613",
+                    messages=messages,
+                )
+
+                response_message = response["choices"][0]["message"]
+                prompt.write("\n" + response_message["content"] + "\n")
+                
+                messages.append(response_message)
+                messages.append(
+                    {
+                        "role": "user",
+                        "content": second_prompt
+                    }
+                )
+                
+                prompt.write("\n" + second_prompt + "\n")
+
+                response = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo-0613",
+                    messages=messages,
+                )
+                response_message = response["choices"][0]["message"]
+                prompt.write("\n" + response_message["content"] + "\n")
+
+            
+                p = re.compile("```java(.*)```", re.DOTALL)
+                regression_tests = p.search(response_message["content"])
+                if regression_tests != None:
+                    regression_tests = regression_tests.group(1).lstrip("\n").rstrip("\n").replace("```", "")
+                    r.write(regression_tests + "\n\n")
+                    
+                ### LLM part end ###
+            r.write('}')
+            r.close()
+
+            r = open("./result.java", "r", errors='ignore')
+            # assign sequential function names for each identified testcases
+            path_to_reg_test = f"./data/{self.pid}-{self.vid}b/1/{mod_class.replace('.', '/')}" + '_LLMTest.java'
+            with open(path_to_reg_test, "w", errors='ignore') as q:
+                acc = 0
+                p = re.compile("public void (.*)\(\)", re.DOTALL)
+                for line in r.readlines():
+                    m = p.search(line)
+                    if m == None:
+                        q.write(line)
+                        continue
+                    name = m.group(1)
+                    line=line.replace(name, f"test{acc}")
+                    q.write(line)
+                    acc += 1
+
+            r.close()
+            s.close()
+            t.close()
+
+            os.system(f"cd ./data/{pid}-{vid}b/1 && tar -cjvf {pid}-{vid}b-llm.1.tar.bz2 ./org")
+
+        prompt.close()
+                
+        return
+
+        # using test name to match method
+        for mod_class, methods in src_methods.items():
+            test_suite = dev_tests[mod_class]
+            
+            # open file for wirting regression(result)
+            path_to_reg_test = f"./data/{self.pid}-{self.vid}b/1/{mod_class.replace('.', '/')}" + '_LLMTest.java'
+            r = open(path_to_reg_test, "a", errors='ignore')
+
+            # open file for reading source
+            path_to_src = os.path.join(self.dir_src_classes,  mod_class.replace('.', '/') + '.java')
+            s = open(os.path.join(self.buggy_dir, path_to_src), "r", errors='ignore')
+            src_under_test = s.readlines()
+
+            # open file for reading testcase
             path_to_test = os.path.join(self.dir_src_tests, mod_class.replace('.', '/') + 'Test.java')
             t = open(os.path.join(self.buggy_dir, path_to_test), "r", errors='ignore')
             test_src = t.readlines()
@@ -121,31 +255,127 @@ class D4JEnv:
                 # print(matching_test)
                 
                 ## LLM part ##
-                llm_prompt = "The method looks like: \n" + "```java\n" + method_src + "```\nThe corresponding tests written by developer looks like: \n" + "```java\n" + matching_test + "```\nProvide regression tests of method based on developer tests. Maximum number of regression tests is 5. \n"
+                # 2. You don't need to declare test class.
+                # 3. 
+                system_prompt = f'''
+You are a test generating assistant. 
+You will be provided with method and relevant tests (test cases that includes the method's name in its name) written by developer.
+Your task is providing regression tests. 
+'''
+                # STEP 1 : find the number of argument for each given methods
+                first_prompt = f'''
+The method looks like: 
+```java
+{method_src}
+```
+Find the number of arguments for the given method. Distinguish whether this is the public or private method.
+'''
+                # STEP 2 : find the given testcases that matches with the number of argument found before 
+                second_prompt = f'''
+The test cases written by developer looks like: 
+```java
+{matching_test}
+```
+Find a test that matches the given method. At this time, use the number of arguments of the method you found.
+'''
+                # STEP 3 : make a new testcases
+                third_prompt = '''
+Provide regression test cases of the given method by referring to tests that match the given method. You can make up to 3 regression test cases.
+The modules imported by the developer test are as follows.
+```java
+package org.jsoup.nodes;
 
+import org.jsoup.Connection;
+import org.jsoup.Jsoup;
+import org.junit.Test;
+
+import java.util.List;
+
+import static org.junit.Assert.*;
+```
+
+Make a test assuming that the above import statement has already been declared. 
+Therefore, when you make tests, you must not write any import statement. 
+The tests you make will be used within the test class, so you should not declare the class.
+Also, you should not make regression test of private method.
+The format below should only appear once in your answer.
+
+```java
+<insert regression tests into here (do not separate)>
+```
+'''
                 messages = [
-                    {
-                        "role": "system",
-                        "content": ("You are a test generating assistant. You will be provided with source code and corresponding tests written by developer. "
-                                    "Your task is providing regression tests based on the developer tests. "
-                                    )
-                    },
+                    # {
+                    #     "role": "system",
+                    #     "content": system_prompt
+                    # },
                     {
                         "role": "user",
-                        "content": llm_prompt
+                        "content": first_prompt
                     }
                 ]
-                prompt.write(llm_prompt)
+                prompt.write(first_prompt)
                 response = openai.ChatCompletion.create(
                     model="gpt-3.5-turbo-0613",
                     messages=messages,
                 )
 
                 response_message = response["choices"][0]["message"]
-                prompt.write("\n" + response_message["content"])
-                print(response_message)
+                prompt.write("\n" + response_message["content"] + "\n")
+                
+                messages.append(response_message)
+                messages.append(
+                    {
+                        "role": "user",
+                        "content": second_prompt
+                    }
+                )
+                
+                prompt.write("\n" + second_prompt + "\n")
+
+                response = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo-0613",
+                    messages=messages,
+                )
+                response_message = response["choices"][0]["message"]
+                prompt.write("\n" + response_message["content"] + "\n")
+
+                messages.append(response_message)
+                messages.append(
+                    {
+                        "role": "user",
+                        "content": third_prompt
+                    }
+                )
+                
+                prompt.write("\n" + third_prompt + "\n")
+
+                response = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo-0613",
+                    messages=messages,
+                )
+                response_message = response["choices"][0]["message"]
+                prompt.write("\n" + response_message["content"] + "\n")
+
+            
+                p = re.compile("```java(.*)```", re.DOTALL)
+                regression_tests = p.search(response_message["content"])
+                if regression_tests != None:
+                    regression_tests = regression_tests.group(1).lstrip("\n").rstrip("\n").replace("```", "")
+                    r.write(regression_tests + "\n\n")
 
 
+                # regression_tests = p.finditer(response_message["content"])
+                # if regression_tests != None:
+                #     for reg_test in regression_tests:
+                #         refined = reg_test.group(1).lstrip("\n").rstrip("\n")
+                #         r.write(refined + "\n\n")
+                ## LLM part end ##
+            
+            r.close()
+            s.close()
+            t.close()
+        prompt.close()
 
         # for i in range(len(self.classes_modified)):
         #     messages = [
@@ -270,12 +500,63 @@ class D4JEnv:
             else:
                 self.new_range_test[mod_class] = output_path
                 return output_path
+    
+    # do coverage test for finding proper testcase
+    def collect_covering_test(self, method_name, mod_class, test_src):
+        gzoltar_dir = f"/tmp/{pid}-{vid}g"
+
+        if not os.path.exists(f"{gzoltar_dir}/sfl"):
+            os.system(f"sh run_gzoltar.sh {pid} {vid}")
+        os.system(f"cd {gzoltar_dir}/sfl/txt")
+        # binary matrix
+        m = open(f'{gzoltar_dir}/sfl/txt/matrix.txt', 'r')
+        lines = m.readlines()
+        
+        # row
+        t = open(f'{gzoltar_dir}/sfl/txt/tests.csv', 'r')
+        tests = csv.reader(t)
+        tests = [test for test in tests][1:]
+        # column
+        s = open(f'{gzoltar_dir}/sfl/txt/spectra.csv', 'r')
+        spectra = csv.reader(s)
+        spectra = [stmt for stmt in spectra][1:]
+        
+        cov_test_names = set()
+
+        for stmt_index, stmt in enumerate(spectra):
+            # find the column of desired method
+            if stmt[0].split('(')[0].split('#')[-1] == method_name:
+                for test_index, line in enumerate(lines):
+                    # find the testcase that is related with the method
+                    if line.split(' ')[:-1][stmt_index] == '1':
+                        cov_test_names.add(tests[test_index][0].replace('#', '.'))
+
+        m.close()
+        t.close()
+        s.close()
+        # print(cov_test_names)
+        cov_tests = ''
+
+        path = self.new_range_test[mod_class]
+        with open(path, 'r') as f:
+            file_range = json.load(f)
+            for test_name in cov_test_names:
+                for node in file_range["nodes"]:
+                    if node["type"] != "method":
+                        continue
+                    if node["signature"].split('(')[0] == test_name:
+                        cov_tests += "".join(test_src[node["begin_line"]-1:node["end_line"]])
+
+        return cov_tests
+
 
 if __name__ == "__main__":
     mode = sys.argv[1]
 
     if mode == "test":
-        pid, vid = "Lang", "1"
+        pid, vid = "Jsoup", "69"
+        if not os.path.exists(f"./data/{pid}-{vid}b"):
+            os.system(f"mkdir ./data/{pid}-{vid}b")
         env = D4JEnv(pid, vid)
         env.amplify_test()
 
