@@ -9,7 +9,7 @@ import csv
 import tiktoken
 
 ### have to be changed with private key !!!! ###
-openai.api_key = "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"
+openai.api_key = "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"
 ### have to be changed with private key !!!! ###    
 
 JAVA_ANALYZER="java_analyzer/target/java-analyzer-1.0-SNAPSHOT-shaded.jar"
@@ -85,11 +85,18 @@ class D4JEnv:
             path_to_test = os.path.join(self.dir_src_tests, mod_class.replace('.', '/') + 'Test.java')
             self.analyze_src_file(path_to_test, mod_class, False)
         
+        # sample
+        sample_list = os.listdir(f"./data/{self.pid}-{self.vid}b/")
+        sample_list = [int(i) for i in sample_list]
+        self.sample_num = 1
+        if len(sample_list) != 0:
+            self.sample_num = max(sample_list) + 1
+
         for mod_class in self.classes_modified:
             path = mod_class.split('.')[:-1]
             path = "/".join(path)
-            if not os.path.exists(f"./data/{self.pid}-{self.vid}b/1/{path}"):
-                os.system(f"mkdir -p ./data/{self.pid}-{self.vid}b/1/{path}")
+            if not os.path.exists(f"./data/{self.pid}-{self.vid}b/{self.sample_num}/{path}"):
+                os.system(f"mkdir -p ./data/{self.pid}-{self.vid}b/{self.sample_num}/{path}")
             
     # amplify new testcases based on the provided code/testcase sources
     # write output for each method in prompt.txt
@@ -124,6 +131,8 @@ class D4JEnv:
 
             for method in methods:
                 method_name = method["signature"].split('(')[0].split('.')[-1]
+                if "private" in src_under_test[method["begin_line"]].lower():
+                    continue
                 method_src = "".join(src_under_test[method["begin_line"]-1:method["end_line"]])
                 covering_tests = self.collect_covering_test(method_name, mod_class, test_src)
                 
@@ -135,10 +144,7 @@ The method looks like:
 ```java
 {method_src}
 ```
-Distinguish whether this is the public or private method.
-'''
-                # STEP 2 : get testcases by changing input value of ordinary testcases
-                second_prompt = f'''
+
 The test cases covering given method looks like: 
 ```java
 {covering_tests}
@@ -146,11 +152,11 @@ The test cases covering given method looks like:
 
 Provide regression test cases of the given method by changing the input of the covering tests.
 Only the input value of the method in each test should be changed.
-You should fill in the below format.
-I have to parse your response, therefore your response should only have one format below.
+You should insert all regression tests into the below format.
+I have to parse your response, therefore the format below should appear only once in your response.
 
 ```java
-<insert all regression tests into here (do not separate)>
+
 ```
 '''
                 messages = [
@@ -168,22 +174,22 @@ I have to parse your response, therefore your response should only have one form
                 response_message = response["choices"][0]["message"]
                 prompt.write("\n" + response_message["content"] + "\n")
                 
-                messages.append(response_message)
-                messages.append(
-                    {
-                        "role": "user",
-                        "content": second_prompt
-                    }
-                )
+                # messages.append(response_message)
+                # messages.append(
+                #     {
+                #         "role": "user",
+                #         "content": second_prompt
+                #     }
+                # )
                 
-                prompt.write("\n" + second_prompt + "\n")
+                # prompt.write("\n" + second_prompt + "\n")
 
-                response = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo-0613",
-                    messages=messages,
-                )
-                response_message = response["choices"][0]["message"]
-                prompt.write("\n" + response_message["content"] + "\n")
+                # response = openai.ChatCompletion.create(
+                #     model="gpt-3.5-turbo-0613",
+                #     messages=messages,
+                # )
+                # response_message = response["choices"][0]["message"]
+                # prompt.write("\n" + response_message["content"] + "\n")
 
             
                 p = re.compile("```java(.*)```", re.DOTALL)
@@ -198,7 +204,7 @@ I have to parse your response, therefore your response should only have one form
 
             r = open("./result.java", "r", errors='ignore')
             # assign sequential function names for each identified testcases
-            path_to_reg_test = f"./data/{self.pid}-{self.vid}b/1/{mod_class.replace('.', '/')}" + '_LLMTest.java'
+            path_to_reg_test = f"./data/{self.pid}-{self.vid}b/{self.sample_num}/{mod_class.replace('.', '/')}" + '_LLMTest.java'
             with open(path_to_reg_test, "w", errors='ignore') as q:
                 acc = 0
                 p = re.compile("public void (.*)\(\)", re.DOTALL)
@@ -216,7 +222,8 @@ I have to parse your response, therefore your response should only have one form
             s.close()
             t.close()
 
-            os.system(f"cd ./data/{pid}-{vid}b/1 && tar -cjvf {pid}-{vid}b-llm.1.tar.bz2 ./org")
+            os.system(f"cd ./data/{pid}-{vid}b/{self.sample_num} && tar -cjvf {pid}-{vid}b-llm.{self.sample_num}.tar.bz2 ./org")
+            os.system(f"cd /defects4j/framework/util && ./fix_test_suite.pl -p {pid} -v {vid}b -d ~/workspace/data/{pid}-{vid}b/{self.sample_num}")
 
         prompt.close()
                 
@@ -554,11 +561,14 @@ if __name__ == "__main__":
     mode = sys.argv[1]
 
     if mode == "test":
-        pid, vid = "Jsoup", "69"
+        pid, vid = "Jsoup", "80"
         if not os.path.exists(f"./data/{pid}-{vid}b"):
             os.system(f"mkdir ./data/{pid}-{vid}b")
-        env = D4JEnv(pid, vid)
-        env.amplify_test()
+        
+        iter_num = 5
+        for i in range(iter_num):
+            env = D4JEnv(pid, vid)
+            env.amplify_test()
 
 
         # if not os.path.exists(f"./data/{pid}-{vid}b"):
