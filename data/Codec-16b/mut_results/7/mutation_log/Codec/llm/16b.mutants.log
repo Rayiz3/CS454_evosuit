@@ -1,0 +1,915 @@
+1:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+2:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+3:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+4:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+5:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+6:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+7:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+8:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+9:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+10:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+11:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+12:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+13:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+14:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+15:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+16:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+17:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+18:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+19:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+20:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+21:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+22:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+23:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+24:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+25:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+26:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+27:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+28:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+29:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+30:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+31:LVR:NEG:0:org.apache.commons.codec.binary.Base32:69:-1 |==> 0
+32:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:69:-1 |==> 1
+33:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+34:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+35:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+36:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+37:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+38:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+39:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+40:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+41:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+42:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+43:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+44:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+45:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+46:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+47:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+48:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+49:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+50:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+51:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+52:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+53:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+54:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+55:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+56:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+57:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+58:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+59:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+60:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+61:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+62:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+63:LVR:NEG:0:org.apache.commons.codec.binary.Base32:70:-1 |==> 0
+64:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:70:-1 |==> 1
+65:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+66:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+67:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+68:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+69:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+70:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+71:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+72:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+73:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+74:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+75:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+76:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+77:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+78:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+79:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+80:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+81:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+82:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+83:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+84:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+85:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+86:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+87:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+88:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+89:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+90:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+91:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+92:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+93:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+94:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+95:LVR:NEG:0:org.apache.commons.codec.binary.Base32:71:-1 |==> 0
+96:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:71:-1 |==> 1
+97:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+98:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+99:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+100:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+101:LVR:POS:0:org.apache.commons.codec.binary.Base32:72:26 |==> 0
+102:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:72:26 |==> -26
+103:LVR:POS:0:org.apache.commons.codec.binary.Base32:72:27 |==> 0
+104:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:72:27 |==> -27
+105:LVR:POS:0:org.apache.commons.codec.binary.Base32:72:28 |==> 0
+106:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:72:28 |==> -28
+107:LVR:POS:0:org.apache.commons.codec.binary.Base32:72:29 |==> 0
+108:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:72:29 |==> -29
+109:LVR:POS:0:org.apache.commons.codec.binary.Base32:72:30 |==> 0
+110:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:72:30 |==> -30
+111:LVR:POS:0:org.apache.commons.codec.binary.Base32:72:31 |==> 0
+112:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:72:31 |==> -31
+113:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+114:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+115:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+116:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+117:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+118:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+119:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+120:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+121:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+122:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+123:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+124:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+125:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+126:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+127:LVR:NEG:0:org.apache.commons.codec.binary.Base32:72:-1 |==> 0
+128:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:72:-1 |==> 1
+129:LVR:NEG:0:org.apache.commons.codec.binary.Base32:73:-1 |==> 0
+130:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:73:-1 |==> 1
+131:LVR:0:POS:org.apache.commons.codec.binary.Base32:73:0 |==> 1
+132:LVR:0:NEG:org.apache.commons.codec.binary.Base32:73:0 |==> -1
+133:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:1 |==> 0
+134:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:1 |==> -1
+135:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:2 |==> 0
+136:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:2 |==> -2
+137:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:3 |==> 0
+138:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:3 |==> -3
+139:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:4 |==> 0
+140:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:4 |==> -4
+141:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:5 |==> 0
+142:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:5 |==> -5
+143:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:6 |==> 0
+144:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:6 |==> -6
+145:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:7 |==> 0
+146:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:7 |==> -7
+147:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:8 |==> 0
+148:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:8 |==> -8
+149:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:9 |==> 0
+150:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:9 |==> -9
+151:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:10 |==> 0
+152:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:10 |==> -10
+153:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:11 |==> 0
+154:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:11 |==> -11
+155:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:12 |==> 0
+156:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:12 |==> -12
+157:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:13 |==> 0
+158:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:13 |==> -13
+159:LVR:POS:0:org.apache.commons.codec.binary.Base32:73:14 |==> 0
+160:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:73:14 |==> -14
+161:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:15 |==> 0
+162:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:15 |==> -15
+163:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:16 |==> 0
+164:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:16 |==> -16
+165:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:17 |==> 0
+166:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:17 |==> -17
+167:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:18 |==> 0
+168:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:18 |==> -18
+169:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:19 |==> 0
+170:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:19 |==> -19
+171:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:20 |==> 0
+172:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:20 |==> -20
+173:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:21 |==> 0
+174:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:21 |==> -21
+175:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:22 |==> 0
+176:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:22 |==> -22
+177:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:23 |==> 0
+178:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:23 |==> -23
+179:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:24 |==> 0
+180:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:24 |==> -24
+181:LVR:POS:0:org.apache.commons.codec.binary.Base32:74:25 |==> 0
+182:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:74:25 |==> -25
+183:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+184:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+185:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+186:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+187:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+188:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+189:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+190:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+191:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+192:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+193:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+194:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+195:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+196:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+197:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+198:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+199:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+200:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+201:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+202:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+203:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+204:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+205:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+206:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+207:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+208:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+209:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+210:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+211:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+212:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+213:LVR:NEG:0:org.apache.commons.codec.binary.Base32:94:-1 |==> 0
+214:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:94:-1 |==> 1
+215:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+216:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+217:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+218:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+219:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+220:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+221:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+222:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+223:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+224:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+225:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+226:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+227:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+228:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+229:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+230:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+231:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+232:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+233:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+234:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+235:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+236:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+237:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+238:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+239:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+240:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+241:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+242:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+243:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+244:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+245:LVR:NEG:0:org.apache.commons.codec.binary.Base32:95:-1 |==> 0
+246:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:95:-1 |==> 1
+247:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+248:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+249:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+250:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+251:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+252:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+253:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+254:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+255:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+256:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+257:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+258:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+259:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+260:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+261:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+262:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+263:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+264:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+265:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+266:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+267:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+268:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+269:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+270:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+271:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+272:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+273:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+274:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+275:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+276:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+277:LVR:NEG:0:org.apache.commons.codec.binary.Base32:96:-1 |==> 0
+278:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:96:-1 |==> 1
+279:LVR:0:POS:org.apache.commons.codec.binary.Base32:97:0 |==> 1
+280:LVR:0:NEG:org.apache.commons.codec.binary.Base32:97:0 |==> -1
+281:LVR:POS:0:org.apache.commons.codec.binary.Base32:97:1 |==> 0
+282:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:97:1 |==> -1
+283:LVR:POS:0:org.apache.commons.codec.binary.Base32:97:2 |==> 0
+284:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:97:2 |==> -2
+285:LVR:POS:0:org.apache.commons.codec.binary.Base32:97:3 |==> 0
+286:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:97:3 |==> -3
+287:LVR:POS:0:org.apache.commons.codec.binary.Base32:97:4 |==> 0
+288:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:97:4 |==> -4
+289:LVR:POS:0:org.apache.commons.codec.binary.Base32:97:5 |==> 0
+290:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:97:5 |==> -5
+291:LVR:POS:0:org.apache.commons.codec.binary.Base32:97:6 |==> 0
+292:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:97:6 |==> -6
+293:LVR:POS:0:org.apache.commons.codec.binary.Base32:97:7 |==> 0
+294:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:97:7 |==> -7
+295:LVR:POS:0:org.apache.commons.codec.binary.Base32:97:8 |==> 0
+296:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:97:8 |==> -8
+297:LVR:POS:0:org.apache.commons.codec.binary.Base32:97:9 |==> 0
+298:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:97:9 |==> -9
+299:LVR:NEG:0:org.apache.commons.codec.binary.Base32:97:-1 |==> 0
+300:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:97:-1 |==> 1
+301:LVR:NEG:0:org.apache.commons.codec.binary.Base32:97:-1 |==> 0
+302:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:97:-1 |==> 1
+303:LVR:NEG:0:org.apache.commons.codec.binary.Base32:97:-1 |==> 0
+304:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:97:-1 |==> 1
+305:LVR:NEG:0:org.apache.commons.codec.binary.Base32:97:-1 |==> 0
+306:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:97:-1 |==> 1
+307:LVR:NEG:0:org.apache.commons.codec.binary.Base32:97:-1 |==> 0
+308:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:97:-1 |==> 1
+309:LVR:NEG:0:org.apache.commons.codec.binary.Base32:97:-1 |==> 0
+310:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:97:-1 |==> 1
+311:LVR:NEG:0:org.apache.commons.codec.binary.Base32:98:-1 |==> 0
+312:LVR:NEG:POS:org.apache.commons.codec.binary.Base32:98:-1 |==> 1
+313:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:10 |==> 0
+314:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:10 |==> -10
+315:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:11 |==> 0
+316:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:11 |==> -11
+317:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:12 |==> 0
+318:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:12 |==> -12
+319:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:13 |==> 0
+320:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:13 |==> -13
+321:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:14 |==> 0
+322:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:14 |==> -14
+323:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:15 |==> 0
+324:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:15 |==> -15
+325:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:16 |==> 0
+326:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:16 |==> -16
+327:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:17 |==> 0
+328:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:17 |==> -17
+329:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:18 |==> 0
+330:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:18 |==> -18
+331:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:19 |==> 0
+332:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:19 |==> -19
+333:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:20 |==> 0
+334:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:20 |==> -20
+335:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:21 |==> 0
+336:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:21 |==> -21
+337:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:22 |==> 0
+338:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:22 |==> -22
+339:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:23 |==> 0
+340:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:23 |==> -23
+341:LVR:POS:0:org.apache.commons.codec.binary.Base32:98:24 |==> 0
+342:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:98:24 |==> -24
+343:LVR:POS:0:org.apache.commons.codec.binary.Base32:99:25 |==> 0
+344:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:99:25 |==> -25
+345:LVR:POS:0:org.apache.commons.codec.binary.Base32:99:26 |==> 0
+346:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:99:26 |==> -26
+347:LVR:POS:0:org.apache.commons.codec.binary.Base32:99:27 |==> 0
+348:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:99:27 |==> -27
+349:LVR:POS:0:org.apache.commons.codec.binary.Base32:99:28 |==> 0
+350:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:99:28 |==> -28
+351:LVR:POS:0:org.apache.commons.codec.binary.Base32:99:29 |==> 0
+352:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:99:29 |==> -29
+353:LVR:POS:0:org.apache.commons.codec.binary.Base32:99:30 |==> 0
+354:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:99:30 |==> -30
+355:LVR:POS:0:org.apache.commons.codec.binary.Base32:99:31 |==> 0
+356:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:99:31 |==> -31
+357:LVR:POS:0:org.apache.commons.codec.binary.Base32:99:32 |==> 0
+358:LVR:POS:NEG:org.apache.commons.codec.binary.Base32:99:32 |==> -32
+359:LVR:FALSE:TRUE:org.apache.commons.codec.binary.Base32@<init>():159:false |==> true
+360:LVR:FALSE:TRUE:org.apache.commons.codec.binary.Base32@<init>(byte):170:false |==> true
+361:LVR:0:POS:org.apache.commons.codec.binary.Base32@<init>(boolean):181:0 |==> 1
+362:LVR:0:NEG:org.apache.commons.codec.binary.Base32@<init>(boolean):181:0 |==> -1
+363:LVR:0:POS:org.apache.commons.codec.binary.Base32@<init>(boolean,byte):193:0 |==> 1
+364:LVR:0:NEG:org.apache.commons.codec.binary.Base32@<init>(boolean,byte):193:0 |==> -1
+365:LVR:FALSE:TRUE:org.apache.commons.codec.binary.Base32@<init>(int,byte[]):230:false |==> true
+366:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):282:lineSeparator == null |==> false
+367:LVR:0:POS:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):282:0 |==> 1
+368:LVR:0:NEG:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):282:0 |==> -1
+369:COR:useHex:TRUE:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):283:useHex |==> false
+370:COR:useHex:FALSE:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):283:useHex |==> true
+371:LVR:0:POS:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):290:0 |==> 1
+372:LVR:0:NEG:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):290:0 |==> -1
+373:ROR:>(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):290:lineLength > 0 |==> lineLength != 0
+374:ROR:>(int,int):>=(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):290:lineLength > 0 |==> lineLength >= 0
+375:ROR:>(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):290:lineLength > 0 |==> false
+376:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):291:lineSeparator == null |==> false
+377:COR:containsAlphabetOrPad(lineSeparator):TRUE:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):295:containsAlphabetOrPad(lineSeparator) |==> false
+378:COR:containsAlphabetOrPad(lineSeparator):FALSE:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):295:containsAlphabetOrPad(lineSeparator) |==> true
+379:AOR:+(int,int):%(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):299:BYTES_PER_ENCODED_BLOCK + lineSeparator.length |==> BYTES_PER_ENCODED_BLOCK % lineSeparator.length
+380:AOR:+(int,int):*(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):299:BYTES_PER_ENCODED_BLOCK + lineSeparator.length |==> BYTES_PER_ENCODED_BLOCK * lineSeparator.length
+381:AOR:+(int,int):-(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):299:BYTES_PER_ENCODED_BLOCK + lineSeparator.length |==> BYTES_PER_ENCODED_BLOCK - lineSeparator.length
+382:AOR:+(int,int):/(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):299:BYTES_PER_ENCODED_BLOCK + lineSeparator.length |==> BYTES_PER_ENCODED_BLOCK / lineSeparator.length
+383:LVR:0:POS:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):301:0 |==> 1
+384:LVR:0:NEG:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):301:0 |==> -1
+385:LVR:0:POS:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):301:0 |==> 1
+386:LVR:0:NEG:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):301:0 |==> -1
+387:STD:<CALL>:<NO-OP>:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):301:System.arraycopy(lineSeparator, 0, this.lineSeparator, 0, lineSeparator.length) |==> <NO-OP>
+388:LVR:POS:0:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):306:1 |==> 0
+389:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):306:1 |==> -1
+390:AOR:-(int,int):%(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):306:this.encodeSize - 1 |==> this.encodeSize % 1
+391:AOR:-(int,int):*(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):306:this.encodeSize - 1 |==> this.encodeSize * 1
+392:AOR:-(int,int):+(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):306:this.encodeSize - 1 |==> this.encodeSize + 1
+393:AOR:-(int,int):/(int,int):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):306:this.encodeSize - 1 |==> this.encodeSize / 1
+394:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):308:isInAlphabet(pad) || isWhiteSpace(pad) |==> isInAlphabet(pad) != isWhiteSpace(pad)
+395:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):308:isInAlphabet(pad) || isWhiteSpace(pad) |==> isInAlphabet(pad)
+396:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):308:isInAlphabet(pad) || isWhiteSpace(pad) |==> isWhiteSpace(pad)
+397:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.commons.codec.binary.Base32@<init>(int,byte[],boolean,byte):308:isInAlphabet(pad) || isWhiteSpace(pad) |==> true
+398:COR:context.eof:TRUE:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):339:context.eof |==> false
+399:COR:context.eof:FALSE:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):339:context.eof |==> true
+400:LVR:0:POS:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):342:0 |==> 1
+401:LVR:0:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):342:0 |==> -1
+402:ROR:<(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):342:inAvail < 0 |==> inAvail != 0
+403:ROR:<(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):342:inAvail < 0 |==> inAvail <= 0
+404:ROR:<(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):342:inAvail < 0 |==> false
+405:LVR:TRUE:FALSE:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):343:true |==> false
+406:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):343:context.eof = true |==> <NO-OP>
+407:LVR:0:POS:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):345:0 |==> 1
+408:LVR:0:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):345:0 |==> -1
+409:ROR:<(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):345:i < inAvail |==> i != inAvail
+410:ROR:<(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):345:i < inAvail |==> i <= inAvail
+411:ROR:<(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):345:i < inAvail |==> false
+412:ROR:==(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):347:b == pad |==> b <= pad
+413:ROR:==(int,int):>=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):347:b == pad |==> b >= pad
+414:ROR:==(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):347:b == pad |==> false
+415:LVR:TRUE:FALSE:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):349:true |==> false
+416:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):349:context.eof = true |==> <NO-OP>
+417:LVR:0:POS:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:0 |==> 1
+418:LVR:0:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:0 |==> -1
+419:ROR:>=(int,int):==(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b >= 0 |==> b == 0
+420:ROR:>=(int,int):>(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b >= 0 |==> b > 0
+421:ROR:>=(int,int):TRUE(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b >= 0 |==> true
+422:ROR:<(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b < this.decodeTable.length |==> b != this.decodeTable.length
+423:ROR:<(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b < this.decodeTable.length |==> b <= this.decodeTable.length
+424:ROR:<(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b < this.decodeTable.length |==> false
+425:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b >= 0 && b < this.decodeTable.length |==> b >= 0 == b < this.decodeTable.length
+426:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b >= 0 && b < this.decodeTable.length |==> false
+427:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b >= 0 && b < this.decodeTable.length |==> b >= 0
+428:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):353:b >= 0 && b < this.decodeTable.length |==> b < this.decodeTable.length
+429:LVR:0:POS:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):355:0 |==> 1
+430:LVR:0:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):355:0 |==> -1
+431:ROR:>=(int,int):==(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):355:result >= 0 |==> result == 0
+432:ROR:>=(int,int):>(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):355:result >= 0 |==> result > 0
+433:ROR:>=(int,int):TRUE(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):355:result >= 0 |==> true
+434:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:1 |==> 0
+435:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:1 |==> -1
+436:AOR:+(int,int):%(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:context.modulus + 1 |==> context.modulus % 1
+437:AOR:+(int,int):*(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:context.modulus + 1 |==> context.modulus * 1
+438:AOR:+(int,int):-(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:context.modulus + 1 |==> context.modulus - 1
+439:AOR:+(int,int):/(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:context.modulus + 1 |==> context.modulus / 1
+440:AOR:%(int,int):*(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:(context.modulus + 1) % BYTES_PER_ENCODED_BLOCK |==> (context.modulus + 1) * BYTES_PER_ENCODED_BLOCK
+441:AOR:%(int,int):+(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:(context.modulus + 1) % BYTES_PER_ENCODED_BLOCK |==> (context.modulus + 1) + BYTES_PER_ENCODED_BLOCK
+442:AOR:%(int,int):-(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:(context.modulus + 1) % BYTES_PER_ENCODED_BLOCK |==> (context.modulus + 1) - BYTES_PER_ENCODED_BLOCK
+443:AOR:%(int,int):/(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:(context.modulus + 1) % BYTES_PER_ENCODED_BLOCK |==> (context.modulus + 1) / BYTES_PER_ENCODED_BLOCK
+444:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):356:context.modulus = (context.modulus + 1) % BYTES_PER_ENCODED_BLOCK |==> <NO-OP>
+445:SOR:<<(long,int):>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):358:context.lbitWorkArea << BITS_PER_ENCODED_BYTE |==> context.lbitWorkArea >> BITS_PER_ENCODED_BYTE
+446:SOR:<<(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):358:context.lbitWorkArea << BITS_PER_ENCODED_BYTE |==> context.lbitWorkArea >>> BITS_PER_ENCODED_BYTE
+447:AOR:+(long,long):%(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):358:(context.lbitWorkArea << BITS_PER_ENCODED_BYTE) + result |==> (context.lbitWorkArea << BITS_PER_ENCODED_BYTE) % result
+448:AOR:+(long,long):*(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):358:(context.lbitWorkArea << BITS_PER_ENCODED_BYTE) + result |==> (context.lbitWorkArea << BITS_PER_ENCODED_BYTE) * result
+449:AOR:+(long,long):-(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):358:(context.lbitWorkArea << BITS_PER_ENCODED_BYTE) + result |==> (context.lbitWorkArea << BITS_PER_ENCODED_BYTE) - result
+450:AOR:+(long,long):/(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):358:(context.lbitWorkArea << BITS_PER_ENCODED_BYTE) + result |==> (context.lbitWorkArea << BITS_PER_ENCODED_BYTE) / result
+451:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):358:context.lbitWorkArea = (context.lbitWorkArea << BITS_PER_ENCODED_BYTE) + result |==> <NO-OP>
+452:LVR:0:POS:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):359:0 |==> 1
+453:LVR:0:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):359:0 |==> -1
+454:ROR:==(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):359:context.modulus == 0 |==> context.modulus <= 0
+455:ROR:==(int,int):>=(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):359:context.modulus == 0 |==> context.modulus >= 0
+456:ROR:==(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):359:context.modulus == 0 |==> false
+457:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):360:32 |==> 0
+458:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):360:32 |==> -32
+459:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):360:context.lbitWorkArea >> 32 |==> context.lbitWorkArea << 32
+460:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):360:context.lbitWorkArea >> 32 |==> context.lbitWorkArea >>> 32
+461:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):360:(context.lbitWorkArea >> 32) & MASK_8BITS |==> (context.lbitWorkArea >> 32) ^ MASK_8BITS
+462:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):360:(context.lbitWorkArea >> 32) & MASK_8BITS |==> (context.lbitWorkArea >> 32) | MASK_8BITS
+463:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):360:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 32) & MASK_8BITS) |==> <NO-OP>
+464:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):361:24 |==> 0
+465:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):361:24 |==> -24
+466:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):361:context.lbitWorkArea >> 24 |==> context.lbitWorkArea << 24
+467:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):361:context.lbitWorkArea >> 24 |==> context.lbitWorkArea >>> 24
+468:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):361:(context.lbitWorkArea >> 24) & MASK_8BITS |==> (context.lbitWorkArea >> 24) ^ MASK_8BITS
+469:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):361:(context.lbitWorkArea >> 24) & MASK_8BITS |==> (context.lbitWorkArea >> 24) | MASK_8BITS
+470:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):361:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 24) & MASK_8BITS) |==> <NO-OP>
+471:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):362:16 |==> 0
+472:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):362:16 |==> -16
+473:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):362:context.lbitWorkArea >> 16 |==> context.lbitWorkArea << 16
+474:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):362:context.lbitWorkArea >> 16 |==> context.lbitWorkArea >>> 16
+475:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):362:(context.lbitWorkArea >> 16) & MASK_8BITS |==> (context.lbitWorkArea >> 16) ^ MASK_8BITS
+476:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):362:(context.lbitWorkArea >> 16) & MASK_8BITS |==> (context.lbitWorkArea >> 16) | MASK_8BITS
+477:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):362:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 16) & MASK_8BITS) |==> <NO-OP>
+478:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):363:8 |==> 0
+479:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):363:8 |==> -8
+480:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):363:context.lbitWorkArea >> 8 |==> context.lbitWorkArea << 8
+481:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):363:context.lbitWorkArea >> 8 |==> context.lbitWorkArea >>> 8
+482:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):363:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) ^ MASK_8BITS
+483:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):363:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) | MASK_8BITS
+484:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):363:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 8) & MASK_8BITS) |==> <NO-OP>
+485:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):364:context.lbitWorkArea & MASK_8BITS |==> context.lbitWorkArea ^ MASK_8BITS
+486:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):364:context.lbitWorkArea & MASK_8BITS |==> context.lbitWorkArea | MASK_8BITS
+487:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):364:buffer[context.pos++] = (byte)(context.lbitWorkArea & MASK_8BITS) |==> <NO-OP>
+488:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):374:2 |==> 0
+489:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):374:2 |==> -2
+490:ROR:>=(int,int):==(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):374:context.modulus >= 2 |==> context.modulus == 2
+491:ROR:>=(int,int):>(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):374:context.modulus >= 2 |==> context.modulus > 2
+492:ROR:>=(int,int):TRUE(int,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):374:context.modulus >= 2 |==> true
+493:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):374:context.eof && context.modulus >= 2 |==> context.eof == context.modulus >= 2
+494:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):374:context.eof && context.modulus >= 2 |==> false
+495:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):374:context.eof && context.modulus >= 2 |==> context.eof
+496:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):374:context.eof && context.modulus >= 2 |==> context.modulus >= 2
+497:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):380:2 |==> 0
+498:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):380:2 |==> -2
+499:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):380:context.lbitWorkArea >> 2 |==> context.lbitWorkArea << 2
+500:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):380:context.lbitWorkArea >> 2 |==> context.lbitWorkArea >>> 2
+501:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):380:(context.lbitWorkArea >> 2) & MASK_8BITS |==> (context.lbitWorkArea >> 2) ^ MASK_8BITS
+502:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):380:(context.lbitWorkArea >> 2) & MASK_8BITS |==> (context.lbitWorkArea >> 2) | MASK_8BITS
+503:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):380:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 2) & MASK_8BITS) |==> <NO-OP>
+504:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):383:7 |==> 0
+505:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):383:7 |==> -7
+506:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):383:context.lbitWorkArea >> 7 |==> context.lbitWorkArea << 7
+507:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):383:context.lbitWorkArea >> 7 |==> context.lbitWorkArea >>> 7
+508:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):383:(context.lbitWorkArea >> 7) & MASK_8BITS |==> (context.lbitWorkArea >> 7) ^ MASK_8BITS
+509:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):383:(context.lbitWorkArea >> 7) & MASK_8BITS |==> (context.lbitWorkArea >> 7) | MASK_8BITS
+510:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):383:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 7) & MASK_8BITS) |==> <NO-OP>
+511:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):386:4 |==> 0
+512:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):386:4 |==> -4
+513:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):386:context.lbitWorkArea >> 4 |==> context.lbitWorkArea << 4
+514:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):386:context.lbitWorkArea >> 4 |==> context.lbitWorkArea >>> 4
+515:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):386:context.lbitWorkArea = context.lbitWorkArea >> 4 |==> <NO-OP>
+516:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):387:8 |==> 0
+517:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):387:8 |==> -8
+518:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):387:context.lbitWorkArea >> 8 |==> context.lbitWorkArea << 8
+519:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):387:context.lbitWorkArea >> 8 |==> context.lbitWorkArea >>> 8
+520:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):387:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) ^ MASK_8BITS
+521:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):387:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) | MASK_8BITS
+522:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):387:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 8) & MASK_8BITS) |==> <NO-OP>
+523:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):388:(context.lbitWorkArea) & MASK_8BITS |==> (context.lbitWorkArea) ^ MASK_8BITS
+524:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):388:(context.lbitWorkArea) & MASK_8BITS |==> (context.lbitWorkArea) | MASK_8BITS
+525:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):388:buffer[context.pos++] = (byte)((context.lbitWorkArea) & MASK_8BITS) |==> <NO-OP>
+526:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):391:1 |==> 0
+527:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):391:1 |==> -1
+528:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):391:context.lbitWorkArea >> 1 |==> context.lbitWorkArea << 1
+529:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):391:context.lbitWorkArea >> 1 |==> context.lbitWorkArea >>> 1
+530:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):391:context.lbitWorkArea = context.lbitWorkArea >> 1 |==> <NO-OP>
+531:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):392:16 |==> 0
+532:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):392:16 |==> -16
+533:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):392:context.lbitWorkArea >> 16 |==> context.lbitWorkArea << 16
+534:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):392:context.lbitWorkArea >> 16 |==> context.lbitWorkArea >>> 16
+535:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):392:(context.lbitWorkArea >> 16) & MASK_8BITS |==> (context.lbitWorkArea >> 16) ^ MASK_8BITS
+536:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):392:(context.lbitWorkArea >> 16) & MASK_8BITS |==> (context.lbitWorkArea >> 16) | MASK_8BITS
+537:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):392:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 16) & MASK_8BITS) |==> <NO-OP>
+538:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):393:8 |==> 0
+539:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):393:8 |==> -8
+540:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):393:context.lbitWorkArea >> 8 |==> context.lbitWorkArea << 8
+541:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):393:context.lbitWorkArea >> 8 |==> context.lbitWorkArea >>> 8
+542:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):393:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) ^ MASK_8BITS
+543:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):393:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) | MASK_8BITS
+544:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):393:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 8) & MASK_8BITS) |==> <NO-OP>
+545:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):394:(context.lbitWorkArea) & MASK_8BITS |==> (context.lbitWorkArea) ^ MASK_8BITS
+546:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):394:(context.lbitWorkArea) & MASK_8BITS |==> (context.lbitWorkArea) | MASK_8BITS
+547:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):394:buffer[context.pos++] = (byte)((context.lbitWorkArea) & MASK_8BITS) |==> <NO-OP>
+548:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):397:6 |==> 0
+549:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):397:6 |==> -6
+550:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):397:context.lbitWorkArea >> 6 |==> context.lbitWorkArea << 6
+551:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):397:context.lbitWorkArea >> 6 |==> context.lbitWorkArea >>> 6
+552:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):397:context.lbitWorkArea = context.lbitWorkArea >> 6 |==> <NO-OP>
+553:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):398:16 |==> 0
+554:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):398:16 |==> -16
+555:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):398:context.lbitWorkArea >> 16 |==> context.lbitWorkArea << 16
+556:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):398:context.lbitWorkArea >> 16 |==> context.lbitWorkArea >>> 16
+557:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):398:(context.lbitWorkArea >> 16) & MASK_8BITS |==> (context.lbitWorkArea >> 16) ^ MASK_8BITS
+558:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):398:(context.lbitWorkArea >> 16) & MASK_8BITS |==> (context.lbitWorkArea >> 16) | MASK_8BITS
+559:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):398:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 16) & MASK_8BITS) |==> <NO-OP>
+560:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):399:8 |==> 0
+561:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):399:8 |==> -8
+562:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):399:context.lbitWorkArea >> 8 |==> context.lbitWorkArea << 8
+563:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):399:context.lbitWorkArea >> 8 |==> context.lbitWorkArea >>> 8
+564:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):399:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) ^ MASK_8BITS
+565:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):399:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) | MASK_8BITS
+566:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):399:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 8) & MASK_8BITS) |==> <NO-OP>
+567:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):400:(context.lbitWorkArea) & MASK_8BITS |==> (context.lbitWorkArea) ^ MASK_8BITS
+568:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):400:(context.lbitWorkArea) & MASK_8BITS |==> (context.lbitWorkArea) | MASK_8BITS
+569:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):400:buffer[context.pos++] = (byte)((context.lbitWorkArea) & MASK_8BITS) |==> <NO-OP>
+570:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):403:3 |==> 0
+571:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):403:3 |==> -3
+572:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):403:context.lbitWorkArea >> 3 |==> context.lbitWorkArea << 3
+573:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):403:context.lbitWorkArea >> 3 |==> context.lbitWorkArea >>> 3
+574:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):403:context.lbitWorkArea = context.lbitWorkArea >> 3 |==> <NO-OP>
+575:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):404:24 |==> 0
+576:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):404:24 |==> -24
+577:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):404:context.lbitWorkArea >> 24 |==> context.lbitWorkArea << 24
+578:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):404:context.lbitWorkArea >> 24 |==> context.lbitWorkArea >>> 24
+579:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):404:(context.lbitWorkArea >> 24) & MASK_8BITS |==> (context.lbitWorkArea >> 24) ^ MASK_8BITS
+580:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):404:(context.lbitWorkArea >> 24) & MASK_8BITS |==> (context.lbitWorkArea >> 24) | MASK_8BITS
+581:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):404:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 24) & MASK_8BITS) |==> <NO-OP>
+582:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):405:16 |==> 0
+583:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):405:16 |==> -16
+584:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):405:context.lbitWorkArea >> 16 |==> context.lbitWorkArea << 16
+585:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):405:context.lbitWorkArea >> 16 |==> context.lbitWorkArea >>> 16
+586:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):405:(context.lbitWorkArea >> 16) & MASK_8BITS |==> (context.lbitWorkArea >> 16) ^ MASK_8BITS
+587:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):405:(context.lbitWorkArea >> 16) & MASK_8BITS |==> (context.lbitWorkArea >> 16) | MASK_8BITS
+588:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):405:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 16) & MASK_8BITS) |==> <NO-OP>
+589:LVR:POS:0:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):406:8 |==> 0
+590:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):406:8 |==> -8
+591:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):406:context.lbitWorkArea >> 8 |==> context.lbitWorkArea << 8
+592:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):406:context.lbitWorkArea >> 8 |==> context.lbitWorkArea >>> 8
+593:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):406:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) ^ MASK_8BITS
+594:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):406:(context.lbitWorkArea >> 8) & MASK_8BITS |==> (context.lbitWorkArea >> 8) | MASK_8BITS
+595:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):406:buffer[context.pos++] = (byte)((context.lbitWorkArea >> 8) & MASK_8BITS) |==> <NO-OP>
+596:LOR:&(long,long):^(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):407:(context.lbitWorkArea) & MASK_8BITS |==> (context.lbitWorkArea) ^ MASK_8BITS
+597:LOR:&(long,long):|(long,long):org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):407:(context.lbitWorkArea) & MASK_8BITS |==> (context.lbitWorkArea) | MASK_8BITS
+598:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@decode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):407:buffer[context.pos++] = (byte)((context.lbitWorkArea) & MASK_8BITS) |==> <NO-OP>
+599:COR:context.eof:TRUE:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):435:context.eof |==> false
+600:COR:context.eof:FALSE:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):435:context.eof |==> true
+601:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):440:0 |==> 1
+602:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):440:0 |==> -1
+603:ROR:<(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):440:inAvail < 0 |==> inAvail != 0
+604:ROR:<(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):440:inAvail < 0 |==> inAvail <= 0
+605:ROR:<(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):440:inAvail < 0 |==> false
+606:LVR:TRUE:FALSE:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):441:true |==> false
+607:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):441:context.eof = true |==> <NO-OP>
+608:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 |==> 1
+609:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 |==> -1
+610:ROR:==(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 == context.modulus |==> 0 <= context.modulus
+611:ROR:==(int,int):>=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 == context.modulus |==> 0 >= context.modulus
+612:ROR:==(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 == context.modulus |==> false
+613:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 |==> 1
+614:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 |==> -1
+615:ROR:==(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:lineLength == 0 |==> lineLength <= 0
+616:ROR:==(int,int):>=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:lineLength == 0 |==> lineLength >= 0
+617:ROR:==(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:lineLength == 0 |==> false
+618:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 == context.modulus && lineLength == 0 |==> 0 == context.modulus == (lineLength == 0)
+619:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 == context.modulus && lineLength == 0 |==> false
+620:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 == context.modulus && lineLength == 0 |==> 0 == context.modulus
+621:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):442:0 == context.modulus && lineLength == 0 |==> lineLength == 0
+622:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):451:3 |==> 0
+623:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):451:3 |==> -3
+624:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):451:context.lbitWorkArea >> 3 |==> context.lbitWorkArea << 3
+625:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):451:context.lbitWorkArea >> 3 |==> context.lbitWorkArea >>> 3
+626:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):451:(int)(context.lbitWorkArea >> 3) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 3) ^ MASK_5BITS
+627:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):451:(int)(context.lbitWorkArea >> 3) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 3) | MASK_5BITS
+628:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):451:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 3) & MASK_5BITS] |==> <NO-OP>
+629:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):452:2 |==> 0
+630:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):452:2 |==> -2
+631:SOR:<<(long,int):>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):452:context.lbitWorkArea << 2 |==> context.lbitWorkArea >> 2
+632:SOR:<<(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):452:context.lbitWorkArea << 2 |==> context.lbitWorkArea >>> 2
+633:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):452:(int)(context.lbitWorkArea << 2) & MASK_5BITS |==> (int)(context.lbitWorkArea << 2) ^ MASK_5BITS
+634:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):452:(int)(context.lbitWorkArea << 2) & MASK_5BITS |==> (int)(context.lbitWorkArea << 2) | MASK_5BITS
+635:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):452:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea << 2) & MASK_5BITS] |==> <NO-OP>
+636:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):453:buffer[context.pos++] = pad |==> <NO-OP>
+637:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):454:buffer[context.pos++] = pad |==> <NO-OP>
+638:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):455:buffer[context.pos++] = pad |==> <NO-OP>
+639:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):456:buffer[context.pos++] = pad |==> <NO-OP>
+640:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):457:buffer[context.pos++] = pad |==> <NO-OP>
+641:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):458:buffer[context.pos++] = pad |==> <NO-OP>
+642:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):461:11 |==> 0
+643:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):461:11 |==> -11
+644:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):461:context.lbitWorkArea >> 11 |==> context.lbitWorkArea << 11
+645:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):461:context.lbitWorkArea >> 11 |==> context.lbitWorkArea >>> 11
+646:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):461:(int)(context.lbitWorkArea >> 11) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 11) ^ MASK_5BITS
+647:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):461:(int)(context.lbitWorkArea >> 11) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 11) | MASK_5BITS
+648:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):461:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 11) & MASK_5BITS] |==> <NO-OP>
+649:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):462:6 |==> 0
+650:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):462:6 |==> -6
+651:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):462:context.lbitWorkArea >> 6 |==> context.lbitWorkArea << 6
+652:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):462:context.lbitWorkArea >> 6 |==> context.lbitWorkArea >>> 6
+653:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):462:(int)(context.lbitWorkArea >> 6) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 6) ^ MASK_5BITS
+654:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):462:(int)(context.lbitWorkArea >> 6) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 6) | MASK_5BITS
+655:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):462:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 6) & MASK_5BITS] |==> <NO-OP>
+656:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):463:1 |==> 0
+657:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):463:1 |==> -1
+658:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):463:context.lbitWorkArea >> 1 |==> context.lbitWorkArea << 1
+659:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):463:context.lbitWorkArea >> 1 |==> context.lbitWorkArea >>> 1
+660:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):463:(int)(context.lbitWorkArea >> 1) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 1) ^ MASK_5BITS
+661:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):463:(int)(context.lbitWorkArea >> 1) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 1) | MASK_5BITS
+662:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):463:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 1) & MASK_5BITS] |==> <NO-OP>
+663:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):464:4 |==> 0
+664:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):464:4 |==> -4
+665:SOR:<<(long,int):>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):464:context.lbitWorkArea << 4 |==> context.lbitWorkArea >> 4
+666:SOR:<<(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):464:context.lbitWorkArea << 4 |==> context.lbitWorkArea >>> 4
+667:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):464:(int)(context.lbitWorkArea << 4) & MASK_5BITS |==> (int)(context.lbitWorkArea << 4) ^ MASK_5BITS
+668:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):464:(int)(context.lbitWorkArea << 4) & MASK_5BITS |==> (int)(context.lbitWorkArea << 4) | MASK_5BITS
+669:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):464:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea << 4) & MASK_5BITS] |==> <NO-OP>
+670:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):465:buffer[context.pos++] = pad |==> <NO-OP>
+671:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):466:buffer[context.pos++] = pad |==> <NO-OP>
+672:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):467:buffer[context.pos++] = pad |==> <NO-OP>
+673:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):468:buffer[context.pos++] = pad |==> <NO-OP>
+674:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):471:19 |==> 0
+675:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):471:19 |==> -19
+676:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):471:context.lbitWorkArea >> 19 |==> context.lbitWorkArea << 19
+677:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):471:context.lbitWorkArea >> 19 |==> context.lbitWorkArea >>> 19
+678:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):471:(int)(context.lbitWorkArea >> 19) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 19) ^ MASK_5BITS
+679:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):471:(int)(context.lbitWorkArea >> 19) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 19) | MASK_5BITS
+680:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):471:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 19) & MASK_5BITS] |==> <NO-OP>
+681:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):472:14 |==> 0
+682:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):472:14 |==> -14
+683:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):472:context.lbitWorkArea >> 14 |==> context.lbitWorkArea << 14
+684:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):472:context.lbitWorkArea >> 14 |==> context.lbitWorkArea >>> 14
+685:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):472:(int)(context.lbitWorkArea >> 14) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 14) ^ MASK_5BITS
+686:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):472:(int)(context.lbitWorkArea >> 14) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 14) | MASK_5BITS
+687:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):472:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 14) & MASK_5BITS] |==> <NO-OP>
+688:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):473:9 |==> 0
+689:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):473:9 |==> -9
+690:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):473:context.lbitWorkArea >> 9 |==> context.lbitWorkArea << 9
+691:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):473:context.lbitWorkArea >> 9 |==> context.lbitWorkArea >>> 9
+692:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):473:(int)(context.lbitWorkArea >> 9) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 9) ^ MASK_5BITS
+693:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):473:(int)(context.lbitWorkArea >> 9) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 9) | MASK_5BITS
+694:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):473:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 9) & MASK_5BITS] |==> <NO-OP>
+695:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):474:4 |==> 0
+696:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):474:4 |==> -4
+697:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):474:context.lbitWorkArea >> 4 |==> context.lbitWorkArea << 4
+698:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):474:context.lbitWorkArea >> 4 |==> context.lbitWorkArea >>> 4
+699:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):474:(int)(context.lbitWorkArea >> 4) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 4) ^ MASK_5BITS
+700:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):474:(int)(context.lbitWorkArea >> 4) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 4) | MASK_5BITS
+701:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):474:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 4) & MASK_5BITS] |==> <NO-OP>
+702:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):475:1 |==> 0
+703:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):475:1 |==> -1
+704:SOR:<<(long,int):>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):475:context.lbitWorkArea << 1 |==> context.lbitWorkArea >> 1
+705:SOR:<<(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):475:context.lbitWorkArea << 1 |==> context.lbitWorkArea >>> 1
+706:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):475:(int)(context.lbitWorkArea << 1) & MASK_5BITS |==> (int)(context.lbitWorkArea << 1) ^ MASK_5BITS
+707:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):475:(int)(context.lbitWorkArea << 1) & MASK_5BITS |==> (int)(context.lbitWorkArea << 1) | MASK_5BITS
+708:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):475:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea << 1) & MASK_5BITS] |==> <NO-OP>
+709:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):476:buffer[context.pos++] = pad |==> <NO-OP>
+710:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):477:buffer[context.pos++] = pad |==> <NO-OP>
+711:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):478:buffer[context.pos++] = pad |==> <NO-OP>
+712:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):481:27 |==> 0
+713:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):481:27 |==> -27
+714:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):481:context.lbitWorkArea >> 27 |==> context.lbitWorkArea << 27
+715:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):481:context.lbitWorkArea >> 27 |==> context.lbitWorkArea >>> 27
+716:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):481:(int)(context.lbitWorkArea >> 27) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 27) ^ MASK_5BITS
+717:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):481:(int)(context.lbitWorkArea >> 27) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 27) | MASK_5BITS
+718:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):481:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 27) & MASK_5BITS] |==> <NO-OP>
+719:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):482:22 |==> 0
+720:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):482:22 |==> -22
+721:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):482:context.lbitWorkArea >> 22 |==> context.lbitWorkArea << 22
+722:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):482:context.lbitWorkArea >> 22 |==> context.lbitWorkArea >>> 22
+723:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):482:(int)(context.lbitWorkArea >> 22) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 22) ^ MASK_5BITS
+724:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):482:(int)(context.lbitWorkArea >> 22) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 22) | MASK_5BITS
+725:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):482:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 22) & MASK_5BITS] |==> <NO-OP>
+726:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):483:17 |==> 0
+727:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):483:17 |==> -17
+728:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):483:context.lbitWorkArea >> 17 |==> context.lbitWorkArea << 17
+729:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):483:context.lbitWorkArea >> 17 |==> context.lbitWorkArea >>> 17
+730:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):483:(int)(context.lbitWorkArea >> 17) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 17) ^ MASK_5BITS
+731:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):483:(int)(context.lbitWorkArea >> 17) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 17) | MASK_5BITS
+732:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):483:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 17) & MASK_5BITS] |==> <NO-OP>
+733:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):484:12 |==> 0
+734:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):484:12 |==> -12
+735:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):484:context.lbitWorkArea >> 12 |==> context.lbitWorkArea << 12
+736:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):484:context.lbitWorkArea >> 12 |==> context.lbitWorkArea >>> 12
+737:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):484:(int)(context.lbitWorkArea >> 12) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 12) ^ MASK_5BITS
+738:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):484:(int)(context.lbitWorkArea >> 12) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 12) | MASK_5BITS
+739:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):484:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 12) & MASK_5BITS] |==> <NO-OP>
+740:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):485:7 |==> 0
+741:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):485:7 |==> -7
+742:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):485:context.lbitWorkArea >> 7 |==> context.lbitWorkArea << 7
+743:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):485:context.lbitWorkArea >> 7 |==> context.lbitWorkArea >>> 7
+744:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):485:(int)(context.lbitWorkArea >> 7) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 7) ^ MASK_5BITS
+745:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):485:(int)(context.lbitWorkArea >> 7) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 7) | MASK_5BITS
+746:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):485:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 7) & MASK_5BITS] |==> <NO-OP>
+747:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):486:2 |==> 0
+748:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):486:2 |==> -2
+749:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):486:context.lbitWorkArea >> 2 |==> context.lbitWorkArea << 2
+750:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):486:context.lbitWorkArea >> 2 |==> context.lbitWorkArea >>> 2
+751:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):486:(int)(context.lbitWorkArea >> 2) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 2) ^ MASK_5BITS
+752:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):486:(int)(context.lbitWorkArea >> 2) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 2) | MASK_5BITS
+753:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):486:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 2) & MASK_5BITS] |==> <NO-OP>
+754:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):487:3 |==> 0
+755:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):487:3 |==> -3
+756:SOR:<<(long,int):>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):487:context.lbitWorkArea << 3 |==> context.lbitWorkArea >> 3
+757:SOR:<<(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):487:context.lbitWorkArea << 3 |==> context.lbitWorkArea >>> 3
+758:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):487:(int)(context.lbitWorkArea << 3) & MASK_5BITS |==> (int)(context.lbitWorkArea << 3) ^ MASK_5BITS
+759:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):487:(int)(context.lbitWorkArea << 3) & MASK_5BITS |==> (int)(context.lbitWorkArea << 3) | MASK_5BITS
+760:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):487:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea << 3) & MASK_5BITS] |==> <NO-OP>
+761:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):488:buffer[context.pos++] = pad |==> <NO-OP>
+762:AOR:-(int,int):%(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):493:context.pos - savedPos |==> context.pos % savedPos
+763:AOR:-(int,int):*(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):493:context.pos - savedPos |==> context.pos * savedPos
+764:AOR:-(int,int):+(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):493:context.pos - savedPos |==> context.pos + savedPos
+765:AOR:-(int,int):/(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):493:context.pos - savedPos |==> context.pos / savedPos
+766:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):493:context.currentLinePos += context.pos - savedPos |==> <NO-OP>
+767:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:0 |==> 1
+768:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:0 |==> -1
+769:ROR:>(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:lineLength > 0 |==> lineLength != 0
+770:ROR:>(int,int):>=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:lineLength > 0 |==> lineLength >= 0
+771:ROR:>(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:lineLength > 0 |==> false
+772:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:0 |==> 1
+773:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:0 |==> -1
+774:ROR:>(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:context.currentLinePos > 0 |==> context.currentLinePos != 0
+775:ROR:>(int,int):>=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:context.currentLinePos > 0 |==> context.currentLinePos >= 0
+776:ROR:>(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:context.currentLinePos > 0 |==> false
+777:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:lineLength > 0 && context.currentLinePos > 0 |==> lineLength > 0 == context.currentLinePos > 0
+778:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:lineLength > 0 && context.currentLinePos > 0 |==> false
+779:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:lineLength > 0 && context.currentLinePos > 0 |==> lineLength > 0
+780:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):495:lineLength > 0 && context.currentLinePos > 0 |==> context.currentLinePos > 0
+781:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):496:0 |==> 1
+782:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):496:0 |==> -1
+783:STD:<CALL>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):496:System.arraycopy(lineSeparator, 0, buffer, context.pos, lineSeparator.length) |==> <NO-OP>
+784:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):497:context.pos += lineSeparator.length |==> <NO-OP>
+785:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):500:0 |==> 1
+786:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):500:0 |==> -1
+787:ROR:<(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):500:i < inAvail |==> i != inAvail
+788:ROR:<(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):500:i < inAvail |==> i <= inAvail
+789:ROR:<(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):500:i < inAvail |==> false
+790:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:1 |==> 0
+791:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:1 |==> -1
+792:AOR:+(int,int):%(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:context.modulus + 1 |==> context.modulus % 1
+793:AOR:+(int,int):*(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:context.modulus + 1 |==> context.modulus * 1
+794:AOR:+(int,int):-(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:context.modulus + 1 |==> context.modulus - 1
+795:AOR:+(int,int):/(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:context.modulus + 1 |==> context.modulus / 1
+796:AOR:%(int,int):*(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:(context.modulus + 1) % BYTES_PER_UNENCODED_BLOCK |==> (context.modulus + 1) * BYTES_PER_UNENCODED_BLOCK
+797:AOR:%(int,int):+(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:(context.modulus + 1) % BYTES_PER_UNENCODED_BLOCK |==> (context.modulus + 1) + BYTES_PER_UNENCODED_BLOCK
+798:AOR:%(int,int):-(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:(context.modulus + 1) % BYTES_PER_UNENCODED_BLOCK |==> (context.modulus + 1) - BYTES_PER_UNENCODED_BLOCK
+799:AOR:%(int,int):/(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:(context.modulus + 1) % BYTES_PER_UNENCODED_BLOCK |==> (context.modulus + 1) / BYTES_PER_UNENCODED_BLOCK
+800:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):502:context.modulus = (context.modulus + 1) % BYTES_PER_UNENCODED_BLOCK |==> <NO-OP>
+801:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):504:0 |==> 1
+802:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):504:0 |==> -1
+803:ROR:<(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):504:b < 0 |==> b != 0
+804:ROR:<(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):504:b < 0 |==> b <= 0
+805:ROR:<(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):504:b < 0 |==> false
+806:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):505:256 |==> 0
+807:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):505:256 |==> -256
+808:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):505:b += 256 |==> <NO-OP>
+809:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):507:8 |==> 0
+810:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):507:8 |==> -8
+811:SOR:<<(long,int):>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):507:context.lbitWorkArea << 8 |==> context.lbitWorkArea >> 8
+812:SOR:<<(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):507:context.lbitWorkArea << 8 |==> context.lbitWorkArea >>> 8
+813:AOR:+(long,long):%(long,long):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):507:(context.lbitWorkArea << 8) + b |==> (context.lbitWorkArea << 8) % b
+814:AOR:+(long,long):*(long,long):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):507:(context.lbitWorkArea << 8) + b |==> (context.lbitWorkArea << 8) * b
+815:AOR:+(long,long):-(long,long):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):507:(context.lbitWorkArea << 8) + b |==> (context.lbitWorkArea << 8) - b
+816:AOR:+(long,long):/(long,long):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):507:(context.lbitWorkArea << 8) + b |==> (context.lbitWorkArea << 8) / b
+817:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):507:context.lbitWorkArea = (context.lbitWorkArea << 8) + b |==> <NO-OP>
+818:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):508:0 |==> 1
+819:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):508:0 |==> -1
+820:ROR:==(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):508:0 == context.modulus |==> 0 <= context.modulus
+821:ROR:==(int,int):>=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):508:0 == context.modulus |==> 0 >= context.modulus
+822:ROR:==(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):508:0 == context.modulus |==> false
+823:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):509:35 |==> 0
+824:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):509:35 |==> -35
+825:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):509:context.lbitWorkArea >> 35 |==> context.lbitWorkArea << 35
+826:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):509:context.lbitWorkArea >> 35 |==> context.lbitWorkArea >>> 35
+827:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):509:(int)(context.lbitWorkArea >> 35) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 35) ^ MASK_5BITS
+828:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):509:(int)(context.lbitWorkArea >> 35) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 35) | MASK_5BITS
+829:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):509:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 35) & MASK_5BITS] |==> <NO-OP>
+830:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):510:30 |==> 0
+831:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):510:30 |==> -30
+832:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):510:context.lbitWorkArea >> 30 |==> context.lbitWorkArea << 30
+833:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):510:context.lbitWorkArea >> 30 |==> context.lbitWorkArea >>> 30
+834:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):510:(int)(context.lbitWorkArea >> 30) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 30) ^ MASK_5BITS
+835:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):510:(int)(context.lbitWorkArea >> 30) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 30) | MASK_5BITS
+836:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):510:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 30) & MASK_5BITS] |==> <NO-OP>
+837:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):511:25 |==> 0
+838:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):511:25 |==> -25
+839:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):511:context.lbitWorkArea >> 25 |==> context.lbitWorkArea << 25
+840:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):511:context.lbitWorkArea >> 25 |==> context.lbitWorkArea >>> 25
+841:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):511:(int)(context.lbitWorkArea >> 25) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 25) ^ MASK_5BITS
+842:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):511:(int)(context.lbitWorkArea >> 25) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 25) | MASK_5BITS
+843:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):511:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 25) & MASK_5BITS] |==> <NO-OP>
+844:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):512:20 |==> 0
+845:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):512:20 |==> -20
+846:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):512:context.lbitWorkArea >> 20 |==> context.lbitWorkArea << 20
+847:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):512:context.lbitWorkArea >> 20 |==> context.lbitWorkArea >>> 20
+848:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):512:(int)(context.lbitWorkArea >> 20) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 20) ^ MASK_5BITS
+849:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):512:(int)(context.lbitWorkArea >> 20) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 20) | MASK_5BITS
+850:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):512:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 20) & MASK_5BITS] |==> <NO-OP>
+851:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):513:15 |==> 0
+852:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):513:15 |==> -15
+853:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):513:context.lbitWorkArea >> 15 |==> context.lbitWorkArea << 15
+854:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):513:context.lbitWorkArea >> 15 |==> context.lbitWorkArea >>> 15
+855:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):513:(int)(context.lbitWorkArea >> 15) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 15) ^ MASK_5BITS
+856:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):513:(int)(context.lbitWorkArea >> 15) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 15) | MASK_5BITS
+857:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):513:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 15) & MASK_5BITS] |==> <NO-OP>
+858:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):514:10 |==> 0
+859:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):514:10 |==> -10
+860:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):514:context.lbitWorkArea >> 10 |==> context.lbitWorkArea << 10
+861:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):514:context.lbitWorkArea >> 10 |==> context.lbitWorkArea >>> 10
+862:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):514:(int)(context.lbitWorkArea >> 10) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 10) ^ MASK_5BITS
+863:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):514:(int)(context.lbitWorkArea >> 10) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 10) | MASK_5BITS
+864:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):514:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 10) & MASK_5BITS] |==> <NO-OP>
+865:LVR:POS:0:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):515:5 |==> 0
+866:LVR:POS:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):515:5 |==> -5
+867:SOR:>>(long,int):<<(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):515:context.lbitWorkArea >> 5 |==> context.lbitWorkArea << 5
+868:SOR:>>(long,int):>>>(long,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):515:context.lbitWorkArea >> 5 |==> context.lbitWorkArea >>> 5
+869:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):515:(int)(context.lbitWorkArea >> 5) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 5) ^ MASK_5BITS
+870:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):515:(int)(context.lbitWorkArea >> 5) & MASK_5BITS |==> (int)(context.lbitWorkArea >> 5) | MASK_5BITS
+871:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):515:buffer[context.pos++] = encodeTable[(int)(context.lbitWorkArea >> 5) & MASK_5BITS] |==> <NO-OP>
+872:LOR:&(int,int):^(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):516:(int)context.lbitWorkArea & MASK_5BITS |==> (int)context.lbitWorkArea ^ MASK_5BITS
+873:LOR:&(int,int):|(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):516:(int)context.lbitWorkArea & MASK_5BITS |==> (int)context.lbitWorkArea | MASK_5BITS
+874:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):516:buffer[context.pos++] = encodeTable[(int)context.lbitWorkArea & MASK_5BITS] |==> <NO-OP>
+875:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):517:context.currentLinePos += BYTES_PER_ENCODED_BLOCK |==> <NO-OP>
+876:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:0 |==> 1
+877:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:0 |==> -1
+878:ROR:>(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength > 0 |==> lineLength != 0
+879:ROR:>(int,int):>=(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength > 0 |==> lineLength >= 0
+880:ROR:>(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength > 0 |==> false
+881:ROR:<=(int,int):<(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength <= context.currentLinePos |==> lineLength < context.currentLinePos
+882:ROR:<=(int,int):==(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength <= context.currentLinePos |==> lineLength == context.currentLinePos
+883:ROR:<=(int,int):TRUE(int,int):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength <= context.currentLinePos |==> true
+884:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength > 0 && lineLength <= context.currentLinePos |==> lineLength > 0 == lineLength <= context.currentLinePos
+885:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength > 0 && lineLength <= context.currentLinePos |==> false
+886:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength > 0 && lineLength <= context.currentLinePos |==> lineLength > 0
+887:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):518:lineLength > 0 && lineLength <= context.currentLinePos |==> lineLength <= context.currentLinePos
+888:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):519:0 |==> 1
+889:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):519:0 |==> -1
+890:STD:<CALL>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):519:System.arraycopy(lineSeparator, 0, buffer, context.pos, lineSeparator.length) |==> <NO-OP>
+891:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):520:context.pos += lineSeparator.length |==> <NO-OP>
+892:LVR:0:POS:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):521:0 |==> 1
+893:LVR:0:NEG:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):521:0 |==> -1
+894:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.binary.Base32@encode(byte[],int,int,org.apache.commons.codec.binary.BaseNCodec.Context):521:context.currentLinePos = 0 |==> <NO-OP>
+895:LVR:0:POS:org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:0 |==> 1
+896:LVR:0:NEG:org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:0 |==> -1
+897:ROR:>=(int,int):==(int,int):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 |==> octet == 0
+898:ROR:>=(int,int):>(int,int):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 |==> octet > 0
+899:ROR:>=(int,int):TRUE(int,int):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 |==> true
+900:ROR:<(int,int):!=(int,int):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet < decodeTable.length |==> octet != decodeTable.length
+901:ROR:<(int,int):<=(int,int):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet < decodeTable.length |==> octet <= decodeTable.length
+902:ROR:<(int,int):FALSE(int,int):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet < decodeTable.length |==> false
+903:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 && octet < decodeTable.length |==> octet >= 0 == octet < decodeTable.length
+904:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 && octet < decodeTable.length |==> false
+905:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 && octet < decodeTable.length |==> octet >= 0
+906:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 && octet < decodeTable.length |==> octet < decodeTable.length
+907:LVR:NEG:0:org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:-1 |==> 0
+908:LVR:NEG:POS:org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:-1 |==> 1
+909:ROR:!=(int,int):<(int,int):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:decodeTable[octet] != -1 |==> decodeTable[octet] < -1
+910:ROR:!=(int,int):>(int,int):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:decodeTable[octet] != -1 |==> decodeTable[octet] > -1
+911:ROR:!=(int,int):TRUE(int,int):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:decodeTable[octet] != -1 |==> true
+912:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 && octet < decodeTable.length && decodeTable[octet] != -1 |==> (octet >= 0 && octet < decodeTable.length) == (decodeTable[octet] != -1)
+913:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 && octet < decodeTable.length && decodeTable[octet] != -1 |==> false
+914:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 && octet < decodeTable.length && decodeTable[octet] != -1 |==> octet >= 0 && octet < decodeTable.length
+915:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.Base32@isInAlphabet(byte):537:octet >= 0 && octet < decodeTable.length && decodeTable[octet] != -1 |==> decodeTable[octet] != -1

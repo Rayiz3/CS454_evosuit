@@ -12,7 +12,7 @@ import signal
 if __name__ == "__main__":
     mode = sys.argv[1]
     if mode == "debug":
-        pid, vid = "Jsoup", "79"
+        pid, vid = "Compress", "34"
         sample_list = os.listdir(f"./data/{pid}-{vid}b/tests/")
         sample_list = [int(i) for i in sample_list]
         for sample_num in sample_list:
@@ -20,6 +20,7 @@ if __name__ == "__main__":
                 print(sample_num)
                 os.system(f"rm -rf ./data/{pid}-{vid}b/tests/{sample_num}")
                 os.system(f"rm -rf ./data/{pid}-{vid}b/mut_results/{sample_num}")
+
         # buggy_dir = f"/tmp/{pid}-{vid}b"
         # if not os.path.exists(f"./data/{pid}-{vid}b/dev"):
         #     os.system(f"mkdir ./data/{pid}-{vid}b/dev")

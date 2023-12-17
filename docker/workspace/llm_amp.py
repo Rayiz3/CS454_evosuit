@@ -10,7 +10,7 @@ import tiktoken
 import signal
 
 ### have to be changed with private key !!!! ###
-openai.api_key = "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"
+openai.api_key = "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"
 ### have to be changed with private key !!!! ###    
 
 JAVA_ANALYZER="java_analyzer/target/java-analyzer-1.0-SNAPSHOT-shaded.jar"
@@ -670,7 +670,7 @@ if __name__ == "__main__":
     mode = sys.argv[1]
 
     if mode == "test":
-        pid, vid = "Codec", "11"
+        pid, vid = "Csv", "1"
         if not os.path.exists(f"./data/{pid}-{vid}b/tests"):
             os.system(f"mkdir -p ./data/{pid}-{vid}b/tests")
             os.system(f"mkdir -p ./data/{pid}-{vid}b/mut_results")
@@ -696,7 +696,7 @@ if __name__ == "__main__":
             pid, vid = version.split(",")
             pid = pid.strip()
             vid = vid.strip()
-            if pid != 'Jsoup' and pid != 'Codec':
+            if pid != 'Csv' or vid != '1':
                 continue
             if not os.path.exists(f"./data/{pid}-{vid}b/tests"):
                 os.system(f"mkdir -p ./data/{pid}-{vid}b/tests")

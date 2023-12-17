@@ -1,8 +1,0 @@
-######  Start fixing tests  ./fix_test_suite.pl: 2023-12-15 22:16:08  ######
-- Found 1 test archive(s)
- - Removing uncompilable test method(s): Compress-34b-llm.13.tar.bz2
-org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest
-Number of uncompilable test classes: 1 (see /root/workspace/data/Compress-34b/tests/13/fix_test_suite.compile.log file for more information)
-Number of uncompilable tests: 0
-Number of failing tests: 0
-######  End fixing tests  ./fix_test_suite.pl: 2023-12-15 22:16:17  ######

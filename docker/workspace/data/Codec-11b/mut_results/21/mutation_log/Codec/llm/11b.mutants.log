@@ -1,0 +1,83 @@
+1:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec:62:256 |==> 0
+2:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec:62:256 |==> -256
+3:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec:77:33 |==> 0
+4:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec:77:33 |==> -33
+5:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec:77:60 |==> 0
+6:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec:77:60 |==> -60
+7:ROR:<=(int,int):<(int,int):org.apache.commons.codec.net.QuotedPrintableCodec:77:i <= 60 |==> i < 60
+8:ROR:<=(int,int):==(int,int):org.apache.commons.codec.net.QuotedPrintableCodec:77:i <= 60 |==> i == 60
+9:ROR:<=(int,int):TRUE(int,int):org.apache.commons.codec.net.QuotedPrintableCodec:77:i <= 60 |==> true
+10:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec:78:PRINTABLE_CHARS.set(i) |==> <NO-OP>
+11:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec:80:62 |==> 0
+12:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec:80:62 |==> -62
+13:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec:80:126 |==> 0
+14:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec:80:126 |==> -126
+15:ROR:<=(int,int):<(int,int):org.apache.commons.codec.net.QuotedPrintableCodec:80:i <= 126 |==> i < 126
+16:ROR:<=(int,int):==(int,int):org.apache.commons.codec.net.QuotedPrintableCodec:80:i <= 126 |==> i == 126
+17:ROR:<=(int,int):TRUE(int,int):org.apache.commons.codec.net.QuotedPrintableCodec:80:i <= 126 |==> true
+18:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec:81:PRINTABLE_CHARS.set(i) |==> <NO-OP>
+19:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec:83:PRINTABLE_CHARS.set(TAB) |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec:84:PRINTABLE_CHARS.set(SPACE) |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):115:buffer.write(ESCAPE_CHAR) |==> <NO-OP>
+22:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:4 |==> 0
+23:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:4 |==> -4
+24:SOR:>>(int,int):<<(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:b >> 4 |==> b << 4
+25:SOR:>>(int,int):>>>(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:b >> 4 |==> b >>> 4
+26:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:15 |==> 0
+27:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:15 |==> -15
+28:LOR:&(int,int):^(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:(b >> 4) & 15 |==> (b >> 4) ^ 15
+29:LOR:&(int,int):|(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:(b >> 4) & 15 |==> (b >> 4) | 15
+30:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:16 |==> 0
+31:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):116:16 |==> -16
+32:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):117:15 |==> 0
+33:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):117:15 |==> -15
+34:LOR:&(int,int):^(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):117:b & 15 |==> b ^ 15
+35:LOR:&(int,int):|(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):117:b & 15 |==> b | 15
+36:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):117:16 |==> 0
+37:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):117:16 |==> -16
+38:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):118:buffer.write(hex1) |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(int,java.io.ByteArrayOutputStream):119:buffer.write(hex2) |==> <NO-OP>
+40:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):168:bytes == null |==> false
+41:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):171:printable == null |==> false
+42:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):172:printable = PRINTABLE_CHARS |==> <NO-OP>
+43:LVR:0:POS:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):180:0 |==> 1
+44:LVR:0:NEG:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):180:0 |==> -1
+45:ROR:<(int,int):!=(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):180:b < 0 |==> b != 0
+46:ROR:<(int,int):<=(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):180:b < 0 |==> b <= 0
+47:ROR:<(int,int):FALSE(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):180:b < 0 |==> false
+48:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):181:256 |==> 0
+49:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):181:256 |==> -256
+50:AOR:+(int,int):%(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):181:256 + b |==> 256 % b
+51:AOR:+(int,int):*(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):181:256 + b |==> 256 * b
+52:AOR:+(int,int):-(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):181:256 + b |==> 256 - b
+53:AOR:+(int,int):/(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):181:256 + b |==> 256 / b
+54:STD:<ASSIGN>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):181:b = 256 + b |==> <NO-OP>
+55:COR:printable.get(b):TRUE:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):183:printable.get(b) |==> false
+56:COR:printable.get(b):FALSE:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):183:printable.get(b) |==> true
+57:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):184:buffer.write(b) |==> <NO-OP>
+58:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec@encodeQuotedPrintable(java.util.BitSet,byte[]):189:encodeQuotedPrintable(b, buffer) |==> <NO-OP>
+59:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):220:bytes == null |==> false
+60:LVR:0:POS:org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):224:0 |==> 1
+61:LVR:0:NEG:org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):224:0 |==> -1
+62:ROR:<(int,int):!=(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):224:i < bytes.length |==> i != bytes.length
+63:ROR:<(int,int):<=(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):224:i < bytes.length |==> i <= bytes.length
+64:ROR:<(int,int):FALSE(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):224:i < bytes.length |==> false
+65:ROR:==(int,int):<=(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):226:b == ESCAPE_CHAR |==> b <= ESCAPE_CHAR
+66:ROR:==(int,int):>=(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):226:b == ESCAPE_CHAR |==> b >= ESCAPE_CHAR
+67:ROR:==(int,int):FALSE(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):226:b == ESCAPE_CHAR |==> false
+68:LVR:POS:0:org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):231:4 |==> 0
+69:LVR:POS:NEG:org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):231:4 |==> -4
+70:SOR:<<(int,int):>>(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):231:u << 4 |==> u >> 4
+71:SOR:<<(int,int):>>>(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):231:u << 4 |==> u >>> 4
+72:AOR:+(int,int):%(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):231:(u << 4) + l |==> (u << 4) % l
+73:AOR:+(int,int):*(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):231:(u << 4) + l |==> (u << 4) * l
+74:AOR:+(int,int):-(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):231:(u << 4) + l |==> (u << 4) - l
+75:AOR:+(int,int):/(int,int):org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):231:(u << 4) + l |==> (u << 4) / l
+76:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):231:buffer.write((char)((u << 4) + l)) |==> <NO-OP>
+77:STD:<CALL>:<NO-OP>:org.apache.commons.codec.net.QuotedPrintableCodec@decodeQuotedPrintable(byte[]):237:buffer.write(b) |==> <NO-OP>
+78:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.net.QuotedPrintableCodec@encode(java.lang.String):296:pString == null |==> false
+79:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.net.QuotedPrintableCodec@decode(java.lang.String,java.lang.String):321:pString == null |==> false
+80:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.net.QuotedPrintableCodec@decode(java.lang.String):340:pString == null |==> false
+81:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.net.QuotedPrintableCodec@encode(java.lang.Object):361:pObject == null |==> false
+82:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.net.QuotedPrintableCodec@decode(java.lang.Object):386:pObject == null |==> false
+83:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.net.QuotedPrintableCodec@encode(java.lang.String,java.lang.String):426:pString == null |==> false

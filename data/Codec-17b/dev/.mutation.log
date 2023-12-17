@@ -1,0 +1,240 @@
+
+test-offline:
+
+get-deps:
+
+commons-codec-from-maven.compile:
+    [javac] /tmp/Codec-17b/maven-build.xml:78: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-codec-from-maven.compile-tests:
+    [javac] /tmp/Codec-17b/maven-build.xml:114: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 49 ordered tests to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 8.32 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 23
+    [junit] MAJOR: Mutants covered:   16 (69.57%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 49 individual tests
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m1/49 - org.apache.commons.codec.net.UtilsTest (1ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m2/49 - org.apache.commons.codec.digest.B64Test (2ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m3/49 - org.apache.commons.codec.digest.Sha2CryptTest (2ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m4/49 - org.apache.commons.codec.net.RFC1522CodecTest (3ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m5/49 - org.apache.commons.codec.DecoderExceptionTest (4ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m6/49 - org.apache.commons.codec.EncoderExceptionTest (4ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m7/49 - org.apache.commons.codec.digest.PureJavaCrc32CTest (4ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m8/49 - org.apache.commons.codec.StringEncoderComparatorTest (5ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m9/49 - org.apache.commons.codec.language.bm.RuleTest (5ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m10/49 - org.apache.commons.codec.CharEncodingTest (8ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m11/49 - org.apache.commons.codec.CharsetsTest (8ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m12/49 - org.apache.commons.codec.binary.BaseNCodecTest (10ms / 1):[0m
+    [junit] MAJOR: 8 (0 / 1 / 1) -> AVG-RTPM: 8ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m13/49 - org.apache.commons.codec.language.RefinedSoundexTest (11ms / 0):[0m
+    [junit] MAJOR: 8 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m14/49 - org.apache.commons.codec.net.BCodecTest (11ms / 2):[0m
+    [junit] MAJOR: 23 (0 / 2 / 2) -> AVG-RTPM: 7ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m15/49 - org.apache.commons.codec.digest.UnixCryptTest (13ms / 0):[0m
+    [junit] MAJOR: 23 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m16/49 - org.apache.commons.codec.binary.BinaryCodecTest (14ms / 0):[0m
+    [junit] MAJOR: 23 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m17/49 - org.apache.commons.codec.language.ColognePhoneticTest (14ms / 0):[0m
+    [junit] MAJOR: 23 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m18/49 - org.apache.commons.codec.net.QCodecTest (15ms / 2):[0m
+    [junit] MAJOR: 37 (0 / 2 / 2) -> AVG-RTPM: 7ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m19/49 - org.apache.commons.codec.binary.Base32Test (16ms / 1):[0m
+    [junit] MAJOR: 45 (0 / 1 / 1) -> AVG-RTPM: 8ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m20/49 - org.apache.commons.codec.language.Caverphone1Test (18ms / 0):[0m
+    [junit] MAJOR: 45 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m21/49 - org.apache.commons.codec.language.DaitchMokotoffSoundexTest (18ms / 0):[0m
+    [junit] MAJOR: 45 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m22/49 - org.apache.commons.codec.net.URLCodecTest (18ms / 2):[0m
+    [junit] MAJOR: 55 (0 / 2 / 2) -> AVG-RTPM: 5ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m23/49 - org.apache.commons.codec.binary.Base64Codec13Test (20ms / 0):[0m
+    [junit] MAJOR: 56 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m24/49 - org.apache.commons.codec.language.DoubleMetaphone2Test (20ms / 0):[0m
+    [junit] MAJOR: 56 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m25/49 - org.apache.commons.codec.language.bm.LanguageGuessingTest (20ms / 0):[0m
+    [junit] MAJOR: 56 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m26/49 - org.apache.commons.codec.digest.Md5CryptTest (24ms / 0):[0m
+    [junit] MAJOR: 56 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m27/49 - org.apache.commons.codec.net.QuotedPrintableCodecTest (24ms / 2):[0m
+    [junit] MAJOR: 68 (0 / 2 / 2) -> AVG-RTPM: 6ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m28/49 - org.apache.commons.codec.language.NysiisTest (25ms / 0):[0m
+    [junit] MAJOR: 68 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m29/49 - org.apache.commons.codec.language.Caverphone2Test (27ms / 0):[0m
+    [junit] MAJOR: 68 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m30/49 - org.apache.commons.codec.digest.HmacUtilsTest (31ms / 1):[0m
+    [junit] MAJOR: 76 (0 / 1 / 1) -> AVG-RTPM: 8ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m31/49 - org.apache.commons.codec.language.SoundexTest (32ms / 0):[0m
+    [junit] MAJOR: 76 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m32/49 - org.apache.commons.codec.language.DoubleMetaphoneTest (33ms / 13):[0m
+    [junit] MAJOR: 292 (8 / 13 / 13) -> AVG-RTPM: 16ms
+    [junit] MAJOR: Mutants killed / live: 8 (4-4-0) / 8
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m33/49 - org.apache.commons.codec.language.MetaphoneTest (54ms / 0):[0m
+    [junit] MAJOR: 292 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (4-4-0) / 8
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m34/49 - org.apache.commons.codec.digest.Apr1CryptTest (57ms / 0):[0m
+    [junit] MAJOR: 293 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (4-4-0) / 8
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m35/49 - org.apache.commons.codec.digest.CryptTest (66ms / 0):[0m
+    [junit] MAJOR: 293 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (4-4-0) / 8
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m36/49 - org.apache.commons.codec.binary.Base64Test (73ms / 2):[0m
+    [junit] MAJOR: 311 (2 / 2 / 2) -> AVG-RTPM: 9ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m37/49 - org.apache.commons.codec.binary.Base64InputStreamTest (89ms / 2):[0m
+    [junit] MAJOR: 311 (0 / 0 / 2) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m38/49 - org.apache.commons.codec.binary.Base32OutputStreamTest (92ms / 1):[0m
+    [junit] MAJOR: 311 (0 / 0 / 1) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m39/49 - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest (92ms / 0):[0m
+    [junit] MAJOR: 311 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m40/49 - org.apache.commons.codec.digest.Sha256CryptTest (94ms / 0):[0m
+    [junit] MAJOR: 311 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m41/49 - org.apache.commons.codec.binary.Base32InputStreamTest (97ms / 2):[0m
+    [junit] MAJOR: 311 (0 / 0 / 2) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m42/49 - org.apache.commons.codec.language.MatchRatingApproachEncoderTest (99ms / 0):[0m
+    [junit] MAJOR: 311 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m43/49 - org.apache.commons.codec.digest.Sha512CryptTest (110ms / 0):[0m
+    [junit] MAJOR: 311 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m44/49 - org.apache.commons.codec.binary.Base64OutputStreamTest (129ms / 2):[0m
+    [junit] MAJOR: 311 (0 / 0 / 2) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m45/49 - org.apache.commons.codec.binary.HexTest (194ms / 2):[0m
+    [junit] MAJOR: 346 (0 / 1 / 2) -> AVG-RTPM: 35ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m46/49 - org.apache.commons.codec.digest.PureJavaCrc32Test (240ms / 0):[0m
+    [junit] MAJOR: 347 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m47/49 - org.apache.commons.codec.digest.DigestUtilsTest (400ms / 1):[0m
+    [junit] MAJOR: 347 (0 / 0 / 1) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m48/49 - org.apache.commons.codec.digest.HmacAlgorithmsTest (690ms / 1):[0m
+    [junit] MAJOR: 347 (0 / 0 / 1) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m49/49 - org.apache.commons.codec.language.bm.BeiderMorseEncoderTest (1892ms / 0):[0m
+    [junit] MAJOR: 347 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time:  0.3 seconds
+    [junit] MAJOR: Mutation score: 43.48% (62.50%)
+    [junit] MAJOR: Mutants killed / live: 10 (4-6-0) / 6
+    [junit] MAJOR: Mutant executions: 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant kill details to /tmp/Codec-17b/kill.csv
+
+BUILD SUCCESSFUL
+Total time: 8 seconds
