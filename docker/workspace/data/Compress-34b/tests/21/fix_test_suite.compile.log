@@ -1,0 +1,923 @@
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/target/classes
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 158 source files to /tmp/fix_test_suite.pl_7014_1702709605/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Date.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Flushable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/EOFException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Matcher.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/DataInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/CRC32.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/EnumSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/PriorityQueue.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Queue.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Stack.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/DataFormatException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/Inflater.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/cert/Certificate.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/jar/Attributes.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/jar/JarEntry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipEntry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipConstants.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PushbackInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/RandomAccessFile.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Calendar.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/Deflater.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/DataOutput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigInteger.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/GeneralSecurityException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/MessageDigest.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/Cipher.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/CipherInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/SecretKey.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/spec/IvParameterSpec.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/spec/SecretKeySpec.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/BitSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TimeZone.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/DataInput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/DeflaterOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/InflaterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/DataOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteOrder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ConcurrentHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/InstantiationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalAccessException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/CharBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/CharsetEncoder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/CoderResult.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/CodingErrorAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Callable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ExecutionException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ExecutorService.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Executors.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Future.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/TimeUnit.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/atomic/AtomicInteger.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileNotFoundException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ConcurrentLinkedQueue.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ThreadLocal.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] 100 warnings
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/target/classes/META-INF
+     [copy] Copying 2 files to /tmp/fix_test_suite.pl_7014_1702709605/target/classes/META-INF
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:823: error: illegal start of expression
+    [javac]         assertThrows(CloneNotSupportedException.class, () -> {
+    [javac]                                                         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:823: error: illegal start of expression
+    [javac]         assertThrows(CloneNotSupportedException.class, () -> {
+    [javac]                                                            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:823: error: illegal start of expression
+    [javac]         assertThrows(CloneNotSupportedException.class, () -> {
+    [javac]                                                              ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:823: error: ';' expected
+    [javac]         assertThrows(CloneNotSupportedException.class, () -> {
+    [javac]                                                               ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:825: error: illegal start of type
+    [javac]         });
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:828: error: class, interface, or enum expected
+    [javac]     public void test63() {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:830: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:832: error: class, interface, or enum expected
+    [javac]     public void test64() {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:834: error: class, interface, or enum expected
+    [javac]         assertEquals(0, o.hashCode());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:835: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:837: error: class, interface, or enum expected
+    [javac]     public void test65() {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:839: error: class, interface, or enum expected
+    [javac]         ((ExtraField) o).setUID(54321);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:840: error: class, interface, or enum expected
+    [javac]         assertFalse(xf.equals(o));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:841: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:843: error: class, interface, or enum expected
+    [javac]     public void test66() {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:845: error: class, interface, or enum expected
+    [javac]         ((ExtraField) o).setUID(null);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:846: error: class, interface, or enum expected
+    [javac]         assertFalse(xf.equals(o));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:847: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:849: error: class, interface, or enum expected
+    [javac]     public void test67() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:851: error: class, interface, or enum expected
+    [javac]         ZipFile zf = null;
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:853: error: class, interface, or enum expected
+    [javac]         try {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:855: error: class, interface, or enum expected
+    [javac]             Enumeration<ZipArchiveEntry> en = zf.getEntries();
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:859: error: class, interface, or enum expected
+    [javac]             while (en.hasMoreElements()) {
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:862: error: class, interface, or enum expected
+    [javac]                 String name = zae.getName();
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:863: error: class, interface, or enum expected
+    [javac]                 X7875_NewUnix xf = (X7875_NewUnix) zae.getExtraField(X7875);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:866: error: class, interface, or enum expected
+    [javac]                 long expected = 1000;
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:867: error: class, interface, or enum expected
+    [javac]                 if (name.contains("uid555_gid555")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:869: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("uid5555_gid5555")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:871: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("uid55555_gid55555")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:873: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("uid555555_gid555555")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:875: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("min_unix")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:877: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("max_unix")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:881: error: class, interface, or enum expected
+    [javac]                 }
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:883: error: class, interface, or enum expected
+    [javac]                 assertEquals(expected, xf.getGID());
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:884: error: class, interface, or enum expected
+    [javac]             }
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:888: error: class, interface, or enum expected
+    [javac]             X7875_NewUnix xf1 = new X7875_NewUnix(2, null, null);
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:889: error: class, interface, or enum expected
+    [javac]             assertEquals(expected, xf1.getUID());
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:890: error: class, interface, or enum expected
+    [javac]             assertEquals(expected, xf1.getGID());
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:893: error: class, interface, or enum expected
+    [javac]             boolean result = xf.equals(new X7875_NewUnix(0, xf.getUID(), xf.getGID()));
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:894: error: class, interface, or enum expected
+    [javac]             assertFalse(result);
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:897: error: class, interface, or enum expected
+    [javac]             result = xf.equals(new X7875_NewUnix(-1, xf.getUID(), xf.getGID()));
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:898: error: class, interface, or enum expected
+    [javac]             assertFalse(result);
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:901: error: class, interface, or enum expected
+    [javac]             result = xf.equals(new X7875_NewUnix(xf.getVersion(), -1, xf.getGID()));
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:902: error: class, interface, or enum expected
+    [javac]             assertFalse(result);
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:905: error: class, interface, or enum expected
+    [javac]             result = xf.equals(new X7875_NewUnix(xf.getVersion(), xf.getUID(), -1));
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:906: error: class, interface, or enum expected
+    [javac]             assertFalse(result);
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:907: error: class, interface, or enum expected
+    [javac]         } finally {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:910: error: class, interface, or enum expected
+    [javac]             }
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:914: error: class, interface, or enum expected
+    [javac]     public void test68() {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:918: error: class, interface, or enum expected
+    [javac]         int expectedHeaderId = 12345;
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:919: error: class, interface, or enum expected
+    [javac]         X7875_NewUnix xf1 = new X7875_NewUnix(expectedHeaderId, xf.getUID(), xf.getGID());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:920: error: class, interface, or enum expected
+    [javac]         assertEquals(expectedHeaderId, xf1.getHeaderId());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:921: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:923: error: class, interface, or enum expected
+    [javac]     public void test69() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:925: error: class, interface, or enum expected
+    [javac]         assertTrue(xf.toString().startsWith("0x7875 Zip Extra Field"));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:926: error: class, interface, or enum expected
+    [javac]         Object o = xf.clone();
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:927: error: class, interface, or enum expected
+    [javac]         assertEquals(o.hashCode(), xf.hashCode());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:928: error: class, interface, or enum expected
+    [javac]         assertTrue(xf.equals(o));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:929: error: class, interface, or enum expected
+    [javac]         xf.setUID(12345);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:930: error: class, interface, or enum expected
+    [javac]         assertFalse(xf.equals(o));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:933: error: class, interface, or enum expected
+    [javac]         o = xf.clone();
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:934: error: class, interface, or enum expected
+    [javac]         X7875_NewUnix xf1 = (X7875_NewUnix) o;
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:935: error: class, interface, or enum expected
+    [javac]         xf1.setGID(54321);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:936: error: class, interface, or enum expected
+    [javac]         assertFalse(xf.equals(xf1));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:937: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:941: error: class, interface, or enum expected
+    [javac]     public void test70() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:944: error: class, interface, or enum expected
+    [javac]             Enumeration<ZipArchiveEntry> en = zf.getEntries();
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:948: error: class, interface, or enum expected
+    [javac]             while (en.hasMoreElements()) {
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:951: error: class, interface, or enum expected
+    [javac]                 String name = zae.getName();
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:952: error: class, interface, or enum expected
+    [javac]                 X7875_NewUnix xf = (X7875_NewUnix) zae.getExtraField(X7875);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:955: error: class, interface, or enum expected
+    [javac]                 long expected = 1000;
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:956: error: class, interface, or enum expected
+    [javac]                 if (name.contains("uid555_gid555")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:958: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("uid5555_gid5555")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:960: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("uid55555_gid55555")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:962: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("uid555555_gid555555")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:964: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("min_unix")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:966: error: class, interface, or enum expected
+    [javac]                 } else if (name.contains("max_unix")) {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:970: error: class, interface, or enum expected
+    [javac]                 }
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:972: error: class, interface, or enum expected
+    [javac]                 assertEquals(expected, xf.getGID());
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:973: error: class, interface, or enum expected
+    [javac]             }
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:977: error: class, interface, or enum expected
+    [javac]             }
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:982: error: class, interface, or enum expected
+    [javac]     public void test71() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:988: error: class, interface, or enum expected
+    [javac]     public void test72() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:992: error: class, interface, or enum expected
+    [javac]     public void test73() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:996: error: class, interface, or enum expected
+    [javac]     public void test74() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1000: error: class, interface, or enum expected
+    [javac]     public void test75() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1004: error: class, interface, or enum expected
+    [javac]     public void test76() {
+    [javac]            ^
+    [javac] 87 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:965: error: class, interface, or enum expected
+    [javac]     public void test70() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1009: error: class, interface, or enum expected
+    [javac]     public void test71() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1018: error: class, interface, or enum expected
+    [javac]     public void test72() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1025: error: class, interface, or enum expected
+    [javac]     public void test73() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1032: error: class, interface, or enum expected
+    [javac]     public void test74() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1039: error: class, interface, or enum expected
+    [javac]     public void test75() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1046: error: class, interface, or enum expected
+    [javac]     public void test76() {}
+    [javac]            ^
+    [javac] 7 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:965: error: class, interface, or enum expected
+    [javac]     public void test70() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1012: error: class, interface, or enum expected
+    [javac]     public void test71() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1024: error: class, interface, or enum expected
+    [javac]     public void test72() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1034: error: class, interface, or enum expected
+    [javac]     public void test73() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1044: error: class, interface, or enum expected
+    [javac]     public void test74() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1054: error: class, interface, or enum expected
+    [javac]     public void test75() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1064: error: class, interface, or enum expected
+    [javac]     public void test76() {}
+    [javac]            ^
+    [javac] 7 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:965: error: class, interface, or enum expected
+    [javac]     public void test70() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1015: error: class, interface, or enum expected
+    [javac]     public void test71() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1030: error: class, interface, or enum expected
+    [javac]     public void test72() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1043: error: class, interface, or enum expected
+    [javac]     public void test73() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1056: error: class, interface, or enum expected
+    [javac]     public void test74() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1069: error: class, interface, or enum expected
+    [javac]     public void test75() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1082: error: class, interface, or enum expected
+    [javac]     public void test76() {}
+    [javac]            ^
+    [javac] 7 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:965: error: class, interface, or enum expected
+    [javac]     public void test70() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1018: error: class, interface, or enum expected
+    [javac]     public void test71() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1036: error: class, interface, or enum expected
+    [javac]     public void test72() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1052: error: class, interface, or enum expected
+    [javac]     public void test73() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1068: error: class, interface, or enum expected
+    [javac]     public void test74() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1084: error: class, interface, or enum expected
+    [javac]     public void test75() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1100: error: class, interface, or enum expected
+    [javac]     public void test76() {}
+    [javac]            ^
+    [javac] 7 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:965: error: class, interface, or enum expected
+    [javac]     public void test70() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1021: error: class, interface, or enum expected
+    [javac]     public void test71() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1042: error: class, interface, or enum expected
+    [javac]     public void test72() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1061: error: class, interface, or enum expected
+    [javac]     public void test73() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1080: error: class, interface, or enum expected
+    [javac]     public void test74() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1099: error: class, interface, or enum expected
+    [javac]     public void test75() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1118: error: class, interface, or enum expected
+    [javac]     public void test76() {}
+    [javac]            ^
+    [javac] 7 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:965: error: class, interface, or enum expected
+    [javac]     public void test70() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1024: error: class, interface, or enum expected
+    [javac]     public void test71() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1048: error: class, interface, or enum expected
+    [javac]     public void test72() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1070: error: class, interface, or enum expected
+    [javac]     public void test73() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1092: error: class, interface, or enum expected
+    [javac]     public void test74() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1114: error: class, interface, or enum expected
+    [javac]     public void test75() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1136: error: class, interface, or enum expected
+    [javac]     public void test76() {}
+    [javac]            ^
+    [javac] 7 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:965: error: class, interface, or enum expected
+    [javac]     public void test70() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1027: error: class, interface, or enum expected
+    [javac]     public void test71() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1054: error: class, interface, or enum expected
+    [javac]     public void test72() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1079: error: class, interface, or enum expected
+    [javac]     public void test73() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1104: error: class, interface, or enum expected
+    [javac]     public void test74() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1129: error: class, interface, or enum expected
+    [javac]     public void test75() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1154: error: class, interface, or enum expected
+    [javac]     public void test76() {}
+    [javac]            ^
+    [javac] 7 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:965: error: class, interface, or enum expected
+    [javac]     public void test70() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1030: error: class, interface, or enum expected
+    [javac]     public void test71() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1060: error: class, interface, or enum expected
+    [javac]     public void test72() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1088: error: class, interface, or enum expected
+    [javac]     public void test73() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1116: error: class, interface, or enum expected
+    [javac]     public void test74() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1144: error: class, interface, or enum expected
+    [javac]     public void test75() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1172: error: class, interface, or enum expected
+    [javac]     public void test76() {}
+    [javac]            ^
+    [javac] 7 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Compress-34b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_7014_1702709605/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:965: error: class, interface, or enum expected
+    [javac]     public void test70() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1033: error: class, interface, or enum expected
+    [javac]     public void test71() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1066: error: class, interface, or enum expected
+    [javac]     public void test72() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1097: error: class, interface, or enum expected
+    [javac]     public void test73() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1128: error: class, interface, or enum expected
+    [javac]     public void test74() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1159: error: class, interface, or enum expected
+    [javac]     public void test75() {}
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_7014_1702709605/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1190: error: class, interface, or enum expected
+    [javac]     public void test76() {}
+    [javac]            ^
+    [javac] 7 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

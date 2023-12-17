@@ -1,0 +1,21 @@
+
+init:
+     [echo] -------- commons-lang3 3.2-SNAPSHOT --------
+
+compile:
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: [1;31morg.apache.commons.lang3.LocaleUtilsTest[testLang865] failed![0m
+    [junit] MAJOR: [1;31m -> java.lang.IllegalArgumentException[0m
+    [junit] MAJOR: [1;31m -> "Invalid locale format: _GB"[0m
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:225: Test org.apache.commons.lang3.LocaleUtilsTest failed
+
+Total time: 1 second

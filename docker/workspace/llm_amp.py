@@ -7,15 +7,21 @@ import sys
 import difflib
 import csv
 import tiktoken
+import signal
 
 ### have to be changed with private key !!!! ###
-openai.api_key = "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"
+openai.api_key = "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"
 ### have to be changed with private key !!!! ###    
 
 JAVA_ANALYZER="java_analyzer/target/java-analyzer-1.0-SNAPSHOT-shaded.jar"
 
 class JavaFileParsingError(Exception):
     pass
+
+class TimeOutException(Exception):
+    pass
+def alarm_handler(signum, frame):
+    raise TimeOutException()
 
 class D4JEnv:
     def __init__(self, pid, vid):
@@ -27,8 +33,9 @@ class D4JEnv:
 
         # if not os.path.exists(self.fixed_dir):
         #     os.system(f"defects4j checkout -p {pid} -v {vid}f -w {self.fixed_dir}")
-        if not os.path.exists(self.buggy_dir):
-            os.system(f"defects4j checkout -p {pid} -v {vid}b -w {self.buggy_dir}")
+        # if not os.path.exists(self.buggy_dir):
+        os.system(f"rm -rf {self.buggy_dir}")
+        os.system(f"defects4j checkout -p {pid} -v {vid}b -w {self.buggy_dir}")
         if not os.path.exists(os.path.join(self.buggy_dir, "dir.src.classes")):
             os.system(f"cd {self.buggy_dir} && defects4j export -p dir.src.classes -o dir.src.classes")
         if not os.path.exists(os.path.join(self.buggy_dir, "dir.src.tests")):
@@ -39,6 +46,8 @@ class D4JEnv:
             os.system(f"cd {self.buggy_dir} && defects4j export -p tests.trigger -o tests.trigger")
         if not os.path.exists(os.path.join(self.buggy_dir, "cp.compile")):
             os.system(f"cd {self.buggy_dir} && defects4j export -p cp.compile -o cp.compile")
+        if not os.path.exists(os.path.join(self.buggy_dir, "cp.test")):
+            os.system(f"cd {self.buggy_dir} && defects4j export -p cp.test -o cp.test")
         if not os.path.exists(os.path.join(self.buggy_dir, "classes.modified")):
             os.system(f"cd {self.buggy_dir} && defects4j export -p classes.modified -o classes.modified")
         # if not os.path.exists(os.path.join(self.buggy_dir, "failing_tests")):
@@ -57,13 +66,15 @@ class D4JEnv:
             self.classes_modified = f.read().split('\n')
         with open(os.path.join(self.buggy_dir, "cp.compile"), 'r') as f:
             self.cp_compile = f.read()
+        with open(os.path.join(self.buggy_dir, "cp.test"), 'r') as f:
+            self.cp_test = f.read()
 
         if not os.path.exists(self.output_dir):
             os.mkdir(self.output_dir)
             os.mkdir(os.path.join(self.output_dir, "range"))
 
         self.new_range_src = {}
-        self.new_range_test = {}
+        self.new_range_test = set()
 
         # self.files_to_analyze = set()
         # patch_path = f"/defects4j/framework/projects/{pid}/patches/{vid}.src.patch"
@@ -82,11 +93,13 @@ class D4JEnv:
         for mod_class in self.classes_modified:
             path_to_src = os.path.join(self.dir_src_classes, mod_class.replace('.', '/') + '.java')
             self.analyze_src_file(path_to_src, mod_class, True)
-            path_to_test = os.path.join(self.dir_src_tests, mod_class.replace('.', '/') + 'Test.java')
-            self.analyze_src_file(path_to_test, mod_class, False)
+
+        for triggered_test in self.tests_trigger:
+            path_to_test = os.path.join(self.dir_src_tests, triggered_test.replace('.', '/').split('::')[0] + '.java')
+            self.analyze_test_file(path_to_test, triggered_test, False)
         
         # sample
-        sample_list = os.listdir(f"./data/{self.pid}-{self.vid}b/")
+        sample_list = os.listdir(f"./data/{self.pid}-{self.vid}b/tests/")
         sample_list = [int(i) for i in sample_list]
         self.sample_num = 1
         if len(sample_list) != 0:
@@ -95,37 +108,57 @@ class D4JEnv:
         for mod_class in self.classes_modified:
             path = mod_class.split('.')[:-1]
             path = "/".join(path)
-            if not os.path.exists(f"./data/{self.pid}-{self.vid}b/{self.sample_num}/{path}"):
-                os.system(f"mkdir -p ./data/{self.pid}-{self.vid}b/{self.sample_num}/{path}")
-            
+            if not os.path.exists(f"./data/{self.pid}-{self.vid}b/tests/{self.sample_num}/{path}"):
+                os.system(f"mkdir -p ./data/{self.pid}-{self.vid}b/tests/{self.sample_num}/{path}")
+                os.system(f"mkdir -p ./data/{self.pid}-{self.vid}b/mut_results/{self.sample_num}")
+    
+
+
     # amplify new testcases based on the provided code/testcase sources
     # write output for each method in prompt.txt
     def amplify_test(self):
         src_methods = self.collect_src_method()
-        dev_tests = self.collect_dev_test()
+        # dev_tests = self.collect_dev_test()
         prompt = open("prompt.txt", "w")
+
+        # single class & single failing test
+        test_classes = set()
+        for test in self.tests_trigger:
+            test_classes.add(test.replace('.', '/').split('::')[0])
+
+        if len(self.classes_modified) != 1 or len(test_classes) != 1:
+            return None
 
         # using test coverage to match method
         for mod_class, methods in src_methods.items():
 
-            # open file for wirting regression(result)
-            
+            # open file for wirting temporary regression tests(result)
             r = open("./result.java", "w", errors='ignore')
 
+            # open file for writing actual regression test suite
+            path_to_reg_test = f"./data/{self.pid}-{self.vid}b/tests/{self.sample_num}/{mod_class.replace('.', '/')}" + '_LLMTest.java'
+            q = open(path_to_reg_test, "w", errors='ignore')
+
+
             # open file for reading source
-            path_to_src = os.path.join(self.dir_src_classes,  mod_class.replace('.', '/') + '.java')
+            path_to_src = os.path.join(self.dir_src_classes, mod_class.replace('.', '/') + '.java')
             s = open(os.path.join(self.buggy_dir, path_to_src), "r", errors='ignore')
             src_under_test = s.readlines()
 
+
+
+
             # open file for reading testcase
-            path_to_test = os.path.join(self.dir_src_tests, mod_class.replace('.', '/') + 'Test.java')
-            t = open(os.path.join(self.buggy_dir, path_to_test), "r", errors='ignore')
-            test_src = t.readlines()
-            
-            for line in test_src:
-                if line.startswith("package") or line.startswith("import"):
-                    r.write(line)
-            r.write("\npublic class " + mod_class.split('.')[-1] + "_LLMTest {\n")
+            for triggered_test in test_classes:
+                path_to_test = os.path.join(self.dir_src_tests, triggered_test + '.java')
+                # path_to_test = os.path.join(self.dir_src_tests, mod_class.replace('.', '/') + 'Test.java')
+                t = open(os.path.join(self.buggy_dir, path_to_test), "r", errors='ignore')
+                test_src = t.readlines()
+                
+                for line in test_src:
+                    if line.startswith("package") or line.startswith("import"):
+                        q.write(line)
+            q.write("\npublic class " + mod_class.split('.')[-1] + "_LLMTest {\n")
 
             test_cnt = 0
 
@@ -134,7 +167,9 @@ class D4JEnv:
                 if "private" in src_under_test[method["begin_line"]].lower():
                     continue
                 method_src = "".join(src_under_test[method["begin_line"]-1:method["end_line"]])
-                covering_tests = self.collect_covering_test(method_name, mod_class, test_src)
+                covering_tests = self.collect_covering_test(method_name)
+                if len(covering_tests) == 0:
+                    continue
                 
                 ### LLM part ###
 
@@ -150,7 +185,7 @@ The test cases covering given method looks like:
 {covering_tests}
 ```
 
-Provide regression test cases of the given method by changing the input of the covering tests.
+Provide regression test cases that can kill more mutants of the given method by changing the input of the covering tests.
 Only the input value of the method in each test should be changed.
 You should insert all regression tests into the below format.
 I have to parse your response, therefore the format below should appear only once in your response.
@@ -167,7 +202,7 @@ I have to parse your response, therefore the format below should appear only onc
                 ]
                 prompt.write(first_prompt)
                 response = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo-0613",
+                    model="gpt-3.5-turbo-16k",
                     messages=messages,
                 )
 
@@ -185,7 +220,7 @@ I have to parse your response, therefore the format below should appear only onc
                 # prompt.write("\n" + second_prompt + "\n")
 
                 # response = openai.ChatCompletion.create(
-                #     model="gpt-3.5-turbo-0613",
+                #     model="gpt-3.5-turbo-16k",
                 #     messages=messages,
                 # )
                 # response_message = response["choices"][0]["message"]
@@ -193,22 +228,33 @@ I have to parse your response, therefore the format below should appear only onc
 
             
                 p = re.compile("```java(.*)```", re.DOTALL)
+                # pattern = r'(@Test.*?}\n)(?:.*?)(?=@Test|$)'
+
                 regression_tests = p.search(response_message["content"])
                 if regression_tests != None:
                     regression_tests = regression_tests.group(1).lstrip("\n").rstrip("\n").replace("```", "")
+
+                    # regression_tests = re.sub(pattern, r'\1\n\n\n', regression_tests, flags=re.DOTALL)
+
                     r.write(regression_tests + "\n\n")
-                    
+                
                 ### LLM part end ###
-            r.write('}')
+            # r.write('}')
             r.close()
 
             r = open("./result.java", "r", errors='ignore')
             # assign sequential function names for each identified testcases
-            path_to_reg_test = f"./data/{self.pid}-{self.vid}b/{self.sample_num}/{mod_class.replace('.', '/')}" + '_LLMTest.java'
-            with open(path_to_reg_test, "w", errors='ignore') as q:
-                acc = 0
-                p = re.compile("public void (.*)\(\)", re.DOTALL)
-                for line in r.readlines():
+
+            acc = 0
+            p = re.compile("public void (.*)\(\)", re.DOTALL)
+            count = 0
+            for line in r.readlines():
+                if line.lstrip().startswith("@Test"):
+                    # counting parenthesis
+                    count += line.count("{")
+                    count -= line.count("}")
+
+                    # renaming the test
                     m = p.search(line)
                     if m == None:
                         q.write(line)
@@ -217,17 +263,57 @@ I have to parse your response, therefore the format below should appear only onc
                     line=line.replace(name, f"test{acc}")
                     q.write(line)
                     acc += 1
+                    continue
 
+                # counting parenthesis
+                prev_count = count
+                count += line.count("{")
+                count -= line.count("}")
+
+                if count == 0 and prev_count == 0:
+                    continue
+                
+                # renaming the test
+                m = p.search(line)
+                if m == None:
+                    q.write(line)
+                    continue
+                name = m.group(1)
+                line=line.replace(name, f"test{acc}")
+                q.write(line)
+                acc += 1
+            q.write('}')
+            q.close()
             r.close()
             s.close()
             t.close()
 
-            os.system(f"cd ./data/{pid}-{vid}b/{self.sample_num} && tar -cjvf {pid}-{vid}b-llm.{self.sample_num}.tar.bz2 ./org")
-            os.system(f"cd /defects4j/framework/util && ./fix_test_suite.pl -p {pid} -v {vid}b -d ~/workspace/data/{pid}-{vid}b/{self.sample_num}")
+            os.system(f"cd ./data/{pid}-{vid}b/tests/{self.sample_num} && tar -cjvf {pid}-{vid}b-llm.{self.sample_num}.tar.bz2 ./org")
+
+            # time out
+            # signal.signal(signal.SIGALRM, alarm_handler)
+            # signal.alarm(300)
+            # fix_test_suite
+            os.system(f"cd /defects4j/framework/util && ./fix_test_suite.pl -p {pid} -v {vid}b -d ~/workspace/data/{pid}-{vid}b/tests/{self.sample_num}")
+            # try:
+            #     os.system(f"cd /defects4j/framework/util && ./fix_test_suite.pl -p {pid} -v {vid}b -d ~/workspace/data/{pid}-{vid}b/tests/{self.sample_num}")
+            # except TimeOutException as e:
+            #     os.system(f"rm -rf ~/workspace/data/{pid}-{vid}b/tests/{self.sample_num}")
+            #     return 1
+
+            
+
+            # run_mutation
+            os.system(f"cd /defects4j/framework/bin && ./run_mutation.pl -p {pid} -v {vid}b -d ~/workspace/data/{pid}-{vid}b/tests/{self.sample_num} -o ~/workspace/data/{pid}-{vid}b/mut_results/{self.sample_num}")
+
+            if not os.path.exists(f"./data/{pid}-{vid}b/mut_results/{self.sample_num}/mutation_log/{pid}/run_mutation.pl.log"):
+                os.system(f"rm -rf ./data/{pid}-{vid}b/tests/{self.sample_num}")
+                os.system(f"rm -rf ./data/{pid}-{vid}b/mut_results/{self.sample_num}")
+
 
         prompt.close()
                 
-        return
+        return 1
 
         # using test name to match method
         for mod_class, methods in src_methods.items():
@@ -323,7 +409,7 @@ The format below should only appear once in your answer.
                 ]
                 prompt.write(first_prompt)
                 response = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo-0613",
+                    model="gpt-3.5-turbo-16k",
                     messages=messages,
                 )
 
@@ -341,7 +427,7 @@ The format below should only appear once in your answer.
                 prompt.write("\n" + second_prompt + "\n")
 
                 response = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo-0613",
+                    model="gpt-3.5-turbo-16k",
                     messages=messages,
                 )
                 response_message = response["choices"][0]["message"]
@@ -358,7 +444,7 @@ The format below should only appear once in your answer.
                 prompt.write("\n" + third_prompt + "\n")
 
                 response = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo-0613",
+                    model="gpt-3.5-turbo-16k",
                     messages=messages,
                 )
                 response_message = response["choices"][0]["message"]
@@ -403,12 +489,12 @@ The format below should only appear once in your answer.
         #         print(num_tokens)
         return
 
-    def num_tokens_from_messages(self, messages, model="gpt-3.5-turbo-0613"):
+    def num_tokens_from_messages(self, messages, model="gpt-3.5-turbo-16k"):
         try:
             encoding = tiktoken.encoding_for_model(model)
         except KeyError:
             encoding = tiktoken.get_encoding("cl100k_base")
-        if model == "gpt-3.5-turbo-0613":  # note: future models may deviate from this
+        if model == "gpt-3.5-turbo-16k":  # note: future models may deviate from this
             num_tokens = 0
             for message in messages:
                 num_tokens += 4  # every message follows <im_start>{role/name}\n{content}<im_end>\n
@@ -507,9 +593,29 @@ The format below should only appear once in your answer.
             else:
                 self.new_range_test[mod_class] = output_path
                 return output_path
-    
+
+    def analyze_test_file(self, test_path, overwrite=False, verbose=True):
+        if not os.path.exists(os.path.join(self.buggy_dir, test_path)):
+            return None
+        test_path = test_path.replace('$', '\$')
+        output_path = self.get_range_path(test_path)
+
+        if not os.path.exists(output_path.replace('\$', '$')) or (overwrite and (test_path, output_path) not in self.new_range_test):
+            command = f'java -jar {JAVA_ANALYZER} {os.path.join(self.buggy_dir, test_path)} {output_path} {os.path.join(self.buggy_dir, self.dir_src_tests)} {self.cp_compile.replace(":", " ")}'
+            if self.pid == "Mockito":
+                command += " /defects4j/framework/projects/lib/junit-4.11.jar"
+            if verbose:
+                print(command)
+            os.system(command)
+
+        output_path = output_path.replace('\$', '$')
+        if os.path.exists(output_path):
+            self.new_range_test.add((test_path, output_path))
+            return output_path
+
+
     # do coverage test for finding proper testcase
-    def collect_covering_test(self, method_name, mod_class, test_src):
+    def collect_covering_test(self, method_name):
         gzoltar_dir = f"/tmp/{pid}-{vid}g"
 
         if not os.path.exists(f"{gzoltar_dir}/sfl"):
@@ -544,15 +650,18 @@ The format below should only appear once in your answer.
         # print(cov_test_names)
         cov_tests = ''
 
-        path = self.new_range_test[mod_class]
-        with open(path, 'r') as f:
-            file_range = json.load(f)
-            for test_name in cov_test_names:
-                for node in file_range["nodes"]:
-                    if node["type"] != "method":
-                        continue
-                    if node["signature"].split('(')[0] == test_name:
-                        cov_tests += "".join(test_src[node["begin_line"]-1:node["end_line"]])
+        # path = self.new_range_test[mod_class]
+        for test_path, range_path in self.new_range_test:
+            t = open(os.path.join(self.buggy_dir, test_path), 'r', errors='ignore')
+            test_src = t.readlines()
+            with open(range_path, 'r') as f:
+                file_range = json.load(f)
+                for test_name in cov_test_names:
+                    for node in file_range["nodes"]:
+                        if node["type"] != "method":
+                            continue
+                        if node["signature"].split('(')[0] == test_name:
+                            cov_tests += "".join(test_src[node["begin_line"]-1:node["end_line"]])
 
         return cov_tests
 
@@ -561,11 +670,12 @@ if __name__ == "__main__":
     mode = sys.argv[1]
 
     if mode == "test":
-        pid, vid = "Jsoup", "80"
-        if not os.path.exists(f"./data/{pid}-{vid}b"):
-            os.system(f"mkdir ./data/{pid}-{vid}b")
+        pid, vid = "Codec", "11"
+        if not os.path.exists(f"./data/{pid}-{vid}b/tests"):
+            os.system(f"mkdir -p ./data/{pid}-{vid}b/tests")
+            os.system(f"mkdir -p ./data/{pid}-{vid}b/mut_results")
         
-        iter_num = 5
+        iter_num = 1
         for i in range(iter_num):
             env = D4JEnv(pid, vid)
             env.amplify_test()
@@ -577,3 +687,26 @@ if __name__ == "__main__":
         #     f.write(dev_fixed_code)
         # with open(f"./data/{pid}-{vid}b/llm_refactored_code.txt", "w") as f:
         #     f.write(llm_refactored_code)
+            
+    if mode == "exec":
+        f = open("data.txt", "r")
+        versions = f.readlines()
+
+        for version in versions:
+            pid, vid = version.split(",")
+            pid = pid.strip()
+            vid = vid.strip()
+            if pid != 'Jsoup' and pid != 'Codec':
+                continue
+            if not os.path.exists(f"./data/{pid}-{vid}b/tests"):
+                os.system(f"mkdir -p ./data/{pid}-{vid}b/tests")
+                os.system(f"mkdir -p ./data/{pid}-{vid}b/mut_results")
+            
+
+            while len(os.listdir(f"./data/{pid}-{vid}b/tests")) < 30:
+                env = D4JEnv(pid, vid)
+                result = env.amplify_test()
+                if result == None:
+                    # os.system(f"rm -rf ./data/{pid}-{vid}b")
+                    break
+

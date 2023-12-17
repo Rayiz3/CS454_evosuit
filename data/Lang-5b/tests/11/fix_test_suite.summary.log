@@ -1,0 +1,39 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-14 23:40:40  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Lang-5b-llm.11.tar.bz2
+  - Removing 8 uncompilable test method(s):
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test0
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test1
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test2
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test3
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test4
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test5
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test6
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test7
+ - Removing uncompilable test method(s): Lang-5b-llm.11.tar.bz2
+  - Removing 10 uncompilable test method(s):
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test8
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test9
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test10
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test11
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test12
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test14
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test15
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test16
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test17
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test18
+ - Removing uncompilable test method(s): Lang-5b-llm.11.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test19
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test20
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test21
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test22
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test23
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test25
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test26
+ - Removing 1 broken test method(s): Lang-5b-llm.11.tar.bz2
+org.apache.commons.lang3.LocaleUtils_LLMTest::test24
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 25 (see /root/workspace/data/Lang-5b/tests/11/fix_test_suite.compile.log file for more information)
+Number of failing tests: 1 (see /root/workspace/data/Lang-5b/tests/11/fix_test_suite.run.log file for more information)
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-14 23:41:03  ######

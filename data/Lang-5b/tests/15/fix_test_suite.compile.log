@@ -1,0 +1,1725 @@
+- Compilation issues: Lang-5b-llm.15.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-lang3 3.2-SNAPSHOT --------
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_24529_1702626865/target
+
+compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_24529_1702626865/target/classes
+    [javac] Compiling 108 source files to /tmp/fix_test_suite.pl_24529_1702626865/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/InvocationTargetException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Method.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Array.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/WeakHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ThreadLocal.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/BitSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/IllegalCharsetNameException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/NoSuchElementException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Modifier.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ClassLoader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ClassNotFoundException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SecurityException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/NoSuchMethodException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/UUID.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/EnumSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ConcurrentHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ConcurrentMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TreeSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectStreamClass.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectInput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/DataInput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectStreamConstants.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Writer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/Normalizer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Pattern.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/AccessibleObject.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Field.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalAccessException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/atomic/AtomicReference.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Callable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ExecutionException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ExecutorService.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Executors.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Future.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ThreadFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/atomic/AtomicLong.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Thread.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Thread$UncaughtExceptionHandler.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Runnable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/TimeUnit.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ScheduledExecutorService.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ScheduledFuture.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ScheduledThreadPoolExecutor.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/InterruptedException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/InvocationHandler.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Proxy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/CopyOnWriteArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] 100 warnings
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_24529_1702626865/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_24529_1702626865/.classes_testgen
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Constructor.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Modifier.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Constructor.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Modifier.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:24: error: cannot find symbol
+    [javac]         assertValidToLocale("_G", "", "G", "");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:28: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB_P", "", "GB", "P");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:32: error: cannot find symbol
+    [javac]         assertValidToLocale("uU");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:36: error: cannot find symbol
+    [javac]         assertValidToLocale("u_2");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:40: error: cannot find symbol
+    [javac]         assertValidToLocale("us_eN");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:44: error: cannot find symbol
+    [javac]         assertLocaleLookupList(null, null, new Locale[0]);
+    [javac]         ^
+    [javac]   symbol:   method assertLocaleLookupList(<null>,<null>,Locale[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:45: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_QQ, null, new Locale[]{LOCALE_QQ});
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:45: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_QQ, null, new Locale[]{LOCALE_QQ});
+    [javac]                                                              ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:46: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN, null, new Locale[]{LOCALE_EN});
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:46: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN, null, new Locale[]{LOCALE_EN});
+    [javac]                                                              ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:47: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN, null, new Locale[]{LOCALE_EN});
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:47: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN, null, new Locale[]{LOCALE_EN});
+    [javac]                                                              ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:48: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US, null,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:50: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:51: error: cannot find symbol
+    [javac]                 LOCALE_EN});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:52: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US, null,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:54: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:55: error: cannot find symbol
+    [javac]                 LOCALE_EN});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:56: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_EN_US_ZZZZ,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:56: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_EN_US_ZZZZ,
+    [javac]                                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:58: error: cannot find symbol
+    [javac]                 LOCALE_EN_US_ZZZZ,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:59: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:60: error: cannot find symbol
+    [javac]                 LOCALE_EN});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:61: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_EN,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:61: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_EN,
+    [javac]                                                   ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:63: error: cannot find symbol
+    [javac]                 LOCALE_EN_US_ZZZZ,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:64: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:65: error: cannot find symbol
+    [javac]                 LOCALE_EN});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:66: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_QQ,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:66: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_QQ,
+    [javac]                                                   ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:68: error: cannot find symbol
+    [javac]                 LOCALE_EN_US_ZZZZ,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:69: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:70: error: cannot find symbol
+    [javac]                 LOCALE_EN,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:71: error: cannot find symbol
+    [javac]                 LOCALE_QQ});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:75: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_QQ, LOCALE_QQ, 
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:75: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_QQ, LOCALE_QQ, 
+    [javac]                                           ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:76: error: cannot find symbol
+    [javac]                 new Locale[]{LOCALE_QQ});
+    [javac]                              ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:77: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN, LOCALE_EN, 
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:77: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN, LOCALE_EN, 
+    [javac]                                           ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:78: error: cannot find symbol
+    [javac]                 new Locale[]{LOCALE_EN});
+    [javac]                              ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:79: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US, LOCALE_EN_US, 
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:79: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US, LOCALE_EN_US, 
+    [javac]                                              ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:81: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:82: error: cannot find symbol
+    [javac]                 LOCALE_EN});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:83: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US, LOCALE_QQ,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:83: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US, LOCALE_QQ,
+    [javac]                                              ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:85: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:86: error: cannot find symbol
+    [javac]                 LOCALE_EN,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:87: error: cannot find symbol
+    [javac]                 LOCALE_QQ});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:88: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US, LOCALE_QQ_ZZ,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:88: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US, LOCALE_QQ_ZZ,
+    [javac]                                              ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:90: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:91: error: cannot find symbol
+    [javac]                 LOCALE_EN,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:92: error: cannot find symbol
+    [javac]                 LOCALE_QQ_ZZ});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:93: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_EN_US_ZZZZ,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:93: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_EN_US_ZZZZ,
+    [javac]                                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:95: error: cannot find symbol
+    [javac]                 LOCALE_EN_US_ZZZZ,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:96: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:97: error: cannot find symbol
+    [javac]                 LOCALE_EN});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:98: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_EN,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:98: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_EN,
+    [javac]                                                   ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:100: error: cannot find symbol
+    [javac]                 LOCALE_EN_US_ZZZZ,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:101: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:102: error: cannot find symbol
+    [javac]                 LOCALE_EN});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:103: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_QQ,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:103: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_QQ,
+    [javac]                                                   ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:105: error: cannot find symbol
+    [javac]                 LOCALE_EN_US_ZZZZ,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:106: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:107: error: cannot find symbol
+    [javac]                 LOCALE_EN,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:108: error: cannot find symbol
+    [javac]                 LOCALE_QQ});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:109: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_QQ_ZZ,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:109: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_EN_US_ZZZZ, LOCALE_QQ_ZZ,
+    [javac]                                                   ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:111: error: cannot find symbol
+    [javac]                 LOCALE_EN_US_ZZZZ,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:112: error: cannot find symbol
+    [javac]                 LOCALE_EN_US,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:113: error: cannot find symbol
+    [javac]                 LOCALE_EN,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:114: error: cannot find symbol
+    [javac]                 LOCALE_QQ_ZZ});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:115: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_FR_CA, LOCALE_EN,
+    [javac]                                ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:115: error: cannot find symbol
+    [javac]         assertLocaleLookupList(LOCALE_FR_CA, LOCALE_EN,
+    [javac]                                              ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:117: error: cannot find symbol
+    [javac]                 LOCALE_FR_CA,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:118: error: cannot find symbol
+    [javac]                 LOCALE_FR,
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:119: error: cannot find symbol
+    [javac]                 LOCALE_EN});
+    [javac]                 ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:123: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_QQ, null, new Locale[]{LOCALE_QQ});
+    [javac]                            ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:123: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_QQ, null, new Locale[]{LOCALE_QQ});
+    [javac]                                                          ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:124: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_FR, null, new Locale[]{LOCALE_FR});
+    [javac]                            ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:124: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_FR, null, new Locale[]{LOCALE_FR});
+    [javac]                                                          ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:125: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_FR_CA, null, new Locale[]{LOCALE_FR_CA});
+    [javac]                            ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:125: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_FR_CA, null, new Locale[]{LOCALE_FR_CA});
+    [javac]                                                             ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:126: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_EN_US_ZZZZ, null,
+    [javac]                            ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:128: error: cannot find symbol
+    [javac]             LOCALE_EN_US_ZZZZ,
+    [javac]             ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:129: error: cannot find symbol
+    [javac]             LOCALE_EN_US,
+    [javac]             ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:130: error: cannot find symbol
+    [javac]             LOCALE_EN});
+    [javac]             ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:131: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_EN, null,
+    [javac]                            ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:133: error: cannot find symbol
+    [javac]             LOCALE_EN});
+    [javac]             ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:137: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_QQ, LOCALE_QQ, new Locale[]{LOCALE_QQ});
+    [javac]                            ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:137: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_QQ, LOCALE_QQ, new Locale[]{LOCALE_QQ});
+    [javac]                                       ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:137: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_QQ, LOCALE_QQ, new Locale[]{LOCALE_QQ});
+    [javac]                                                               ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:138: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_FR, LOCALE_EN, new Locale[]{LOCALE_FR, LOCALE_EN});
+    [javac]                            ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:138: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_FR, LOCALE_EN, new Locale[]{LOCALE_FR, LOCALE_EN});
+    [javac]                                       ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:138: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_FR, LOCALE_EN, new Locale[]{LOCALE_FR, LOCALE_EN});
+    [javac]                                                               ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:138: error: cannot find symbol
+    [javac]     assertLocaleLookupList(LOCALE_FR, LOCALE_EN, new Locale[]{LOCALE_FR, LOCALE_EN});
+    [javac]                                                                          ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] 100 errors
+    [javac] 48 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+- Compilation issues: Lang-5b-llm.15.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-lang3 3.2-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_24529_1702626865/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_24529_1702626865/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_24529_1702626865/.classes_testgen
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Constructor.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Modifier.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Constructor.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Modifier.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:176: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB", "", "GB", "");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:177: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB_P", "", "GB", "P");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:178: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB_POSIX", "", "GB", "POSIX");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:184: error: cannot find symbol
+    [javac]         assertValidToLocale("us");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:185: error: cannot find symbol
+    [javac]         assertValidToLocale("fr");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:186: error: cannot find symbol
+    [javac]         assertValidToLocale("de");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:187: error: cannot find symbol
+    [javac]         assertValidToLocale("zh");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:188: error: cannot find symbol
+    [javac]         assertValidToLocale("qq");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:192: error: cannot find symbol
+    [javac]         assertValidToLocale("us_EN", "us", "EN");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:193: error: cannot find symbol
+    [javac]         assertValidToLocale("us_ZH", "us", "ZH");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:197: error: cannot find symbol
+    [javac]         assertValidToLocale("us_EN_A", "us", "EN", "A");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:201: error: cannot find symbol
+    [javac]         assertValidToLocale("fr__P", "fr", "", "P");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:202: error: cannot find symbol
+    [javac]         assertValidToLocale("fr__POSIX", "fr", "", "POSIX");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:207: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN), LocaleUtils.isAvailableLocale(LOCALE_EN));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:207: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN), LocaleUtils.isAvailableLocale(LOCALE_EN));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:208: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US), LocaleUtils.isAvailableLocale(LOCALE_EN_US));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:208: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US), LocaleUtils.isAvailableLocale(LOCALE_EN_US));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:209: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US_ZZZZ), LocaleUtils.isAvailableLocale(LOCALE_EN_US_ZZZZ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:209: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US_ZZZZ), LocaleUtils.isAvailableLocale(LOCALE_EN_US_ZZZZ));
+    [javac]                                                                                     ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:210: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR), LocaleUtils.isAvailableLocale(LOCALE_FR));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:210: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR), LocaleUtils.isAvailableLocale(LOCALE_FR));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:211: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR_CA), LocaleUtils.isAvailableLocale(LOCALE_FR_CA));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:211: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR_CA), LocaleUtils.isAvailableLocale(LOCALE_FR_CA));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:212: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ), LocaleUtils.isAvailableLocale(LOCALE_QQ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:212: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ), LocaleUtils.isAvailableLocale(LOCALE_QQ));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:213: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ_ZZ), LocaleUtils.isAvailableLocale(LOCALE_QQ_ZZ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:213: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ_ZZ), LocaleUtils.isAvailableLocale(LOCALE_QQ_ZZ));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:217: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB", "", "GB", "");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:218: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB_P", "", "GB", "P");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:219: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB_POSIX", "", "GB", "POSIX");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:225: error: cannot find symbol
+    [javac]         assertValidToLocale("us");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:226: error: cannot find symbol
+    [javac]         assertValidToLocale("fr");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:227: error: cannot find symbol
+    [javac]         assertValidToLocale("de");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:228: error: cannot find symbol
+    [javac]         assertValidToLocale("zh");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:229: error: cannot find symbol
+    [javac]         assertValidToLocale("qq");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:231: error: cannot find symbol
+    [javac]         assertInvalidToLocale("Us");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:232: error: cannot find symbol
+    [javac]         assertInvalidToLocale("US");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:233: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uS");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:234: error: cannot find symbol
+    [javac]         assertInvalidToLocale("u#");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:235: error: cannot find symbol
+    [javac]         assertInvalidToLocale("u");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:236: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uuu");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:237: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uu_U");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:241: error: cannot find symbol
+    [javac]         assertValidToLocale("us_EN", "us", "EN");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:242: error: cannot find symbol
+    [javac]         assertValidToLocale("us_ZH", "us", "ZH");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:244: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us-EN");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:245: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_En");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:246: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_en");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:247: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_eN");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:248: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uS_EN");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:249: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_E3");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:253: error: cannot find symbol
+    [javac]         assertValidToLocale("us_EN_A", "us", "EN", "A");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:255: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_EN-a");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:256: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uu_UU_");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:261: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN), LocaleUtils.isAvailableLocale(LOCALE_EN));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:261: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN), LocaleUtils.isAvailableLocale(LOCALE_EN));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:262: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US), LocaleUtils.isAvailableLocale(LOCALE_EN_US));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:262: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US), LocaleUtils.isAvailableLocale(LOCALE_EN_US));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:263: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US_ZZZZ), LocaleUtils.isAvailableLocale(LOCALE_EN_US_ZZZZ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:263: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US_ZZZZ), LocaleUtils.isAvailableLocale(LOCALE_EN_US_ZZZZ));
+    [javac]                                                                                     ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:264: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR), LocaleUtils.isAvailableLocale(LOCALE_FR));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:264: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR), LocaleUtils.isAvailableLocale(LOCALE_FR));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:265: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR_CA), LocaleUtils.isAvailableLocale(LOCALE_FR_CA));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:265: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR_CA), LocaleUtils.isAvailableLocale(LOCALE_FR_CA));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:266: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ), LocaleUtils.isAvailableLocale(LOCALE_QQ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:266: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ), LocaleUtils.isAvailableLocale(LOCALE_QQ));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:267: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ_ZZ), LocaleUtils.isAvailableLocale(LOCALE_QQ_ZZ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:267: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ_ZZ), LocaleUtils.isAvailableLocale(LOCALE_QQ_ZZ));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:269: error: cannot find symbol
+    [javac]         assertEquals(false, LocaleUtils.isAvailableLocale(LOCALE_A));
+    [javac]                                                           ^
+    [javac]   symbol:   variable LOCALE_A
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:270: error: cannot find symbol
+    [javac]         assertEquals(false, LocaleUtils.isAvailableLocale(LOCALE_US_EN));
+    [javac]                                                           ^
+    [javac]   symbol:   variable LOCALE_US_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:271: error: cannot find symbol
+    [javac]         assertEquals(false, LocaleUtils.isAvailableLocale(LOCALE_JA_JP));
+    [javac]                                                           ^
+    [javac]   symbol:   variable LOCALE_JA_JP
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:275: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB", "", "GB", "");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:276: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB_P", "", "GB", "P");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:277: error: cannot find symbol
+    [javac]         assertValidToLocale("_GB_POSIX", "", "GB", "POSIX");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:278: error: cannot find symbol
+    [javac]         assertValidToLocale("_GE", "", "GE", "");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:279: error: cannot find symbol
+    [javac]         assertInvalidToLocale("_Ge");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:280: error: cannot find symbol
+    [javac]         assertInvalidToLocale("_gE");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:281: error: cannot find symbol
+    [javac]         assertInvalidToLocale("_1E");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:282: error: cannot find symbol
+    [javac]         assertInvalidToLocale("_GE_");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:283: error: cannot find symbol
+    [javac]         assertInvalidToLocale("_GEAP");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:289: error: cannot find symbol
+    [javac]         assertValidToLocale("us");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:290: error: cannot find symbol
+    [javac]         assertValidToLocale("fr");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:291: error: cannot find symbol
+    [javac]         assertValidToLocale("de");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:292: error: cannot find symbol
+    [javac]         assertValidToLocale("zh");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:293: error: cannot find symbol
+    [javac]         assertValidToLocale("qq");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:294: error: cannot find symbol
+    [javac]         assertInvalidToLocale("Us");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:295: error: cannot find symbol
+    [javac]         assertInvalidToLocale("US");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:296: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uS");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:297: error: cannot find symbol
+    [javac]         assertInvalidToLocale("u#");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:298: error: cannot find symbol
+    [javac]         assertInvalidToLocale("u");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:299: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uuu");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:300: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uu_U");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:301: error: cannot find symbol
+    [javac]         assertValidToLocale("hs");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:302: error: cannot find symbol
+    [javac]         assertInvalidToLocale("Hs");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:306: error: cannot find symbol
+    [javac]         assertValidToLocale("us_EN", "us", "EN");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:307: error: cannot find symbol
+    [javac]         assertValidToLocale("us_ZH", "us", "ZH");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:308: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us-EN");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:309: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_En");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:310: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_en");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:311: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_eN");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:312: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uS_EN");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] 100 errors
+    [javac] 48 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Lang-5b-llm.15.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-lang3 3.2-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_24529_1702626865/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_24529_1702626865/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_24529_1702626865/.classes_testgen
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Constructor.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Modifier.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Constructor.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Modifier.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:359: error: cannot find symbol
+    [javac]         assertValidToLocale("us_EN_A", "us", "EN", "A");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:360: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_EN-a");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:361: error: cannot find symbol
+    [javac]         assertInvalidToLocale("uu_UU_");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:362: error: cannot find symbol
+    [javac]         assertValidToLocale("us_GE_12", "us", "GE", "12");
+    [javac]         ^
+    [javac]   symbol:   method assertValidToLocale(String,String,String,String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:363: error: cannot find symbol
+    [javac]         assertInvalidToLocale("us_GE-a_12");
+    [javac]         ^
+    [javac]   symbol:   method assertInvalidToLocale(String)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:368: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN), LocaleUtils.isAvailableLocale(LOCALE_EN));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:368: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN), LocaleUtils.isAvailableLocale(LOCALE_EN));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:369: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US), LocaleUtils.isAvailableLocale(LOCALE_EN_US));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:369: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US), LocaleUtils.isAvailableLocale(LOCALE_EN_US));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:370: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US_ZZZZ), LocaleUtils.isAvailableLocale(LOCALE_EN_US_ZZZZ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:370: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US_ZZZZ), LocaleUtils.isAvailableLocale(LOCALE_EN_US_ZZZZ));
+    [javac]                                                                                     ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:371: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR), LocaleUtils.isAvailableLocale(LOCALE_FR));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:371: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR), LocaleUtils.isAvailableLocale(LOCALE_FR));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_FR
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:372: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR_CA), LocaleUtils.isAvailableLocale(LOCALE_FR_CA));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:372: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_FR_CA), LocaleUtils.isAvailableLocale(LOCALE_FR_CA));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_FR_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:373: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ), LocaleUtils.isAvailableLocale(LOCALE_QQ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:373: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ), LocaleUtils.isAvailableLocale(LOCALE_QQ));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_QQ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:374: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ_ZZ), LocaleUtils.isAvailableLocale(LOCALE_QQ_ZZ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:374: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_QQ_ZZ), LocaleUtils.isAvailableLocale(LOCALE_QQ_ZZ));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_QQ_ZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:375: error: cannot find symbol
+    [javac]         assertEquals(false, LocaleUtils.isAvailableLocale(LOCALE_A));
+    [javac]                                                           ^
+    [javac]   symbol:   variable LOCALE_A
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:376: error: cannot find symbol
+    [javac]         assertEquals(false, LocaleUtils.isAvailableLocale(LOCALE_US_EN));
+    [javac]                                                           ^
+    [javac]   symbol:   variable LOCALE_US_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:377: error: cannot find symbol
+    [javac]         assertEquals(false, LocaleUtils.isAvailableLocale(LOCALE_JA_JP));
+    [javac]                                                           ^
+    [javac]   symbol:   variable LOCALE_JA_JP
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:378: error: cannot find symbol
+    [javac]         assertEquals(true, LocaleUtils.isAvailableLocale(LOCALE_GE));
+    [javac]                                                          ^
+    [javac]   symbol:   variable LOCALE_GE
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:379: error: cannot find symbol
+    [javac]         assertEquals(true, LocaleUtils.isAvailableLocale(LOCALE_TYPICK));
+    [javac]                                                          ^
+    [javac]   symbol:   variable LOCALE_TYPICK
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:387: error: cannot find symbol
+    [javac]         assertUnmodifiableCollection(set);
+    [javac]         ^
+    [javac]   symbol:   method assertUnmodifiableCollection(Set<Locale>)
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:393: error: cannot find symbol
+    [javac]         jdkLocaleSet.remove(LOCALE_EN_US);
+    [javac]                             ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:401: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN), LocaleUtils.isAvailableLocale(LOCALE_EN));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:401: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN), LocaleUtils.isAvailableLocale(LOCALE_EN));
+    [javac]                                                                             ^
+    [javac]   symbol:   variable LOCALE_EN
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:402: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US), LocaleUtils.isAvailableLocale(LOCALE_EN_US));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:402: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US), LocaleUtils.isAvailableLocale(LOCALE_EN_US));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_EN_US
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:403: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US_ZZZZ), LocaleUtils.isAvailableLocale(LOCALE_EN_US_ZZZZ));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:403: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_US_ZZZZ), LocaleUtils.isAvailableLocale(LOCALE_EN_US_ZZZZ));
+    [javac]                                                                                     ^
+    [javac]   symbol:   variable LOCALE_EN_US_ZZZZ
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:406: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_UK), LocaleUtils.isAvailableLocale(LOCALE_EN_UK));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_UK
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:406: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_UK), LocaleUtils.isAvailableLocale(LOCALE_EN_UK));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_EN_UK
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:407: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_CA), LocaleUtils.isAvailableLocale(LOCALE_EN_CA));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_EN_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:407: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_EN_CA), LocaleUtils.isAvailableLocale(LOCALE_EN_CA));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_EN_CA
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:408: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_JA_JP), LocaleUtils.isAvailableLocale(LOCALE_JA_JP));
+    [javac]                                   ^
+    [javac]   symbol:   variable LOCALE_JA_JP
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:408: error: cannot find symbol
+    [javac]         assertEquals(set.contains(LOCALE_JA_JP), LocaleUtils.isAvailableLocale(LOCALE_JA_JP));
+    [javac]                                                                                ^
+    [javac]   symbol:   variable LOCALE_JA_JP
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:457: error: cannot find symbol
+    [javac]         assertLanguageByCountry(null, new String[0]);
+    [javac]         ^
+    [javac]   symbol:   method assertLanguageByCountry(<null>,String[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:458: error: cannot find symbol
+    [javac]         assertLanguageByCountry("GB", new String[]{"en"});
+    [javac]         ^
+    [javac]   symbol:   method assertLanguageByCountry(String,String[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:459: error: cannot find symbol
+    [javac]         assertLanguageByCountry("ZZ", new String[0]);
+    [javac]         ^
+    [javac]   symbol:   method assertLanguageByCountry(String,String[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:460: error: cannot find symbol
+    [javac]         assertLanguageByCountry("CH", new String[]{"fr", "de", "it"});
+    [javac]         ^
+    [javac]   symbol:   method assertLanguageByCountry(String,String[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:463: error: cannot find symbol
+    [javac]         assertLanguageByCountry("", new String[0]);
+    [javac]         ^
+    [javac]   symbol:   method assertLanguageByCountry(String,String[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:464: error: cannot find symbol
+    [javac]         assertLanguageByCountry("US", new String[]{"en"});
+    [javac]         ^
+    [javac]   symbol:   method assertLanguageByCountry(String,String[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:465: error: cannot find symbol
+    [javac]         assertLanguageByCountry("CN", new String[0]);
+    [javac]         ^
+    [javac]   symbol:   method assertLanguageByCountry(String,String[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:466: error: cannot find symbol
+    [javac]         assertLanguageByCountry("DE", new String[]{"de"});
+    [javac]         ^
+    [javac]   symbol:   method assertLanguageByCountry(String,String[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_24529_1702626865/llm/org/apache/commons/lang3/LocaleUtils_LLMTest.java:467: error: cannot find symbol
+    [javac]         assertLanguageByCountry("RU", new String[]{"ru"});
+    [javac]         ^
+    [javac]   symbol:   method assertLanguageByCountry(String,String[])
+    [javac]   location: class LocaleUtils_LLMTest
+    [javac] 47 errors
+    [javac] 48 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

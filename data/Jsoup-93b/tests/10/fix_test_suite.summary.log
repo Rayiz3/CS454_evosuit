@@ -1,0 +1,23 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-16 06:18:21  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Jsoup-93b-llm.10.tar.bz2
+  - Removing 3 uncompilable test method(s):
+--- org.jsoup.nodes.FormElement_LLMTest::test3
+--- org.jsoup.nodes.FormElement_LLMTest::test7
+--- org.jsoup.nodes.FormElement_LLMTest::test12
+ - Removing 11 broken test method(s): Jsoup-93b-llm.10.tar.bz2
+org.jsoup.nodes.FormElement_LLMTest::test14
+org.jsoup.nodes.FormElement_LLMTest::test16
+org.jsoup.nodes.FormElement_LLMTest::test18
+org.jsoup.nodes.FormElement_LLMTest::test21
+org.jsoup.nodes.FormElement_LLMTest::test24
+org.jsoup.nodes.FormElement_LLMTest::test25
+org.jsoup.nodes.FormElement_LLMTest::test26
+org.jsoup.nodes.FormElement_LLMTest::test31
+org.jsoup.nodes.FormElement_LLMTest::test1
+org.jsoup.nodes.FormElement_LLMTest::test8
+org.jsoup.nodes.FormElement_LLMTest::test9
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 3 (see /root/workspace/data/Jsoup-93b/tests/10/fix_test_suite.compile.log file for more information)
+Number of failing tests: 11 (see /root/workspace/data/Jsoup-93b/tests/10/fix_test_suite.run.log file for more information)
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-16 06:18:39  ######

@@ -1,0 +1,104 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-15 22:53:25  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 15 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test62
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test63
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test64
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test65
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test66
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test67
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test68
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test69
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+ - Removing uncompilable test method(s): Compress-34b-llm.21.tar.bz2
+  - Removing 7 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test70
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test71
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test72
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test73
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test74
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test75
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test76
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 78 (see /root/workspace/data/Compress-34b/tests/21/fix_test_suite.compile.log file for more information)
+Number of failing tests: 0
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-15 22:53:45  ######

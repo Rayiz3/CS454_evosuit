@@ -1,0 +1,628 @@
+    @Test
+    public void test0() throws Exception {
+        String[] twoShortOptions = new String[]{"-t1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+    }
+    @Test
+    public void test1() throws Exception {
+        String[] twoShortOptions_Regression1 = new String[]{"-t1", "-last"};
+
+        final CommandLine commandLine_Regression1 = parser.parse(options, twoShortOptions_Regression1);
+
+        assertTrue(commandLine_Regression1.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine_Regression1.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine_Regression1.hasOption("last"));
+    }
+    @Test
+    public void test2() throws Exception {
+        String[] twoShortOptions_Regression2 = new String[]{"-t1", "-last"};
+
+        final CommandLine commandLine_Regression2 = parser.parse(options, twoShortOptions_Regression2);
+
+        assertTrue(commandLine_Regression2.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine_Regression2.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine_Regression2.hasOption("last"));
+    }
+    @Test
+    public void test3() throws Exception {
+        String[] shortOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test4() throws Exception {
+        String[] shortOptionWithValue_Regression1 = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine_Regression1 = parser.parse(options, shortOptionWithValue_Regression1);
+
+        assertEquals("path/to/my/db", commandLine_Regression1.getOptionValue("t1"));
+        assertFalse(commandLine_Regression1.hasOption("last"));
+    }
+    @Test
+    public void test5() throws Exception {
+        String[] shortOptionWithValue_Regression2 = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine_Regression2 = parser.parse(options, shortOptionWithValue_Regression2);
+
+        assertEquals("path/to/my/db", commandLine_Regression2.getOptionValue("t1"));
+        assertFalse(commandLine_Regression2.hasOption("last"));
+    }
+@Test
+public void test6() throws Exception {
+    String[] twoShortOptions = new String[]{"-t1", "-last"};
+
+    final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+    assertTrue(commandLine.hasOption("t1"));
+    assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("t1"));
+    assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+
+    assertFalse(commandLine.hasOption("-extra")); // Inserted regression test case
+}
+@Test
+public void test7() throws Exception {
+    String[] shortOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+    final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+    assertEquals("path/to/my/db", commandLine.getOptionValue("t1"));
+    assertFalse(commandLine.hasOption("last"));
+
+    assertNull(commandLine.getOptionValue("-random")); // Inserted regression test case
+}
+@Test
+public void test8() throws Exception {
+    String[] twoShortOptions = new String[]{"-t1", "-last"};
+
+    final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+    assertTrue(commandLine.hasOption("t1"));
+    assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("t1"));
+    assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+}
+@Test(expected = ParseException.class)
+public void test9() throws Exception {
+    String[] emptyArgument = new String[]{};
+
+    parser.parse(options, emptyArgument);
+}
+@Test(expected = NullPointerException.class)
+public void test10() throws Exception {
+    String[] shortOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+    parser.parse(null, shortOptionWithValue);
+}
+@Test(expected = ParseException.class)
+public void test11() throws Exception {
+    boolean booleanArgument = true;
+
+    parser.parse(options, booleanArgument, stopAtNonOption);
+}
+@Test
+public void test12() throws Exception {
+    String[] shortOptionWithEmptyValue = new String[]{"-t1", ""};
+
+    final CommandLine commandLine = parser.parse(options, shortOptionWithEmptyValue);
+
+    assertEquals("", commandLine.getOptionValue("t1"));
+    assertFalse(commandLine.hasOption("last"));
+}
+    @Test
+    public void test13() throws Exception {
+        String[] twoShortOptions = new String[]{"-t1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+    }
+    @Test
+    public void test14() throws Exception {
+        String[] twoShortOptions = new String[]{"-t1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions, null, false);
+
+        assertTrue(commandLine.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+    }
+    @Test
+    public void test15() throws Exception {
+        String[] shortOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test16() throws Exception {
+        String[] shortOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue, null, false);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test17() throws Exception {
+        Properties properties = null;
+
+        assertDoesNotThrow(() -> {
+            handleProperties(properties);
+        });
+    }
+    @Test
+    public void test18() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("unknownOption", "true");
+
+        assertThrows(UnrecognizedOptionException.class, () -> {
+            handleProperties(properties);
+        });
+    }
+    @Test
+    public void test19() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("newOption", "true");
+
+        CommandLine cmd = new DefaultParser().parse(options, new String[]{});
+
+        handleProperties(properties);
+
+        assertTrue(cmd.hasOption("newOption"));
+    }
+    @Test
+    public void test20() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("option2", "true");
+
+        CommandLine cmd = new DefaultParser().parse(options, new String[]{"-option1"});
+
+        handleProperties(properties);
+
+        assertFalse(cmd.hasOption("option2"));
+    }
+    @Test
+    public void test21() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("option1", "value1");
+
+        CommandLine cmd = new DefaultParser().parse(options, new String[]{});
+
+        handleProperties(properties);
+
+        assertEquals("value1", cmd.getOptionValue("option1"));
+    }
+    @Test
+    public void test22() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("option1", "no");
+
+        CommandLine cmd = new DefaultParser().parse(options, new String[]{});
+
+        handleProperties(properties);
+
+        assertFalse(cmd.hasOption("option1"));
+    }
+    @Test
+    public void test23() {
+        String[] emptyOptions = new String[]{};
+
+        assertThrows(MissingOptionException.class, () -> parser.parse(options, emptyOptions));
+    }
+    @Test
+    public void test24() {
+        String[] missingRequiredOption = new String[]{"-t1"};
+
+        assertThrows(MissingOptionException.class, () -> parser.parse(options, missingRequiredOption));
+    }
+    @Test
+    public void test25() throws Exception {
+        String[] singleOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, singleOptionWithValue);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test26() throws Exception {
+        String[] duplicateOptionValues = new String[]{"-t1", "value1", "-last", "value1"};
+
+        final CommandLine commandLine = parser.parse(options, duplicateOptionValues);
+
+        assertEquals("value1", commandLine.getOptionValue("t1"));
+        assertEquals("value1", commandLine.getOptionValue("last"));
+    }
+    @Test
+    public void test27() {
+        Options options = new Options();
+        Option option = new Option("t1", true, "description");
+        option.setRequired(true);
+        options.addOption(option);
+        CommandLineParser parser = new DefaultParser();
+        String[] args = new String[]{"-t1"};
+
+        try {
+            parser.parse(options, args);
+            fail("MissingArgumentException not thrown");
+        } catch (ParseException e) {
+            assertTrue(e instanceof MissingArgumentException);
+            assertEquals("Missing argument for option: t1", e.getMessage());
+        }
+    }
+    @Test
+    public void test28() {
+        Options options = new Options();
+        Option option = new Option("t1", false, "description");
+        options.addOption(option);
+        CommandLineParser parser = new DefaultParser();
+        String[] args = new String[]{"-t1"};
+
+        try {
+            parser.parse(options, args);
+        } catch (ParseException e) {
+            fail("Unexpected ParseException: " + e.getMessage());
+        }
+    }
+    @Test
+    public void test29() {
+        Options options = new Options();
+        Option option = new Option("t1", true, "description");
+        options.addOption(option);
+        CommandLineParser parser = new DefaultParser();
+        String[] args = new String[]{"-t1", "path/to/file"};
+
+        try {
+            parser.parse(options, args);
+        } catch (ParseException e) {
+            fail("Unexpected ParseException: " + e.getMessage());
+        }
+    }
+    @Test
+    public void test30() throws Exception {
+        String[] twoShortOptions = new String[]{"-t1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+    }
+    @Test
+    public void test31() throws Exception {
+        String[] twoShortOptions = new String[]{"-t1", "-lastName"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-lastName", commandLine.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("lastName"));
+    }
+    @Test
+    public void test32() throws Exception {
+        String[] shortOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test33() throws Exception {
+        String[] shortOptionWithValue = new String[]{"-t1", "path/to/your/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/your/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test34() throws Exception {
+        String[] twoShortOptions = new String[]{"-t1", "-short"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-short", commandLine.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("short"));
+    }
+    @Test
+    public void test35() throws Exception {
+        String[] shortOptionWithValue = new String[]{"-t1", "path/to/new/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/new/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+@Test
+public void test36() {
+    assertTrue(isNegativeNumber("-1.0")); // negative decimal number
+    assertTrue(isNegativeNumber("-10")); // negative integer
+    assertFalse(isNegativeNumber("1.0")); // positive decimal number
+    assertFalse(isNegativeNumber("10")); // positive integer
+    assertFalse(isNegativeNumber("-")); // minus sign without number
+    assertFalse(isNegativeNumber("-1.0.0")); // multiple decimal points
+    assertFalse(isNegativeNumber("-1,000.00")); // comma instead of decimal point
+    assertFalse(isNegativeNumber("-1a")); // non-numeric character
+    assertFalse(isNegativeNumber("-1.0e-5")); // scientific notation
+}
+    @Test
+    public void test37() throws Exception {
+        String[] twoShortOptions = new String[]{"-t1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+    }
+    @Test
+    public void test38() throws Exception {
+        String[] shortOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test39() throws Exception {
+        String[] twoShortOptions = new String[]{"-a1", "-b2"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("a1"));
+        assertNotEquals("Second option has been used as value for first option", "-b2", commandLine.getOptionValue("a1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("b2"));
+    }
+    @Test
+    public void test40() throws Exception {
+        String[] shortOptionWithValue = new String[]{"-a1", "path/to/file"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/file", commandLine.getOptionValue("a1"));
+        assertFalse(commandLine.hasOption("b2"));
+    }
+    @Test
+    public void test41() throws Exception {
+        // Regression test case 1
+        String[] twoShortOptions = new String[]{"-a1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("a1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("a1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+
+        // Original test case
+        String[] twoShortOptions = new String[]{"-t1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+
+        // Regression test case 2
+        String[] twoShortOptions = new String[]{"-z1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("z1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("z1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+    }
+    @Test
+    public void test42() throws Exception {
+        // Regression test case 1
+        String[] shortOptionWithValue = new String[]{"-a1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("a1"));
+        assertFalse(commandLine.hasOption("last"));
+
+        // Original test case
+        String[] shortOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+
+        // Regression test case 2
+        String[] shortOptionWithValue = new String[]{"-z1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("z1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test43() throws Exception {
+        String[] twoShortOptions = new String[]{"-t1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, twoShortOptions);
+
+        assertTrue(commandLine.hasOption("t1"));
+        assertNotEquals("Second option has been used as value for first option", "-last", commandLine.getOptionValue("t1"));
+        assertTrue("Second option has not been detected", commandLine.hasOption("last"));
+    }
+    @Test
+    public void test44() throws Exception {
+        String[] shortOptionWithValue = new String[]{"-t1", "path/to/my/db"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithValue);
+
+        assertEquals("path/to/my/db", commandLine.getOptionValue("t1"));
+        assertFalse(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test45() throws Exception {
+        String[] shortOptionsWithoutDash = new String[]{"t1", "-last"};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionsWithoutDash);
+
+        assertFalse(commandLine.hasOption("t1"));
+        assertTrue(commandLine.hasOption("last"));
+    }
+    @Test
+    public void test46() throws Exception {
+        String[] shortOptionWithEmptyValue = new String[]{"-t1", ""};
+
+        final CommandLine commandLine = parser.parse(options, shortOptionWithEmptyValue);
+
+        assertEquals("", commandLine.getOptionValue("t1"));
+    }
+@Test
+public void test47() throws ParseException {
+    // Arrange
+    String token = "--option";
+
+    // Act
+    handleUnknownToken(token);
+
+    // Assert
+    // Verify the command argument is added
+    assertEquals(cmd.getArgs().size(), 1);
+    assertEquals(cmd.getArgs().get(0), token);
+    // Verify that skipParsing is not set to true
+    assertFalse(skipParsing);
+}
+@Test
+public void test48() throws ParseException {
+    // Arrange
+    String token = "-o";
+
+    // Act
+    handleUnknownToken(token);
+
+    // Assert
+    // Verify the command argument is added
+    assertEquals(cmd.getArgs().size(), 1);
+    assertEquals(cmd.getArgs().get(0), token);
+    // Verify that skipParsing is not set to true
+    assertFalse(skipParsing);
+}
+@Test
+public void test49() throws ParseException {
+    // Arrange
+    String token = "/option";
+
+    // Act and Assert
+    ParseException exception = assertThrows(UnrecognizedOptionException.class, () -> handleUnknownToken(token));
+    assertEquals("Unrecognized option: " + token, exception.getMessage());
+    assertEquals(token, exception.getOption());
+    // Verify that skipParsing is not set to true
+    assertFalse(skipParsing);
+}
+@Test
+public void test50() throws ParseException {
+    // Arrange
+    String token = "--option=";
+
+    // Act
+    handleUnknownToken(token);
+
+    // Assert
+    // Verify the command argument is added
+    assertEquals(cmd.getArgs().size(), 1);
+    assertEquals(cmd.getArgs().get(0), token);
+    // Verify that skipParsing is not set to true
+    assertFalse(skipParsing);
+}
+@Test
+public void test51() throws ParseException {
+    // Arrange
+    String token = "option";
+    stopAtNonOption = true;
+
+    // Act
+    handleUnknownToken(token);
+
+    // Assert
+    // Verify the command argument is added
+    assertEquals(cmd.getArgs().size(), 1);
+    assertEquals(cmd.getArgs().get(0), token);
+    // Verify that skipParsing is set to true
+    assertTrue(skipParsing);
+}
+@Test
+public void test52() throws ParseException {
+    // Arrange
+    String token = "/option";
+    stopAtNonOption = true;
+
+    // Act and Assert
+    ParseException exception = assertThrows(UnrecognizedOptionException.class, () -> handleUnknownToken(token));
+    assertEquals("Unrecognized option: " + token, exception.getMessage());
+    assertEquals(token, exception.getOption());
+    // Verify that skipParsing is set to true
+    assertTrue(skipParsing);
+}
+@Test
+public void test53() throws ParseException {
+    // Test case where token does not contain '='
+    String token = "--option";
+    
+    // Perform the method call
+    handleLongOption(token);
+    
+    // Add assertions here
+}
+@Test
+public void test54() throws ParseException {
+    // Test case where token contains '='
+    String token = "--option=value";
+    
+    // Perform the method call
+    handleLongOption(token);
+    
+    // Add assertions here
+}
+@Test
+public void test55() throws ParseException {
+    String token = "--unknown";
+    
+    try {
+        handleLongOptionWithoutEqual(token);
+        fail("Expected ParseException to be thrown");
+    } catch (ParseException e) {
+        assertEquals("Unknown option: " + token, e.getMessage());
+    }
+}
+@Test
+public void test56() throws ParseException {
+    String token = "--opt";
+    
+    try {
+        handleLongOptionWithoutEqual(token);
+        fail("Expected AmbiguousOptionException to be thrown");
+    } catch (AmbiguousOptionException e) {
+        assertEquals(token, e.getToken());
+        assertEquals(Arrays.asList("--option1", "--option2"), e.getMatchingOptions());
+    }
+}
+@Test
+public void test57() throws ParseException {
+    String token = "--option1";
+    
+    handleLongOptionWithoutEqual(token);
+    
+    // Assertion here
+}
+}
+

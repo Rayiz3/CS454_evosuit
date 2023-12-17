@@ -1,0 +1,50 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-14 20:10:53  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Codec-17b-llm.10.tar.bz2
+  - Removing 38 uncompilable test method(s):
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test0
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test1
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test2
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test3
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test4
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test5
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test6
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test7
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test8
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test9
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test10
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test11
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test15
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test16
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test17
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test19
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test20
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test21
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test23
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test24
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test25
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test26
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test27
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test28
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test29
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test30
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test31
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test32
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test51
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test57
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test58
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test59
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test60
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test61
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test62
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test63
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test66
+--- org.apache.commons.codec.binary.StringUtils_LLMTest::test67
+ - Removing 3 broken test method(s): Codec-17b-llm.10.tar.bz2
+org.apache.commons.codec.binary.StringUtils_LLMTest::test52
+org.apache.commons.codec.binary.StringUtils_LLMTest::test64
+org.apache.commons.codec.binary.StringUtils_LLMTest::test65
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 38 (see /root/workspace/data/Codec-17b/tests/10/fix_test_suite.compile.log file for more information)
+Number of failing tests: 3 (see /root/workspace/data/Codec-17b/tests/10/fix_test_suite.run.log file for more information)
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-14 20:11:10  ######

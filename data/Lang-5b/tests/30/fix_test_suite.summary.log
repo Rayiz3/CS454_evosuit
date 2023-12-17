@@ -1,0 +1,27 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-15 00:46:55  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Lang-5b-llm.30.tar.bz2
+  - Removing 9 uncompilable test method(s):
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test0
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test1
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test2
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test3
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test4
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test5
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test6
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test7
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test8
+ - Removing uncompilable test method(s): Lang-5b-llm.30.tar.bz2
+  - Removing 5 uncompilable test method(s):
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test9
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test10
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test12
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test23
+--- org.apache.commons.lang3.LocaleUtils_LLMTest::test24
+ - Removing 2 broken test method(s): Lang-5b-llm.30.tar.bz2
+org.apache.commons.lang3.LocaleUtils_LLMTest::test18
+org.apache.commons.lang3.LocaleUtils_LLMTest::test19
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 14 (see /root/workspace/data/Lang-5b/tests/30/fix_test_suite.compile.log file for more information)
+Number of failing tests: 2 (see /root/workspace/data/Lang-5b/tests/30/fix_test_suite.run.log file for more information)
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-15 00:47:16  ######

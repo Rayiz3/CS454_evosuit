@@ -1,0 +1,864 @@
+- Compilation issues: Compress-34b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_22673_1702634653/target/classes
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 158 source files to /tmp/fix_test_suite.pl_22673_1702634653/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Date.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Flushable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/EOFException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Matcher.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/DataInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/CRC32.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/EnumSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/PriorityQueue.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Queue.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Stack.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/DataFormatException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/Inflater.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/cert/Certificate.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/jar/Attributes.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/jar/JarEntry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipEntry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipConstants.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PushbackInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/RandomAccessFile.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Calendar.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/Deflater.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/DataOutput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigInteger.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/GeneralSecurityException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/MessageDigest.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/Cipher.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/CipherInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/SecretKey.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/spec/IvParameterSpec.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/spec/SecretKeySpec.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/BitSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TimeZone.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/DataInput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/DeflaterOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/InflaterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/DataOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteOrder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ConcurrentHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/InstantiationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalAccessException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/CharBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/CharsetEncoder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/CoderResult.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/CodingErrorAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Callable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ExecutionException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ExecutorService.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Executors.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/Future.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/TimeUnit.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/atomic/AtomicInteger.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileNotFoundException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/concurrent/ConcurrentLinkedQueue.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ThreadLocal.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] 100 warnings
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_22673_1702634653/target/classes/META-INF
+     [copy] Copying 2 files to /tmp/fix_test_suite.pl_22673_1702634653/target/classes/META-INF
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_22673_1702634653/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_22673_1702634653/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1151: error: ')' expected
+    [javac]         assertEquals(-1234567 * version ^ Integer.rotateLeft(12345.hashCode(), 16) ^ gid.hashCode(), xf.hashCode());
+    [javac]                                                                    ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1151: error: ';' expected
+    [javac]         assertEquals(-1234567 * version ^ Integer.rotateLeft(12345.hashCode(), 16) ^ gid.hashCode(), xf.hashCode());
+    [javac]                                                                            ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1151: error: illegal start of expression
+    [javac]         assertEquals(-1234567 * version ^ Integer.rotateLeft(12345.hashCode(), 16) ^ gid.hashCode(), xf.hashCode());
+    [javac]                                                                             ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1151: error: ';' expected
+    [javac]         assertEquals(-1234567 * version ^ Integer.rotateLeft(12345.hashCode(), 16) ^ gid.hashCode(), xf.hashCode());
+    [javac]                                                                              ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1151: error: not a statement
+    [javac]         assertEquals(-1234567 * version ^ Integer.rotateLeft(12345.hashCode(), 16) ^ gid.hashCode(), xf.hashCode());
+    [javac]                                                                                ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1151: error: ';' expected
+    [javac]         assertEquals(-1234567 * version ^ Integer.rotateLeft(12345.hashCode(), 16) ^ gid.hashCode(), xf.hashCode());
+    [javac]                                                                                  ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1151: error: ';' expected
+    [javac]         assertEquals(-1234567 * version ^ Integer.rotateLeft(12345.hashCode(), 16) ^ gid.hashCode(), xf.hashCode());
+    [javac]                                                                                                    ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1151: error: ';' expected
+    [javac]         assertEquals(-1234567 * version ^ Integer.rotateLeft(12345.hashCode(), 16) ^ gid.hashCode(), xf.hashCode());
+    [javac]                                                                                                                   ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1163: error: ')' expected
+    [javac]         assertEquals(-1234567 * version ^ uid.hashCode() ^ 12345.hashCode(), xf.hashCode());
+    [javac]                                                                  ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1163: error: illegal start of expression
+    [javac]         assertEquals(-1234567 * version ^ uid.hashCode() ^ 12345.hashCode(), xf.hashCode());
+    [javac]                                                                           ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1163: error: not a statement
+    [javac]         assertEquals(-1234567 * version ^ uid.hashCode() ^ 12345.hashCode(), xf.hashCode());
+    [javac]                                                                          ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1163: error: ';' expected
+    [javac]         assertEquals(-1234567 * version ^ uid.hashCode() ^ 12345.hashCode(), xf.hashCode());
+    [javac]                                                                            ^
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:1163: error: ';' expected
+    [javac]         assertEquals(-1234567 * version ^ uid.hashCode() ^ 12345.hashCode(), xf.hashCode());
+    [javac]                                                                                           ^
+    [javac] 13 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+- Compilation issues: Compress-34b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_22673_1702634653/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_22673_1702634653/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_22673_1702634653/.classes_testgen
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Enumeration.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:8: error: cannot find symbol
+    [javac] import static org.apache.commons.compress.AbstractTestCase.getFile;
+    [javac]                                          ^
+    [javac]   symbol:   class AbstractTestCase
+    [javac]   location: package org.apache.commons.compress
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:8: error: static import only from classes and interfaces
+    [javac] import static org.apache.commons.compress.AbstractTestCase.getFile;
+    [javac] ^
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:495: error: cannot find symbol
+    [javac]     private void testGetLocalFileDataData(BigInteger[] values, byte[] expected) {
+    [javac]                                           ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Enumeration.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:17: error: cannot find symbol
+    [javac]         assertNotEquals(ZipShort.MS_DOS, xf.getHeaderId());
+    [javac]                                 ^
+    [javac]   symbol:   variable MS_DOS
+    [javac]   location: class ZipShort
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:17: error: cannot find symbol
+    [javac]         assertNotEquals(ZipShort.MS_DOS, xf.getHeaderId());
+    [javac]                                          ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:21: error: cannot find symbol
+    [javac]         assertNotEquals(ZipShort.ZERO, xf.getHeaderId());
+    [javac]                                 ^
+    [javac]   symbol:   variable ZERO
+    [javac]   location: class ZipShort
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:21: error: cannot find symbol
+    [javac]         assertNotEquals(ZipShort.ZERO, xf.getHeaderId());
+    [javac]                                        ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:25: error: cannot find symbol
+    [javac]         assertNotEquals(ZipShort.SPLIT_ARCHIVE, xf.getHeaderId());
+    [javac]                                 ^
+    [javac]   symbol:   variable SPLIT_ARCHIVE
+    [javac]   location: class ZipShort
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:25: error: cannot find symbol
+    [javac]         assertNotEquals(ZipShort.SPLIT_ARCHIVE, xf.getHeaderId());
+    [javac]                                                 ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:29: error: cannot find symbol
+    [javac]         File archive = getFile("COMPRESS-211_uid_gid_zip_test.zip");
+    [javac]                        ^
+    [javac]   symbol:   method getFile(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipEntry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/ZipEntry.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:42: error: cannot find symbol
+    [javac]                 X7875_NewUnix xf = (X7875_NewUnix) zae.getExtraField(X7875);
+    [javac]                                                                      ^
+    [javac]   symbol:   variable X7875
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:72: error: cannot find symbol
+    [javac]         File archive = getFile("COMPRESS-211_uid_gid_zip_test.zip");
+    [javac]                        ^
+    [javac]   symbol:   method getFile(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:85: error: cannot find symbol
+    [javac]                 X7875_NewUnix xf = (X7875_NewUnix) zae.getExtraField(X7875);
+    [javac]                                                                      ^
+    [javac]   symbol:   variable X7875
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:115: error: cannot find symbol
+    [javac]         File archive = getFile("COMPRESS-211_uid_gid_zip_test.zip");
+    [javac]                        ^
+    [javac]   symbol:   method getFile(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:128: error: cannot find symbol
+    [javac]                 X7875_NewUnix xf = (X7875_NewUnix) zae.getExtraField(X7875);
+    [javac]                                                                      ^
+    [javac]   symbol:   variable X7875
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:270: error: cannot find symbol
+    [javac]         xf.setUID(initialUID);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:271: error: cannot find symbol
+    [javac]         xf.setGID(initialGID);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:272: error: cannot find symbol
+    [javac]         xf.parseFromLocalFileData(input, 0, input.length);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:274: error: cannot find symbol
+    [javac]         assertEquals(expectedUID, xf.getUID());
+    [javac]                                   ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:275: error: cannot find symbol
+    [javac]         assertEquals(expectedGID, xf.getGID());
+    [javac]                                   ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:277: error: cannot find symbol
+    [javac]         byte[] output = xf.getLocalFileDataData();
+    [javac]                         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Math.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Math.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:343: error: cannot find symbol
+    [javac]         File archive = getFile("COMPRESS-211_uid_gid_zip_test.zip");
+    [javac]                        ^
+    [javac]   symbol:   method getFile(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:356: error: cannot find symbol
+    [javac]                 X7875_NewUnix xf = (X7875_NewUnix) zae.getExtraField(X7875);
+    [javac]                                                                      ^
+    [javac]   symbol:   variable X7875
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:465: error: cannot find symbol
+    [javac]         BigInteger zero = BigInteger.ZERO;
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:465: error: cannot find symbol
+    [javac]         BigInteger zero = BigInteger.ZERO;
+    [javac]                           ^
+    [javac]   symbol:   variable BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:466: error: cannot find symbol
+    [javac]         BigInteger[] values = {zero, zero};
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:471: error: cannot find symbol
+    [javac]         BigInteger nonZero = BigInteger.valueOf(123);
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:471: error: cannot find symbol
+    [javac]         BigInteger nonZero = BigInteger.valueOf(123);
+    [javac]                              ^
+    [javac]   symbol:   variable BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:472: error: cannot find symbol
+    [javac]         BigInteger[] values2 = {nonZero, nonZero};
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:477: error: cannot find symbol
+    [javac]         BigInteger nonZero1 = BigInteger.valueOf(123);
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:477: error: cannot find symbol
+    [javac]         BigInteger nonZero1 = BigInteger.valueOf(123);
+    [javac]                               ^
+    [javac]   symbol:   variable BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:478: error: cannot find symbol
+    [javac]         BigInteger nonZero2 = BigInteger.valueOf(456);
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:478: error: cannot find symbol
+    [javac]         BigInteger nonZero2 = BigInteger.valueOf(456);
+    [javac]                               ^
+    [javac]   symbol:   variable BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:479: error: cannot find symbol
+    [javac]         BigInteger[] values3 = {nonZero1, nonZero2};
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:480: error: possible loss of precision
+    [javac]         byte[] expectedNonZero2 = {1, 1, 123, 1, 456};
+    [javac]                                                  ^
+    [javac]   required: byte
+    [javac]   found:    int
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:484: error: cannot find symbol
+    [javac]         BigInteger max32Bit = BigInteger.valueOf(Integer.MAX_VALUE);
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:484: error: cannot find symbol
+    [javac]         BigInteger max32Bit = BigInteger.valueOf(Integer.MAX_VALUE);
+    [javac]                               ^
+    [javac]   symbol:   variable BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:485: error: cannot find symbol
+    [javac]         BigInteger[] values4 = {max32Bit, max32Bit};
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:490: error: cannot find symbol
+    [javac]         BigInteger max64Bit = BigInteger.valueOf(Long.MAX_VALUE);
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:490: error: cannot find symbol
+    [javac]         BigInteger max64Bit = BigInteger.valueOf(Long.MAX_VALUE);
+    [javac]                               ^
+    [javac]   symbol:   variable BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:491: error: cannot find symbol
+    [javac]         BigInteger[] values5 = {max64Bit, max64Bit};
+    [javac]         ^
+    [javac]   symbol:   class BigInteger
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:506: error: cannot find symbol
+    [javac]         File archive = getFile("COMPRESS-211_uid_gid_zip_test.zip");
+    [javac]                        ^
+    [javac]   symbol:   method getFile(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:519: error: cannot find symbol
+    [javac]                 X7875_NewUnix xf = (X7875_NewUnix) zae.getExtraField(X7875);
+    [javac]                                                                      ^
+    [javac]   symbol:   variable X7875
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:589: error: cannot find symbol
+    [javac]         xf.parseFromLocalFileData(SPURIOUS_ZEROES_1, 0, SPURIOUS_ZEROES_1.length);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:591: error: cannot find symbol
+    [javac]         assertEquals(255, xf.getUID());
+    [javac]                           ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:592: error: cannot find symbol
+    [javac]         assertEquals(128, xf.getGID());
+    [javac]                           ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:593: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(EXPECTED_1, xf.getLocalFileDataData()));
+    [javac]                                              ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:597: error: cannot find symbol
+    [javac]         xf.parseFromLocalFileData(SPURIOUS_ZEROES_2, 0, SPURIOUS_ZEROES_2.length);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:599: error: cannot find symbol
+    [javac]         assertEquals(65535, xf.getUID());
+    [javac]                             ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:600: error: cannot find symbol
+    [javac]         assertEquals(513, xf.getGID());
+    [javac]                           ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:601: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(EXPECTED_2, xf.getLocalFileDataData()));
+    [javac]                                              ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:605: error: cannot find symbol
+    [javac]         File archive = getFile("COMPRESS-211_uid_gid_zip_test.zip");
+    [javac]                        ^
+    [javac]   symbol:   method getFile(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:618: error: cannot find symbol
+    [javac]                 X7875_NewUnix xf = (X7875_NewUnix) zae.getExtraField(X7875);
+    [javac]                                                                      ^
+    [javac]   symbol:   variable X7875
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:688: error: cannot find symbol
+    [javac]         xf.parseFromLocalFileData(SPURIOUS_ZEROES_1, 0, SPURIOUS_ZEROES_1.length);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:690: error: cannot find symbol
+    [javac]         assertEquals(255, xf.getUID());
+    [javac]                           ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:691: error: cannot find symbol
+    [javac]         assertEquals(128, xf.getGID());
+    [javac]                           ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:692: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(EXPECTED_1, xf.getLocalFileDataData()));
+    [javac]                                              ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:696: error: cannot find symbol
+    [javac]         xf.parseFromLocalFileData(SPURIOUS_ZEROES_2, 0, SPURIOUS_ZEROES_2.length);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:698: error: cannot find symbol
+    [javac]         assertEquals(65535, xf.getUID());
+    [javac]                             ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:699: error: cannot find symbol
+    [javac]         assertEquals(513, xf.getGID());
+    [javac]                           ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:700: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(EXPECTED_2, xf.getLocalFileDataData()));
+    [javac]                                              ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:704: error: cannot find symbol
+    [javac]         File archive = getFile("COMPRESS-211_uid_gid_zip_test.zip");
+    [javac]                        ^
+    [javac]   symbol:   method getFile(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:717: error: cannot find symbol
+    [javac]                 X7875_NewUnix xf = (X7875_NewUnix) zae.getExtraField(X7875);
+    [javac]                                                                      ^
+    [javac]   symbol:   variable X7875
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:787: error: cannot find symbol
+    [javac]         xf.parseFromLocalFileData(SPURIOUS_ZEROES_1, 0, SPURIOUS_ZEROES_1.length);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:789: error: cannot find symbol
+    [javac]         assertEquals(255, xf.getUID());
+    [javac]                           ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:790: error: cannot find symbol
+    [javac]         assertEquals(128, xf.getGID());
+    [javac]                           ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:791: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(EXPECTED_1, xf.getLocalFileDataData()));
+    [javac]                                              ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:795: error: cannot find symbol
+    [javac]         xf.parseFromLocalFileData(SPURIOUS_ZEROES_2, 0, SPURIOUS_ZEROES_2.length);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:797: error: cannot find symbol
+    [javac]         assertEquals(65535, xf.getUID());
+    [javac]                             ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:798: error: cannot find symbol
+    [javac]         assertEquals(513, xf.getGID());
+    [javac]                           ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:799: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(EXPECTED_2, xf.getLocalFileDataData()));
+    [javac]                                              ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:808: error: cannot find symbol
+    [javac]             parseFromCentralDirectoryData(buffer, offset, length);
+    [javac]             ^
+    [javac]   symbol:   method parseFromCentralDirectoryData(byte[],int,int)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:809: error: cannot find symbol
+    [javac]             fail("Expected ZipException to be thrown");
+    [javac]             ^
+    [javac]   symbol:   method fail(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:821: error: cannot find symbol
+    [javac]             parseFromCentralDirectoryData(buffer, offset, length);
+    [javac]             ^
+    [javac]   symbol:   method parseFromCentralDirectoryData(byte[],int,int)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:822: error: cannot find symbol
+    [javac]             fail("Expected ZipException to be thrown");
+    [javac]             ^
+    [javac]   symbol:   method fail(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:834: error: cannot find symbol
+    [javac]             parseFromCentralDirectoryData(buffer, offset, length);
+    [javac]             ^
+    [javac]   symbol:   method parseFromCentralDirectoryData(byte[],int,int)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:835: error: cannot find symbol
+    [javac]             fail("Expected ZipException to be thrown");
+    [javac]             ^
+    [javac]   symbol:   method fail(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:847: error: cannot find symbol
+    [javac]             parseFromCentralDirectoryData(buffer, offset, length);
+    [javac]             ^
+    [javac]   symbol:   method parseFromCentralDirectoryData(byte[],int,int)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:848: error: cannot find symbol
+    [javac]             fail("Expected ZipException to be thrown");
+    [javac]             ^
+    [javac]   symbol:   method fail(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:860: error: cannot find symbol
+    [javac]             parseFromCentralDirectoryData(buffer, offset, length);
+    [javac]             ^
+    [javac]   symbol:   method parseFromCentralDirectoryData(byte[],int,int)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:861: error: cannot find symbol
+    [javac]             fail("Expected ZipException to be thrown");
+    [javac]             ^
+    [javac]   symbol:   method fail(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:873: error: cannot find symbol
+    [javac]             parseFromCentralDirectoryData(buffer, offset, length);
+    [javac]             ^
+    [javac]   symbol:   method parseFromCentralDirectoryData(byte[],int,int)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:874: error: cannot find symbol
+    [javac]             fail("Expected ZipException to be thrown");
+    [javac]             ^
+    [javac]   symbol:   method fail(String)
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:881: error: cannot find symbol
+    [javac]         assertEquals(X7875, xf.getHeaderId());
+    [javac]                      ^
+    [javac]   symbol:   variable X7875
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:881: error: cannot find symbol
+    [javac]         assertEquals(X7875, xf.getHeaderId());
+    [javac]                             ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:885: error: cannot find symbol
+    [javac]         assertFalse(xf.equals(new Object()));
+    [javac]                     ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:886: error: cannot find symbol
+    [javac]         assertTrue(xf.toString().startsWith("0x7875 Zip Extra Field"));
+    [javac]                    ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:887: error: cannot find symbol
+    [javac]         Object o = xf.clone();
+    [javac]                    ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:888: error: cannot find symbol
+    [javac]         assertEquals(o.hashCode(), xf.hashCode());
+    [javac]                                    ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:889: error: cannot find symbol
+    [javac]         assertTrue(xf.equals(o));
+    [javac]                    ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:890: error: cannot find symbol
+    [javac]         xf.setUID(12345);
+    [javac]         ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:891: error: cannot find symbol
+    [javac]         assertFalse(xf.equals(o));
+    [javac]                     ^
+    [javac]   symbol:   variable xf
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:908: error: cannot find symbol
+    [javac]         assertTrue(NULL == trimTest(NULL));
+    [javac]                            ^
+    [javac]   symbol:   method trimTest(byte[])
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:909: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(ONE_ZERO, trimTest(EMPTY)));
+    [javac]                                            ^
+    [javac]   symbol:   method trimTest(byte[])
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:910: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(ONE_ZERO, trimTest(ONE_ZERO)));
+    [javac]                                            ^
+    [javac]   symbol:   method trimTest(byte[])
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:911: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(ONE_ZERO, trimTest(TWO_ZEROES)));
+    [javac]                                            ^
+    [javac]   symbol:   method trimTest(byte[])
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:912: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(ONE_ZERO, trimTest(FOUR_ZEROES)));
+    [javac]                                            ^
+    [javac]   symbol:   method trimTest(byte[])
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:913: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(SEQUENCE, trimTest(SEQUENCE)));
+    [javac]                                            ^
+    [javac]   symbol:   method trimTest(byte[])
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:914: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(SEQUENCE, trimTest(SEQUENCE_LEADING_ZERO)));
+    [javac]                                            ^
+    [javac]   symbol:   method trimTest(byte[])
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] /tmp/fix_test_suite.pl_22673_1702634653/llm/org/apache/commons/compress/archivers/zip/X7875_NewUnix_LLMTest.java:915: error: cannot find symbol
+    [javac]         assertTrue(Arrays.equals(SEQUENCE, trimTest(SEQUENCE_LEADING_ZEROES)));
+    [javac]                                            ^
+    [javac]   symbol:   method trimTest(byte[])
+    [javac]   location: class X7875_NewUnix_LLMTest
+    [javac] 100 errors
+    [javac] 46 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

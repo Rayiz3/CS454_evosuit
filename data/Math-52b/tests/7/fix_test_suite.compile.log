@@ -1,0 +1,1691 @@
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/target/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/target/test-classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/target/classes/META-INF
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_28735_1702717407/target/classes/META-INF
+
+compile:
+    [javac] Compiling 565 source files to /tmp/fix_test_suite.pl_28735_1702717407/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/MessageFormat.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArithmeticException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/EOFException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParseException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ConcurrentModificationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/NoSuchElementException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArrayIndexOutOfBoundsException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ClassNotFoundException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigDecimal.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigInteger.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/FieldPosition.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/NumberFormat.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParsePosition.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/MessageDigest.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchProviderException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/SecureRandom.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/UnsupportedOperationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/MissingResourceException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ResourceBundle.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/Format.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TreeSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/awt/geom/AffineTransform.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Array.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/SortedSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectInput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectOutput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Externalizable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStreamReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/MalformedURLException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TreeMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/InvocationTargetException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IndexOutOfBoundsException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/MathContext.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/RoundingMode.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintWriter.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/MessageFormat.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArithmeticException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/EOFException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParseException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ConcurrentModificationException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/NoSuchElementException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArrayIndexOutOfBoundsException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /tmp/fix_test_suite.pl_28735_1702717407/src/main/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 100 warnings
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:347: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:347: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:390: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:390: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:798: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:798: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1090: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1090: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1181: error: class, interface, or enum expected
+    [javac]   public void test59()
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1188: error: class, interface, or enum expected
+    [javac]       Assert.fail("Expecting NotARotationMatrixException");
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1189: error: class, interface, or enum expected
+    [javac]     } catch (NotARotationMatrixException nrme) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1198: error: class, interface, or enum expected
+    [javac]       Assert.fail("Expecting NotARotationMatrixException");
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1199: error: class, interface, or enum expected
+    [javac]     } catch (NotARotationMatrixException nrme) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1208: error: class, interface, or enum expected
+    [javac]         Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1209: error: class, interface, or enum expected
+    [javac]       } catch (NotARotationMatrixException nrme) {
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1235: error: class, interface, or enum expected
+    [javac]     double[][] m2 = { { 0.83203, -0.55012, -0.07139 },
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1238: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 3; ++i) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1238: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 3; ++i) {
+    [javac]                     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1238: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 3; ++i) {
+    [javac]                            ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1239: error: class, interface, or enum expected
+    [javac]       for (int j = 0; j < 3; ++j) {
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1239: error: class, interface, or enum expected
+    [javac]       for (int j = 0; j < 3; ++j) {
+    [javac]                              ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1243: error: class, interface, or enum expected
+    [javac]         if (i == j) {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1245: error: class, interface, or enum expected
+    [javac]         } else {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1247: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1253: error: class, interface, or enum expected
+    [javac]     try {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1257: error: class, interface, or enum expected
+    [javac]       r = new Rotation(m5, 1.0e-7);
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1258: error: class, interface, or enum expected
+    [javac]       Assert.fail("got " + r + ", should have caught an exception");
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1259: error: class, interface, or enum expected
+    [javac]     } catch (NotARotationMatrixException e) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1264: error: class, interface, or enum expected
+    [javac]   public void test60() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1265: error: class, interface, or enum expected
+    [javac]     for (double x = -0.9; x < 0.9; x += 0.2) {
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1265: error: class, interface, or enum expected
+    [javac]     for (double x = -0.9; x < 0.9; x += 0.2) {
+    [javac]                                    ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1266: error: class, interface, or enum expected
+    [javac]       for (double y = -0.9; y < 0.9; y += 0.2) {
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1266: error: class, interface, or enum expected
+    [javac]       for (double y = -0.9; y < 0.9; y += 0.2) {
+    [javac]                                      ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1267: error: class, interface, or enum expected
+    [javac]         for (double z = -0.9; z < 0.9; z += 0.2) {
+    [javac]                               ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1267: error: class, interface, or enum expected
+    [javac]         for (double z = -0.9; z < 0.9; z += 0.2) {
+    [javac]                                        ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1269: error: class, interface, or enum expected
+    [javac]           checkVector(r2.applyTo(r1.applyTo(u)), r3.applyTo(u));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1270: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1275: error: class, interface, or enum expected
+    [javac]   public void test61() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1278: error: class, interface, or enum expected
+    [javac]   public void test62() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1279: error: class, interface, or enum expected
+    [javac]     for (double x = -0.9; x < 0.9; x += 0.2) {
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1279: error: class, interface, or enum expected
+    [javac]     for (double x = -0.9; x < 0.9; x += 0.2) {
+    [javac]                                    ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1280: error: class, interface, or enum expected
+    [javac]       for (double y = -0.9; y < 0.9; y += 0.2) {
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1280: error: class, interface, or enum expected
+    [javac]       for (double y = -0.9; y < 0.9; y += 0.2) {
+    [javac]                                      ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1281: error: class, interface, or enum expected
+    [javac]         for (double z = -0.9; z < 0.9; z += 0.2) {
+    [javac]                               ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1281: error: class, interface, or enum expected
+    [javac]         for (double z = -0.9; z < 0.9; z += 0.2) {
+    [javac]                                        ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1283: error: class, interface, or enum expected
+    [javac]           checkVector(r2.applyTo(u), r1.applyTo(u));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1284: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1289: error: class, interface, or enum expected
+    [javac]   public void test63() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1292: error: class, interface, or enum expected
+    [javac]     } else {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1294: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1297: error: class, interface, or enum expected
+    [javac]         Assert.fail("an exception should have been thrown");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1298: error: class, interface, or enum expected
+    [javac]     } catch (IllegalArgumentException e) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1303: error: class, interface, or enum expected
+    [javac]   public void test64() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1306: error: class, interface, or enum expected
+    [javac]         Assert.fail("an exception should have been thrown");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1307: error: class, interface, or enum expected
+    [javac]     } catch (IllegalArgumentException e) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1312: error: class, interface, or enum expected
+    [javac]   public void test65() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1313: error: class, interface, or enum expected
+    [javac]     for (double lambda = 0; lambda < 6.2; lambda += 0.2) {
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1313: error: class, interface, or enum expected
+    [javac]     for (double lambda = 0; lambda < 6.2; lambda += 0.2) {
+    [javac]                                           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1314: error: class, interface, or enum expected
+    [javac]       for (double phi = -1.55; phi < 1.55; phi += 0.2) {
+    [javac]                                ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1314: error: class, interface, or enum expected
+    [javac]       for (double phi = -1.55; phi < 1.55; phi += 0.2) {
+    [javac]                                            ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1318: error: class, interface, or enum expected
+    [javac]           r.applyInverseTo(r.applyTo(u));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1319: error: class, interface, or enum expected
+    [javac]           checkVector(u, r.applyInverseTo(r.applyTo(u)));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1320: error: class, interface, or enum expected
+    [javac]           checkVector(u, r.applyTo(r.applyInverseTo(u)));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1321: error: class, interface, or enum expected
+    [javac]       }
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1323: error: class, interface, or enum expected
+    [javac]     for (double lambda = 0; lambda < 6.2; lambda += 0.2) {
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1323: error: class, interface, or enum expected
+    [javac]     for (double lambda = 0; lambda < 6.2; lambda += 0.2) {
+    [javac]                                           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1324: error: class, interface, or enum expected
+    [javac]       for (double phi = -1.55; phi < 1.55; phi += 0.2) {
+    [javac]                                ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1324: error: class, interface, or enum expected
+    [javac]       for (double phi = -1.55; phi < 1.55; phi += 0.2) {
+    [javac]                                            ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1328: error: class, interface, or enum expected
+    [javac]           checkVector(u, r.applyInverseTo(r.applyTo(u)));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1329: error: class, interface, or enum expected
+    [javac]           checkVector(u, r.applyTo(r.applyInverseTo(u)));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1330: error: class, interface, or enum expected
+    [javac]       }
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1332: error: class, interface, or enum expected
+    [javac]     for (double lambda = 0; lambda < 6.2; lambda += 0.2) {
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1332: error: class, interface, or enum expected
+    [javac]     for (double lambda = 0; lambda < 6.2; lambda += 0.2) {
+    [javac]                                           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1333: error: class, interface, or enum expected
+    [javac]       for (double phi = -1.55; phi < 1.55; phi += 0.2) {
+    [javac]                                ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1333: error: class, interface, or enum expected
+    [javac]       for (double phi = -1.55; phi < 1.55; phi += 0.2) {
+    [javac]                                            ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1337: error: class, interface, or enum expected
+    [javac]           checkVector(u, r.applyInverseTo(r.applyTo(u)));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1338: error: class, interface, or enum expected
+    [javac]           checkVector(u, r.applyTo(r.applyInverseTo(u)));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1339: error: class, interface, or enum expected
+    [javac]       }
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1343: error: class, interface, or enum expected
+    [javac]   public void test66() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1346: error: class, interface, or enum expected
+    [javac]       Assert.fail("an exception should have been thrown");
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1347: error: class, interface, or enum expected
+    [javac]     } catch (ArithmeticException e) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1351: error: class, interface, or enum expected
+    [javac]   public void test67() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1354: error: class, interface, or enum expected
+    [javac]   public void test68() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1359: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < CardanOrders.length; ++i) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1359: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < CardanOrders.length; ++i) {
+    [javac]                     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1359: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < CardanOrders.length; ++i) {
+    [javac]                                              ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1360: error: class, interface, or enum expected
+    [javac]       for (int j = 0; j < singularCardanAngle.length; ++j) {
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1360: error: class, interface, or enum expected
+    [javac]       for (int j = 0; j < singularCardanAngle.length; ++j) {
+    [javac]                                                       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1362: error: class, interface, or enum expected
+    [javac]         try {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1364: error: class, interface, or enum expected
+    [javac]           Assert.fail("an exception should have been caught");
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1365: error: class, interface, or enum expected
+    [javac]         } catch (CardanEulerSingularityException cese) {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1374: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < EulerOrders.length; ++i) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1374: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < EulerOrders.length; ++i) {
+    [javac]                     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1374: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < EulerOrders.length; ++i) {
+    [javac]                                             ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1375: error: class, interface, or enum expected
+    [javac]       for (int j = 0; j < singularEulerAngle.length; ++j) {
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1375: error: class, interface, or enum expected
+    [javac]       for (int j = 0; j < singularEulerAngle.length; ++j) {
+    [javac]                                                      ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1377: error: class, interface, or enum expected
+    [javac]         try {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1379: error: class, interface, or enum expected
+    [javac]           Assert.fail("an exception should have been caught");
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1380: error: class, interface, or enum expected
+    [javac]         } catch (CardanEulerSingularityException cese) {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1387: error: class, interface, or enum expected
+    [javac]   public void test69()
+    [javac]          ^
+    [javac] 100 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:350: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:350: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:393: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:393: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:804: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:804: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1099: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1099: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1190: error: class, interface, or enum expected
+    [javac]   public void test59() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1276: error: class, interface, or enum expected
+    [javac]   public void test60() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1290: error: class, interface, or enum expected
+    [javac]   public void test61() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1296: error: class, interface, or enum expected
+    [javac]   public void test62() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1310: error: class, interface, or enum expected
+    [javac]   public void test63() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1327: error: class, interface, or enum expected
+    [javac]   public void test64() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1339: error: class, interface, or enum expected
+    [javac]   public void test65() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1373: error: class, interface, or enum expected
+    [javac]   public void test66() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1384: error: class, interface, or enum expected
+    [javac]   public void test67() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1390: error: class, interface, or enum expected
+    [javac]   public void test68() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1426: error: class, interface, or enum expected
+    [javac]   public void test69() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1468: error: class, interface, or enum expected
+    [javac]   public void test70() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1469: error: class, interface, or enum expected
+    [javac]     for (double x = -0.9; x < 0.9; x += 0.2) {
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1469: error: class, interface, or enum expected
+    [javac]     for (double x = -0.9; x < 0.9; x += 0.2) {
+    [javac]                                    ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1470: error: class, interface, or enum expected
+    [javac]       for (double y = -0.9; y < 0.9; y += 0.2) {
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1470: error: class, interface, or enum expected
+    [javac]       for (double y = -0.9; y < 0.9; y += 0.2) {
+    [javac]                                      ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1471: error: class, interface, or enum expected
+    [javac]         for (double z = -0.9; z < 0.9; z += 0.2) {
+    [javac]                               ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1471: error: class, interface, or enum expected
+    [javac]         for (double z = -0.9; z < 0.9; z += 0.2) {
+    [javac]                                        ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1473: error: class, interface, or enum expected
+    [javac]           checkVector(r2.applyInverseTo(r1.applyTo(u)), r3.applyTo(u));
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1474: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1481: error: class, interface, or enum expected
+    [javac]   public void test71() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1486: error: class, interface, or enum expected
+    [javac]   public void test72() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1491: error: class, interface, or enum expected
+    [javac]   public void test73() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1496: error: class, interface, or enum expected
+    [javac]   public void test74() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1501: error: class, interface, or enum expected
+    [javac]   public void test75() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1506: error: class, interface, or enum expected
+    [javac]   public void test76() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1511: error: class, interface, or enum expected
+    [javac]   public void test77() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1515: error: class, interface, or enum expected
+    [javac]   public void test78()
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1522: error: class, interface, or enum expected
+    [javac]       Assert.fail("Expecting NotARotationMatrixException");
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1523: error: class, interface, or enum expected
+    [javac]     } catch (NotARotationMatrixException nrme) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1532: error: class, interface, or enum expected
+    [javac]       Assert.fail("Expecting NotARotationMatrixException");
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1533: error: class, interface, or enum expected
+    [javac]     } catch (NotARotationMatrixException nrme) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1542: error: class, interface, or enum expected
+    [javac]         Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1543: error: class, interface, or enum expected
+    [javac]       } catch (NotARotationMatrixException nrme) {
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1569: error: class, interface, or enum expected
+    [javac]     double[][] m2 = { { 0.83203, -0.55012, -0.07139 },
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1572: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 3; ++i) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1572: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 3; ++i) {
+    [javac]                     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1572: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 3; ++i) {
+    [javac]                            ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1573: error: class, interface, or enum expected
+    [javac]       for (int j = 0; j < 3; ++j) {
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1573: error: class, interface, or enum expected
+    [javac]       for (int j = 0; j < 3; ++j) {
+    [javac]                              ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1577: error: class, interface, or enum expected
+    [javac]         if (i == j) {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1579: error: class, interface, or enum expected
+    [javac]         } else {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1581: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1587: error: class, interface, or enum expected
+    [javac]     try {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1591: error: class, interface, or enum expected
+    [javac]       r = new Rotation(m5, 1.0e-7);
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1592: error: class, interface, or enum expected
+    [javac]       Assert.fail("got " + r + ", should have caught an exception");
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1593: error: class, interface, or enum expected
+    [javac]     } catch (NotARotationMatrixException e) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1600: error: class, interface, or enum expected
+    [javac]   public void test79() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1605: error: class, interface, or enum expected
+    [javac]   public void test80() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1610: error: class, interface, or enum expected
+    [javac]   public void test81() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1615: error: class, interface, or enum expected
+    [javac]   public void test82() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1620: error: class, interface, or enum expected
+    [javac]   public void test83() {
+    [javac]          ^
+    [javac] 60 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:353: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:353: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:396: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:396: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:810: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:810: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1108: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1108: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1199: error: class, interface, or enum expected
+    [javac]   public void test59() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1288: error: class, interface, or enum expected
+    [javac]   public void test60() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1305: error: class, interface, or enum expected
+    [javac]   public void test61() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1314: error: class, interface, or enum expected
+    [javac]   public void test62() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1331: error: class, interface, or enum expected
+    [javac]   public void test63() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1351: error: class, interface, or enum expected
+    [javac]   public void test64() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1366: error: class, interface, or enum expected
+    [javac]   public void test65() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1403: error: class, interface, or enum expected
+    [javac]   public void test66() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1417: error: class, interface, or enum expected
+    [javac]   public void test67() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1426: error: class, interface, or enum expected
+    [javac]   public void test68() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1465: error: class, interface, or enum expected
+    [javac]   public void test69() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1510: error: class, interface, or enum expected
+    [javac]   public void test70() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1526: error: class, interface, or enum expected
+    [javac]   public void test71() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1534: error: class, interface, or enum expected
+    [javac]   public void test72() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1542: error: class, interface, or enum expected
+    [javac]   public void test73() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1550: error: class, interface, or enum expected
+    [javac]   public void test74() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1558: error: class, interface, or enum expected
+    [javac]   public void test75() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1566: error: class, interface, or enum expected
+    [javac]   public void test76() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1574: error: class, interface, or enum expected
+    [javac]   public void test77() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1581: error: class, interface, or enum expected
+    [javac]   public void test78() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1669: error: class, interface, or enum expected
+    [javac]   public void test79() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1677: error: class, interface, or enum expected
+    [javac]   public void test80() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1685: error: class, interface, or enum expected
+    [javac]   public void test81() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1693: error: class, interface, or enum expected
+    [javac]   public void test82() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1701: error: class, interface, or enum expected
+    [javac]   public void test83() {}
+    [javac]          ^
+    [javac] 33 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:356: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:356: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:399: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:399: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:816: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:816: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1117: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1117: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1208: error: class, interface, or enum expected
+    [javac]   public void test59() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1300: error: class, interface, or enum expected
+    [javac]   public void test60() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1320: error: class, interface, or enum expected
+    [javac]   public void test61() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1332: error: class, interface, or enum expected
+    [javac]   public void test62() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1352: error: class, interface, or enum expected
+    [javac]   public void test63() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1375: error: class, interface, or enum expected
+    [javac]   public void test64() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1393: error: class, interface, or enum expected
+    [javac]   public void test65() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1433: error: class, interface, or enum expected
+    [javac]   public void test66() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1450: error: class, interface, or enum expected
+    [javac]   public void test67() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1462: error: class, interface, or enum expected
+    [javac]   public void test68() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1504: error: class, interface, or enum expected
+    [javac]   public void test69() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1552: error: class, interface, or enum expected
+    [javac]   public void test70() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1571: error: class, interface, or enum expected
+    [javac]   public void test71() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1582: error: class, interface, or enum expected
+    [javac]   public void test72() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1593: error: class, interface, or enum expected
+    [javac]   public void test73() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1604: error: class, interface, or enum expected
+    [javac]   public void test74() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1615: error: class, interface, or enum expected
+    [javac]   public void test75() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1626: error: class, interface, or enum expected
+    [javac]   public void test76() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1637: error: class, interface, or enum expected
+    [javac]   public void test77() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1647: error: class, interface, or enum expected
+    [javac]   public void test78() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1738: error: class, interface, or enum expected
+    [javac]   public void test79() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1749: error: class, interface, or enum expected
+    [javac]   public void test80() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1760: error: class, interface, or enum expected
+    [javac]   public void test81() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1771: error: class, interface, or enum expected
+    [javac]   public void test82() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1782: error: class, interface, or enum expected
+    [javac]   public void test83() {}
+    [javac]          ^
+    [javac] 33 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:359: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:359: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:402: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:402: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:822: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:822: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1126: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1126: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1217: error: class, interface, or enum expected
+    [javac]   public void test59() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1312: error: class, interface, or enum expected
+    [javac]   public void test60() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1335: error: class, interface, or enum expected
+    [javac]   public void test61() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1350: error: class, interface, or enum expected
+    [javac]   public void test62() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1373: error: class, interface, or enum expected
+    [javac]   public void test63() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1399: error: class, interface, or enum expected
+    [javac]   public void test64() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1420: error: class, interface, or enum expected
+    [javac]   public void test65() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1463: error: class, interface, or enum expected
+    [javac]   public void test66() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1483: error: class, interface, or enum expected
+    [javac]   public void test67() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1498: error: class, interface, or enum expected
+    [javac]   public void test68() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1543: error: class, interface, or enum expected
+    [javac]   public void test69() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1594: error: class, interface, or enum expected
+    [javac]   public void test70() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1616: error: class, interface, or enum expected
+    [javac]   public void test71() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1630: error: class, interface, or enum expected
+    [javac]   public void test72() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1644: error: class, interface, or enum expected
+    [javac]   public void test73() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1658: error: class, interface, or enum expected
+    [javac]   public void test74() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1672: error: class, interface, or enum expected
+    [javac]   public void test75() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1686: error: class, interface, or enum expected
+    [javac]   public void test76() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1700: error: class, interface, or enum expected
+    [javac]   public void test77() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1713: error: class, interface, or enum expected
+    [javac]   public void test78() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1807: error: class, interface, or enum expected
+    [javac]   public void test79() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1821: error: class, interface, or enum expected
+    [javac]   public void test80() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1835: error: class, interface, or enum expected
+    [javac]   public void test81() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1849: error: class, interface, or enum expected
+    [javac]   public void test82() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1863: error: class, interface, or enum expected
+    [javac]   public void test83() {}
+    [javac]          ^
+    [javac] 33 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:362: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:362: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:405: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:405: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:828: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:828: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1135: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1135: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1226: error: class, interface, or enum expected
+    [javac]   public void test59() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1324: error: class, interface, or enum expected
+    [javac]   public void test60() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1350: error: class, interface, or enum expected
+    [javac]   public void test61() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1368: error: class, interface, or enum expected
+    [javac]   public void test62() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1394: error: class, interface, or enum expected
+    [javac]   public void test63() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1423: error: class, interface, or enum expected
+    [javac]   public void test64() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1447: error: class, interface, or enum expected
+    [javac]   public void test65() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1493: error: class, interface, or enum expected
+    [javac]   public void test66() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1516: error: class, interface, or enum expected
+    [javac]   public void test67() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1534: error: class, interface, or enum expected
+    [javac]   public void test68() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1582: error: class, interface, or enum expected
+    [javac]   public void test69() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1636: error: class, interface, or enum expected
+    [javac]   public void test70() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1661: error: class, interface, or enum expected
+    [javac]   public void test71() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1678: error: class, interface, or enum expected
+    [javac]   public void test72() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1695: error: class, interface, or enum expected
+    [javac]   public void test73() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1712: error: class, interface, or enum expected
+    [javac]   public void test74() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1729: error: class, interface, or enum expected
+    [javac]   public void test75() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1746: error: class, interface, or enum expected
+    [javac]   public void test76() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1763: error: class, interface, or enum expected
+    [javac]   public void test77() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1779: error: class, interface, or enum expected
+    [javac]   public void test78() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1876: error: class, interface, or enum expected
+    [javac]   public void test79() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1893: error: class, interface, or enum expected
+    [javac]   public void test80() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1910: error: class, interface, or enum expected
+    [javac]   public void test81() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1927: error: class, interface, or enum expected
+    [javac]   public void test82() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1944: error: class, interface, or enum expected
+    [javac]   public void test83() {}
+    [javac]          ^
+    [javac] 33 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:365: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:365: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:408: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:408: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:834: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:834: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1144: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1144: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1235: error: class, interface, or enum expected
+    [javac]   public void test59() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1336: error: class, interface, or enum expected
+    [javac]   public void test60() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1365: error: class, interface, or enum expected
+    [javac]   public void test61() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1386: error: class, interface, or enum expected
+    [javac]   public void test62() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1415: error: class, interface, or enum expected
+    [javac]   public void test63() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1447: error: class, interface, or enum expected
+    [javac]   public void test64() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1474: error: class, interface, or enum expected
+    [javac]   public void test65() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1523: error: class, interface, or enum expected
+    [javac]   public void test66() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1549: error: class, interface, or enum expected
+    [javac]   public void test67() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1570: error: class, interface, or enum expected
+    [javac]   public void test68() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1621: error: class, interface, or enum expected
+    [javac]   public void test69() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1678: error: class, interface, or enum expected
+    [javac]   public void test70() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1706: error: class, interface, or enum expected
+    [javac]   public void test71() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1726: error: class, interface, or enum expected
+    [javac]   public void test72() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1746: error: class, interface, or enum expected
+    [javac]   public void test73() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1766: error: class, interface, or enum expected
+    [javac]   public void test74() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1786: error: class, interface, or enum expected
+    [javac]   public void test75() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1806: error: class, interface, or enum expected
+    [javac]   public void test76() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1826: error: class, interface, or enum expected
+    [javac]   public void test77() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1845: error: class, interface, or enum expected
+    [javac]   public void test78() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1945: error: class, interface, or enum expected
+    [javac]   public void test79() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1965: error: class, interface, or enum expected
+    [javac]   public void test80() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1985: error: class, interface, or enum expected
+    [javac]   public void test81() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2005: error: class, interface, or enum expected
+    [javac]   public void test82() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2025: error: class, interface, or enum expected
+    [javac]   public void test83() {}
+    [javac]          ^
+    [javac] 33 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:368: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:368: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:411: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:411: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:840: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:840: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1153: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1153: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1244: error: class, interface, or enum expected
+    [javac]   public void test59() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1348: error: class, interface, or enum expected
+    [javac]   public void test60() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1380: error: class, interface, or enum expected
+    [javac]   public void test61() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1404: error: class, interface, or enum expected
+    [javac]   public void test62() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1436: error: class, interface, or enum expected
+    [javac]   public void test63() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1471: error: class, interface, or enum expected
+    [javac]   public void test64() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1501: error: class, interface, or enum expected
+    [javac]   public void test65() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1553: error: class, interface, or enum expected
+    [javac]   public void test66() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1582: error: class, interface, or enum expected
+    [javac]   public void test67() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1606: error: class, interface, or enum expected
+    [javac]   public void test68() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1660: error: class, interface, or enum expected
+    [javac]   public void test69() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1720: error: class, interface, or enum expected
+    [javac]   public void test70() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1751: error: class, interface, or enum expected
+    [javac]   public void test71() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1774: error: class, interface, or enum expected
+    [javac]   public void test72() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1797: error: class, interface, or enum expected
+    [javac]   public void test73() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1820: error: class, interface, or enum expected
+    [javac]   public void test74() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1843: error: class, interface, or enum expected
+    [javac]   public void test75() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1866: error: class, interface, or enum expected
+    [javac]   public void test76() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1889: error: class, interface, or enum expected
+    [javac]   public void test77() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1911: error: class, interface, or enum expected
+    [javac]   public void test78() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2014: error: class, interface, or enum expected
+    [javac]   public void test79() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2037: error: class, interface, or enum expected
+    [javac]   public void test80() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2060: error: class, interface, or enum expected
+    [javac]   public void test81() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2083: error: class, interface, or enum expected
+    [javac]   public void test82() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2106: error: class, interface, or enum expected
+    [javac]   public void test83() {}
+    [javac]          ^
+    [javac] 33 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:371: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:371: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:414: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:414: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:846: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:846: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1162: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1162: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1253: error: class, interface, or enum expected
+    [javac]   public void test59() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1360: error: class, interface, or enum expected
+    [javac]   public void test60() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1395: error: class, interface, or enum expected
+    [javac]   public void test61() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1422: error: class, interface, or enum expected
+    [javac]   public void test62() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1457: error: class, interface, or enum expected
+    [javac]   public void test63() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1495: error: class, interface, or enum expected
+    [javac]   public void test64() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1528: error: class, interface, or enum expected
+    [javac]   public void test65() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1583: error: class, interface, or enum expected
+    [javac]   public void test66() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1615: error: class, interface, or enum expected
+    [javac]   public void test67() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1642: error: class, interface, or enum expected
+    [javac]   public void test68() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1699: error: class, interface, or enum expected
+    [javac]   public void test69() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1762: error: class, interface, or enum expected
+    [javac]   public void test70() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1796: error: class, interface, or enum expected
+    [javac]   public void test71() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1822: error: class, interface, or enum expected
+    [javac]   public void test72() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1848: error: class, interface, or enum expected
+    [javac]   public void test73() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1874: error: class, interface, or enum expected
+    [javac]   public void test74() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1900: error: class, interface, or enum expected
+    [javac]   public void test75() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1926: error: class, interface, or enum expected
+    [javac]   public void test76() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1952: error: class, interface, or enum expected
+    [javac]   public void test77() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1977: error: class, interface, or enum expected
+    [javac]   public void test78() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2083: error: class, interface, or enum expected
+    [javac]   public void test79() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2109: error: class, interface, or enum expected
+    [javac]   public void test80() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2135: error: class, interface, or enum expected
+    [javac]   public void test81() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2161: error: class, interface, or enum expected
+    [javac]   public void test82() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2187: error: class, interface, or enum expected
+    [javac]   public void test83() {}
+    [javac]          ^
+    [javac] 33 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.7.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_28735_1702717407/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:374: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:374: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:417: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:417: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:852: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:852: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1171: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1171: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1262: error: class, interface, or enum expected
+    [javac]   public void test59() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1372: error: class, interface, or enum expected
+    [javac]   public void test60() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1410: error: class, interface, or enum expected
+    [javac]   public void test61() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1440: error: class, interface, or enum expected
+    [javac]   public void test62() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1478: error: class, interface, or enum expected
+    [javac]   public void test63() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1519: error: class, interface, or enum expected
+    [javac]   public void test64() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1555: error: class, interface, or enum expected
+    [javac]   public void test65() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1613: error: class, interface, or enum expected
+    [javac]   public void test66() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1648: error: class, interface, or enum expected
+    [javac]   public void test67() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1678: error: class, interface, or enum expected
+    [javac]   public void test68() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1738: error: class, interface, or enum expected
+    [javac]   public void test69() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1804: error: class, interface, or enum expected
+    [javac]   public void test70() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1841: error: class, interface, or enum expected
+    [javac]   public void test71() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1870: error: class, interface, or enum expected
+    [javac]   public void test72() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1899: error: class, interface, or enum expected
+    [javac]   public void test73() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1928: error: class, interface, or enum expected
+    [javac]   public void test74() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1957: error: class, interface, or enum expected
+    [javac]   public void test75() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1986: error: class, interface, or enum expected
+    [javac]   public void test76() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2015: error: class, interface, or enum expected
+    [javac]   public void test77() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2043: error: class, interface, or enum expected
+    [javac]   public void test78() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2152: error: class, interface, or enum expected
+    [javac]   public void test79() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2181: error: class, interface, or enum expected
+    [javac]   public void test80() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2210: error: class, interface, or enum expected
+    [javac]   public void test81() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2239: error: class, interface, or enum expected
+    [javac]   public void test82() {}
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_28735_1702717407/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:2268: error: class, interface, or enum expected
+    [javac]   public void test83() {}
+    [javac]          ^
+    [javac] 33 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

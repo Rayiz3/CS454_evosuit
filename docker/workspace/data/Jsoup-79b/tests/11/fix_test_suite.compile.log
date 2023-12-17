@@ -1,0 +1,901 @@
+- Compilation issues: Jsoup-79b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29980_1702730913/target/classes
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/maven-build.xml:84: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 67 source files to /tmp/fix_test_suite.pl_29980_1702730913/target/classes
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/Proxy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Reader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/CharsetEncoder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ref/WeakReference.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Pattern.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/PatternSyntaxException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/RandomAccess.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Matcher.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Appendable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ThreadLocal.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStreamReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/RandomAccessFile.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/Buffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/IllegalCharsetNameException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/HostnameVerifier.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/HttpsURLConnection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/SSLContext.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/SSLSession.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/SSLSocketFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/TrustManager.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/X509TrustManager.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStreamWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/HttpURLConnection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/InetSocketAddress.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/MalformedURLException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URI.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URLEncoder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/KeyManagementException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/cert/X509Certificate.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/GZIPInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/Inflater.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/InflaterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Comment.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Document.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Element.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Text.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/parsers/DocumentBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/parsers/DocumentBuilderFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/parsers/ParserConfigurationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/Transformer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/TransformerException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/TransformerFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/dom/DOMSource.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/stream/StreamResult.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Stack.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/SocketTimeoutException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/IdentityHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] Note: Some input files additionally use or override a deprecated API.
+    [javac] 100 warnings
+    [javac] Creating empty /tmp/fix_test_suite.pl_29980_1702730913/target/classes/org/jsoup/parser/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_29980_1702730913/target/classes/org/jsoup/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_29980_1702730913/target/classes/org/jsoup/select/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_29980_1702730913/target/classes/org/jsoup/internal/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_29980_1702730913/target/classes/org/jsoup/examples/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_29980_1702730913/target/classes/org/jsoup/nodes/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_29980_1702730913/target/classes/org/jsoup/safety/package-info.class
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29980_1702730913/target/classes/META-INF
+     [copy] Copying 3 files to /tmp/fix_test_suite.pl_29980_1702730913/target/classes/META-INF
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29980_1702730913/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29980_1702730913/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:149: error: illegal start of expression
+    [javac]     assertThrows(NullPointerException.class, () -> {
+    [javac]                                               ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:149: error: illegal start of expression
+    [javac]     assertThrows(NullPointerException.class, () -> {
+    [javac]                                                  ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:149: error: illegal start of expression
+    [javac]     assertThrows(NullPointerException.class, () -> {
+    [javac]                                                    ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:149: error: ';' expected
+    [javac]     assertThrows(NullPointerException.class, () -> {
+    [javac]                                                     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:150: error: illegal start of expression
+    [javac]         sample.attributes();
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:150: error: ';' expected
+    [javac]         sample.attributes();
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:151: error: illegal start of type
+    [javac]     });
+    [javac]      ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:154: error: class, interface, or enum expected
+    [javac] public void test12() {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:156: error: class, interface, or enum expected
+    [javac]     sample.attributes();
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:159: error: class, interface, or enum expected
+    [javac]     sample.value = "invalid";
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:160: error: class, interface, or enum expected
+    [javac]     assertThrows(ClassCastException.class, () -> {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:160: error: <identifier> expected
+    [javac]     assertThrows(ClassCastException.class, () -> {
+    [javac]                                          ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:160: error: illegal start of type
+    [javac]     assertThrows(ClassCastException.class, () -> {
+    [javac]                                            ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:160: error: <identifier> expected
+    [javac]     assertThrows(ClassCastException.class, () -> {
+    [javac]                                             ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:160: error: ';' expected
+    [javac]     assertThrows(ClassCastException.class, () -> {
+    [javac]                                              ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:160: error: illegal start of type
+    [javac]     assertThrows(ClassCastException.class, () -> {
+    [javac]                                                ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:160: error: <identifier> expected
+    [javac]     assertThrows(ClassCastException.class, () -> {
+    [javac]                                                 ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:160: error: ';' expected
+    [javac]     assertThrows(ClassCastException.class, () -> {
+    [javac]                                                   ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:161: error: illegal start of type
+    [javac]         sample.attributes();
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:162: error: class, interface, or enum expected
+    [javac]     });
+    [javac]      ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:163: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:165: error: class, interface, or enum expected
+    [javac] public void test13() {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:170: error: class, interface, or enum expected
+    [javac]     YourClass instance = new YourClass(value);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:171: error: class, interface, or enum expected
+    [javac]     invokeEnsureAttributes(instance);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:172: error: class, interface, or enum expected
+    [javac]     Attributes attributes = instance.getAttributes();
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:173: error: class, interface, or enum expected
+    [javac]     assertNull(attributes.get(instance.nodeName()));
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:174: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:176: error: class, interface, or enum expected
+    [javac] public void test14() {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:181: error: class, interface, or enum expected
+    [javac]     YourClass instance = new YourClass(value);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:182: error: class, interface, or enum expected
+    [javac]     invokeEnsureAttributes(instance);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:183: error: class, interface, or enum expected
+    [javac]     Attributes attributes = instance.getAttributes();
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:184: error: class, interface, or enum expected
+    [javac]     assertEquals(value, attributes.get(instance.nodeName()));
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:185: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:187: error: class, interface, or enum expected
+    [javac] public void test15() {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:192: error: class, interface, or enum expected
+    [javac]     YourClass instance = new YourClass(value);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:193: error: class, interface, or enum expected
+    [javac]     instance.setAttributes(new Attributes());
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:194: error: class, interface, or enum expected
+    [javac]     invokeEnsureAttributes(instance);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:195: error: class, interface, or enum expected
+    [javac]     Attributes attributes = instance.getAttributes();
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:196: error: class, interface, or enum expected
+    [javac]     assertEquals(value, attributes.get(instance.nodeName()));
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:197: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:200: error: <identifier> expected
+    [javac]         Method method = YourClass.class.getDeclaredMethod("ensureAttributes");
+    [javac]                                        ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:200: error: invalid method declaration; return type required
+    [javac]         Method method = YourClass.class.getDeclaredMethod("ensureAttributes");
+    [javac]                                         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:200: error: illegal start of type
+    [javac]         Method method = YourClass.class.getDeclaredMethod("ensureAttributes");
+    [javac]                                                           ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:201: error: <identifier> expected
+    [javac]         method.setAccessible(true);
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:201: error: illegal start of type
+    [javac]         method.setAccessible(true);
+    [javac]                              ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:202: error: <identifier> expected
+    [javac]         method.invoke(instance);
+    [javac]                      ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:202: error: <identifier> expected
+    [javac]         method.invoke(instance);
+    [javac]                               ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:203: error: class, interface, or enum expected
+    [javac]     } catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
+    [javac]       ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:205: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:207: error: class, interface, or enum expected
+    [javac]     @Test public void test16() {
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:209: error: class, interface, or enum expected
+    [javac]         Element p = doc.select("p").first();
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:211: error: class, interface, or enum expected
+    [javac]         Element span = doc.select("span").first();
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:212: error: class, interface, or enum expected
+    [javac]         assertEquals("two &", span.text());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:213: error: class, interface, or enum expected
+    [javac]         TextNode spanText = (TextNode) span.childNode(0);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:214: error: class, interface, or enum expected
+    [javac]         assertEquals("two &", spanText.text());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:216: error: class, interface, or enum expected
+    [javac]         TextNode tn = (TextNode) p.childNode(2);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:217: error: class, interface, or enum expected
+    [javac]         assertEquals(" three &", tn.text());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:219: error: class, interface, or enum expected
+    [javac]         tn.text(""); // Change input to empty string
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:220: error: class, interface, or enum expected
+    [javac]         assertEquals("", TextUtil.stripNewlines(p.html()));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:222: error: class, interface, or enum expected
+    [javac]         tn.attr(tn.nodeName(), ""); // Change input to empty string
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:223: error: class, interface, or enum expected
+    [javac]         assertEquals("", tn.text());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:224: error: class, interface, or enum expected
+    [javac]         assertEquals("One <span>two &amp;</span>", TextUtil.stripNewlines(p.html()));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:225: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:226: error: class, interface, or enum expected
+    [javac]     @Test public void test17() {
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:228: error: class, interface, or enum expected
+    [javac]         TextNode two = new TextNode("Hello  ");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:229: error: class, interface, or enum expected
+    [javac]         TextNode three = new TextNode("  Hello");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:230: error: class, interface, or enum expected
+    [javac]         TextNode four = new TextNode("H e l l o");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:231: error: class, interface, or enum expected
+    [javac]         TextNode five = new TextNode("Hello\n");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:233: error: class, interface, or enum expected
+    [javac]         assertFalse(one.isBlank());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:234: error: class, interface, or enum expected
+    [javac]         assertFalse(two.isBlank());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:235: error: class, interface, or enum expected
+    [javac]         assertFalse(three.isBlank());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:236: error: class, interface, or enum expected
+    [javac]         assertFalse(four.isBlank());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:237: error: class, interface, or enum expected
+    [javac]         assertFalse(five.isBlank());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:238: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:239: error: class, interface, or enum expected
+    [javac]     @Test public void test18(){
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:241: error: class, interface, or enum expected
+    [javac]         TextNode t = doc.body().textNodes().get(0);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:242: error: class, interface, or enum expected
+    [javac]         assertEquals("", t.outerHtml().trim());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:243: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:244: error: class, interface, or enum expected
+    [javac]     @Test public void test19() {
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:246: error: class, interface, or enum expected
+    [javac]         Element div = doc.select("div").first();
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:247: error: class, interface, or enum expected
+    [javac]         TextNode tn = (TextNode) div.childNode(0);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:248: error: class, interface, or enum expected
+    [javac]         TextNode tail = tn.splitText(5); // Change split position
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:249: error: class, interface, or enum expected
+    [javac]         tail.wrap("<b></b>");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:251: error: class, interface, or enum expected
+    [javac]         assertEquals("Hello<b> there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:252: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:253: error: class, interface, or enum expected
+    [javac]     @Test public void test20() {
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:255: error: class, interface, or enum expected
+    [javac]         Element div = doc.select("div").first();
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:256: error: class, interface, or enum expected
+    [javac]         TextNode tn = (TextNode) div.childNode(0);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:257: error: class, interface, or enum expected
+    [javac]         TextNode tail = tn.splitText(4); // Change split position
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:258: error: class, interface, or enum expected
+    [javac]         assertEquals("Hell", tn.getWholeText());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:259: error: class, interface, or enum expected
+    [javac]         assertEquals("o there", tail.getWholeText());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:260: error: class, interface, or enum expected
+    [javac]         tail.text(" there!"); // Change text of tail node
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:261: error: class, interface, or enum expected
+    [javac]         assertEquals("Hello there!", div.text());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:262: error: class, interface, or enum expected
+    [javac]         assertTrue(tn.parent() == tail.parent());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:263: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:264: error: class, interface, or enum expected
+    [javac]    @Test public void test21() {
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:266: error: class, interface, or enum expected
+    [javac]         Element p = doc.select("p").first();
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:268: error: class, interface, or enum expected
+    [javac]         TextNode tn = (TextNode) p.childNode(2);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:269: error: class, interface, or enum expected
+    [javac]         assertEquals(" three &", tn.text());
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:271: error: class, interface, or enum expected
+    [javac]         tn.text("POW\n!");
+    [javac]         ^
+    [javac] 100 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+- Compilation issues: Jsoup-79b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/maven-build.xml:84: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29980_1702730913/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29980_1702730913/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29980_1702730913/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:555: error: illegal start of expression
+    [javac]     ...
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:568: error: illegal start of expression
+    [javac]     ...
+    [javac]     ^
+    [javac] 2 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Jsoup-79b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/maven-build.xml:84: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29980_1702730913/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29980_1702730913/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29980_1702730913/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:3: error: cannot find symbol
+    [javac] import org.jsoup.TextUtil;
+    [javac]                 ^
+    [javac]   symbol:   class TextUtil
+    [javac]   location: package org.jsoup
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:213: error: cannot find symbol
+    [javac] private void invokeEnsureAttributes(YourClass instance) {
+    [javac]                                     ^
+    [javac]   symbol:   class YourClass
+    [javac]   location: class LeafNode_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:22: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span> POW!", TextUtil.stripNewlines(p.html()));
+    [javac]                                                         ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:26: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span>kablam &amp;", TextUtil.stripNewlines(p.html()));
+    [javac]                                                                ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:41: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span> POW!", TextUtil.stripNewlines(p.html()));
+    [javac]                                                         ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:45: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span>kablam &amp;", TextUtil.stripNewlines(p.html()));
+    [javac]                                                                ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:60: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span> POW!", TextUtil.stripNewlines(p.html()));
+    [javac]                                                         ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:64: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span>kablam &amp;", TextUtil.stripNewlines(p.html()));
+    [javac]                                                                ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:109: error: cannot find symbol
+    [javac]         assertEquals("Hello <b>there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                            ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:118: error: cannot find symbol
+    [javac]         assertEquals("Hello <b>there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                            ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:215: error: cannot find symbol
+    [javac]         Method method = YourClass.class.getDeclaredMethod("ensureAttributes");
+    [javac]         ^
+    [javac]   symbol:   class Method
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:215: error: cannot find symbol
+    [javac]         Method method = YourClass.class.getDeclaredMethod("ensureAttributes");
+    [javac]                         ^
+    [javac]   symbol:   class YourClass
+    [javac]   location: class LeafNode_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/NoSuchMethodException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/NoSuchMethodException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ReflectiveOperationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ReflectiveOperationException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalAccessException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalAccessException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:218: error: cannot find symbol
+    [javac]     } catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
+    [javac]                                                               ^
+    [javac]   symbol:   class InvocationTargetException
+    [javac]   location: class LeafNode_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:319: error: cannot find symbol
+    [javac]         assertEquals("Hello \n<b>there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                              ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:351: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span> POW!", TextUtil.stripNewlines(p.html()));
+    [javac]                                                         ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:355: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span>kablam &amp;", TextUtil.stripNewlines(p.html()));
+    [javac]                                                                ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:393: error: cannot find symbol
+    [javac]         assertEquals("Hello <b>there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                            ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:401: error: cannot find symbol
+    [javac]         assertEquals("He<b>llo there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                            ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:437: error: cannot find symbol
+    [javac]         assertEquals("", TextUtil.stripNewlines(p.html()));
+    [javac]                          ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:441: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span>kablam &amp;", TextUtil.stripNewlines(p.html()));
+    [javac]                                                                ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:468: error: cannot find symbol
+    [javac]         assertEquals("Hello <b>there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                            ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:487: error: cannot find symbol
+    [javac]     assertFalse(hasAttr(key));
+    [javac]                 ^
+    [javac]   symbol:   method hasAttr(String)
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:495: error: cannot find symbol
+    [javac]     assertFalse(hasAttr(key));
+    [javac]                 ^
+    [javac]   symbol:   method hasAttr(String)
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:503: error: cannot find symbol
+    [javac]     assertFalse(hasAttr(key));
+    [javac]                 ^
+    [javac]   symbol:   method hasAttr(String)
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:509: error: cannot find symbol
+    [javac]     addAttr(key, "value");
+    [javac]     ^
+    [javac]   symbol:   method addAttr(String,String)
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:512: error: cannot find symbol
+    [javac]     assertTrue(hasAttr(key));
+    [javac]                ^
+    [javac]   symbol:   method hasAttr(String)
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:517: error: Node is abstract; cannot be instantiated
+    [javac]     Node node = new Node("div");
+    [javac]                 ^
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:528: error: Node is abstract; cannot be instantiated
+    [javac]     Node node = new Node("span");
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:539: error: Node is abstract; cannot be instantiated
+    [javac]     Node node = new Node("img");
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:588: error: cannot find symbol
+    [javac]         assertEquals("Hello <b>there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                            ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:597: error: cannot find symbol
+    [javac]         assertEquals("This is a <b>longer sentence</b>", TextUtil.stripNewlines(div.html()));
+    [javac]                                                          ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:601: error: cannot find symbol
+    [javac]     doSetBaseUri("");
+    [javac]     ^
+    [javac]   symbol:   method doSetBaseUri(String)
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:605: error: cannot find symbol
+    [javac]     doSetBaseUri(null);
+    [javac]     ^
+    [javac]   symbol:   method doSetBaseUri(<null>)
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:609: error: cannot find symbol
+    [javac]     doSetBaseUri("a".repeat(100000));
+    [javac]                     ^
+    [javac]   symbol:   method repeat(int)
+    [javac]   location: class String
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:624: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span> POW!", TextUtil.stripNewlines(p.html()));
+    [javac]                                                         ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:628: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span>kablam &amp;", TextUtil.stripNewlines(p.html()));
+    [javac]                                                                ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:643: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span> POW!", TextUtil.stripNewlines(p.html()));
+    [javac]                                                         ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:647: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span>kablam &amp;", TextUtil.stripNewlines(p.html()));
+    [javac]                                                                ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:662: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span> POW!", TextUtil.stripNewlines(p.html()));
+    [javac]                                                         ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:666: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span>kablam &amp;", TextUtil.stripNewlines(p.html()));
+    [javac]                                                                ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:690: error: cannot find symbol
+    [javac]         assertEquals("Hello <b>there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                            ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:699: error: cannot find symbol
+    [javac]         assertEquals("Hello <b>there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                            ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:743: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span> POW!", TextUtil.stripNewlines(p.html()));
+    [javac]                                                         ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:747: error: cannot find symbol
+    [javac]         assertEquals("One <span>two &amp;</span>kablam &amp;", TextUtil.stripNewlines(p.html()));
+    [javac]                                                                ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:761: error: cannot find symbol
+    [javac]         assertEquals("Hello <b>there</b>", TextUtil.stripNewlines(div.html())); // not great that we get \n<b>there there... must correct
+    [javac]                                            ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:797: error: cannot find symbol
+    [javac]         assertEquals("<p>Hello</p>", TextUtil.stripNewlines(p.outerHtml()));
+    [javac]                                      ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] /tmp/fix_test_suite.pl_29980_1702730913/llm/org/jsoup/nodes/LeafNode_LLMTest.java:806: error: cannot find symbol
+    [javac]         assertEquals("", TextUtil.stripNewlines(div.html()));
+    [javac]                          ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class LeafNode_LLMTest
+    [javac] 47 errors
+    [javac] 48 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

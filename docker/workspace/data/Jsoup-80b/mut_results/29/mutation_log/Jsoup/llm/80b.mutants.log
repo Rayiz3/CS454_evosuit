@@ -1,0 +1,81 @@
+1:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@initialiseParse(java.io.Reader,java.lang.String,org.jsoup.parser.ParseErrorList,org.jsoup.parser.ParseSettings):33:super.initialiseParse(input, baseUri, errors, settings) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@initialiseParse(java.io.Reader,java.lang.String,org.jsoup.parser.ParseErrorList,org.jsoup.parser.ParseSettings):34:stack.add(doc) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@initialiseParse(java.io.Reader,java.lang.String,org.jsoup.parser.ParseErrorList,org.jsoup.parser.ParseSettings):35:doc.outputSettings().syntax(Document.OutputSettings.Syntax.xml) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@process(org.jsoup.parser.Token):43:insert(token.asStartTag()) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@process(org.jsoup.parser.Token):46:popStackToClose(token.asEndTag()) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@process(org.jsoup.parser.Token):49:insert(token.asComment()) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@process(org.jsoup.parser.Token):52:insert(token.asCharacter()) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@process(org.jsoup.parser.Token):55:insert(token.asDoctype()) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@process(org.jsoup.parser.Token):60:Validate.fail("Unexpected token type: " + token.type) |==> <NO-OP>
+10:LVR:TRUE:FALSE:org.jsoup.parser.XmlTreeBuilder@process(org.jsoup.parser.Token):62:true |==> false
+11:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insertNode(org.jsoup.nodes.Node):66:currentElement().appendChild(node) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.StartTag):73:insertNode(el) |==> <NO-OP>
+13:COR:startTag.isSelfClosing():TRUE:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.StartTag):74:startTag.isSelfClosing() |==> false
+14:COR:startTag.isSelfClosing():FALSE:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.StartTag):74:startTag.isSelfClosing() |==> true
+15:COR:tag.isKnownTag():TRUE:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.StartTag):75:tag.isKnownTag() |==> false
+16:COR:tag.isKnownTag():FALSE:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.StartTag):75:tag.isKnownTag() |==> true
+17:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.StartTag):76:tag.setSelfClosing() |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.StartTag):78:stack.add(el) |==> <NO-OP>
+19:COR:commentToken.bogus:TRUE:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):86:commentToken.bogus |==> false
+20:COR:commentToken.bogus:FALSE:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):86:commentToken.bogus |==> true
+21:LVR:POS:0:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:1 |==> 0
+22:LVR:POS:NEG:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:1 |==> -1
+23:ROR:>(int,int):!=(int,int):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.length() > 1 |==> data.length() != 1
+24:ROR:>(int,int):>=(int,int):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.length() > 1 |==> data.length() >= 1
+25:ROR:>(int,int):FALSE(int,int):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.length() > 1 |==> false
+26:COR:||(boolean,boolean):!=(boolean,boolean):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.startsWith("!") || data.startsWith("?") |==> data.startsWith("!") != data.startsWith("?")
+27:COR:||(boolean,boolean):LHS(boolean,boolean):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.startsWith("!") || data.startsWith("?") |==> data.startsWith("!")
+28:COR:||(boolean,boolean):RHS(boolean,boolean):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.startsWith("!") || data.startsWith("?") |==> data.startsWith("?")
+29:COR:||(boolean,boolean):TRUE(boolean,boolean):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.startsWith("!") || data.startsWith("?") |==> true
+30:COR:&&(boolean,boolean):==(boolean,boolean):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.length() > 1 && (data.startsWith("!") || data.startsWith("?")) |==> data.length() > 1 == (data.startsWith("!") || data.startsWith("?"))
+31:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.length() > 1 && (data.startsWith("!") || data.startsWith("?")) |==> false
+32:COR:&&(boolean,boolean):LHS(boolean,boolean):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.length() > 1 && (data.startsWith("!") || data.startsWith("?")) |==> data.length() > 1
+33:COR:&&(boolean,boolean):RHS(boolean,boolean):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):89:data.length() > 1 && (data.startsWith("!") || data.startsWith("?")) |==> (data.startsWith("!") || data.startsWith("?"))
+34:LVR:POS:0:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):90:1 |==> 0
+35:LVR:POS:NEG:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):90:1 |==> -1
+36:LVR:POS:0:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):90:1 |==> 0
+37:LVR:POS:NEG:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):90:1 |==> -1
+38:AOR:-(int,int):%(int,int):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):90:data.length() - 1 |==> data.length() % 1
+39:AOR:-(int,int):*(int,int):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):90:data.length() - 1 |==> data.length() * 1
+40:AOR:-(int,int):+(int,int):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):90:data.length() - 1 |==> data.length() + 1
+41:AOR:-(int,int):/(int,int):org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):90:data.length() - 1 |==> data.length() / 1
+42:LVR:0:POS:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):91:0 |==> 1
+43:LVR:0:NEG:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):91:0 |==> -1
+44:STD:<ASSIGN>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):92:insert = new XmlDeclaration(settings.normalizeTag(el.tagName()), data.startsWith("!")) |==> <NO-OP>
+45:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):93:insert.attributes().addAll(el.attributes()) |==> <NO-OP>
+46:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Comment):96:insertNode(insert) |==> <NO-OP>
+47:COR:token.isCData():TRUE:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Character):101:token.isCData() |==> false
+48:COR:token.isCData():FALSE:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Character):101:token.isCData() |==> true
+49:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Character):101:insertNode(token.isCData() ? new CDataNode(data) : new TextNode(data)) |==> <NO-OP>
+50:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Doctype):106:doctypeNode.setPubSysKey(d.getPubSysKey()) |==> <NO-OP>
+51:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@insert(org.jsoup.parser.Token.Doctype):107:insertNode(doctypeNode) |==> <NO-OP>
+52:LVR:POS:0:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:1 |==> 0
+53:LVR:POS:NEG:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:1 |==> -1
+54:AOR:-(int,int):%(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:stack.size() - 1 |==> stack.size() % 1
+55:AOR:-(int,int):*(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:stack.size() - 1 |==> stack.size() * 1
+56:AOR:-(int,int):+(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:stack.size() - 1 |==> stack.size() + 1
+57:AOR:-(int,int):/(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:stack.size() - 1 |==> stack.size() / 1
+58:LVR:0:POS:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:0 |==> 1
+59:LVR:0:NEG:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:0 |==> -1
+60:ROR:>=(int,int):==(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:pos >= 0 |==> pos == 0
+61:ROR:>=(int,int):>(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:pos >= 0 |==> pos > 0
+62:ROR:>=(int,int):TRUE(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):120:pos >= 0 |==> true
+63:COR:next.nodeName().equals(elName):TRUE:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):122:next.nodeName().equals(elName) |==> false
+64:COR:next.nodeName().equals(elName):FALSE:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):122:next.nodeName().equals(elName) |==> true
+65:STD:<ASSIGN>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):123:firstFound = next |==> <NO-OP>
+66:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):127:firstFound == null |==> false
+67:LVR:POS:0:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:1 |==> 0
+68:LVR:POS:NEG:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:1 |==> -1
+69:AOR:-(int,int):%(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:stack.size() - 1 |==> stack.size() % 1
+70:AOR:-(int,int):*(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:stack.size() - 1 |==> stack.size() * 1
+71:AOR:-(int,int):+(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:stack.size() - 1 |==> stack.size() + 1
+72:AOR:-(int,int):/(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:stack.size() - 1 |==> stack.size() / 1
+73:LVR:0:POS:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:0 |==> 1
+74:LVR:0:NEG:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:0 |==> -1
+75:ROR:>=(int,int):==(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:pos >= 0 |==> pos == 0
+76:ROR:>=(int,int):>(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:pos >= 0 |==> pos > 0
+77:ROR:>=(int,int):TRUE(int,int):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):130:pos >= 0 |==> true
+78:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):132:stack.remove(pos) |==> <NO-OP>
+79:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.jsoup.parser.XmlTreeBuilder@popStackToClose(org.jsoup.parser.Token.EndTag):133:next == firstFound |==> false
+80:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@parseFragment(java.lang.String,java.lang.String,org.jsoup.parser.ParseErrorList,org.jsoup.parser.ParseSettings):139:initialiseParse(new StringReader(inputFragment), baseUri, errors, settings) |==> <NO-OP>
+81:STD:<CALL>:<NO-OP>:org.jsoup.parser.XmlTreeBuilder@parseFragment(java.lang.String,java.lang.String,org.jsoup.parser.ParseErrorList,org.jsoup.parser.ParseSettings):140:runParser() |==> <NO-OP>

@@ -1,0 +1,677 @@
+- Compilation issues: Jsoup-80b-llm.30.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_18853_1702788142/target/classes
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/maven-build.xml:84: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 67 source files to /tmp/fix_test_suite.pl_18853_1702788142/target/classes
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/Proxy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Reader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/CharsetEncoder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ref/WeakReference.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Pattern.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/PatternSyntaxException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/RandomAccess.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Matcher.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Appendable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ThreadLocal.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStreamReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/RandomAccessFile.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/Buffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/IllegalCharsetNameException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/HostnameVerifier.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/HttpsURLConnection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/SSLContext.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/SSLSession.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/SSLSocketFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/TrustManager.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/X509TrustManager.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStreamWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/HttpURLConnection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/InetSocketAddress.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/MalformedURLException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URI.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URLEncoder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/KeyManagementException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/cert/X509Certificate.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/GZIPInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/Inflater.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/InflaterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Comment.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Document.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Element.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Text.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/parsers/DocumentBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/parsers/DocumentBuilderFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/parsers/ParserConfigurationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/Transformer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/TransformerException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/TransformerFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/dom/DOMSource.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/stream/StreamResult.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Stack.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/SocketTimeoutException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/IdentityHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] Note: Some input files additionally use or override a deprecated API.
+    [javac] 100 warnings
+    [javac] Creating empty /tmp/fix_test_suite.pl_18853_1702788142/target/classes/org/jsoup/parser/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_18853_1702788142/target/classes/org/jsoup/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_18853_1702788142/target/classes/org/jsoup/select/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_18853_1702788142/target/classes/org/jsoup/internal/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_18853_1702788142/target/classes/org/jsoup/examples/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_18853_1702788142/target/classes/org/jsoup/nodes/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_18853_1702788142/target/classes/org/jsoup/safety/package-info.class
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_18853_1702788142/target/classes/META-INF
+     [copy] Copying 3 files to /tmp/fix_test_suite.pl_18853_1702788142/target/classes/META-INF
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_18853_1702788142/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_18853_1702788142/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:900: error: ';' expected
+    [javac]         String xml = "<div id=1><![CDATA[\n<html>\n <foo><&amp;]");
+    [javac]                                                                  ^
+    [javac] 1 error
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+- Compilation issues: Jsoup-80b-llm.30.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/maven-build.xml:84: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_18853_1702788142/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_18853_1702788142/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_18853_1702788142/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:3: error: cannot find symbol
+    [javac] import org.jsoup.TextUtil;
+    [javac]                 ^
+    [javac]   symbol:   class TextUtil
+    [javac]   location: package org.jsoup
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URISyntaxException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileInputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URISyntaxException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Reader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Reader.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:100: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:109: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:129: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:138: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URI.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URI.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileDescriptor.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileDescriptor.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:164: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:197: error: cannot find symbol
+    [javac]     assertEquals("<CHECK>One</CHECK><TEST ID=\"2\">Check</TEST>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                                   ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:223: error: cannot find symbol
+    [javac]     assertEquals("<test id=\"2\">Check</test>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:239: error: cannot find symbol
+    [javac]         TextUtil.stripNewlines(doc.html()));
+    [javac]         ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:246: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:264: error: cannot find symbol
+    [javac]     assertEquals("<!DOCTYPE HTML><!-- a comment -->One </doc>Two", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                                    ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:276: error: cannot find symbol
+    [javac]     assertEquals("<html><head><title>Test</title></head><body><h1>Hello</h1><p>World</p></body></html>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                                                                          ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:294: error: cannot find symbol
+    [javac]         assertEquals("<!DOCTYPE HTML><!-- a comment -->One </doc>Two", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                                        ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:306: error: cannot find symbol
+    [javac]         assertEquals("<html><head><title>Test</title></head><body><h1>Hello</h1><p>World</p></body></html>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                                                                              ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:354: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:363: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:377: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:403: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:426: error: cannot find symbol
+    [javac]         assertEquals("<CHECK>Two</CHECK><TEST ID=\"1\">Check</TEST>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                                       ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:459: error: cannot find symbol
+    [javac]         assertEquals("<test id=\"2\">Check</test>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                     ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:474: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:481: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:488: error: insertNode(Node) has private access in XmlTreeBuilder
+    [javac]     xmlTreeBuilder.insertNode(node);
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:492: error: Node is abstract; cannot be instantiated
+    [javac]     Node node = new Node("<element>");
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:495: error: insertNode(Node) has private access in XmlTreeBuilder
+    [javac]     xmlTreeBuilder.insertNode(node);
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:499: error: Node is abstract; cannot be instantiated
+    [javac]     Node node = new Node("");
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:502: error: insertNode(Node) has private access in XmlTreeBuilder
+    [javac]     xmlTreeBuilder.insertNode(node);
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:509: error: insertNode(Node) has private access in XmlTreeBuilder
+    [javac]     xmlTreeBuilder.insertNode(node);
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:516: error: insertNode(Node) has private access in XmlTreeBuilder
+    [javac]     xmlTreeBuilder.insertNode(node);
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:540: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:549: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:565: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:594: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:619: error: cannot find symbol
+    [javac]         assertEquals("<test id=\"1\">Check</test>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                     ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:636: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:644: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:665: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:674: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:688: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:714: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:737: error: cannot find symbol
+    [javac]         assertEquals("<CHECK>One</CHECK><TEST ID=\"1\">Check</TEST>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                                       ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:770: error: cannot find symbol
+    [javac]         assertEquals("<test id=\"1\">Check</test>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                     ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:785: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:792: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:864: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:872: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:880: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:935: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:942: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:964: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:974: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:989: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1015: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1039: error: cannot find symbol
+    [javac]         assertEquals("<CHECK>One</CHECK><TEST ID=\"1\">Check</TEST>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                                       ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1075: error: cannot find symbol
+    [javac]         assertEquals("<test id=\"1\">Check</test>", TextUtil.stripNewlines(doc.html()));
+    [javac]                                                     ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1090: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1097: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1129: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1135: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc2.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1167: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1173: error: cannot find symbol
+    [javac]             TextUtil.stripNewlines(doc2.html()));
+    [javac]             ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1181: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1189: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1197: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] /tmp/fix_test_suite.pl_18853_1702788142/llm/org/jsoup/parser/XmlTreeBuilder_LLMTest.java:1205: error: cannot find symbol
+    [javac]                 TextUtil.stripNewlines(doc.html()));
+    [javac]                 ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class XmlTreeBuilder_LLMTest
+    [javac] 65 errors
+    [javac] 64 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

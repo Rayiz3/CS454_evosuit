@@ -1,0 +1,11 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-16 05:39:24  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Jsoup-79b-llm.27.tar.bz2
+  - Removing 1 uncompilable test method(s):
+--- org.jsoup.nodes.LeafNode_LLMTest::test58
+ - Removing uncompilable test method(s): Jsoup-79b-llm.27.tar.bz2
+org.jsoup.nodes.LeafNode_LLMTest
+Number of uncompilable test classes: 1 (see /root/workspace/data/Jsoup-79b/tests/27/fix_test_suite.compile.log file for more information)
+Number of uncompilable tests: 1 (see /root/workspace/data/Jsoup-79b/tests/27/fix_test_suite.compile.log file for more information)
+Number of failing tests: 0
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-16 05:39:34  ######

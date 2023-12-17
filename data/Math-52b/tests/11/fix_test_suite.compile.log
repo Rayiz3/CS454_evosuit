@@ -1,0 +1,2174 @@
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/target/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/target/test-classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/target/classes/META-INF
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_32736_1702719383/target/classes/META-INF
+
+compile:
+    [javac] Compiling 565 source files to /tmp/fix_test_suite.pl_32736_1702719383/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/MessageFormat.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArithmeticException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/EOFException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParseException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ConcurrentModificationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/NoSuchElementException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArrayIndexOutOfBoundsException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ClassNotFoundException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigDecimal.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigInteger.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/FieldPosition.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/NumberFormat.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParsePosition.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/MessageDigest.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchProviderException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/SecureRandom.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/UnsupportedOperationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/MissingResourceException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ResourceBundle.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/Format.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TreeSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/awt/geom/AffineTransform.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Array.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/SortedSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectInput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectOutput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Externalizable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStreamReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/MalformedURLException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TreeMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/InvocationTargetException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IndexOutOfBoundsException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/MathContext.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/RoundingMode.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintWriter.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/MessageFormat.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArithmeticException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/EOFException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParseException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ConcurrentModificationException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/NoSuchElementException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArrayIndexOutOfBoundsException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /tmp/fix_test_suite.pl_32736_1702719383/src/main/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 100 warnings
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:435: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:435: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:478: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:478: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:521: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:521: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:700: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:700: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1078: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1078: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1137: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1137: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1429: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1429: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1510: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1510: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1546: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1546: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1583: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1583: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1620: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1620: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1657: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1657: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1756: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1756: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1757: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1757: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1757: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1758: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1758: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1758: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1759: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1759: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1759: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1760: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1760: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1761: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1761: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1761: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1761: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1761: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1762: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1762: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1763: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1772: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1773: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1782: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1783: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1792: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1793: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1802: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1804: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1806: error: class, interface, or enum expected
+    [javac]   public void test47() {
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1808: error: class, interface, or enum expected
+    [javac]     Rotation r2 = new Rotation(0, 1, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1809: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1811: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1812: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, 0, 1, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1813: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1815: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1816: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, 0, 0, 1, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1817: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1819: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1820: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1821: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(0, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1823: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1824: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, -1, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1825: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1827: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1828: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, 0, -1, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1829: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1831: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1832: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, 0, 0, -1, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1833: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1835: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1836: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, 1, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1837: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1839: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1840: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, 0, 1, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1841: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1843: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1844: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, 0, 0, 1, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1845: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1847: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1848: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1849: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(0, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1851: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1852: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, -1, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1853: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1855: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1856: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, 0, -1, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1857: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1859: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1860: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(0, 0, 0, -1, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1861: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(Math.PI/2, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1863: error: class, interface, or enum expected
+    [javac]     r1 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1864: error: class, interface, or enum expected
+    [javac]     r2 = new Rotation(1, 0, 0, 0, true);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1865: error: class, interface, or enum expected
+    [javac]     Assert.assertEquals(0, distance(r1, r2), 1.0e-12);
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1866: error: class, interface, or enum expected
+    [javac]   }
+    [javac]   ^
+    [javac] 99 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:438: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:438: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:481: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:481: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:524: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:524: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:703: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:703: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1084: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1084: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1146: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1146: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1441: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1441: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1525: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1525: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1561: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1561: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1598: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1598: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1635: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1635: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1672: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1672: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1774: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1774: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1775: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1775: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1775: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1776: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1776: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1776: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1777: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1777: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1777: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1778: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1778: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1779: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1779: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1779: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1779: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1779: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1780: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1780: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1781: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1790: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1791: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1800: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1801: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1810: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1811: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1820: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1822: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1824: error: class, interface, or enum expected
+    [javac]   public void test47() {}
+    [javac]          ^
+    [javac] 54 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:441: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:441: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:484: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:484: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:527: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:527: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:706: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:706: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1090: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1090: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1155: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1155: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1453: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1453: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1540: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1540: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1576: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1576: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1613: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1613: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1650: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1650: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1687: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1687: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1792: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1792: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1793: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1793: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1793: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1794: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1794: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1794: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1795: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1795: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1795: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1796: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1796: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1797: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1797: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1797: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1797: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1797: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1798: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1798: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1799: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1808: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1809: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1818: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1819: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1828: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1829: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1838: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1840: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1842: error: class, interface, or enum expected
+    [javac]   public void test47() {}
+    [javac]          ^
+    [javac] 54 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:444: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:444: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:487: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:487: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:530: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:530: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:709: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:709: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1096: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1096: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1164: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1164: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1465: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1465: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1555: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1555: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1591: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1591: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1628: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1628: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1665: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1665: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1702: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1702: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1810: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1810: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1811: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1811: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1811: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1812: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1812: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1812: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1813: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1813: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1813: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1814: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1814: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1815: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1815: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1815: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1815: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1815: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1816: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1816: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1817: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1826: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1827: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1836: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1837: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1846: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1847: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1856: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1858: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1860: error: class, interface, or enum expected
+    [javac]   public void test47() {}
+    [javac]          ^
+    [javac] 54 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:447: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:447: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:490: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:490: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:533: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:533: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:712: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:712: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1102: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1102: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1173: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1173: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1477: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1477: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1570: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1570: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1606: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1606: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1643: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1643: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1680: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1680: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1717: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1717: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1828: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1828: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1829: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1829: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1829: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1830: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1830: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1830: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1831: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1831: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1831: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1832: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1832: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1833: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1833: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1833: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1833: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1833: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1834: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1834: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1835: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1844: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1845: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1854: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1855: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1864: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1865: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1874: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1876: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1878: error: class, interface, or enum expected
+    [javac]   public void test47() {}
+    [javac]          ^
+    [javac] 54 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:450: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:450: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:493: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:493: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:536: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:536: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:715: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:715: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1108: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1108: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1182: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1182: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1489: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1489: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1585: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1585: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1621: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1621: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1658: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1658: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1695: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1695: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1732: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1732: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1846: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1846: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1847: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1847: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1847: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1848: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1848: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1848: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1849: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1849: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1849: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1850: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1850: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1851: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1851: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1851: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1851: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1851: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1852: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1852: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1853: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1862: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1863: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1872: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1873: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1882: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1883: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1892: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1894: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1896: error: class, interface, or enum expected
+    [javac]   public void test47() {}
+    [javac]          ^
+    [javac] 54 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:453: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:453: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:496: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:496: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:539: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:539: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:718: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:718: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1114: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1114: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1191: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1191: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1501: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1501: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1600: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1600: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1636: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1636: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1673: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1673: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1710: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1710: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1747: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1747: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1864: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1864: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1865: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1865: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1865: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1866: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1866: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1866: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1867: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1867: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1867: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1868: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1868: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1869: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1869: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1869: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1869: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1869: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1870: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1870: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1871: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1880: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1881: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1890: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1891: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1900: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1901: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1910: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1912: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1914: error: class, interface, or enum expected
+    [javac]   public void test47() {}
+    [javac]          ^
+    [javac] 54 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:456: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:456: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:499: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:499: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:542: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:542: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:721: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:721: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1120: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1120: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1200: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1200: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1513: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1513: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1615: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1615: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1651: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1651: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1688: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1688: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1725: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1725: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1762: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1762: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1882: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1882: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1883: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1883: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1883: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1884: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1884: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1884: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1885: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1885: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1885: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1886: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1886: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1887: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1887: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1887: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1887: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1887: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1888: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1888: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1889: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1898: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1899: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1908: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1909: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1918: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1919: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1928: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1930: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1932: error: class, interface, or enum expected
+    [javac]   public void test47() {}
+    [javac]          ^
+    [javac] 54 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:459: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:459: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:502: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:502: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:545: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:545: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:724: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:724: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1126: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1126: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1209: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1209: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1525: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1525: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1630: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1630: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1666: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1666: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1703: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1703: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1740: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1740: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1777: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1777: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1900: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1900: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1901: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1901: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1901: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1902: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1902: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1902: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1903: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1903: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1903: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1904: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1904: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1905: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1905: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1905: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1905: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1905: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1906: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1906: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1907: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1916: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1917: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1926: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1927: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1936: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1937: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1946: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1948: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1950: error: class, interface, or enum expected
+    [javac]   public void test47() {}
+    [javac]          ^
+    [javac] 54 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.11.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_32736_1702719383/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:462: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:462: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:505: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:505: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:548: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:548: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:727: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:727: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1132: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1132: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1218: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1218: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1537: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1537: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1645: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1645: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1681: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1681: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1718: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1718: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1755: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1755: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1792: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1792: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1918: error: illegal start of type
+    [javac] try {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1918: error: ';' expected
+    [javac] try {
+    [javac]    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1919: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1919: error: illegal start of type
+    [javac]   new Rotation(new double[][] {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1919: error: ')' expected
+    [javac]   new Rotation(new double[][] {
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1920: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1920: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1920: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1921: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1921: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1921: error: illegal start of expression
+    [javac]                  { 0.0, 0.0, 0.0 },
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1922: error: not a statement
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1922: error: ';' expected
+    [javac]                  { 0.0, 0.0, 0.0 }
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1923: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                 ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1923: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1923: error: illegal start of type
+    [javac]                }, 1.0e-7);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1923: error: <identifier> expected
+    [javac]                }, 1.0e-7);
+    [javac]                          ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1923: error: ';' expected
+    [javac]                }, 1.0e-7);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1924: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1924: error: illegal start of type
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1925: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1934: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1935: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1944: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1945: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1954: error: class, interface, or enum expected
+    [javac]   Assert.fail("Expecting NotARotationMatrixException");
+    [javac]   ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1955: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1964: error: class, interface, or enum expected
+    [javac] } catch (NotARotationMatrixException nrme) {
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1966: error: class, interface, or enum expected
+    [javac] }
+    [javac] ^
+    [javac] /tmp/fix_test_suite.pl_32736_1702719383/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1968: error: class, interface, or enum expected
+    [javac]   public void test47() {}
+    [javac]          ^
+    [javac] 54 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

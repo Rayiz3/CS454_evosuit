@@ -1,0 +1,659 @@
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/target/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/target/test-classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/target/classes/META-INF
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_29735_1702717864/target/classes/META-INF
+
+compile:
+    [javac] Compiling 565 source files to /tmp/fix_test_suite.pl_29735_1702717864/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/MessageFormat.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArithmeticException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/EOFException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParseException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ConcurrentModificationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/NoSuchElementException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArrayIndexOutOfBoundsException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ClassNotFoundException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigDecimal.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigInteger.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/FieldPosition.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/NumberFormat.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParsePosition.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/MessageDigest.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchProviderException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/SecureRandom.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/UnsupportedOperationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/MissingResourceException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ResourceBundle.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/Format.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TreeSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/awt/geom/AffineTransform.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Array.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/SortedSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectInput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ObjectOutput.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Externalizable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStreamReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/MalformedURLException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TreeMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/InvocationTargetException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IndexOutOfBoundsException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/MathContext.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/RoundingMode.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintWriter.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/MessageFormat.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArithmeticException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/EOFException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParseException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ConcurrentModificationException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/NoSuchElementException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ArrayIndexOutOfBoundsException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /tmp/fix_test_suite.pl_29735_1702717864/src/main/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 100 warnings
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:384: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:384: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:567: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:567: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:894: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:894: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1066: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1066: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:387: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:387: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:570: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:570: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:900: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:900: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1075: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1075: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:390: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:390: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:573: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:573: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:906: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:906: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1084: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1084: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:393: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:393: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:576: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:576: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:912: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:912: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1093: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1093: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:396: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:396: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:579: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:579: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:918: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:918: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1102: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1102: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:399: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:399: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:582: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:582: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:924: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:924: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1111: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1111: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:402: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:402: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:585: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:585: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:930: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:930: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1120: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1120: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:405: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:405: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:588: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:588: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:936: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:936: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1129: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1129: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:408: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:408: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:591: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:591: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:942: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:942: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1138: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1138: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-52b-llm.8.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- Commons MATH 3.0-SNAPSHOT --------
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_29735_1702717864/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:411: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:411: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:594: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:594: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:948: error: illegal start of type
+    [javac]     throws CardanEulerSingularityException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:948: error: ';' expected
+    [javac]     throws CardanEulerSingularityException {
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1147: error: illegal start of type
+    [javac]     throws NotARotationMatrixException {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_29735_1702717864/llm/org/apache/commons/math/geometry/euclidean/threed/Rotation_LLMTest.java:1147: error: ';' expected
+    [javac]     throws NotARotationMatrixException {
+    [javac]           ^
+    [javac] 8 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

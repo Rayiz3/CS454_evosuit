@@ -1,140 +1,53 @@
 
 The method looks like: 
 ```java
-    ParseSettings defaultSettings() {
-        return ParseSettings.preserveCase;
+    public static boolean equals(final CharSequence cs1, final CharSequence cs2) {
+        if (cs1 == cs2) {
+            return true;
+        }
+        if (cs1 == null || cs2 == null) {
+            return false;
+        }
+        if (cs1 instanceof String && cs2 instanceof String) {
+            return cs1.equals(cs2);
+        }
+        return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));
     }
 
 ```
 
 The test cases covering given method looks like: 
 ```java
-    @Test public void xmlFragment() {
-        String xml = "<one src='/foo/' />Two<three><four /></three>";
-        List<Node> nodes = Parser.parseXmlFragment(xml, "http://example.com/");
-        assertEquals(3, nodes.size());
-
-        assertEquals("http://example.com/foo/", nodes.get(0).absUrl("src"));
-        assertEquals("one", nodes.get(0).nodeName());
-        assertEquals("Two", ((TextNode)nodes.get(1)).text());
-    }
-    @Test public void normalizesDiscordantTags() {
-        Parser parser = Parser.xmlParser().settings(ParseSettings.htmlDefault);
-        Document document = Jsoup.parse("<div>test</DIV><p></p>", "", parser);
-        assertEquals("<div>\n test\n</div>\n<p></p>", document.html());
-        // was failing -> toString() = "<div>\n test\n <p></p>\n</div>"
+    @Test
+    public void testEqualsCS2() {
+        Assert.assertTrue(StringUtils.equals("abc", new StringBuilder("abc")));
+        Assert.assertFalse(StringUtils.equals(new StringBuilder("abc"), "abcd"));
+        Assert.assertFalse(StringUtils.equals("abcd", new StringBuilder("abc")));
+        Assert.assertFalse(StringUtils.equals(new StringBuilder("abc"), "ABC"));
     }
     @Test
-    public void canNormalizeCase() {
-        String xml = "<TEST ID=1>Check</TEST>";
-        Document doc = Jsoup.parse(xml, "", Parser.xmlParser().settings(ParseSettings.htmlDefault));
-        assertEquals("<test id=\"1\">Check</test>", TextUtil.stripNewlines(doc.html()));
+    public void testEqualsString() {
+        Assert.assertTrue(StringUtils.equals(null, null));
+        Assert.assertFalse(StringUtils.equals("abc", null));
+        Assert.assertFalse(StringUtils.equals(null, "abc"));
+        Assert.assertTrue(StringUtils.equals("abc", "abc"));
+        Assert.assertFalse(StringUtils.equals("abc", "abcd"));
+        Assert.assertFalse(StringUtils.equals("abcd", "abc"));
+        Assert.assertFalse(StringUtils.equals("abc", "ABC"));
     }
     @Test
-    public void caseSensitiveDeclaration() {
-        String xml = "<?XML version='1' encoding='UTF-8' something='else'?>";
-        Document doc = Jsoup.parse(xml, "", Parser.xmlParser());
-        assertEquals("<?XML version=\"1\" encoding=\"UTF-8\" something=\"else\"?>", doc.outerHtml());
-    }
-    @Test
-    public void testParseDeclarationAttributes() {
-        String xml = "<?xml version='1' encoding='UTF-8' something='else'?><val>One</val>";
-        Document doc = Jsoup.parse(xml, "", Parser.xmlParser());
-        XmlDeclaration decl = (XmlDeclaration) doc.childNode(0);
-        assertEquals("1", decl.attr("version"));
-        assertEquals("UTF-8", decl.attr("encoding"));
-        assertEquals("else", decl.attr("something"));
-        assertEquals("version=\"1\" encoding=\"UTF-8\" something=\"else\"", decl.getWholeDeclaration());
-        assertEquals("<?xml version=\"1\" encoding=\"UTF-8\" something=\"else\"?>", decl.outerHtml());
-    }
-    @Test
-    public void testDoesHandleEOFInTag() {
-        String html = "<img src=asdf onerror=\"alert(1)\" x=";
-        Document xmlDoc = Jsoup.parse(html, "", Parser.xmlParser());
-        assertEquals("<img src=\"asdf\" onerror=\"alert(1)\" x=\"\" />", xmlDoc.html());
-    }
-    @Test
-    public void testSupplyParserToJsoupClass() {
-        String xml = "<doc><val>One<val>Two</val></bar>Three</doc>";
-        Document doc = Jsoup.parse(xml, "http://foo.com/", Parser.xmlParser());
-        assertEquals("<doc><val>One<val>Two</val>Three</val></doc>",
-                TextUtil.stripNewlines(doc.html()));
-    }
-    @Test
-    public void testSupplyParserToDataStream() throws IOException, URISyntaxException {
-        File xmlFile = new File(XmlTreeBuilder.class.getResource("/htmltests/xml-test.xml").toURI());
-        InputStream inStream = new FileInputStream(xmlFile);
-        Document doc = Jsoup.parse(inStream, null, "http://foo.com", Parser.xmlParser());
-        assertEquals("<doc><val>One<val>Two</val>Three</val></doc>",
-                TextUtil.stripNewlines(doc.html()));
-    }
-    @Test
-    public void handlesDodgyXmlDecl() {
-        String xml = "<?xml version='1.0'><val>One</val>";
-        Document doc = Jsoup.parse(xml, "", Parser.xmlParser());
-        assertEquals("One", doc.select("val").text());
-    }
-    @Test public void cdataPreservesWhiteSpace() {
-        String xml = "<script type=\"text/javascript\">//<![CDATA[\n\n  foo();\n//]]></script>";
-        Document doc = Jsoup.parse(xml, "", Parser.xmlParser());
-        assertEquals(xml, doc.outerHtml());
-
-        assertEquals("//\n\n  foo();\n//", doc.selectFirst("script").text());
-    }
-    @Test public void roundTripsCdata() {
-        String xml = "<div id=1><![CDATA[\n<html>\n <foo><&amp;]]></div>";
-        Document doc = Jsoup.parse(xml, "", Parser.xmlParser());
-
-        Element div = doc.getElementById("1");
-        assertEquals("<html>\n <foo><&amp;", div.text());
-        assertEquals(0, div.children().size());
-        assertEquals(1, div.childNodeSize()); // no elements, one text node
-
-        assertEquals("<div id=\"1\"><![CDATA[\n<html>\n <foo><&amp;]]>\n</div>", div.outerHtml());
-
-        CDataNode cdata = (CDataNode) div.textNodes().get(0);
-        assertEquals("\n<html>\n <foo><&amp;", cdata.text());
-    }
-    @Test public void xmlParseDefaultsToHtmlOutputSyntax() {
-        Document doc = Jsoup.parse("x", "", Parser.xmlParser());
-        assertEquals(Syntax.xml, doc.outputSettings().syntax());
-    }
-    @Test
-    public void testDetectCharsetEncodingDeclaration() throws IOException, URISyntaxException {
-        File xmlFile = new File(XmlTreeBuilder.class.getResource("/htmltests/xml-charset.xml").toURI());
-        InputStream inStream = new FileInputStream(xmlFile);
-        Document doc = Jsoup.parse(inStream, null, "http://example.com/", Parser.xmlParser());
-        assertEquals("ISO-8859-1", doc.charset().name());
-        assertEquals("<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?> <data>äöåéü</data>",
-            TextUtil.stripNewlines(doc.html()));
-    }
-    @Test
-    public void testDoesNotForceSelfClosingKnownTags() {
-        // html will force "<br>one</br>" to logically "<br />One<br />". XML should be stay "<br>one</br> -- don't recognise tag.
-        Document htmlDoc = Jsoup.parse("<br>one</br>");
-        assertEquals("<br>one\n<br>", htmlDoc.body().html());
-
-        Document xmlDoc = Jsoup.parse("<br>one</br>", "", Parser.xmlParser());
-        assertEquals("<br>one</br>", xmlDoc.html());
-    }
-    @Test public void handlesXmlDeclarationAsDeclaration() {
-        String html = "<?xml encoding='UTF-8' ?><body>One</body><!-- comment -->";
-        Document doc = Jsoup.parse(html, "", Parser.xmlParser());
-        assertEquals("<?xml encoding=\"UTF-8\"?> <body> One </body> <!-- comment -->",
-                StringUtil.normaliseWhitespace(doc.outerHtml()));
-        assertEquals("#declaration", doc.childNode(0).nodeName());
-        assertEquals("#comment", doc.childNode(2).nodeName());
-    }
-    @Test
-    public void preservesCaseByDefault() {
-        String xml = "<CHECK>One</CHECK><TEST ID=1>Check</TEST>";
-        Document doc = Jsoup.parse(xml, "", Parser.xmlParser());
-        assertEquals("<CHECK>One</CHECK><TEST ID=\"1\">Check</TEST>", TextUtil.stripNewlines(doc.html()));
+    public void testEqualsCS1() {
+        Assert.assertFalse(StringUtils.equals(new StringBuilder("abc"), null));
+        Assert.assertFalse(StringUtils.equals(null, new StringBuilder("abc")));
+        Assert.assertTrue(StringUtils.equals(new StringBuilder("abc"), new StringBuilder("abc")));
+        Assert.assertFalse(StringUtils.equals(new StringBuilder("abc"), new StringBuilder("abcd")));
+        Assert.assertFalse(StringUtils.equals(new StringBuilder("abcd"), new StringBuilder("abc")));
+        Assert.assertFalse(StringUtils.equals(new StringBuilder("abc"), new StringBuilder("ABC")));
     }
 
 ```
 
-Provide regression test cases of the given method by changing the input of the covering tests.
+Provide regression test cases that can kill more mutants of the given method by changing the input of the covering tests.
 Only the input value of the method in each test should be changed.
 You should insert all regression tests into the below format.
 I have to parse your response, therefore the format below should appear only once in your response.
@@ -142,3 +55,163 @@ I have to parse your response, therefore the format below should appear only onc
 ```java
 
 ```
+
+```java
+    @Test
+    public void testEqualsCS2() {
+        Assert.assertFalse(StringUtils.equals("abc", new StringBuilder("abcd"))); //mutant: append a character to cs2
+        Assert.assertTrue(StringUtils.equals(new StringBuilder("abcd"), "abcd")); //mutant: remove a character from cs1
+        Assert.assertFalse(StringUtils.equals("abcd", new StringBuilder("abc"))); //mutant: append a character to cs1
+        Assert.assertTrue(StringUtils.equals(new StringBuilder("abc"), "ABC")); //mutant: change the case of cs2
+    }
+    @Test
+    public void testEqualsString() {
+        Assert.assertFalse(StringUtils.equals("abc", null)); //mutant: change null to a non-null String
+        Assert.assertFalse(StringUtils.equals(null, "abc")); //mutant: change null to a non-null String
+        Assert.assertTrue(StringUtils.equals("abc", "abcd")); //mutant: append a character to cs2
+        Assert.assertFalse(StringUtils.equals("abcd", "abc")); //mutant: append a character to cs1
+        Assert.assertTrue(StringUtils.equals("abc", "ABC")); //mutant: change the case of cs2
+    }
+    @Test
+    public void testEqualsCS1() {
+        Assert.assertFalse(StringUtils.equals(null, new StringBuilder("abc"))); //mutant: change null to a non-null StringBuilder
+        Assert.assertTrue(StringUtils.equals(new StringBuilder("abc"), new StringBuilder("abcd"))); //mutant: append a character to cs2
+        Assert.assertFalse(StringUtils.equals(new StringBuilder("abcd"), new StringBuilder("abc"))); //mutant: append a character to cs1
+        Assert.assertTrue(StringUtils.equals(new StringBuilder("abc"), new StringBuilder("ABC"))); //mutant: change the case of cs2
+    }
+```
+
+The new regression test cases aim to kill additional mutants in the given method by changing the input values.
+
+The method looks like: 
+```java
+    private static byte[] getBytes(final String string, final Charset charset) {
+        if (string == null) {
+            return null;
+        }
+        return string.getBytes(charset);
+    }
+
+```
+
+The test cases covering given method looks like: 
+```java
+    @Test
+    public void testGetBytesUtf16Le() throws UnsupportedEncodingException {
+        final String charsetName = "UTF-16LE";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesUtf16Le(STRING_FIXTURE);
+        Assert.assertTrue(Arrays.equals(expected, actual));
+    }
+    @Test
+    public void testGetBytesUtf16Be() throws UnsupportedEncodingException {
+        final String charsetName = "UTF-16BE";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesUtf16Be(STRING_FIXTURE);
+        Assert.assertTrue(Arrays.equals(expected, actual));
+    }
+    @Test
+    public void testGetBytesIso8859_1() throws UnsupportedEncodingException {
+        final String charsetName = "ISO-8859-1";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesIso8859_1(STRING_FIXTURE);
+        Assert.assertTrue(Arrays.equals(expected, actual));
+    }
+    @Test
+    public void testGetBytesUtf8() throws UnsupportedEncodingException {
+        final String charsetName = "UTF-8";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesUtf8(STRING_FIXTURE);
+        Assert.assertTrue(Arrays.equals(expected, actual));
+    }
+    @Test
+    public void testGetBytesUtf16() throws UnsupportedEncodingException {
+        final String charsetName = "UTF-16";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesUtf16(STRING_FIXTURE);
+        Assert.assertTrue(Arrays.equals(expected, actual));
+    }
+    @Test
+    public void testGetBytesUsAscii() throws UnsupportedEncodingException {
+        final String charsetName = "US-ASCII";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesUsAscii(STRING_FIXTURE);
+        Assert.assertTrue(Arrays.equals(expected, actual));
+    }
+
+```
+
+Provide regression test cases that can kill more mutants of the given method by changing the input of the covering tests.
+Only the input value of the method in each test should be changed.
+You should insert all regression tests into the below format.
+I have to parse your response, therefore the format below should appear only once in your response.
+
+```java
+
+```
+
+The additional regression test cases that can kill more mutants of the given method by changing the input of the covering tests are:
+
+```java
+    @Test
+    public void testGetBytesUtf16LeWithNullInput() throws UnsupportedEncodingException {
+        final String charsetName = "UTF-16LE";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = null;
+        final byte[] actual = StringUtils.getBytesUtf16Le(null);
+        Assert.assertArrayEquals(expected, actual);
+    }
+    
+    @Test
+    public void testGetBytesUtf16BeWithEmptyString() throws UnsupportedEncodingException {
+        final String charsetName = "UTF-16BE";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = new byte[0];
+        final byte[] actual = StringUtils.getBytesUtf16Be("");
+        Assert.assertArrayEquals(expected, actual);
+    }
+    
+    @Test
+    public void testGetBytesIso8859_1WithWhitespace() throws UnsupportedEncodingException {
+        final String charsetName = "ISO-8859-1";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = " ".getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesIso8859_1(" ");
+        Assert.assertArrayEquals(expected, actual);
+    }
+    
+    @Test
+    public void testGetBytesUtf8WithUppercaseString() throws UnsupportedEncodingException {
+        final String charsetName = "UTF-8";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = "HELLO".getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesUtf8("HELLO");
+        Assert.assertArrayEquals(expected, actual);
+    }
+    
+    @Test
+    public void testGetBytesUtf16WithSpecialCharacters() throws UnsupportedEncodingException {
+        final String charsetName = "UTF-16";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = "@#$%".getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesUtf16("@#$%");
+        Assert.assertArrayEquals(expected, actual);
+    }
+    
+    @Test
+    public void testGetBytesUsAsciiWithNumbers() throws UnsupportedEncodingException {
+        final String charsetName = "US-ASCII";
+        testGetBytesUnchecked(charsetName);
+        final byte[] expected = "12345".getBytes(charsetName);
+        final byte[] actual = StringUtils.getBytesUsAscii("12345");
+        Assert.assertArrayEquals(expected, actual);
+    }
+    
+```
+Note: I have inserted the additional regression test cases in the format you provided.
