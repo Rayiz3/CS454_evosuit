@@ -1,0 +1,26 @@
+1:STD:<CALL>:<NO-OP>:org.jsoup.nodes.LeafNode@attributes():17:ensureAttributes() |==> <NO-OP>
+2:COR:hasAttributes():TRUE:org.jsoup.nodes.LeafNode@ensureAttributes():22:hasAttributes() |==> false
+3:COR:hasAttributes():FALSE:org.jsoup.nodes.LeafNode@ensureAttributes():22:hasAttributes() |==> true
+4:STD:<ASSIGN>:<NO-OP>:org.jsoup.nodes.LeafNode@ensureAttributes():25:value = attributes |==> <NO-OP>
+5:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.jsoup.nodes.LeafNode@ensureAttributes():26:coreValue != null |==> true
+6:STD:<CALL>:<NO-OP>:org.jsoup.nodes.LeafNode@ensureAttributes():27:attributes.put(nodeName(), (String)coreValue) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.jsoup.nodes.LeafNode@coreValue(java.lang.String):36:attr(nodeName(), value) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.jsoup.nodes.LeafNode@attr(java.lang.String):41:Validate.notNull(key) |==> <NO-OP>
+9:COR:hasAttributes():TRUE:org.jsoup.nodes.LeafNode@attr(java.lang.String):42:hasAttributes() |==> false
+10:COR:hasAttributes():FALSE:org.jsoup.nodes.LeafNode@attr(java.lang.String):42:hasAttributes() |==> true
+11:COR:key.equals(nodeName()):TRUE:org.jsoup.nodes.LeafNode@attr(java.lang.String):43:key.equals(nodeName()) |==> false
+12:COR:key.equals(nodeName()):FALSE:org.jsoup.nodes.LeafNode@attr(java.lang.String):43:key.equals(nodeName()) |==> true
+13:COR:&&(boolean,boolean):==(boolean,boolean):org.jsoup.nodes.LeafNode@attr(java.lang.String,java.lang.String):50:!hasAttributes() && key.equals(nodeName()) |==> !hasAttributes() == key.equals(nodeName())
+14:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.jsoup.nodes.LeafNode@attr(java.lang.String,java.lang.String):50:!hasAttributes() && key.equals(nodeName()) |==> false
+15:COR:&&(boolean,boolean):LHS(boolean,boolean):org.jsoup.nodes.LeafNode@attr(java.lang.String,java.lang.String):50:!hasAttributes() && key.equals(nodeName()) |==> !hasAttributes()
+16:COR:&&(boolean,boolean):RHS(boolean,boolean):org.jsoup.nodes.LeafNode@attr(java.lang.String,java.lang.String):50:!hasAttributes() && key.equals(nodeName()) |==> key.equals(nodeName())
+17:STD:<ASSIGN>:<NO-OP>:org.jsoup.nodes.LeafNode@attr(java.lang.String,java.lang.String):51:this.value = value |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.jsoup.nodes.LeafNode@attr(java.lang.String,java.lang.String):53:ensureAttributes() |==> <NO-OP>
+19:STD:<CALL>:<NO-OP>:org.jsoup.nodes.LeafNode@attr(java.lang.String,java.lang.String):54:super.attr(key, value) |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.jsoup.nodes.LeafNode@hasAttr(java.lang.String):61:ensureAttributes() |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.jsoup.nodes.LeafNode@removeAttr(java.lang.String):67:ensureAttributes() |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.jsoup.nodes.LeafNode@absUrl(java.lang.String):73:ensureAttributes() |==> <NO-OP>
+23:COR:hasParent():TRUE:org.jsoup.nodes.LeafNode@baseUri():79:hasParent() |==> false
+24:COR:hasParent():FALSE:org.jsoup.nodes.LeafNode@baseUri():79:hasParent() |==> true
+25:LVR:0:POS:org.jsoup.nodes.LeafNode@childNodeSize():89:0 |==> 1
+26:LVR:0:NEG:org.jsoup.nodes.LeafNode@childNodeSize():89:0 |==> -1

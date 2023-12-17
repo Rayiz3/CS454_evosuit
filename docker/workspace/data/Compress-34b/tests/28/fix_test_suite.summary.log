@@ -1,0 +1,21 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-15 23:31:00  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Compress-34b-llm.28.tar.bz2
+  - Removing 11 uncompilable test method(s):
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test23
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test24
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test25
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test26
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test27
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test28
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test29
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test30
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test31
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test32
+--- org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest::test33
+ - Removing uncompilable test method(s): Compress-34b-llm.28.tar.bz2
+org.apache.commons.compress.archivers.zip.X7875_NewUnix_LLMTest
+Number of uncompilable test classes: 1 (see /root/workspace/data/Compress-34b/tests/28/fix_test_suite.compile.log file for more information)
+Number of uncompilable tests: 11 (see /root/workspace/data/Compress-34b/tests/28/fix_test_suite.compile.log file for more information)
+Number of failing tests: 0
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-15 23:31:10  ######

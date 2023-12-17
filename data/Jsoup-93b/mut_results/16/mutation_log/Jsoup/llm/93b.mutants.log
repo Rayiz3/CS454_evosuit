@@ -1,0 +1,40 @@
+1:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@addElement(org.jsoup.nodes.Element):45:elements.add(element) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@removeChild(org.jsoup.nodes.Node):51:super.removeChild(out) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@removeChild(org.jsoup.nodes.Node):52:elements.remove(out) |==> <NO-OP>
+4:COR:hasAttr("action"):TRUE:org.jsoup.nodes.FormElement@submit():63:hasAttr("action") |==> false
+5:COR:hasAttr("action"):FALSE:org.jsoup.nodes.FormElement@submit():63:hasAttr("action") |==> true
+6:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@submit():64:Validate.notEmpty(action, "Could not determine a form action URL for submit. Ensure you set a base URI when parsing.") |==> <NO-OP>
+7:COR:attr("method").toUpperCase().equals("POST"):TRUE:org.jsoup.nodes.FormElement@submit():65:attr("method").toUpperCase().equals("POST") |==> false
+8:COR:attr("method").toUpperCase().equals("POST"):FALSE:org.jsoup.nodes.FormElement@submit():65:attr("method").toUpperCase().equals("POST") |==> true
+9:COR:el.tag().isFormSubmittable():TRUE:org.jsoup.nodes.FormElement@formData():83:el.tag().isFormSubmittable() |==> false
+10:COR:el.tag().isFormSubmittable():FALSE:org.jsoup.nodes.FormElement@formData():83:el.tag().isFormSubmittable() |==> true
+11:COR:el.hasAttr("disabled"):TRUE:org.jsoup.nodes.FormElement@formData():84:el.hasAttr("disabled") |==> false
+12:COR:el.hasAttr("disabled"):FALSE:org.jsoup.nodes.FormElement@formData():84:el.hasAttr("disabled") |==> true
+13:LVR:0:POS:org.jsoup.nodes.FormElement@formData():86:0 |==> 1
+14:LVR:0:NEG:org.jsoup.nodes.FormElement@formData():86:0 |==> -1
+15:ROR:==(int,int):<=(int,int):org.jsoup.nodes.FormElement@formData():86:name.length() == 0 |==> name.length() <= 0
+16:ROR:==(int,int):>=(int,int):org.jsoup.nodes.FormElement@formData():86:name.length() == 0 |==> name.length() >= 0
+17:ROR:==(int,int):FALSE(int,int):org.jsoup.nodes.FormElement@formData():86:name.length() == 0 |==> false
+18:COR:"select".equals(el.normalName()):TRUE:org.jsoup.nodes.FormElement@formData():90:"select".equals(el.normalName()) |==> false
+19:COR:"select".equals(el.normalName()):FALSE:org.jsoup.nodes.FormElement@formData():90:"select".equals(el.normalName()) |==> true
+20:LVR:FALSE:TRUE:org.jsoup.nodes.FormElement@formData():92:false |==> true
+21:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@formData():94:data.add(HttpConnection.KeyVal.create(name, option.val())) |==> <NO-OP>
+22:LVR:TRUE:FALSE:org.jsoup.nodes.FormElement@formData():95:true |==> false
+23:STD:<ASSIGN>:<NO-OP>:org.jsoup.nodes.FormElement@formData():95:set = true |==> <NO-OP>
+24:COR:set:TRUE:org.jsoup.nodes.FormElement@formData():97:set |==> false
+25:COR:set:FALSE:org.jsoup.nodes.FormElement@formData():97:set |==> true
+26:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.jsoup.nodes.FormElement@formData():99:option != null |==> true
+27:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@formData():100:data.add(HttpConnection.KeyVal.create(name, option.val())) |==> <NO-OP>
+28:COR:||(boolean,boolean):!=(boolean,boolean):org.jsoup.nodes.FormElement@formData():102:"checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type) |==> "checkbox".equalsIgnoreCase(type) != "radio".equalsIgnoreCase(type)
+29:COR:||(boolean,boolean):LHS(boolean,boolean):org.jsoup.nodes.FormElement@formData():102:"checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type) |==> "checkbox".equalsIgnoreCase(type)
+30:COR:||(boolean,boolean):RHS(boolean,boolean):org.jsoup.nodes.FormElement@formData():102:"checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type) |==> "radio".equalsIgnoreCase(type)
+31:COR:||(boolean,boolean):TRUE(boolean,boolean):org.jsoup.nodes.FormElement@formData():102:"checkbox".equalsIgnoreCase(type) || "radio".equalsIgnoreCase(type) |==> true
+32:COR:el.hasAttr("checked"):TRUE:org.jsoup.nodes.FormElement@formData():104:el.hasAttr("checked") |==> false
+33:COR:el.hasAttr("checked"):FALSE:org.jsoup.nodes.FormElement@formData():104:el.hasAttr("checked") |==> true
+34:LVR:0:POS:org.jsoup.nodes.FormElement@formData():105:0 |==> 1
+35:LVR:0:NEG:org.jsoup.nodes.FormElement@formData():105:0 |==> -1
+36:ROR:>(int,int):!=(int,int):org.jsoup.nodes.FormElement@formData():105:el.val().length() > 0 |==> el.val().length() != 0
+37:ROR:>(int,int):>=(int,int):org.jsoup.nodes.FormElement@formData():105:el.val().length() > 0 |==> el.val().length() >= 0
+38:ROR:>(int,int):FALSE(int,int):org.jsoup.nodes.FormElement@formData():105:el.val().length() > 0 |==> false
+39:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@formData():106:data.add(HttpConnection.KeyVal.create(name, val)) |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.jsoup.nodes.FormElement@formData():109:data.add(HttpConnection.KeyVal.create(name, el.val())) |==> <NO-OP>

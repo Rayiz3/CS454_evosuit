@@ -1,0 +1,27 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-16 17:55:52  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Jsoup-80b-llm.11.tar.bz2
+  - Removing 17 uncompilable test method(s):
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test44
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test45
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test46
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test47
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test48
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test49
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test50
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test51
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test52
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test53
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test54
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test55
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test56
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test57
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test58
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test59
+--- org.jsoup.parser.XmlTreeBuilder_LLMTest::test60
+ - Removing uncompilable test method(s): Jsoup-80b-llm.11.tar.bz2
+org.jsoup.parser.XmlTreeBuilder_LLMTest
+Number of uncompilable test classes: 1 (see /root/workspace/data/Jsoup-80b/tests/11/fix_test_suite.compile.log file for more information)
+Number of uncompilable tests: 17 (see /root/workspace/data/Jsoup-80b/tests/11/fix_test_suite.compile.log file for more information)
+Number of failing tests: 0
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-16 17:56:02  ######

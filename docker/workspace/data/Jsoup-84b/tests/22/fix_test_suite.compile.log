@@ -1,0 +1,771 @@
+- Compilation issues: Jsoup-84b-llm.22.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_6817_1702753452/target/classes
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/maven-build.xml:84: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 68 source files to /tmp/fix_test_suite.pl_6817_1702753452/target/classes
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/SSLSocketFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/Proxy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Reader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/CharsetEncoder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ref/WeakReference.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Pattern.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/PatternSyntaxException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/RandomAccess.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Matcher.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Appendable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ThreadLocal.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStreamReader.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/Buffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/IllegalCharsetNameException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/HttpsURLConnection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStreamWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/HttpURLConnection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/InetSocketAddress.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/MalformedURLException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URI.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URLEncoder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/GZIPInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/Inflater.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/InflaterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Comment.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Document.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Element.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Text.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/parsers/DocumentBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/parsers/DocumentBuilderFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/parsers/ParserConfigurationException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/Transformer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/TransformerException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/TransformerFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/dom/DOMSource.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/transform/stream/StreamResult.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Stack.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/SocketTimeoutException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/IdentityHashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/javax/net/ssl/SSLSocketFactory.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedInputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/Proxy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] Note: /tmp/fix_test_suite.pl_6817_1702753452/src/main/java/org/jsoup/nodes/Attributes.java uses or overrides a deprecated API.
+    [javac] 100 warnings
+    [javac] Creating empty /tmp/fix_test_suite.pl_6817_1702753452/target/classes/org/jsoup/parser/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_6817_1702753452/target/classes/org/jsoup/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_6817_1702753452/target/classes/org/jsoup/select/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_6817_1702753452/target/classes/org/jsoup/internal/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_6817_1702753452/target/classes/org/jsoup/examples/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_6817_1702753452/target/classes/org/jsoup/nodes/package-info.class
+    [javac] Creating empty /tmp/fix_test_suite.pl_6817_1702753452/target/classes/org/jsoup/safety/package-info.class
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_6817_1702753452/target/classes/META-INF
+     [copy] Copying 3 files to /tmp/fix_test_suite.pl_6817_1702753452/target/classes/META-INF
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_6817_1702753452/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_6817_1702753452/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:3: error: cannot find symbol
+    [javac] import org.jsoup.TextUtil;
+    [javac]                 ^
+    [javac]   symbol:   class TextUtil
+    [javac]   location: package org.jsoup
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:4: error: package org.jsoup.integration does not exist
+    [javac] import org.jsoup.integration.ParseTest;
+    [javac]                             ^
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Document.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Node.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Document.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Node.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:48: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/google-ipod.html");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:58: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/google-ipod.html");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:87: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/google-ipod.html");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:98: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/google-ipod.html");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:109: error: no suitable constructor found for Element()
+    [javac]         Node source = new Element();
+    [javac]                       ^
+    [javac]     constructor Element.Element(Tag,String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor Element.Element(Tag,String,Attributes) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor Element.Element(String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:114: error: cannot find symbol
+    [javac]         Document wDoc = w3c.fromJsoup(doc);
+    [javac]                                       ^
+    [javac]   symbol:   variable doc
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:115: error: no suitable constructor found for Element()
+    [javac]         Node head = new Element();
+    [javac]                     ^
+    [javac]     constructor Element.Element(Tag,String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor Element.Element(Tag,String,Attributes) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor Element.Element(String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:117: error: cannot find symbol
+    [javac]         String prefix = updateNamespaces(sourceEl);
+    [javac]                         ^
+    [javac]   symbol:   method updateNamespaces(Element)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:118: error: cannot find symbol
+    [javac]         String namespace = namespacesStack.peek().get(prefix);
+    [javac]                            ^
+    [javac]   symbol:   variable namespacesStack
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:120: error: cannot find symbol
+    [javac]         Element el = doc.createElementNS(namespace, tagName);
+    [javac]                      ^
+    [javac]   symbol:   variable doc
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:121: error: cannot find symbol
+    [javac]         copyAttributes(sourceEl, el);
+    [javac]         ^
+    [javac]   symbol:   method copyAttributes(Element,Element)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:122: error: cannot find symbol
+    [javac]         if (dest == null) {
+    [javac]             ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:123: error: cannot find symbol
+    [javac]             doc.appendChild(el);
+    [javac]             ^
+    [javac]   symbol:   variable doc
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:125: error: cannot find symbol
+    [javac]             dest.appendChild(el);
+    [javac]             ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:127: error: cannot find symbol
+    [javac]         dest = el;
+    [javac]         ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:128: error: cannot find symbol
+    [javac]         assertEquals(dest, el);
+    [javac]                      ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:131: error: no suitable constructor found for TextNode()
+    [javac]         source = new org.jsoup.nodes.TextNode();
+    [javac]                  ^
+    [javac]     constructor TextNode.TextNode(String,String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor TextNode.TextNode(String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:133: error: cannot find symbol
+    [javac]         Text text = doc.createTextNode(sourceText.getWholeText());
+    [javac]         ^
+    [javac]   symbol:   class Text
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:133: error: cannot find symbol
+    [javac]         Text text = doc.createTextNode(sourceText.getWholeText());
+    [javac]                     ^
+    [javac]   symbol:   variable doc
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:134: error: cannot find symbol
+    [javac]         dest.appendChild(text);
+    [javac]         ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:135: error: cannot find symbol
+    [javac]         assertEquals(dest.getChildNodes().item(0), text);
+    [javac]                      ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:138: error: no suitable constructor found for Comment()
+    [javac]         source = new org.jsoup.nodes.Comment();
+    [javac]                  ^
+    [javac]     constructor Comment.Comment(String,String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor Comment.Comment(String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:140: error: cannot find symbol
+    [javac]         Comment comment = doc.createComment(sourceComment.getData());
+    [javac]         ^
+    [javac]   symbol:   class Comment
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:140: error: cannot find symbol
+    [javac]         Comment comment = doc.createComment(sourceComment.getData());
+    [javac]                           ^
+    [javac]   symbol:   variable doc
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:141: error: cannot find symbol
+    [javac]         dest.appendChild(comment);
+    [javac]         ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:142: error: cannot find symbol
+    [javac]         assertEquals(dest.getChildNodes().item(1), comment);
+    [javac]                      ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:145: error: no suitable constructor found for DataNode()
+    [javac]         source = new org.jsoup.nodes.DataNode();
+    [javac]                  ^
+    [javac]     constructor DataNode.DataNode(String,String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor DataNode.DataNode(String) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:147: error: cannot find symbol
+    [javac]         Text node = doc.createTextNode(sourceData.getWholeData());
+    [javac]         ^
+    [javac]   symbol:   class Text
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:147: error: cannot find symbol
+    [javac]         Text node = doc.createTextNode(sourceData.getWholeData());
+    [javac]                     ^
+    [javac]   symbol:   variable doc
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:148: error: cannot find symbol
+    [javac]         dest.appendChild(node);
+    [javac]         ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:149: error: cannot find symbol
+    [javac]         assertEquals(dest.getChildNodes().item(2), node);
+    [javac]                      ^
+    [javac]   symbol:   variable dest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:153: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/namespaces.xhtml");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/NodeList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/NodeList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:169: error: cannot find symbol
+    [javac]         assertEquals("urn:test", xSection.getNamespaceURI());
+    [javac]                                  ^
+    [javac]   symbol:   variable xSection
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:170: error: cannot find symbol
+    [javac]         assertEquals("section", xSection.getLocalName());
+    [javac]                                 ^
+    [javac]   symbol:   variable xSection
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:171: error: cannot find symbol
+    [javac]         assertEquals("x:section", xSection.getNodeName());
+    [javac]                                   ^
+    [javac]   symbol:   variable xSection
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:188: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/google-ipod.html");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:200: error: cannot find symbol
+    [javac]         assertFalse(out.contains("ipod"));
+    [javac]         ^
+    [javac]   symbol:   method assertFalse(boolean)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:209: error: cannot find symbol
+    [javac]         String out = TextUtil.stripNewlines(w3c.asString(wDoc));
+    [javac]                      ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:210: error: cannot find symbol
+    [javac]         String expected = TextUtil.stripNewlines(
+    [javac]                           ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:248: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/google-ipod.html");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:262: error: cannot find symbol
+    [javac]         tail(source, depth);
+    [javac]         ^
+    [javac]   symbol:   method tail(Node,int)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:271: error: cannot find symbol
+    [javac]         tail(source, depth);
+    [javac]         ^
+    [javac]   symbol:   method tail(Node,int)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:280: error: cannot find symbol
+    [javac]         tail(source, depth);
+    [javac]         ^
+    [javac]   symbol:   method tail(Node,int)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:289: error: cannot find symbol
+    [javac]         tail(source, depth);
+    [javac]         ^
+    [javac]   symbol:   method tail(Node,int)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:298: error: cannot find symbol
+    [javac]         tail(source, depth);
+    [javac]         ^
+    [javac]   symbol:   method tail(Node,int)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:304: error: cannot find symbol
+    [javac]         org.jsoup.nodes.Element source = new org.jsoup.nodes.Element(Tag.valueOf("div"), "");
+    [javac]                                                                      ^
+    [javac]   symbol:   variable Tag
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:310: error: cannot find symbol
+    [javac]         copyAttributes(source, el);
+    [javac]         ^
+    [javac]   symbol:   method copyAttributes(Element,Element)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:312: error: cannot find symbol
+    [javac]         assertEquals("&quot;test&quot;", el.getAttribute("name"));
+    [javac]                                            ^
+    [javac]   symbol:   method getAttribute(String)
+    [javac]   location: variable el of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:313: error: cannot find symbol
+    [javac]         assertEquals("value<1>", el.getAttribute("attr_1"));
+    [javac]                                    ^
+    [javac]   symbol:   method getAttribute(String)
+    [javac]   location: variable el of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:317: error: cannot find symbol
+    [javac]         org.jsoup.nodes.Element source = new org.jsoup.nodes.Element(Tag.valueOf("div"), "");
+    [javac]                                                                      ^
+    [javac]   symbol:   variable Tag
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:323: error: cannot find symbol
+    [javac]         copyAttributes(source, el);
+    [javac]         ^
+    [javac]   symbol:   method copyAttributes(Element,Element)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:325: error: cannot find symbol
+    [javac]         assertNull(el.getAttribute("123name"));
+    [javac]                      ^
+    [javac]   symbol:   method getAttribute(String)
+    [javac]   location: variable el of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:326: error: cannot find symbol
+    [javac]         assertNull(el.getAttribute("@attr@"));
+    [javac]                      ^
+    [javac]   symbol:   method getAttribute(String)
+    [javac]   location: variable el of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:331: error: cannot find symbol
+    [javac]         org.jsoup.nodes.Element source = new org.jsoup.nodes.Element(Tag.valueOf("div"), "");
+    [javac]                                                                      ^
+    [javac]   symbol:   variable Tag
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:336: error: cannot find symbol
+    [javac]         copyAttributes(source, el);
+    [javac]         ^
+    [javac]   symbol:   method copyAttributes(Element,Element)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:338: error: cannot find symbol
+    [javac]         assertEquals("", el.getAttribute("name"));
+    [javac]                            ^
+    [javac]   symbol:   method getAttribute(String)
+    [javac]   location: variable el of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:342: error: cannot find symbol
+    [javac]         org.jsoup.nodes.Element source = new org.jsoup.nodes.Element(Tag.valueOf("div"), "");
+    [javac]                                                                      ^
+    [javac]   symbol:   variable Tag
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:350: error: cannot find symbol
+    [javac]         copyAttributes(source, el);
+    [javac]         ^
+    [javac]   symbol:   method copyAttributes(Element,Element)
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:352: error: cannot find symbol
+    [javac]         assertNull(el.getAttribute("@attr1@"));
+    [javac]                      ^
+    [javac]   symbol:   method getAttribute(String)
+    [javac]   location: variable el of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:353: error: cannot find symbol
+    [javac]         assertNull(el.getAttribute("@@attr2@@"));
+    [javac]                      ^
+    [javac]   symbol:   method getAttribute(String)
+    [javac]   location: variable el of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:354: error: cannot find symbol
+    [javac]         assertNull(el.getAttribute("123attr"));
+    [javac]                      ^
+    [javac]   symbol:   method getAttribute(String)
+    [javac]   location: variable el of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:355: error: cannot find symbol
+    [javac]         assertEquals("value2", el.getAttribute("name"));
+    [javac]                                  ^
+    [javac]   symbol:   method getAttribute(String)
+    [javac]   location: variable el of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:359: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/google-ipod.html");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:363: error: method location in class Document cannot be applied to given types;
+    [javac]         doc.location("http://example.com");
+    [javac]            ^
+    [javac]   required: no arguments
+    [javac]   found: String
+    [javac]   reason: actual and formal argument lists differ in length
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:377: error: cannot find symbol
+    [javac]         fbLike.prefix("tw");
+    [javac]               ^
+    [javac]   symbol:   method prefix(String)
+    [javac]   location: variable fbLike of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:394: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/google-ipod.html");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:417: error: cannot find symbol
+    [javac]         String out = TextUtil.stripNewlines(w3c.asString(wDoc));
+    [javac]                      ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:418: error: cannot find symbol
+    [javac]         String expected = TextUtil.stripNewlines(
+    [javac]                           ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:430: error: cannot find symbol
+    [javac]         File in = ParseTest.getFile("/htmltests/namespaces.xhtml");
+    [javac]                   ^
+    [javac]   symbol:   variable ParseTest
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:442: error: variable htmlEl is already defined in method test29()
+    [javac]         Node htmlEl = doc.getChildNodes().item(0);
+    [javac]              ^
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:443: error: cannot find symbol
+    [javac]         assertEquals("http://www.w3.org/1999/xhtml", htmlEl.getNamespaceURI());
+    [javac]                                                            ^
+    [javac]   symbol:   method getNamespaceURI()
+    [javac]   location: variable htmlEl of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:444: error: cannot find symbol
+    [javac]         assertEquals("html", htmlEl.getLocalName());
+    [javac]                                    ^
+    [javac]   symbol:   method getLocalName()
+    [javac]   location: variable htmlEl of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:445: error: cannot find symbol
+    [javac]         assertEquals("html", htmlEl.getNodeName());
+    [javac]                                    ^
+    [javac]   symbol:   method getNodeName()
+    [javac]   location: variable htmlEl of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:448: error: cannot find symbol
+    [javac]         Node head = htmlEl.getFirstChild();
+    [javac]                           ^
+    [javac]   symbol:   method getFirstChild()
+    [javac]   location: variable htmlEl of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:453: error: cannot find symbol
+    [javac]         Node epubTitle = htmlEl.getChildNodes().item(2).getChildNodes().item(3);
+    [javac]                                ^
+    [javac]   symbol:   method getChildNodes()
+    [javac]   location: variable htmlEl of type Element
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Element.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/org/w3c/dom/Element.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:505: error: incompatible types
+    [javac]         Element bodyEl = w3Doc.getDocumentElement().getElementsByTagName("body").item(0);
+    [javac]                                                                                      ^
+    [javac]   required: Element
+    [javac]   found:    Node
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:506: error: cannot find symbol
+    [javac]         bodyEl.setAttribute("extra", "attribute");
+    [javac]               ^
+    [javac]   symbol:   method setAttribute(String,String)
+    [javac]   location: variable bodyEl of type Element
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:513: error: method fromJsoup in class W3CDom cannot be applied to given types;
+    [javac]         Document wDoc = w3c.fromJsoup(doc);
+    [javac]                            ^
+    [javac]   required: org.jsoup.nodes.Document
+    [javac]   found: org.w3c.dom.Document
+    [javac]   reason: actual argument org.w3c.dom.Document cannot be converted to org.jsoup.nodes.Document by method invocation conversion
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:527: error: method fromJsoup in class W3CDom cannot be applied to given types;
+    [javac]         Document wDoc = w3c.fromJsoup(doc);
+    [javac]                            ^
+    [javac]   required: org.jsoup.nodes.Document
+    [javac]   found: org.w3c.dom.Document
+    [javac]   reason: actual argument org.w3c.dom.Document cannot be converted to org.jsoup.nodes.Document by method invocation conversion
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:537: error: method fromJsoup in class W3CDom cannot be applied to given types;
+    [javac]         Document wDoc = w3c.fromJsoup(doc);
+    [javac]                            ^
+    [javac]   required: org.jsoup.nodes.Document
+    [javac]   found: org.w3c.dom.Document
+    [javac]   reason: actual argument org.w3c.dom.Document cannot be converted to org.jsoup.nodes.Document by method invocation conversion
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:538: error: cannot find symbol
+    [javac]         String out = TextUtil.stripNewlines(w3c.asString(wDoc));
+    [javac]                      ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:549: error: cannot find symbol
+    [javac]         String out = TextUtil.stripNewlines(w3c.asString(wDoc));
+    [javac]                      ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:550: error: cannot find symbol
+    [javac]         String expected = TextUtil.stripNewlines(
+    [javac]                           ^
+    [javac]   symbol:   variable TextUtil
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:558: error: cannot find symbol
+    [javac]         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+    [javac]         ^
+    [javac]   symbol:   class DocumentBuilderFactory
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:558: error: cannot find symbol
+    [javac]         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+    [javac]                                      ^
+    [javac]   symbol:   variable DocumentBuilderFactory
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:560: error: cannot find symbol
+    [javac]             DocumentBuilder db = dbf.newDocumentBuilder();
+    [javac]             ^
+    [javac]   symbol:   class DocumentBuilder
+    [javac]   location: class W3CDom_LLMTest
+    [javac] /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java:562: error: cannot find symbol
+    [javac]         } catch (ParserConfigurationException e) {
+    [javac]                  ^
+    [javac]   symbol:   class ParserConfigurationException
+    [javac]   location: class W3CDom_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] Note: /tmp/fix_test_suite.pl_6817_1702753452/llm/org/jsoup/helper/W3CDom_LLMTest.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 89 errors
+    [javac] 52 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 1 second

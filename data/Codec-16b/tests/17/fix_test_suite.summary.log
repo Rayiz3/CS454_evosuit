@@ -1,0 +1,27 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-17 04:49:27  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Codec-16b-llm.17.tar.bz2
+  - Removing 19 uncompilable test method(s):
+--- org.apache.commons.codec.binary.Base32_LLMTest::test0
+--- org.apache.commons.codec.binary.Base32_LLMTest::test1
+--- org.apache.commons.codec.binary.Base32_LLMTest::test3
+--- org.apache.commons.codec.binary.Base32_LLMTest::test4
+--- org.apache.commons.codec.binary.Base32_LLMTest::test5
+--- org.apache.commons.codec.binary.Base32_LLMTest::test6
+--- org.apache.commons.codec.binary.Base32_LLMTest::test7
+--- org.apache.commons.codec.binary.Base32_LLMTest::test8
+--- org.apache.commons.codec.binary.Base32_LLMTest::test9
+--- org.apache.commons.codec.binary.Base32_LLMTest::test10
+--- org.apache.commons.codec.binary.Base32_LLMTest::test11
+--- org.apache.commons.codec.binary.Base32_LLMTest::test12
+--- org.apache.commons.codec.binary.Base32_LLMTest::test13
+--- org.apache.commons.codec.binary.Base32_LLMTest::test14
+--- org.apache.commons.codec.binary.Base32_LLMTest::test15
+--- org.apache.commons.codec.binary.Base32_LLMTest::test16
+--- org.apache.commons.codec.binary.Base32_LLMTest::test17
+--- org.apache.commons.codec.binary.Base32_LLMTest::test18
+--- org.apache.commons.codec.binary.Base32_LLMTest::test19
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 19 (see /root/workspace/data/Codec-16b/tests/17/fix_test_suite.compile.log file for more information)
+Number of failing tests: 0
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-17 04:49:39  ######

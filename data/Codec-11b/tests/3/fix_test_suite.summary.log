@@ -1,0 +1,53 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-16 21:15:28  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Codec-11b-llm.3.tar.bz2
+  - Removing 6 uncompilable test method(s):
+--- org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test13
+--- org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test18
+--- org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test41
+--- org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test58
+--- org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test69
+--- org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test81
+ - Removing uncompilable test method(s): Codec-11b-llm.3.tar.bz2
+  - Removing 1 uncompilable test method(s):
+--- org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test78
+ - Removing 35 broken test method(s): Codec-11b-llm.3.tar.bz2
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test100
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test104
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test105
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test106
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test10
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test11
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test14
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test15
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test26
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test27
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test28
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test29
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test32
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test33
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test39
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test44
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test48
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test52
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test56
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test67
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test72
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test79
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test84
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test85
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test86
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test91
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test92
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test94
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test95
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test99
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test0
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test1
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test2
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test3
+org.apache.commons.codec.net.QuotedPrintableCodec_LLMTest::test6
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 7 (see /root/workspace/data/Codec-11b/tests/3/fix_test_suite.compile.log file for more information)
+Number of failing tests: 35 (see /root/workspace/data/Codec-11b/tests/3/fix_test_suite.run.log file for more information)
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-16 21:15:46  ######

@@ -1,0 +1,946 @@
+- Compilation issues: Codec-18b-llm.18.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-codec-from-maven.compile:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23077_1702807247/target/classes
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/maven-build.xml:78: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 63 source files to /tmp/fix_test_suite.pl_23077_1702807247/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Flushable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigInteger.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/MessageDigest.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/InvalidKeyException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/Key.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/Mac.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/spec/SecretKeySpec.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Matcher.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Pattern.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/zip/Checksum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Deprecated.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Scanner.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/EnumMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TreeMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/NoSuchElementException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/BitSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/IllegalCharsetNameException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/UnsupportedCharsetException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterInputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterOutputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Flushable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigInteger.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteBuffer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/MessageDigest.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedInputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileInputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/InvalidKeyException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] 100 warnings
+     [copy] Copying 129 files to /tmp/fix_test_suite.pl_23077_1702807247/target/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23077_1702807247/target/classes/META-INF
+     [copy] Copying 2 files to /tmp/fix_test_suite.pl_23077_1702807247/target/classes/META-INF
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23077_1702807247/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_23077_1702807247/.classes_testgen
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Appendable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Appendable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:47: error: cannot find symbol
+    [javac]     testGetBytesUnchecked_modified(charsetName);
+    [javac]     ^
+    [javac]   symbol:   method testGetBytesUnchecked_modified(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:48: error: cannot find symbol
+    [javac]     final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                             ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:49: error: cannot find symbol
+    [javac]     final byte[] actual = StringUtils.getBytesUtf16Be(STRING_FIXTURE + " ");
+    [javac]                                                       ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:55: error: cannot find symbol
+    [javac]     testGetBytesUnchecked_modified(charsetName);
+    [javac]     ^
+    [javac]   symbol:   method testGetBytesUnchecked_modified(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:56: error: cannot find symbol
+    [javac]     final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                             ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:57: error: cannot find symbol
+    [javac]     final byte[] actual = StringUtils.getBytesIso8859_1(STRING_FIXTURE + " ");
+    [javac]                                                         ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:63: error: cannot find symbol
+    [javac]     testGetBytesUnchecked_modified(charsetName);
+    [javac]     ^
+    [javac]   symbol:   method testGetBytesUnchecked_modified(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:64: error: cannot find symbol
+    [javac]     final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                             ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:65: error: cannot find symbol
+    [javac]     final byte[] actual = StringUtils.getBytesUsAscii(STRING_FIXTURE + " ");
+    [javac]                                                       ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:71: error: cannot find symbol
+    [javac]     testGetBytesUnchecked_modified(charsetName);
+    [javac]     ^
+    [javac]   symbol:   method testGetBytesUnchecked_modified(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:72: error: cannot find symbol
+    [javac]     final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                             ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:73: error: cannot find symbol
+    [javac]     final byte[] actual = StringUtils.getBytesUtf8(STRING_FIXTURE + " ");
+    [javac]                                                    ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:79: error: cannot find symbol
+    [javac]     testGetBytesUnchecked_modified(charsetName);
+    [javac]     ^
+    [javac]   symbol:   method testGetBytesUnchecked_modified(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:80: error: cannot find symbol
+    [javac]     final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                             ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:81: error: cannot find symbol
+    [javac]     final byte[] actual = StringUtils.getBytesUtf16Le(STRING_FIXTURE + " ");
+    [javac]                                                       ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:87: error: cannot find symbol
+    [javac]     testGetBytesUnchecked_modified(charsetName);
+    [javac]     ^
+    [javac]   symbol:   method testGetBytesUnchecked_modified(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:88: error: cannot find symbol
+    [javac]     final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                             ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:89: error: cannot find symbol
+    [javac]     final byte[] actual = StringUtils.getBytesUtf16(STRING_FIXTURE + " ");
+    [javac]                                                     ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:118: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:120: error: cannot find symbol
+    [javac]             StringUtils.getBytesUtf16Be(STRING_FIXTURE);
+    [javac]                                         ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:129: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:137: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:145: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:147: error: cannot find symbol
+    [javac]             StringUtils.getBytesUtf8(STRING_FIXTURE);
+    [javac]                                      ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:156: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:165: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:174: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:183: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:192: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:202: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:203: error: cannot find symbol
+    [javac]         final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                                 ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:204: error: cannot find symbol
+    [javac]         final byte[] actual = StringUtils.getBytesUsAscii(STRING_FIXTURE);
+    [javac]                                                           ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:209: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:216: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:224: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:225: error: cannot find symbol
+    [javac]         final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                                 ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:226: error: cannot find symbol
+    [javac]         final byte[] actual = StringUtils.getBytesUtf16(STRING_FIXTURE);
+    [javac]                                                         ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:243: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:244: error: cannot find symbol
+    [javac]         final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                                 ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:251: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:252: error: cannot find symbol
+    [javac]         final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                                 ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:259: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:260: error: cannot find symbol
+    [javac]         final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                                 ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:288: error: cannot find symbol
+    [javac]         testGetBytesUnchecked(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testGetBytesUnchecked(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:289: error: cannot find symbol
+    [javac]         final byte[] expected = STRING_FIXTURE.getBytes(charsetName);
+    [javac]                                 ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:290: error: cannot find symbol
+    [javac]         final byte[] actual = StringUtils.getBytesUtf8(STRING_FIXTURE);
+    [javac]                                                        ^
+    [javac]   symbol:   variable STRING_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:373: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:374: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE_16BE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16BE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:375: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf16Be(BYTES_FIXTURE_16BE);
+    [javac]                                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16BE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:378: error: cannot find symbol
+    [javac]         final String expected2 = new String(BYTES_FIXTURE_16BE, "UTF-8");
+    [javac]                                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16BE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:379: error: cannot find symbol
+    [javac]         final String actual2 = StringUtils.newStringUtf16Be(BYTES_FIXTURE_16BE);
+    [javac]                                                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16BE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:385: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:386: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:387: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf8(BYTES_FIXTURE);
+    [javac]                                                         ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:390: error: cannot find symbol
+    [javac]         final String expected2 = new String(BYTES_FIXTURE, "US-ASCII");
+    [javac]                                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:391: error: cannot find symbol
+    [javac]         final String actual2 = StringUtils.newStringUtf8(BYTES_FIXTURE);
+    [javac]                                                          ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:397: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:398: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:399: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUsAscii(BYTES_FIXTURE);
+    [javac]                                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:402: error: cannot find symbol
+    [javac]         final String expected2 = new String(BYTES_FIXTURE, "UTF-16LE");
+    [javac]                                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:403: error: cannot find symbol
+    [javac]         final String actual2 = StringUtils.newStringUsAscii(BYTES_FIXTURE);
+    [javac]                                                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:425: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:426: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:427: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringIso8859_1(BYTES_FIXTURE);
+    [javac]                                                              ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:430: error: cannot find symbol
+    [javac]         final String expected2 = new String(BYTES_FIXTURE, "UTF-16BE");
+    [javac]                                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:431: error: cannot find symbol
+    [javac]         final String actual2 = StringUtils.newStringIso8859_1(BYTES_FIXTURE);
+    [javac]                                                               ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:437: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:438: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:439: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf16(BYTES_FIXTURE);
+    [javac]                                                          ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:442: error: cannot find symbol
+    [javac]         final String expected2 = new String(BYTES_FIXTURE, "US-ASCII");
+    [javac]                                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:443: error: cannot find symbol
+    [javac]         final String actual2 = StringUtils.newStringUtf16(BYTES_FIXTURE);
+    [javac]                                                           ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:449: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:450: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE_16LE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16LE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:451: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf16Le(BYTES_FIXTURE_16LE);
+    [javac]                                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16LE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:454: error: cannot find symbol
+    [javac]         final String expected2 = new String(BYTES_FIXTURE_16LE, "UTF-8");
+    [javac]                                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16LE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:455: error: cannot find symbol
+    [javac]         final String actual2 = StringUtils.newStringUtf16Le(BYTES_FIXTURE_16LE);
+    [javac]                                                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16LE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:461: error: cannot find symbol
+    [javac]             StringUtils.newString(BYTES_FIXTURE, "UNKNOWN");
+    [javac]                                   ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:468: error: cannot find symbol
+    [javac]             StringUtils.newString(BYTES_FIXTURE, "UTF-8");
+    [javac]                                   ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:482: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:483: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE_16BE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16BE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:484: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf16Be(BYTES_FIXTURE_16BE);
+    [javac]                                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16BE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:493: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:494: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:495: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf8(BYTES_FIXTURE);
+    [javac]                                                         ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:504: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:505: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:506: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUsAscii(BYTES_FIXTURE);
+    [javac]                                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:531: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:532: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:533: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringIso8859_1(BYTES_FIXTURE);
+    [javac]                                                              ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:542: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:543: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:544: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf16(BYTES_FIXTURE);
+    [javac]                                                          ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:553: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:554: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE_16LE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16LE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:555: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf16Le(BYTES_FIXTURE_16LE);
+    [javac]                                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16LE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:564: error: cannot find symbol
+    [javac]             StringUtils.newString(BYTES_FIXTURE, "UNKNOWN");
+    [javac]                                   ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:579: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:580: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:581: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringIso8859_1(BYTES_FIXTURE);
+    [javac]                                                              ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] 100 errors
+    [javac] 48 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+- Compilation issues: Codec-18b-llm.18.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-codec-from-maven.compile:
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/maven-build.xml:78: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: target/classes
+     [echo] build.home: target/classes/..
+   [delete] Deleting directory /tmp/fix_test_suite.pl_23077_1702807247/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23077_1702807247/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_23077_1702807247/.classes_testgen
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Appendable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Appendable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:705: error: cannot find symbol
+    [javac]         byte[] reversedBytes = new byte[BYTES_FIXTURE.length];
+    [javac]                                         ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:706: error: cannot find symbol
+    [javac]         for (int i = 0; i < BYTES_FIXTURE.length; i++) {
+    [javac]                             ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:707: error: cannot find symbol
+    [javac]             reversedBytes[i] = BYTES_FIXTURE[BYTES_FIXTURE.length - i - 1];
+    [javac]                                ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:707: error: cannot find symbol
+    [javac]             reversedBytes[i] = BYTES_FIXTURE[BYTES_FIXTURE.length - i - 1];
+    [javac]                                              ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:709: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:717: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:725: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:726: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:727: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf16(BYTES_FIXTURE);
+    [javac]                                                          ^
+    [javac]   symbol:   variable BYTES_FIXTURE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:773: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:774: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE_16BE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16BE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:775: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf16Be(BYTES_FIXTURE_16BE);
+    [javac]                                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16BE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:820: error: cannot find symbol
+    [javac]         testNewString(charsetName);
+    [javac]         ^
+    [javac]   symbol:   method testNewString(String)
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:821: error: cannot find symbol
+    [javac]         final String expected = new String(BYTES_FIXTURE_16LE, charsetName);
+    [javac]                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16LE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] /tmp/fix_test_suite.pl_23077_1702807247/llm/org/apache/commons/codec/binary/StringUtils_LLMTest.java:822: error: cannot find symbol
+    [javac]         final String actual = StringUtils.newStringUtf16Le(BYTES_FIXTURE_16LE);
+    [javac]                                                            ^
+    [javac]   symbol:   variable BYTES_FIXTURE_16LE
+    [javac]   location: class StringUtils_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] 15 errors
+    [javac] 48 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

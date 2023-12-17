@@ -1,0 +1,23 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):72:cs1 == cs2 |==> false
+2:LVR:TRUE:FALSE:org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):73:true |==> false
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):75:cs1 == null |==> false
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):75:cs2 == null |==> false
+5:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):75:cs1 == null || cs2 == null |==> cs1 == null != (cs2 == null)
+6:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):75:cs1 == null || cs2 == null |==> cs1 == null
+7:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):75:cs1 == null || cs2 == null |==> cs2 == null
+8:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):75:cs1 == null || cs2 == null |==> true
+9:LVR:FALSE:TRUE:org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):76:false |==> true
+10:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):78:cs1 instanceof String && cs2 instanceof String |==> cs1 instanceof String == cs2 instanceof String
+11:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):78:cs1 instanceof String && cs2 instanceof String |==> false
+12:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):78:cs1 instanceof String && cs2 instanceof String |==> cs1 instanceof String
+13:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):78:cs1 instanceof String && cs2 instanceof String |==> cs2 instanceof String
+14:LVR:FALSE:TRUE:org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):81:false |==> true
+15:LVR:0:POS:org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):81:0 |==> 1
+16:LVR:0:NEG:org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):81:0 |==> -1
+17:LVR:0:POS:org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):81:0 |==> 1
+18:LVR:0:NEG:org.apache.commons.codec.binary.StringUtils@equals(java.lang.CharSequence,java.lang.CharSequence):81:0 |==> -1
+19:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.StringUtils@getBytes(java.lang.String,java.nio.charset.Charset):94:string == null |==> false
+20:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.StringUtils@getByteBuffer(java.lang.String,java.nio.charset.Charset):111:string == null |==> false
+21:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.StringUtils@getBytesUnchecked(java.lang.String,java.lang.String):174:string == null |==> false
+22:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.StringUtils@newString(byte[],java.nio.charset.Charset):293:bytes == null |==> false
+23:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.codec.binary.StringUtils@newString(byte[],java.lang.String):316:bytes == null |==> false

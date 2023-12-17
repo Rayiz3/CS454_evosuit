@@ -1,0 +1,13 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-06 00:54:44  ######
+- Found 1 test archive(s)
+ - Removing 6 broken test method(s): Jsoup-69b-llm.11.tar.bz2
+org.jsoup.nodes.FormElement_LLMTest::test10
+org.jsoup.nodes.FormElement_LLMTest::test12
+org.jsoup.nodes.FormElement_LLMTest::test13
+org.jsoup.nodes.FormElement_LLMTest::test14
+org.jsoup.nodes.FormElement_LLMTest::test19
+org.jsoup.nodes.FormElement_LLMTest::test22
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 6 (see /root/workspace/data/Jsoup-69b/11/fix_test_suite.run.log file for more information)
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-06 00:55:00  ######

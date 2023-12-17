@@ -1,0 +1,883 @@
+- Compilation issues: Codec-16b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.11-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23648_1702817673/target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23648_1702817673/target/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23648_1702817673/target/tests
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23648_1702817673/target/test-reports
+
+static:
+
+compile:
+    [javac] Compiling 60 source files to /tmp/fix_test_suite.pl_23648_1702817673/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterInputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Flushable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigInteger.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/MessageDigest.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/InvalidKeyException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/Key.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/Mac.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/jre/lib/jce.jar(javax/crypto/spec/SecretKeySpec.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Matcher.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Pattern.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Deprecated.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Scanner.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/EnumMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/TreeMap.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/NoSuchElementException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/BitSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/IllegalCharsetNameException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/UnsupportedCharsetException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/charset/Charset.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterInputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterOutputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/Flushable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/math/BigInteger.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/nio/ByteBuffer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/io/UnsupportedEncodingException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Random.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/MessageDigest.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/NoSuchAlgorithmException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Enum.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/InvalidKeyException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/security/Key.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Matcher.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/regex/Pattern.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Deprecated.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] Note: Some input files additionally use or override a deprecated API.
+    [javac] 100 warnings
+     [copy] Copying 7 files to /tmp/fix_test_suite.pl_23648_1702817673/target/classes
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/fix_test_suite.pl_23648_1702817673/target/classes/
+     [echo] build.home: target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23648_1702817673/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_23648_1702817673/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:20: error: illegal start of expression
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:20: error: illegal start of expression
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                      ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:20: error: illegal start of expression
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                        ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:20: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:21: error: illegal start of expression
+    [javac]             codec.encode(b[0]);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:21: error: ';' expected
+    [javac]             codec.encode(b[0]);
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:21: error: not a statement
+    [javac]             codec.encode(b[0]);
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:21: error: ';' expected
+    [javac]             codec.encode(b[0]);
+    [javac]                              ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:22: error: illegal start of expression
+    [javac]         });
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:26: error: class, interface, or enum expected
+    [javac] public void test1() throws Exception {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:27: error: class, interface, or enum expected
+    [javac]     final Base32 codec = new Base32(true);
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:28: error: class, interface, or enum expected
+    [javac]     for (final String[] element : BASE32HEX_TEST_CASES) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:28: error: class, interface, or enum expected
+    [javac]     for (final String[] element : BASE32HEX_TEST_CASES) {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:32: error: class, interface, or enum expected
+    [javac]         element[0] = null;
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:33: error: class, interface, or enum expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:33: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:33: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:33: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:33: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:33: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                      ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:33: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                       ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:33: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:34: error: illegal start of type
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:34: error: ']' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:34: error: ')' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                           ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:34: error: ';' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:34: error: invalid method declaration; return type required
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:34: error: <identifier> expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                                                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:34: error: ';' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                                                     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:35: error: class, interface, or enum expected
+    [javac]         });
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:36: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:39: error: class, interface, or enum expected
+    [javac] public void test2() {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:40: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 20; i++) {
+    [javac]                     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:40: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 20; i++) {
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:42: error: class, interface, or enum expected
+    [javac]         final BaseNCodec.Context context = new BaseNCodec.Context();
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:43: error: class, interface, or enum expected
+    [javac]         final byte unencoded[] = new byte[i];
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:44: error: class, interface, or enum expected
+    [javac]         final byte allInOne[] = codec.encode(unencoded);
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:45: error: class, interface, or enum expected
+    [javac]         codec = new Base32();
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:46: error: class, interface, or enum expected
+    [javac]         for (int j=0; j< unencoded.length; j++) {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:46: error: class, interface, or enum expected
+    [javac]         for (int j=0; j< unencoded.length; j++) {
+    [javac]                       ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:46: error: class, interface, or enum expected
+    [javac]         for (int j=0; j< unencoded.length; j++) {
+    [javac]                                            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:48: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:50: error: class, interface, or enum expected
+    [javac]         final byte singly[] = new byte[allInOne.length];
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:51: error: class, interface, or enum expected
+    [javac]         codec.readResults(singly, 0, 100, context);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:52: error: class, interface, or enum expected
+    [javac]         if (!Arrays.equals(allInOne, singly)){
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:54: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:58: error: class, interface, or enum expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:58: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:58: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:58: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:58: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:58: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                      ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:58: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                       ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:58: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:59: error: illegal start of type
+    [javac]             codec.encode(unencoded);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:59: error: <identifier> expected
+    [javac]             codec.encode(unencoded);
+    [javac]                                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:60: error: class, interface, or enum expected
+    [javac]         });
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:61: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:64: error: class, interface, or enum expected
+    [javac] public void test3() {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:65: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 20; i++) {
+    [javac]                     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:65: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 20; i++) {
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:66: error: class, interface, or enum expected
+    [javac]         final Base32 codec = new Base32(10);
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:67: error: class, interface, or enum expected
+    [javac]         final byte[][] b = Base32TestData.randomData(codec, i);
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:68: error: class, interface, or enum expected
+    [javac]         assertEquals(""+i+" "+codec.lineLength,b[1].length,codec.getEncodedLength(b[0]));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:72: error: class, interface, or enum expected
+    [javac]         codec = new Base32(-1);
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:73: error: class, interface, or enum expected
+    [javac]         assertThrows(IllegalArgumentException.class, () -> {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:73: error: <identifier> expected
+    [javac]         assertThrows(IllegalArgumentException.class, () -> {
+    [javac]                                                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:73: error: illegal start of type
+    [javac]         assertThrows(IllegalArgumentException.class, () -> {
+    [javac]                                                      ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:73: error: <identifier> expected
+    [javac]         assertThrows(IllegalArgumentException.class, () -> {
+    [javac]                                                       ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:73: error: ';' expected
+    [javac]         assertThrows(IllegalArgumentException.class, () -> {
+    [javac]                                                        ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:73: error: illegal start of type
+    [javac]         assertThrows(IllegalArgumentException.class, () -> {
+    [javac]                                                          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:73: error: <identifier> expected
+    [javac]         assertThrows(IllegalArgumentException.class, () -> {
+    [javac]                                                           ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:73: error: ';' expected
+    [javac]         assertThrows(IllegalArgumentException.class, () -> {
+    [javac]                                                             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:74: error: illegal start of type
+    [javac]             codec.encode(b[0]);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:74: error: ']' expected
+    [javac]             codec.encode(b[0]);
+    [javac]                            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:74: error: ')' expected
+    [javac]             codec.encode(b[0]);
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:74: error: ';' expected
+    [javac]             codec.encode(b[0]);
+    [javac]                              ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:75: error: class, interface, or enum expected
+    [javac]         });
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:76: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:79: error: class, interface, or enum expected
+    [javac] public void test4() throws Exception {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:80: error: class, interface, or enum expected
+    [javac]     final Base32 codec = new Base32(20);
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:81: error: class, interface, or enum expected
+    [javac]     for (final String[] element : BASE32_TEST_CASES_CHUNKED) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:81: error: class, interface, or enum expected
+    [javac]     for (final String[] element : BASE32_TEST_CASES_CHUNKED) {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:85: error: class, interface, or enum expected
+    [javac]         element[0] = null;
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:86: error: class, interface, or enum expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:86: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:86: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:86: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:86: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:86: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                      ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:86: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                       ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:86: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:87: error: illegal start of type
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:87: error: ']' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:87: error: ')' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                           ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:87: error: ';' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:87: error: invalid method declaration; return type required
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:87: error: <identifier> expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                                                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:87: error: ';' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                                                     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:88: error: class, interface, or enum expected
+    [javac]         });
+    [javac]          ^
+    [javac] 100 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+- Compilation issues: Codec-16b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.11-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/fix_test_suite.pl_23648_1702817673/target/classes/
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_23648_1702817673/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23648_1702817673/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_23648_1702817673/.classes_testgen
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:115: error: illegal start of expression
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:115: error: illegal start of expression
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                      ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:115: error: illegal start of expression
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                        ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:115: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:116: error: illegal start of expression
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:116: error: ';' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                 ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:116: error: ';' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                                                     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:117: error: illegal start of expression
+    [javac]         });
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:121: error: class, interface, or enum expected
+    [javac] public void test6() throws Exception {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:122: error: class, interface, or enum expected
+    [javac]     final Base32 codec = new Base32();
+    [javac]           ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:123: error: class, interface, or enum expected
+    [javac]     for (final String[] element : BASE32_TEST_CASES) {
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:123: error: class, interface, or enum expected
+    [javac]     for (final String[] element : BASE32_TEST_CASES) {
+    [javac]                ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:127: error: class, interface, or enum expected
+    [javac]         element[0] = null;
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:128: error: class, interface, or enum expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:128: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:128: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:128: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:128: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:128: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                      ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:128: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                       ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:128: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:129: error: illegal start of type
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:129: error: ']' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:129: error: ')' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                           ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:129: error: ';' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:129: error: invalid method declaration; return type required
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:129: error: <identifier> expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                                                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:129: error: ';' expected
+    [javac]             codec.encodeAsString(element[0].getBytes(Charsets.UTF_8));
+    [javac]                                                                     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:130: error: class, interface, or enum expected
+    [javac]         });
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:131: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:134: error: class, interface, or enum expected
+    [javac] public void test7() {
+    [javac]        ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:135: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 20; i++) {
+    [javac]                     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:135: error: class, interface, or enum expected
+    [javac]     for (int i = 0; i < 20; i++) {
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:136: error: class, interface, or enum expected
+    [javac]         final Base32 codec = new Base32();
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:137: error: class, interface, or enum expected
+    [javac]         final byte[][] b = Base32TestData.randomData(codec, i);
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:138: error: class, interface, or enum expected
+    [javac]         assertEquals(""+i+" "+codec.lineLength,b[1].length,codec.getEncodedLength(b[0]));
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:142: error: class, interface, or enum expected
+    [javac]         b[0] = null;
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:143: error: class, interface, or enum expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:143: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:143: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:143: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:143: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:143: error: illegal start of type
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                      ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:143: error: <identifier> expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                       ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:143: error: ';' expected
+    [javac]         assertThrows(NullPointerException.class, () -> {
+    [javac]                                                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:144: error: illegal start of type
+    [javac]             codec.encode(b[0]);
+    [javac]                  ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:144: error: ']' expected
+    [javac]             codec.encode(b[0]);
+    [javac]                            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:144: error: ')' expected
+    [javac]             codec.encode(b[0]);
+    [javac]                             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:144: error: ';' expected
+    [javac]             codec.encode(b[0]);
+    [javac]                              ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:145: error: class, interface, or enum expected
+    [javac]         });
+    [javac]          ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:146: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:149: error: class, interface, or enum expected
+    [javac]     public void test8() {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:150: error: class, interface, or enum expected
+    [javac]         for (int i = 0; i < 20; i++) {
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:150: error: class, interface, or enum expected
+    [javac]         for (int i = 0; i < 20; i++) {
+    [javac]                                 ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:151: error: class, interface, or enum expected
+    [javac]             final Base32 codec = new Base32(true);
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:152: error: class, interface, or enum expected
+    [javac]             final byte[][] b = Base32TestData.randomData(codec, i+1); // changing the input value by adding 1
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:153: error: class, interface, or enum expected
+    [javac]             assertEquals(""+i+" "+codec.lineLength,b[1].length,codec.getEncodedLength(b[0]));
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:155: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:158: error: class, interface, or enum expected
+    [javac]     public void test9() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:159: error: class, interface, or enum expected
+    [javac]         final Base32 codec = new Base32(true);
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:160: error: class, interface, or enum expected
+    [javac]         for (final String[] element : BASE32HEX_TEST_CASES) {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:160: error: class, interface, or enum expected
+    [javac]         for (final String[] element : BASE32HEX_TEST_CASES) {
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:162: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:165: error: class, interface, or enum expected
+    [javac]     public void test10() {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:166: error: class, interface, or enum expected
+    [javac]         for (int i = 0; i < 20; i++) {
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:166: error: class, interface, or enum expected
+    [javac]         for (int i = 0; i < 20; i++) {
+    [javac]                                 ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:168: error: class, interface, or enum expected
+    [javac]             final BaseNCodec.Context context = new BaseNCodec.Context();
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:169: error: class, interface, or enum expected
+    [javac]             final byte unencoded[] = new byte[i+1]; // changing the input value by adding 1
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:170: error: class, interface, or enum expected
+    [javac]             final byte allInOne[] = codec.encode(unencoded);
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:171: error: class, interface, or enum expected
+    [javac]             codec = new Base32();
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:172: error: class, interface, or enum expected
+    [javac]             for (int j=0; j< unencoded.length; j++) {
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:172: error: class, interface, or enum expected
+    [javac]             for (int j=0; j< unencoded.length; j++) {
+    [javac]                           ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:172: error: class, interface, or enum expected
+    [javac]             for (int j=0; j< unencoded.length; j++) {
+    [javac]                                                ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:174: error: class, interface, or enum expected
+    [javac]             }
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:176: error: class, interface, or enum expected
+    [javac]             final byte singly[] = new byte[allInOne.length];
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:177: error: class, interface, or enum expected
+    [javac]             codec.readResults(singly, 0, 100, context);
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:178: error: class, interface, or enum expected
+    [javac]             if (!Arrays.equals(allInOne, singly)){
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:180: error: class, interface, or enum expected
+    [javac]             }
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:184: error: class, interface, or enum expected
+    [javac]     public void test11() {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:185: error: class, interface, or enum expected
+    [javac]         for (int i = 0; i < 20; i++) {
+    [javac]                         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:185: error: class, interface, or enum expected
+    [javac]         for (int i = 0; i < 20; i++) {
+    [javac]                                 ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:186: error: class, interface, or enum expected
+    [javac]             final Base32 codec = new Base32(10);
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:187: error: class, interface, or enum expected
+    [javac]             final byte[][] b = Base32TestData.randomData(codec, i+1); // changing the input value by adding 1
+    [javac]                   ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:188: error: class, interface, or enum expected
+    [javac]             assertEquals(""+i+" "+codec.lineLength,b[1].length,codec.getEncodedLength(b[0]));
+    [javac]             ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:190: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:193: error: class, interface, or enum expected
+    [javac]     public void test12() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:194: error: class, interface, or enum expected
+    [javac]         final Base32 codec = new Base32(20);
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:195: error: class, interface, or enum expected
+    [javac]         for (final String[] element : BASE32_TEST_CASES_CHUNKED) {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:195: error: class, interface, or enum expected
+    [javac]         for (final String[] element : BASE32_TEST_CASES_CHUNKED) {
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:197: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:200: error: class, interface, or enum expected
+    [javac]     public void test13() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:201: error: class, interface, or enum expected
+    [javac]         final Base32 codec = new Base32((byte)0x25); // '%' <=> 0x25
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:203: error: class, interface, or enum expected
+    [javac]         for (final String[] element : BASE32_PAD_TEST_CASES) {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:203: error: class, interface, or enum expected
+    [javac]         for (final String[] element : BASE32_PAD_TEST_CASES) {
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:205: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:208: error: class, interface, or enum expected
+    [javac]     public void test14() throws Exception {
+    [javac]            ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:209: error: class, interface, or enum expected
+    [javac]         final Base32 codec = new Base32();
+    [javac]               ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:210: error: class, interface, or enum expected
+    [javac]         for (final String[] element : BASE32_TEST_CASES) {
+    [javac]         ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:210: error: class, interface, or enum expected
+    [javac]         for (final String[] element : BASE32_TEST_CASES) {
+    [javac]                    ^
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:212: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] 100 errors
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-16b-llm.21.tar.bz2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.11-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+
+compile.gen.tests:
+     [echo] classes.dir: /tmp/fix_test_suite.pl_23648_1702817673/target/classes/
+     [echo] build.home: target
+   [delete] Deleting directory /tmp/fix_test_suite.pl_23648_1702817673/.classes_testgen
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_23648_1702817673/.classes_testgen
+    [javac] /defects4j/framework/projects/defects4j.build.xml:265: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /tmp/fix_test_suite.pl_23648_1702817673/.classes_testgen
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /tmp/fix_test_suite.pl_23648_1702817673/llm/org/apache/commons/codec/binary/Base32_LLMTest.java:248: error: cannot find symbol
+    [javac]             final byte[][] b = Base32TestData.randomData(codec, i+1); // changing the input value by adding 1
+    [javac]                                ^
+    [javac]   symbol:   variable Base32TestData
+    [javac]   location: class Base32_LLMTest
+    [javac] warning: /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /root/.sdkman/candidates/java/8.0.302-open/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] 1 error
+    [javac] 18 warnings
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:265: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
