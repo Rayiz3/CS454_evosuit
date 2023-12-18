@@ -1,0 +1,2 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.apache.commons.csv.CSVPrinter,BRANCH;STRONGMUTATION,0.5882683899176955,614,252

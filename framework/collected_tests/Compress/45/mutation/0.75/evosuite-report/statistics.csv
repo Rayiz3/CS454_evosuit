@@ -1,0 +1,2 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.apache.commons.compress.archivers.tar.TarUtils,BRANCH;STRONGMUTATION,0.8912791310766635,770,277
