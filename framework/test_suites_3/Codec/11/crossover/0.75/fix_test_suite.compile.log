@@ -1,0 +1,1784 @@
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_26914_1702867976/target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_26914_1702867976/target/tests
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_26914_1702867976/target/test-reports
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Codec-11b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+    [javac] Compiling 47 source files to /tmp/fix_test_suite.pl_26914_1702867976/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_26914_1702867976/build.xml:59: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

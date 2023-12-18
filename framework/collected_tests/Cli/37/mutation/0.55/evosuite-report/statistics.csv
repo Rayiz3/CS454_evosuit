@@ -1,0 +1,2 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.apache.commons.cli.DefaultParser,BRANCH;STRONGMUTATION,0.7877328195247271,677,275

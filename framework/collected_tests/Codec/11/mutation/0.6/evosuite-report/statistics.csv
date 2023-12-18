@@ -1,0 +1,2 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.apache.commons.codec.net.QuotedPrintableCodec,BRANCH;STRONGMUTATION,0.9633699633699633,237,210

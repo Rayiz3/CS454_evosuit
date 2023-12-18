@@ -1,0 +1,234 @@
+######  Start mutation analysis  ./bin/run_mutation.pl: 2023-12-17 11:39:39  ######
+ - Executing test suite: Cli-37b-evosuite.1.tar.bz2
+ - Mutation analysis failed: Cli-37b-evosuite.1.tar.bz2
+
+test-offline:
+
+get-deps:
+
+commons-cli-from-maven.compile:
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/maven-build.xml:77: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-cli-from-maven.compile.tests:
+    [mkdir] Created dir: /tmp/run_mutation.pl_4118_1702841979/37b/target/test-classes
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/maven-build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 27 source files to /tmp/run_mutation.pl_4118_1702841979/37b/target/test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringWriter.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Properties.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Calendar.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Date.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Vector.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugCLI133Test.java:26: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugCLI13Test.java:25: warning: [deprecation] OptionBuilder in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.OptionBuilder;
+    [javac]                              ^
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugCLI13Test.java:28: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugCLI148Test.java:24: warning: [deprecation] OptionBuilder in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.OptionBuilder;
+    [javac]                              ^
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugCLI148Test.java:26: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/ParameterMetaData.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/Types.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugCLI71Test.java:28: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugsTest.java:32: warning: [deprecation] GnuParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.GnuParser;
+    [javac]                              ^
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugsTest.java:36: warning: [deprecation] OptionBuilder in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.OptionBuilder;
+    [javac]                              ^
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugsTest.java:40: warning: [deprecation] Parser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.Parser;
+    [javac]                              ^
+    [javac] /tmp/run_mutation.pl_4118_1702841979/37b/src/test/java/org/apache/commons/cli/bug/BugsTest.java:41: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintWriter.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/StringWriter.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Properties.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/ByteArrayOutputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/net/URL.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Calendar.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Date.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Vector.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/ParameterMetaData.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/Types.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/System.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/System.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Writer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Writer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Error.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Error.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] Note: Some input files additionally use or override a deprecated API.
+    [javac] 100 warnings
+    [mkdir] Created dir: /tmp/run_mutation.pl_4118_1702841979/37b/target/test-classes/META-INF
+     [copy] Copying 2 files to /tmp/run_mutation.pl_4118_1702841979/37b/target/test-classes/META-INF
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+
+BUILD FAILED
+/home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml:225: java.lang.RuntimeException: java.lang.ClassNotFoundException: collected_tests.Cli.37.mutation.0.7.evosuite-tests.org.apache.commons.cli.DefaultParser_ESTest
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask$MajorResultFormatterTestSuite.addError(JUnitTask.java:3449)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:512)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1478)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:872)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1972)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute1(JUnitTask.java:824)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:2370)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:392)
+	at org.apache.tools.ant.Target.performTasks(Target.java:413)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1368)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+	at org.apache.tools.ant.Main.runBuild(Main.java:811)
+	at org.apache.tools.ant.Main.startAnt(Main.java:217)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:280)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:109)
+Caused by: java.lang.ClassNotFoundException: collected_tests.Cli.37.mutation.0.7.evosuite-tests.org.apache.commons.cli.DefaultParser_ESTest
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at org.apache.tools.ant.AntClassLoader.findBaseClass(AntClassLoader.java:1387)
+	at org.apache.tools.ant.AntClassLoader.loadClass(AntClassLoader.java:1080)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:376)
+	... 21 more
+
+Total time: 1 second
+######  End mutation analysis  ./bin/run_mutation.pl: 2023-12-17 11:39:45  ######
