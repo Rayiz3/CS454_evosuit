@@ -1,0 +1,242 @@
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29015_1702868039/target
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [mkdir] Created dir: /tmp/fix_test_suite.pl_29015_1702868039/target/test-classes
+     [copy] Copying 1 file to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+- Compilation issues: Math-9b-evosuite.1.tar.bz2
+Buildfile: /home/coinse/Documents/jylee/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 3.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 756 source files to /tmp/fix_test_suite.pl_29015_1702868039/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 5
+    [javac] error: Source option 5 is no longer supported. Use 6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+
+BUILD FAILED
+/tmp/fix_test_suite.pl_29015_1702868039/build.xml:169: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds

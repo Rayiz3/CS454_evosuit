@@ -1,0 +1,2 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.apache.commons.math.fraction.BigFraction,BRANCH;STRONGMUTATION,0.9137944095144307,1050,540

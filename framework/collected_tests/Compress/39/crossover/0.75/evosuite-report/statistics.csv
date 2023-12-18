@@ -1,0 +1,2 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.apache.commons.compress.utils.ArchiveUtils,BRANCH;STRONGMUTATION,0.9797979797979798,485,451

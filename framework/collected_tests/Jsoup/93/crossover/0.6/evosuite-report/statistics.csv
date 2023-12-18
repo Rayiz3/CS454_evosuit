@@ -1,0 +1,2 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.jsoup.nodes.FormElement,BRANCH;STRONGMUTATION,0.790625,77,61

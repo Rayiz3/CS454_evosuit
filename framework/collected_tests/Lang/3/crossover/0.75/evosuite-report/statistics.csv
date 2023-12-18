@@ -1,0 +1,2 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+org.apache.commons.lang3.math.NumberUtils,BRANCH;STRONGMUTATION,0.9718784617819276,1245,1207
