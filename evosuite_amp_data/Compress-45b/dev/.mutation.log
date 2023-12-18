@@ -1,0 +1,40 @@
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/Compress-45t/maven-build.xml:92: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-compress-from-maven.compile-tests:
+    [javac] /tmp/Compress-45t/maven-build.xml:125: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: [1;31morg.apache.commons.compress.archivers.SevenZTestCase[testSevenZArchiveCreationUsingCopy] failed![0m
+    [junit] MAJOR: [1;31m -> java.lang.NullPointerException[0m
+    [junit] MAJOR: [1;31m -> "null"[0m
+    [junit] MAJOR: [1;31morg.apache.commons.compress.archivers.SevenZTestCase[testSevenZArchiveCreationUsingLZMA] failed![0m
+    [junit] MAJOR: [1;31m -> java.lang.NullPointerException[0m
+    [junit] MAJOR: [1;31m -> "null"[0m
+    [junit] MAJOR: [1;31morg.apache.commons.compress.archivers.SevenZTestCase[testSevenZArchiveCreationUsingBZIP2] failed![0m
+    [junit] MAJOR: [1;31m -> java.lang.NullPointerException[0m
+    [junit] MAJOR: [1;31m -> "null"[0m
+    [junit] MAJOR: [1;31morg.apache.commons.compress.archivers.SevenZTestCase[testSevenZArchiveCreationUsingLZMA2] failed![0m
+    [junit] MAJOR: [1;31m -> java.lang.NullPointerException[0m
+    [junit] MAJOR: [1;31m -> "null"[0m
+    [junit] MAJOR: [1;31morg.apache.commons.compress.archivers.SevenZTestCase[testSevenZArchiveCreationUsingDeflate] failed![0m
+    [junit] MAJOR: [1;31m -> java.lang.NullPointerException[0m
+    [junit] MAJOR: [1;31m -> "null"[0m
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:225: Test org.apache.commons.compress.archivers.SevenZTestCase failed
+
+Total time: 0 seconds

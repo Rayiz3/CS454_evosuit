@@ -1,0 +1,112 @@
+1:COR:entry.isDirectory():TRUE:org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):50:entry.isDirectory() |==> false
+2:COR:entry.isDirectory():FALSE:org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):50:entry.isDirectory() |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):50:sb.append(entry.isDirectory() ? 'd' : '-') |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):52:sb.append(' ') |==> <NO-OP>
+5:LVR:POS:0:org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):54:7 |==> 0
+6:LVR:POS:NEG:org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):54:7 |==> -7
+7:ROR:>(int,int):!=(int,int):org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):54:i > size.length() |==> i != size.length()
+8:ROR:>(int,int):>=(int,int):org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):54:i > size.length() |==> i >= size.length()
+9:ROR:>(int,int):FALSE(int,int):org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):54:i > size.length() |==> false
+10:STD:<CALL>:<NO-OP>:org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):55:sb.append(' ') |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):57:sb.append(size) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.apache.commons.compress.utils.ArchiveUtils@toString(org.apache.commons.compress.archivers.ArchiveEntry):58:sb.append(' ').append(entry.getName()) |==> <NO-OP>
+13:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@matchAsciiBuffer(java.lang.String,byte[],int,int):79:0 |==> 1
+14:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@matchAsciiBuffer(java.lang.String,byte[],int,int):79:0 |==> -1
+15:LVR:FALSE:TRUE:org.apache.commons.compress.utils.ArchiveUtils@matchAsciiBuffer(java.lang.String,byte[],int,int):79:false |==> true
+16:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@matchAsciiBuffer(java.lang.String,byte[]):90:0 |==> 1
+17:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@matchAsciiBuffer(java.lang.String,byte[]):90:0 |==> -1
+18:ROR:<(int,int):!=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):154:length1 < length2 |==> length1 != length2
+19:ROR:<(int,int):<=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):154:length1 < length2 |==> length1 <= length2
+20:ROR:<(int,int):FALSE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):154:length1 < length2 |==> false
+21:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):155:0 |==> 1
+22:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):155:0 |==> -1
+23:ROR:<(int,int):!=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):155:i < minLen |==> i != minLen
+24:ROR:<(int,int):<=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):155:i < minLen |==> i <= minLen
+25:ROR:<(int,int):FALSE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):155:i < minLen |==> false
+26:AOR:+(int,int):%(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:offset1 + i |==> offset1 % i
+27:AOR:+(int,int):*(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:offset1 + i |==> offset1 * i
+28:AOR:+(int,int):-(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:offset1 + i |==> offset1 - i
+29:AOR:+(int,int):/(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:offset1 + i |==> offset1 / i
+30:AOR:+(int,int):%(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:offset2 + i |==> offset2 % i
+31:AOR:+(int,int):*(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:offset2 + i |==> offset2 * i
+32:AOR:+(int,int):-(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:offset2 + i |==> offset2 - i
+33:AOR:+(int,int):/(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:offset2 + i |==> offset2 / i
+34:ROR:!=(int,int):<(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:buffer1[offset1 + i] != buffer2[offset2 + i] |==> buffer1[offset1 + i] < buffer2[offset2 + i]
+35:ROR:!=(int,int):>(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:buffer1[offset1 + i] != buffer2[offset2 + i] |==> buffer1[offset1 + i] > buffer2[offset2 + i]
+36:ROR:!=(int,int):TRUE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):156:buffer1[offset1 + i] != buffer2[offset2 + i] |==> true
+37:LVR:FALSE:TRUE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):157:false |==> true
+38:ROR:==(int,int):<=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):160:length1 == length2 |==> length1 <= length2
+39:ROR:==(int,int):>=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):160:length1 == length2 |==> length1 >= length2
+40:ROR:==(int,int):FALSE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):160:length1 == length2 |==> false
+41:LVR:TRUE:FALSE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):161:true |==> false
+42:COR:ignoreTrailingNulls:TRUE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):163:ignoreTrailingNulls |==> false
+43:COR:ignoreTrailingNulls:FALSE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):163:ignoreTrailingNulls |==> true
+44:ROR:>(int,int):!=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):164:length1 > length2 |==> length1 != length2
+45:ROR:>(int,int):>=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):164:length1 > length2 |==> length1 >= length2
+46:ROR:>(int,int):FALSE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):164:length1 > length2 |==> false
+47:ROR:<(int,int):!=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):165:i < length1 |==> i != length1
+48:ROR:<(int,int):<=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):165:i < length1 |==> i <= length1
+49:ROR:<(int,int):FALSE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):165:i < length1 |==> false
+50:AOR:+(int,int):%(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):166:offset1 + i |==> offset1 % i
+51:AOR:+(int,int):*(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):166:offset1 + i |==> offset1 * i
+52:AOR:+(int,int):-(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):166:offset1 + i |==> offset1 - i
+53:AOR:+(int,int):/(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):166:offset1 + i |==> offset1 / i
+54:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):166:0 |==> 1
+55:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):166:0 |==> -1
+56:ROR:!=(int,int):<(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):166:buffer1[offset1 + i] != 0 |==> buffer1[offset1 + i] < 0
+57:ROR:!=(int,int):>(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):166:buffer1[offset1 + i] != 0 |==> buffer1[offset1 + i] > 0
+58:ROR:!=(int,int):TRUE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):166:buffer1[offset1 + i] != 0 |==> true
+59:LVR:FALSE:TRUE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):167:false |==> true
+60:ROR:<(int,int):!=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):171:i < length2 |==> i != length2
+61:ROR:<(int,int):<=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):171:i < length2 |==> i <= length2
+62:ROR:<(int,int):FALSE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):171:i < length2 |==> false
+63:AOR:+(int,int):%(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):172:offset2 + i |==> offset2 % i
+64:AOR:+(int,int):*(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):172:offset2 + i |==> offset2 * i
+65:AOR:+(int,int):-(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):172:offset2 + i |==> offset2 - i
+66:AOR:+(int,int):/(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):172:offset2 + i |==> offset2 / i
+67:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):172:0 |==> 1
+68:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):172:0 |==> -1
+69:ROR:!=(int,int):<(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):172:buffer2[offset2 + i] != 0 |==> buffer2[offset2 + i] < 0
+70:ROR:!=(int,int):>(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):172:buffer2[offset2 + i] != 0 |==> buffer2[offset2 + i] > 0
+71:ROR:!=(int,int):TRUE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):172:buffer2[offset2 + i] != 0 |==> true
+72:LVR:FALSE:TRUE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):173:false |==> true
+73:LVR:TRUE:FALSE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):177:true |==> false
+74:LVR:FALSE:TRUE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int,boolean):179:false |==> true
+75:LVR:FALSE:TRUE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],int,int,byte[],int,int):196:false |==> true
+76:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],byte[]):207:0 |==> 1
+77:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],byte[]):207:0 |==> -1
+78:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],byte[]):207:0 |==> 1
+79:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],byte[]):207:0 |==> -1
+80:LVR:FALSE:TRUE:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],byte[]):207:false |==> true
+81:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],byte[],boolean):219:0 |==> 1
+82:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],byte[],boolean):219:0 |==> -1
+83:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],byte[],boolean):219:0 |==> 1
+84:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@isEqual(byte[],byte[],boolean):219:0 |==> -1
+85:LVR:TRUE:FALSE:org.apache.commons.compress.utils.ArchiveUtils@isEqualWithNull(byte[],int,int,byte[],int,int):236:true |==> false
+86:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):249:0 |==> 1
+87:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):249:0 |==> -1
+88:ROR:<(int,int):!=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):249:i < size |==> i != size
+89:ROR:<(int,int):<=(int,int):org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):249:i < size |==> i <= size
+90:ROR:<(int,int):FALSE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):249:i < size |==> false
+91:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):250:0 |==> 1
+92:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):250:0 |==> -1
+93:ROR:!=(int,int):<(int,int):org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):250:a[i] != 0 |==> a[i] < 0
+94:ROR:!=(int,int):>(int,int):org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):250:a[i] != 0 |==> a[i] > 0
+95:ROR:!=(int,int):TRUE(int,int):org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):250:a[i] != 0 |==> true
+96:LVR:FALSE:TRUE:org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):251:false |==> true
+97:LVR:TRUE:FALSE:org.apache.commons.compress.utils.ArchiveUtils@isArrayZero(byte[],int):254:true |==> false
+98:LVR:0:POS:org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):276:0 |==> 1
+99:LVR:0:NEG:org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):276:0 |==> -1
+100:ROR:<(int,int):!=(int,int):org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):276:i < len |==> i != len
+101:ROR:<(int,int):<=(int,int):org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):276:i < len |==> i <= len
+102:ROR:<(int,int):FALSE(int,int):org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):276:i < len |==> false
+103:COR:Character.isISOControl(c):TRUE:org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):278:Character.isISOControl(c) |==> false
+104:COR:Character.isISOControl(c):FALSE:org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):278:Character.isISOControl(c) |==> true
+105:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):280:block != null |==> true
+106:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):280:block != Character.UnicodeBlock.SPECIALS |==> true
+107:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):280:block != null && block != Character.UnicodeBlock.SPECIALS |==> block != null == (block != Character.UnicodeBlock.SPECIALS)
+108:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):280:block != null && block != Character.UnicodeBlock.SPECIALS |==> false
+109:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):280:block != null && block != Character.UnicodeBlock.SPECIALS |==> block != null
+110:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):280:block != null && block != Character.UnicodeBlock.SPECIALS |==> block != Character.UnicodeBlock.SPECIALS
+111:STD:<CALL>:<NO-OP>:org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):281:sb.append(c) |==> <NO-OP>
+112:STD:<CALL>:<NO-OP>:org.apache.commons.compress.utils.ArchiveUtils@sanitize(java.lang.String):285:sb.append('?') |==> <NO-OP>

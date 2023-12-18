@@ -1,0 +1,76 @@
+
+test-offline:
+
+get-deps:
+
+commons-csv-from-maven.compile:
+    [javac] /tmp/Csv-2t/maven-build.xml:79: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-csv-from-maven.compile-tests:
+    [javac] /tmp/Csv-2t/maven-build.xml:112: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 8 ordered tests to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 1.37 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 19
+    [junit] MAJOR: Mutants covered:   17 (89.47%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 8 individual tests
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m1/8 - org.apache.commons.csv.ExtendedBufferedReaderTest (6ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 17
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m2/8 - org.apache.commons.csv.TokenMatchersTest (6ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 17
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m3/8 - org.apache.commons.csv.CSVFileParserTest (14ms / 3):[0m
+    [junit] MAJOR: 47 (1 / 3 / 3) -> AVG-RTPM: 15ms
+    [junit] MAJOR: Mutants killed / live: 1 (0-1-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m4/8 - org.apache.commons.csv.CSVLexerTest (27ms / 0):[0m
+    [junit] MAJOR: 47 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 1 (0-1-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m5/8 - org.apache.commons.csv.CSVFormatBuilderTest (28ms / 0):[0m
+    [junit] MAJOR: 47 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 1 (0-1-0) / 16
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m6/8 - org.apache.commons.csv.CSVParserTest (42ms / 17):[0m
+    [junit] MAJOR: 267 (6 / 16 / 17) -> AVG-RTPM: 13ms
+    [junit] MAJOR: Mutants killed / live: 7 (6-1-0) / 10
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m7/8 - org.apache.commons.csv.CSVFormatTest (55ms / 0):[0m
+    [junit] MAJOR: 267 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 7 (6-1-0) / 10
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m8/8 - org.apache.commons.csv.CSVPrinterTest (506ms / 3):[0m
+    [junit] MAJOR: 1321 (0 / 2 / 3) -> AVG-RTPM: 527ms
+    [junit] MAJOR: Mutants killed / live: 7 (6-1-0) / 10
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time:  1.3 seconds
+    [junit] MAJOR: Mutation score: 36.84% (41.18%)
+    [junit] MAJOR: Mutants killed / live: 7 (6-1-0) / 10
+    [junit] MAJOR: Mutant executions: 21
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant kill details to /tmp/Csv-2t/kill.csv
+
+BUILD SUCCESSFUL
+Total time: 3 seconds

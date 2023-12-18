@@ -1,0 +1,8 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-17 18:12:35  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Lang-5b-evosuite.1.tar.bz2
+org.apache.commons.lang3.LocaleUtils_ESTest
+Number of uncompilable test classes: 1 (see /root/workspace/evosuite_amp_data/Lang-5b/crossover/0.6/fix_test_suite.compile.log file for more information)
+Number of uncompilable tests: 0
+Number of failing tests: 0
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-17 18:12:46  ######

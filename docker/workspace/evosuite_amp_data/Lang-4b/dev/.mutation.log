@@ -1,0 +1,477 @@
+
+init:
+     [echo] -------- commons-lang3 3.2-SNAPSHOT --------
+
+compile:
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 110 ordered tests to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 30.59 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 41
+    [junit] MAJOR: Mutants covered:   41 (100.00%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 110 individual tests
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m1/110 - org.apache.commons.lang3.CharSequenceUtilsTest (2ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m2/110 - org.apache.commons.lang3.text.translate.OctalUnescaperTest (2ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m3/110 - org.apache.commons.lang3.JavaVersionTest (3ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m4/110 - org.apache.commons.lang3.math.IEEE754rUtilsTest (3ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m5/110 - org.apache.commons.lang3.text.translate.EntityArraysTest (3ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m6/110 - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest (4ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m7/110 - org.apache.commons.lang3.text.translate.UnicodeEscaperTest (4ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m8/110 - org.apache.commons.lang3.text.translate.UnicodeUnescaperTest (4ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m9/110 - org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest (5ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m10/110 - org.apache.commons.lang3.mutable.MutableObjectTest (5ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m11/110 - org.apache.commons.lang3.text.StrLookupTest (5ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m12/110 - org.apache.commons.lang3.text.translate.NumericEntityEscaperTest (5ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m13/110 - org.apache.commons.lang3.concurrent.ConstantInitializerTest (8ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m14/110 - org.apache.commons.lang3.text.CompositeFormatTest (8ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m15/110 - org.apache.commons.lang3.text.FormattableUtilsTest (8ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m16/110 - org.apache.commons.lang3.tuple.ImmutablePairTest (8ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m17/110 - org.apache.commons.lang3.mutable.MutableBooleanTest (9ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m18/110 - org.apache.commons.lang3.tuple.ImmutableTripleTest (9ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m19/110 - org.apache.commons.lang3.tuple.MutableTripleTest (10ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m20/110 - org.apache.commons.lang3.builder.StandardToStringStyleTest (11ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m21/110 - org.apache.commons.lang3.tuple.MutablePairTest (11ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m22/110 - org.apache.commons.lang3.tuple.PairTest (12ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m23/110 - org.apache.commons.lang3.tuple.TripleTest (12ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m24/110 - org.apache.commons.lang3.CharEncodingTest (13ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m25/110 - org.apache.commons.lang3.SystemUtilsTest (13ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m26/110 - org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest (13ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m27/110 - org.apache.commons.lang3.StringUtilsStartsEndsWithTest (14ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m28/110 - org.apache.commons.lang3.BitFieldTest (15ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m29/110 - org.apache.commons.lang3.CharSetUtilsTest (15ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m30/110 - org.apache.commons.lang3.builder.MultiLineToStringStyleTest (15ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m31/110 - org.apache.commons.lang3.builder.ToStringStyleTest (15ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m32/110 - org.apache.commons.lang3.mutable.MutableShortTest (15ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m33/110 - org.apache.commons.lang3.reflect.ConstructorUtilsTest (15ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m34/110 - org.apache.commons.lang3.ArrayUtilsAddTest (16ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m35/110 - org.apache.commons.lang3.concurrent.AtomicInitializerTest (16ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m36/110 - org.apache.commons.lang3.exception.DefaultExceptionContextTest (16ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m37/110 - org.apache.commons.lang3.text.WordUtilsTest (16ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m38/110 - org.apache.commons.lang3.builder.DefaultToStringStyleTest (17ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m39/110 - org.apache.commons.lang3.mutable.MutableByteTest (17ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m40/110 - org.apache.commons.lang3.mutable.MutableLongTest (17ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m41/110 - org.apache.commons.lang3.builder.NoFieldNamesToStringStyleTest (18ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m42/110 - org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest (18ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m43/110 - org.apache.commons.lang3.builder.SimpleToStringStyleTest (18ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m44/110 - org.apache.commons.lang3.mutable.MutableFloatTest (18ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m45/110 - org.apache.commons.lang3.mutable.MutableIntTest (18ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m46/110 - org.apache.commons.lang3.text.StrMatcherTest (18ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m47/110 - org.apache.commons.lang3.StringUtilsSubstringTest (19ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m48/110 - org.apache.commons.lang3.concurrent.BackgroundInitializerTest (19ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m49/110 - org.apache.commons.lang3.mutable.MutableDoubleTest (19ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m50/110 - org.apache.commons.lang3.StringUtilsIsTest (20ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m51/110 - org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest (20ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m52/110 - org.apache.commons.lang3.concurrent.LazyInitializerTest (20ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m53/110 - org.apache.commons.lang3.event.EventUtilsTest (20ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m54/110 - org.apache.commons.lang3.time.FastDatePrinterTest (20ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m55/110 - org.apache.commons.lang3.ArrayUtilsRemoveTest (21ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m56/110 - org.apache.commons.lang3.reflect.MethodUtilsTest (21ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m57/110 - org.apache.commons.lang3.CharSetTest (23ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m58/110 - org.apache.commons.lang3.AnnotationUtilsTest (25ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m59/110 - org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest (25ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m60/110 - org.apache.commons.lang3.RandomStringUtilsTest (26ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m61/110 - org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest (26ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m62/110 - org.apache.commons.lang3.CharUtilsTest (29ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m63/110 - org.apache.commons.lang3.RangeTest (29ms / 0):[0m
+    [junit] MAJOR: 5 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m64/110 - org.apache.commons.lang3.LocaleUtilsTest (33ms / 0):[0m
+    [junit] MAJOR: 5 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m65/110 - org.apache.commons.lang3.exception.ContextedExceptionTest (33ms / 0):[0m
+    [junit] MAJOR: 5 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 41
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m66/110 - org.apache.commons.lang3.reflect.TypeUtilsTest (33ms / 36):[0m
+    [junit] MAJOR: 2532 (8 / 36 / 36) -> AVG-RTPM: 70ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m67/110 - org.apache.commons.lang3.StringUtilsTrimEmptyTest (36ms / 0):[0m
+    [junit] MAJOR: 2532 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m68/110 - org.apache.commons.lang3.time.FastDateFormat_PrinterTest (37ms / 0):[0m
+    [junit] MAJOR: 2532 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m69/110 - org.apache.commons.lang3.ObjectUtilsTest (39ms / 0):[0m
+    [junit] MAJOR: 2532 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m70/110 - org.apache.commons.lang3.EnumUtilsTest (41ms / 0):[0m
+    [junit] MAJOR: 2532 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m71/110 - org.apache.commons.lang3.ConversionTest (47ms / 0):[0m
+    [junit] MAJOR: 2532 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m72/110 - org.apache.commons.lang3.builder.HashCodeBuilderTest (47ms / 0):[0m
+    [junit] MAJOR: 2532 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m73/110 - org.apache.commons.lang3.SerializationUtilsTest (49ms / 0):[0m
+    [junit] MAJOR: 2532 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m74/110 - org.apache.commons.lang3.exception.ExceptionUtilsTest (50ms / 0):[0m
+    [junit] MAJOR: 2532 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m75/110 - org.apache.commons.lang3.text.StrSubstitutorTest (53ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m76/110 - org.apache.commons.lang3.reflect.FieldUtilsTest (54ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m77/110 - org.apache.commons.lang3.time.DateUtilsFragmentTest (56ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m78/110 - org.apache.commons.lang3.text.StrBuilderAppendInsertTest (57ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m79/110 - org.apache.commons.lang3.builder.EqualsBuilderTest (59ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m80/110 - org.apache.commons.lang3.builder.CompareToBuilderTest (60ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m81/110 - org.apache.commons.lang3.StringUtilsEqualsIndexOfTest (61ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m82/110 - org.apache.commons.lang3.ValidateTest (62ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m83/110 - org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest (63ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m84/110 - org.apache.commons.lang3.text.StrTokenizerTest (69ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m85/110 - org.apache.commons.lang3.ClassUtilsTest (70ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m86/110 - org.apache.commons.lang3.event.EventListenerSupportTest (71ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m87/110 - org.apache.commons.lang3.CharRangeTest (73ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m88/110 - org.apache.commons.lang3.BooleanUtilsTest (75ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m89/110 - org.apache.commons.lang3.time.DateUtilsRoundingTest (80ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m90/110 - org.apache.commons.lang3.math.FractionTest (86ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m91/110 - org.apache.commons.lang3.math.NumberUtilsTest (86ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m92/110 - org.apache.commons.lang3.concurrent.ConcurrentUtilsTest (88ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m93/110 - org.apache.commons.lang3.builder.ToStringBuilderTest (93ms / 0):[0m
+    [junit] MAJOR: 2533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m94/110 - org.apache.commons.lang3.text.StrBuilderTest (93ms / 0):[0m
+    [junit] MAJOR: 2534 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m95/110 - org.apache.commons.lang3.concurrent.BasicThreadFactoryTest (104ms / 0):[0m
+    [junit] MAJOR: 2534 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m96/110 - org.apache.commons.lang3.time.DateUtilsTest (104ms / 0):[0m
+    [junit] MAJOR: 2534 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m97/110 - org.apache.commons.lang3.time.DateFormatUtilsTest (119ms / 0):[0m
+    [junit] MAJOR: 2534 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m98/110 - org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest (131ms / 0):[0m
+    [junit] MAJOR: 2534 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 8 (0-7-0) / 33
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m99/110 - org.apache.commons.lang3.StringUtilsTest (145ms / 40):[0m
+    [junit] MAJOR: 4539 (9 / 32 / 40) -> AVG-RTPM: 62ms
+    [junit] MAJOR: Mutants killed / live: 17 (1-15-0) / 24
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m100/110 - org.apache.commons.lang3.ArrayUtilsTest (168ms / 0):[0m
+    [junit] MAJOR: 4540 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 17 (1-15-0) / 24
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m101/110 - org.apache.commons.lang3.StringEscapeUtilsTest (241ms / 41):[0m
+    [junit] MAJOR: 13451 (17 / 24 / 41) -> AVG-RTPM: 371ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m102/110 - org.apache.commons.lang3.time.DurationFormatUtilsTest (481ms / 0):[0m
+    [junit] MAJOR: 13451 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m103/110 - org.apache.commons.lang3.time.FastDateFormatTest (496ms / 0):[0m
+    [junit] MAJOR: 13451 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m104/110 - org.apache.commons.lang3.HashSetvBitSetTest (550ms / 0):[0m
+    [junit] MAJOR: 13451 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m105/110 - org.apache.commons.lang3.text.ExtendedMessageFormatTest (557ms / 0):[0m
+    [junit] MAJOR: 13451 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m106/110 - org.apache.commons.lang3.concurrent.TimedSemaphoreTest (1221ms / 0):[0m
+    [junit] MAJOR: 13451 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m107/110 - org.apache.commons.lang3.time.FastDateParserTest (1346ms / 0):[0m
+    [junit] MAJOR: 13451 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m108/110 - org.apache.commons.lang3.time.FastDateFormat_ParserTest (1637ms / 0):[0m
+    [junit] MAJOR: 13451 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m109/110 - org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest (2868ms / 0):[0m
+    [junit] MAJOR: 13452 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m110/110 - org.apache.commons.lang3.time.StopWatchTest (4761ms / 0):[0m
+    [junit] MAJOR: 13452 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time:  13.5 seconds
+    [junit] MAJOR: Mutation score: 82.93% (82.93%)
+    [junit] MAJOR: Mutants killed / live: 34 (15-17-0) / 7
+    [junit] MAJOR: Mutant executions: 92
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant kill details to /tmp/Lang-4t/kill.csv
+
+BUILD SUCCESSFUL
+Total time: 44 seconds

@@ -1,0 +1,60 @@
+
+test-offline:
+
+get-deps:
+
+commons-csv-from-maven.compile:
+    [javac] /tmp/Csv-1t/maven-build.xml:77: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-csv-from-maven.compile-tests:
+    [javac] /tmp/Csv-1t/maven-build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 4 ordered tests to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 1.16 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 84
+    [junit] MAJOR: Mutants covered:   62 (73.81%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 4 individual tests
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m1/4 - org.apache.commons.csv.ExtendedBufferedReaderTest (10ms / 61):[0m
+    [junit] MAJOR: 622 (35 / 61 / 61) -> AVG-RTPM: 10ms
+    [junit] MAJOR: Mutants killed / live: 35 (19-16-0) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m2/4 - org.apache.commons.csv.CSVLexerTest (14ms / 25):[0m
+    [junit] MAJOR: 684 (0 / 8 / 25) -> AVG-RTPM: 7ms
+    [junit] MAJOR: Mutants killed / live: 35 (19-16-0) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m3/4 - org.apache.commons.csv.CSVFormatTest (64ms / 0):[0m
+    [junit] MAJOR: 685 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 35 (19-16-0) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m4/4 - org.apache.commons.csv.CSVPrinterTest (422ms / 11):[0m
+    [junit] MAJOR: 1599 (0 / 3 / 11) -> AVG-RTPM: 304ms
+    [junit] MAJOR: Mutants killed / live: 35 (19-16-0) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time:  1.6 seconds
+    [junit] MAJOR: Mutation score: 41.67% (56.45%)
+    [junit] MAJOR: Mutants killed / live: 35 (19-16-0) / 27
+    [junit] MAJOR: Mutant executions: 72
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant kill details to /tmp/Csv-1t/kill.csv
+
+BUILD SUCCESSFUL
+Total time: 3 seconds

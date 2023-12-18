@@ -1,0 +1,144 @@
+
+test-offline:
+
+get-deps:
+
+commons-cli-from-maven.compile:
+    [javac] /tmp/Cli-38t/maven-build.xml:77: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-cli-from-maven.compile.tests:
+    [javac] /tmp/Cli-38t/maven-build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 25 ordered tests to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 0.57 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 373
+    [junit] MAJOR: Mutants covered:   366 (98.12%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 25 individual tests
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m1/25 - org.apache.commons.cli.UtilTest (2ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 366
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m2/25 - org.apache.commons.cli.bug.BugCLI18Test (4ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 366
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m3/25 - org.apache.commons.cli.bug.BugCLI266Test (4ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 366
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m4/25 - org.apache.commons.cli.bug.BugCLI133Test (5ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 366
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m5/25 - org.apache.commons.cli.bug.BugCLI13Test (5ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 366
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m6/25 - org.apache.commons.cli.bug.BugCLI148Test (6ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 366
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m7/25 - org.apache.commons.cli.bug.BugCLI252Test (7ms / 69):[0m
+    [junit] MAJOR: 533 (32 / 69 / 69) -> AVG-RTPM: 7ms
+    [junit] MAJOR: Mutants killed / live: 32 (7-25-0) / 334
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m8/25 - org.apache.commons.cli.bug.BugCLI71Test (7ms / 0):[0m
+    [junit] MAJOR: 533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 32 (7-25-0) / 334
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m9/25 - org.apache.commons.cli.ArgumentIsOptionTest (8ms / 0):[0m
+    [junit] MAJOR: 533 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 32 (7-25-0) / 334
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m10/25 - org.apache.commons.cli.CommandLineTest (8ms / 85):[0m
+    [junit] MAJOR: 1048 (17 / 65 / 85) -> AVG-RTPM: 7ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m11/25 - org.apache.commons.cli.bug.BugCLI162Test (8ms / 0):[0m
+    [junit] MAJOR: 1048 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m12/25 - org.apache.commons.cli.ApplicationTest (10ms / 0):[0m
+    [junit] MAJOR: 1048 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m13/25 - org.apache.commons.cli.OptionBuilderTest (10ms / 0):[0m
+    [junit] MAJOR: 1048 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m14/25 - org.apache.commons.cli.OptionTest (11ms / 0):[0m
+    [junit] MAJOR: 1048 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m15/25 - org.apache.commons.cli.ValuesTest (13ms / 0):[0m
+    [junit] MAJOR: 1048 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m16/25 - org.apache.commons.cli.OptionsTest (14ms / 0):[0m
+    [junit] MAJOR: 1048 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m17/25 - org.apache.commons.cli.OptionGroupTest (16ms / 0):[0m
+    [junit] MAJOR: 1049 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m18/25 - org.apache.commons.cli.ValueTest (16ms / 0):[0m
+    [junit] MAJOR: 1049 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m19/25 - org.apache.commons.cli.bug.BugsTest (18ms / 0):[0m
+    [junit] MAJOR: 1049 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m20/25 - org.apache.commons.cli.HelpFormatterTest (30ms / 0):[0m
+    [junit] MAJOR: 1049 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m21/25 - org.apache.commons.cli.BasicParserTest (42ms / 0):[0m
+    [junit] MAJOR: 1049 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m22/25 - org.apache.commons.cli.GnuParserTest (44ms / 0):[0m
+    [junit] MAJOR: 1049 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m23/25 - org.apache.commons.cli.PosixParserTest (58ms / 0):[0m
+    [junit] MAJOR: 1049 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 49 (7-42-0) / 317
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m24/25 - org.apache.commons.cli.DefaultParserTest (69ms / 366):[0m
+    [junit] MAJOR: 4448 (235 / 317 / 366) -> AVG-RTPM: 10ms
+    [junit] MAJOR: Mutants killed / live: 284 (114-170-0) / 82
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m25/25 - org.apache.commons.cli.PatternOptionBuilderTest (97ms / 0):[0m
+    [junit] MAJOR: 4449 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 284 (114-170-0) / 82
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time:  4.4 seconds
+    [junit] MAJOR: Mutation score: 76.14% (77.60%)
+    [junit] MAJOR: Mutants killed / live: 284 (114-170-0) / 82
+    [junit] MAJOR: Mutant executions: 451
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant kill details to /tmp/Cli-38t/kill.csv
+
+BUILD SUCCESSFUL
+Total time: 5 seconds

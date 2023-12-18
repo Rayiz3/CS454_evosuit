@@ -1,0 +1,34 @@
+
+test-offline:
+
+get-deps:
+
+commons-csv-from-maven.compile:
+    [javac] /tmp/Csv-16t/maven-build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-csv-from-maven.compile-tests:
+    [javac] /tmp/Csv-16t/maven-build.xml:121: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: [1;31morg.apache.commons.csv.CSVFormatTest[testNullRecordSeparatorCsv106] failed![0m
+    [junit] MAJOR: [1;31m -> java.lang.NullPointerException[0m
+    [junit] MAJOR: [1;31m -> "null"[0m
+    [junit] MAJOR: [1;31morg.apache.commons.csv.CSVFormatTest[testWithHeaderComments] failed![0m
+    [junit] MAJOR: [1;31m -> java.lang.NullPointerException[0m
+    [junit] MAJOR: [1;31m -> "null"[0m
+    [junit] MAJOR: [1;31morg.apache.commons.csv.CSVFormatTest[testFormat] failed![0m
+    [junit] MAJOR: [1;31m -> java.lang.NullPointerException[0m
+    [junit] MAJOR: [1;31m -> "null"[0m
+
+BUILD FAILED
+/defects4j/framework/projects/defects4j.build.xml:225: Test org.apache.commons.csv.CSVFormatTest failed
+
+Total time: 0 seconds

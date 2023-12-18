@@ -1,0 +1,11 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-17 19:39:00  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Math-53b-evosuite.1.tar.bz2
+  - Removing 1 uncompilable test method(s):
+--- org.apache.commons.math.complex.Complex_ESTest::test40
+ - Removing 1 broken test method(s): Math-53b-evosuite.1.tar.bz2
+org.apache.commons.math.complex.Complex_ESTest::test08
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 1 (see /root/workspace/evosuite_amp_data/Math-53b/crossover/0.6/fix_test_suite.compile.log file for more information)
+Number of failing tests: 1 (see /root/workspace/evosuite_amp_data/Math-53b/crossover/0.6/fix_test_suite.run.log file for more information)
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-17 19:39:32  ######

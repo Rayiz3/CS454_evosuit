@@ -1,0 +1,368 @@
+1:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:44:2 |==> 0
+2:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:44:2 |==> -2
+3:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:47:1 |==> 0
+4:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:47:1 |==> -1
+5:LVR:0:POS:org.apache.commons.math.fraction.BigFraction:50:0 |==> 1
+6:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction:50:0 |==> -1
+7:LVR:NEG:0:org.apache.commons.math.fraction.BigFraction:53:-1 |==> 0
+8:LVR:NEG:POS:org.apache.commons.math.fraction.BigFraction:53:-1 |==> 1
+9:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:56:4 |==> 0
+10:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:56:4 |==> -4
+11:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:56:5 |==> 0
+12:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:56:5 |==> -5
+13:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:59:1 |==> 0
+14:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:59:1 |==> -1
+15:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:59:5 |==> 0
+16:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:59:5 |==> -5
+17:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:62:1 |==> 0
+18:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:62:1 |==> -1
+19:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:62:2 |==> 0
+20:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:62:2 |==> -2
+21:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:65:1 |==> 0
+22:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:65:1 |==> -1
+23:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:65:4 |==> 0
+24:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:65:4 |==> -4
+25:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:68:1 |==> 0
+26:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:68:1 |==> -1
+27:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:68:3 |==> 0
+28:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:68:3 |==> -3
+29:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:71:3 |==> 0
+30:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:71:3 |==> -3
+31:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:71:5 |==> 0
+32:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:71:5 |==> -5
+33:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:74:3 |==> 0
+34:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:74:3 |==> -3
+35:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:74:4 |==> 0
+36:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:74:4 |==> -4
+37:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:77:2 |==> 0
+38:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:77:2 |==> -2
+39:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:77:5 |==> 0
+40:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:77:5 |==> -5
+41:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:80:2 |==> 0
+42:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:80:2 |==> -2
+43:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:80:4 |==> 0
+44:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:80:4 |==> -4
+45:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:83:2 |==> 0
+46:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:83:2 |==> -2
+47:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:83:3 |==> 0
+48:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:83:3 |==> -3
+49:LVR:POS:0:org.apache.commons.math.fraction.BigFraction:89:100 |==> 0
+50:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction:89:100 |==> -100
+51:STD:<CALL>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):120:MathUtils.checkNotNull(num, LocalizedFormats.NUMERATOR) |==> <NO-OP>
+52:STD:<CALL>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):121:MathUtils.checkNotNull(den, LocalizedFormats.DENOMINATOR) |==> <NO-OP>
+53:COR:BigInteger.ZERO.equals(den):TRUE:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):122:BigInteger.ZERO.equals(den) |==> false
+54:COR:BigInteger.ZERO.equals(den):FALSE:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):122:BigInteger.ZERO.equals(den) |==> true
+55:COR:BigInteger.ZERO.equals(num):TRUE:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):125:BigInteger.ZERO.equals(num) |==> false
+56:COR:BigInteger.ZERO.equals(num):FALSE:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):125:BigInteger.ZERO.equals(num) |==> true
+57:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):132:0 |==> 1
+58:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):132:0 |==> -1
+59:ROR:<(int,int):!=(int,int):org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):132:BigInteger.ONE.compareTo(gcd) < 0 |==> BigInteger.ONE.compareTo(gcd) != 0
+60:ROR:<(int,int):<=(int,int):org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):132:BigInteger.ONE.compareTo(gcd) < 0 |==> BigInteger.ONE.compareTo(gcd) <= 0
+61:ROR:<(int,int):FALSE(int,int):org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):132:BigInteger.ONE.compareTo(gcd) < 0 |==> false
+62:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):133:num = num.divide(gcd) |==> <NO-OP>
+63:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):134:den = den.divide(gcd) |==> <NO-OP>
+64:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):138:0 |==> 1
+65:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):138:0 |==> -1
+66:ROR:>(int,int):!=(int,int):org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):138:BigInteger.ZERO.compareTo(den) > 0 |==> BigInteger.ZERO.compareTo(den) != 0
+67:ROR:>(int,int):>=(int,int):org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):138:BigInteger.ZERO.compareTo(den) > 0 |==> BigInteger.ZERO.compareTo(den) >= 0
+68:ROR:>(int,int):FALSE(int,int):org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):138:BigInteger.ZERO.compareTo(den) > 0 |==> false
+69:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):139:num = num.negate() |==> <NO-OP>
+70:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(java.math.BigInteger,java.math.BigInteger):140:den = den.negate() |==> <NO-OP>
+71:COR:Double.isNaN(value):TRUE:org.apache.commons.math.fraction.BigFraction@<init>(double):172:Double.isNaN(value) |==> false
+72:COR:Double.isNaN(value):FALSE:org.apache.commons.math.fraction.BigFraction@<init>(double):172:Double.isNaN(value) |==> true
+73:COR:Double.isInfinite(value):TRUE:org.apache.commons.math.fraction.BigFraction@<init>(double):175:Double.isInfinite(value) |==> false
+74:COR:Double.isInfinite(value):FALSE:org.apache.commons.math.fraction.BigFraction@<init>(double):175:Double.isInfinite(value) |==> true
+75:LVR:NEG:0:org.apache.commons.math.fraction.BigFraction@<init>(double):181:-9223372036854775808L |==> 0L
+76:LVR:NEG:POS:org.apache.commons.math.fraction.BigFraction@<init>(double):181:-9223372036854775808L |==> -9223372036854775808L
+77:LOR:&(long,long):^(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):181:bits & -9223372036854775808L |==> bits ^ -9223372036854775808L
+78:LOR:&(long,long):|(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):181:bits & -9223372036854775808L |==> bits | -9223372036854775808L
+79:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double):182:9218868437227405312L |==> 0L
+80:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):182:9218868437227405312L |==> -9218868437227405312L
+81:LOR:&(long,long):^(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):182:bits & 9218868437227405312L |==> bits ^ 9218868437227405312L
+82:LOR:&(long,long):|(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):182:bits & 9218868437227405312L |==> bits | 9218868437227405312L
+83:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double):183:4503599627370495L |==> 0L
+84:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):183:4503599627370495L |==> -4503599627370495L
+85:LOR:&(long,long):^(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):183:bits & 4503599627370495L |==> bits ^ 4503599627370495L
+86:LOR:&(long,long):|(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):183:bits & 4503599627370495L |==> bits | 4503599627370495L
+87:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(double):184:0 |==> 1
+88:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):184:0 |==> -1
+89:ROR:!=(long,long):<(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):184:exponent != 0 |==> exponent < 0
+90:ROR:!=(long,long):>(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):184:exponent != 0 |==> exponent > 0
+91:ROR:!=(long,long):TRUE(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):184:exponent != 0 |==> true
+92:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double):186:4503599627370496L |==> 0L
+93:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):186:4503599627370496L |==> -4503599627370496L
+94:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double):186:m |= 4503599627370496L |==> <NO-OP>
+95:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(double):188:0 |==> 1
+96:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):188:0 |==> -1
+97:ROR:!=(long,long):<(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):188:sign != 0 |==> sign < 0
+98:ROR:!=(long,long):>(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):188:sign != 0 |==> sign > 0
+99:ROR:!=(long,long):TRUE(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):188:sign != 0 |==> true
+100:ORU:-(long):+(long):org.apache.commons.math.fraction.BigFraction@<init>(double):189:-m |==> +m
+101:ORU:-(long):~(long):org.apache.commons.math.fraction.BigFraction@<init>(double):189:-m |==> ~m
+102:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double):189:m = -m |==> <NO-OP>
+103:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double):191:52 |==> 0
+104:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):191:52 |==> -52
+105:SOR:>>(long,int):<<(long,int):org.apache.commons.math.fraction.BigFraction@<init>(double):191:exponent >> 52 |==> exponent << 52
+106:SOR:>>(long,int):>>>(long,int):org.apache.commons.math.fraction.BigFraction@<init>(double):191:exponent >> 52 |==> exponent >>> 52
+107:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double):191:1075 |==> 0
+108:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):191:1075 |==> -1075
+109:AOR:-(int,int):%(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double):191:((int)(exponent >> 52)) - 1075 |==> ((int)(exponent >> 52)) % 1075
+110:AOR:-(int,int):*(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double):191:((int)(exponent >> 52)) - 1075 |==> ((int)(exponent >> 52)) * 1075
+111:AOR:-(int,int):+(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double):191:((int)(exponent >> 52)) - 1075 |==> ((int)(exponent >> 52)) + 1075
+112:AOR:-(int,int):/(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double):191:((int)(exponent >> 52)) - 1075 |==> ((int)(exponent >> 52)) / 1075
+113:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double):192:9007199254740990L |==> 0L
+114:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):192:9007199254740990L |==> -9007199254740990L
+115:LOR:&(long,long):^(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:m & 9007199254740990L |==> m ^ 9007199254740990L
+116:LOR:&(long,long):|(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:m & 9007199254740990L |==> m | 9007199254740990L
+117:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(double):192:0 |==> 1
+118:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):192:0 |==> -1
+119:ROR:!=(long,long):<(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:(m & 9007199254740990L) != 0 |==> (m & 9007199254740990L) < 0
+120:ROR:!=(long,long):>(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:(m & 9007199254740990L) != 0 |==> (m & 9007199254740990L) > 0
+121:ROR:!=(long,long):TRUE(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:(m & 9007199254740990L) != 0 |==> true
+122:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double):192:1 |==> 0
+123:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):192:1 |==> -1
+124:LOR:&(long,long):^(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:m & 1 |==> m ^ 1
+125:LOR:&(long,long):|(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:m & 1 |==> m | 1
+126:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(double):192:0 |==> 1
+127:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):192:0 |==> -1
+128:ROR:==(long,long):<=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:(m & 1) == 0 |==> (m & 1) <= 0
+129:ROR:==(long,long):>=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:(m & 1) == 0 |==> (m & 1) >= 0
+130:ROR:==(long,long):FALSE(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double):192:(m & 1) == 0 |==> false
+131:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double):192:((m & 9007199254740990L) != 0) && ((m & 1) == 0) |==> ((m & 9007199254740990L) != 0) == ((m & 1) == 0)
+132:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double):192:((m & 9007199254740990L) != 0) && ((m & 1) == 0) |==> false
+133:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double):192:((m & 9007199254740990L) != 0) && ((m & 1) == 0) |==> ((m & 9007199254740990L) != 0)
+134:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double):192:((m & 9007199254740990L) != 0) && ((m & 1) == 0) |==> ((m & 1) == 0)
+135:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double):193:1 |==> 0
+136:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):193:1 |==> -1
+137:SOR:>>(long,int):<<(long,int):org.apache.commons.math.fraction.BigFraction@<init>(double):193:m >> 1 |==> m << 1
+138:SOR:>>(long,int):>>>(long,int):org.apache.commons.math.fraction.BigFraction@<init>(double):193:m >> 1 |==> m >>> 1
+139:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double):193:m = m >> 1 |==> <NO-OP>
+140:STD:<INC>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double):194:++k |==> <NO-OP>
+141:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(double):197:0 |==> 1
+142:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double):197:0 |==> -1
+143:ROR:<(int,int):!=(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double):197:k < 0 |==> k != 0
+144:ROR:<(int,int):<=(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double):197:k < 0 |==> k <= 0
+145:ROR:<(int,int):FALSE(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double):197:k < 0 |==> false
+146:ORU:-(int):+(int):org.apache.commons.math.fraction.BigFraction@<init>(double):199:-k |==> +k
+147:ORU:-(int):~(int):org.apache.commons.math.fraction.BigFraction@<init>(double):199:-k |==> ~k
+148:ROR:>(long,long):!=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):274:a0 > overflow |==> a0 != overflow
+149:ROR:>(long,long):>=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):274:a0 > overflow |==> a0 >= overflow
+150:ROR:>(long,long):FALSE(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):274:a0 > overflow |==> false
+151:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):275:1L |==> 0L
+152:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):275:1L |==> -1L
+153:AOR:-(double,double):%(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):280:a0 - value |==> a0 % value
+154:AOR:-(double,double):*(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):280:a0 - value |==> a0 * value
+155:AOR:-(double,double):+(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):280:a0 - value |==> a0 + value
+156:AOR:-(double,double):/(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):280:a0 - value |==> a0 / value
+157:ROR:<(double,double):!=(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):280:FastMath.abs(a0 - value) < epsilon |==> FastMath.abs(a0 - value) != epsilon
+158:ROR:<(double,double):<=(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):280:FastMath.abs(a0 - value) < epsilon |==> FastMath.abs(a0 - value) <= epsilon
+159:ROR:<(double,double):FALSE(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):280:FastMath.abs(a0 - value) < epsilon |==> false
+160:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):286:1 |==> 0
+161:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):286:1 |==> -1
+162:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):287:0 |==> 1
+163:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):287:0 |==> -1
+164:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):289:1 |==> 0
+165:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):289:1 |==> -1
+166:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):291:0 |==> 1
+167:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):291:0 |==> -1
+168:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):292:1 |==> 0
+169:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):292:1 |==> -1
+170:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):294:0 |==> 1
+171:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):294:0 |==> -1
+172:LVR:FALSE:TRUE:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):295:false |==> true
+173:STD:<INC>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):297:++n |==> <NO-OP>
+174:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:1.0 |==> 0.0
+175:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:1.0 |==> -1.0
+176:AOR:-(double,double):%(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:r0 - a0 |==> r0 % a0
+177:AOR:-(double,double):*(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:r0 - a0 |==> r0 * a0
+178:AOR:-(double,double):+(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:r0 - a0 |==> r0 + a0
+179:AOR:-(double,double):/(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:r0 - a0 |==> r0 / a0
+180:AOR:/(double,double):%(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:1.0 / (r0 - a0) |==> 1.0 % (r0 - a0)
+181:AOR:/(double,double):*(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:1.0 / (r0 - a0) |==> 1.0 * (r0 - a0)
+182:AOR:/(double,double):+(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:1.0 / (r0 - a0) |==> 1.0 + (r0 - a0)
+183:AOR:/(double,double):-(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):298:1.0 / (r0 - a0) |==> 1.0 - (r0 - a0)
+184:AOR:*(long,long):%(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):300:a1 * p1 |==> a1 % p1
+185:AOR:*(long,long):+(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):300:a1 * p1 |==> a1 + p1
+186:AOR:*(long,long):-(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):300:a1 * p1 |==> a1 - p1
+187:AOR:*(long,long):/(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):300:a1 * p1 |==> a1 / p1
+188:AOR:+(long,long):%(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):300:(a1 * p1) + p0 |==> (a1 * p1) % p0
+189:AOR:+(long,long):*(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):300:(a1 * p1) + p0 |==> (a1 * p1) * p0
+190:AOR:+(long,long):-(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):300:(a1 * p1) + p0 |==> (a1 * p1) - p0
+191:AOR:+(long,long):/(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):300:(a1 * p1) + p0 |==> (a1 * p1) / p0
+192:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):300:p2 = (a1 * p1) + p0 |==> <NO-OP>
+193:AOR:*(long,long):%(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):301:a1 * q1 |==> a1 % q1
+194:AOR:*(long,long):+(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):301:a1 * q1 |==> a1 + q1
+195:AOR:*(long,long):-(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):301:a1 * q1 |==> a1 - q1
+196:AOR:*(long,long):/(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):301:a1 * q1 |==> a1 / q1
+197:AOR:+(long,long):%(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):301:(a1 * q1) + q0 |==> (a1 * q1) % q0
+198:AOR:+(long,long):*(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):301:(a1 * q1) + q0 |==> (a1 * q1) * q0
+199:AOR:+(long,long):-(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):301:(a1 * q1) + q0 |==> (a1 * q1) - q0
+200:AOR:+(long,long):/(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):301:(a1 * q1) + q0 |==> (a1 * q1) / q0
+201:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):301:q2 = (a1 * q1) + q0 |==> <NO-OP>
+202:ROR:>(long,long):!=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:p2 > overflow |==> p2 != overflow
+203:ROR:>(long,long):>=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:p2 > overflow |==> p2 >= overflow
+204:ROR:>(long,long):FALSE(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:p2 > overflow |==> false
+205:ROR:>(long,long):!=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:q2 > overflow |==> q2 != overflow
+206:ROR:>(long,long):>=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:q2 > overflow |==> q2 >= overflow
+207:ROR:>(long,long):FALSE(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:q2 > overflow |==> false
+208:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:(p2 > overflow) || (q2 > overflow) |==> (p2 > overflow) != (q2 > overflow)
+209:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:(p2 > overflow) || (q2 > overflow) |==> (p2 > overflow)
+210:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:(p2 > overflow) || (q2 > overflow) |==> (q2 > overflow)
+211:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):302:(p2 > overflow) || (q2 > overflow) |==> true
+212:AOR:/(double,double):%(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):306:(double)p2 / (double)q2 |==> (double)p2 % (double)q2
+213:AOR:/(double,double):*(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):306:(double)p2 / (double)q2 |==> (double)p2 * (double)q2
+214:AOR:/(double,double):+(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):306:(double)p2 / (double)q2 |==> (double)p2 + (double)q2
+215:AOR:/(double,double):-(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):306:(double)p2 / (double)q2 |==> (double)p2 - (double)q2
+216:ROR:<(int,int):!=(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):307:n < maxIterations |==> n != maxIterations
+217:ROR:<(int,int):<=(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):307:n < maxIterations |==> n <= maxIterations
+218:ROR:<(int,int):FALSE(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):307:n < maxIterations |==> false
+219:AOR:-(double,double):%(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):308:convergent - value |==> convergent % value
+220:AOR:-(double,double):*(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):308:convergent - value |==> convergent * value
+221:AOR:-(double,double):+(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):308:convergent - value |==> convergent + value
+222:AOR:-(double,double):/(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):308:convergent - value |==> convergent / value
+223:ROR:>(double,double):!=(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):308:FastMath.abs(convergent - value) > epsilon |==> FastMath.abs(convergent - value) != epsilon
+224:ROR:>(double,double):>=(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):308:FastMath.abs(convergent - value) > epsilon |==> FastMath.abs(convergent - value) >= epsilon
+225:ROR:>(double,double):FALSE(double,double):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):308:FastMath.abs(convergent - value) > epsilon |==> false
+226:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):307:(n < maxIterations) && (FastMath.abs(convergent - value) > epsilon) |==> (n < maxIterations) == (FastMath.abs(convergent - value) > epsilon)
+227:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):307:(n < maxIterations) && (FastMath.abs(convergent - value) > epsilon) |==> false
+228:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):307:(n < maxIterations) && (FastMath.abs(convergent - value) > epsilon) |==> (n < maxIterations)
+229:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):308:(n < maxIterations) && (FastMath.abs(convergent - value) > epsilon) |==> (FastMath.abs(convergent - value) > epsilon)
+230:ROR:<(long,long):!=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):309:q2 < maxDenominator |==> q2 != maxDenominator
+231:ROR:<(long,long):<=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):309:q2 < maxDenominator |==> q2 <= maxDenominator
+232:ROR:<(long,long):FALSE(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):309:q2 < maxDenominator |==> false
+233:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):307:(n < maxIterations) && (FastMath.abs(convergent - value) > epsilon) && (q2 < maxDenominator) |==> ((n < maxIterations) && (FastMath.abs(convergent - value) > epsilon)) == (q2 < maxDenominator)
+234:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):308:(n < maxIterations) && (FastMath.abs(convergent - value) > epsilon) && (q2 < maxDenominator) |==> false
+235:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):307:(n < maxIterations) && (FastMath.abs(convergent - value) > epsilon) && (q2 < maxDenominator) |==> (n < maxIterations) && (FastMath.abs(convergent - value) > epsilon)
+236:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):309:(n < maxIterations) && (FastMath.abs(convergent - value) > epsilon) && (q2 < maxDenominator) |==> (q2 < maxDenominator)
+237:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):310:p0 = p1 |==> <NO-OP>
+238:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):311:p1 = p2 |==> <NO-OP>
+239:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):312:q0 = q1 |==> <NO-OP>
+240:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):313:q1 = q2 |==> <NO-OP>
+241:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):314:a0 = a1 |==> <NO-OP>
+242:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):315:r0 = r1 |==> <NO-OP>
+243:LVR:TRUE:FALSE:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):317:true |==> false
+244:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):317:stop = true |==> <NO-OP>
+245:ROR:>=(int,int):==(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):321:n >= maxIterations |==> n == maxIterations
+246:ROR:>=(int,int):>(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):321:n >= maxIterations |==> n > maxIterations
+247:ROR:>=(int,int):TRUE(int,int):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):321:n >= maxIterations |==> true
+248:ROR:<(long,long):!=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):325:q2 < maxDenominator |==> q2 != maxDenominator
+249:ROR:<(long,long):<=(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):325:q2 < maxDenominator |==> q2 <= maxDenominator
+250:ROR:<(long,long):FALSE(long,long):org.apache.commons.math.fraction.BigFraction@<init>(double,double,int,int):325:q2 < maxDenominator |==> false
+251:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@<init>(double,int):353:0 |==> 1
+252:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,int):353:0 |==> -1
+253:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@<init>(double,int):353:100 |==> 0
+254:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@<init>(double,int):353:100 |==> -100
+255:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@getReducedFraction(int,int):432:0 |==> 1
+256:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@getReducedFraction(int,int):432:0 |==> -1
+257:ROR:==(int,int):<=(int,int):org.apache.commons.math.fraction.BigFraction@getReducedFraction(int,int):432:numerator == 0 |==> numerator <= 0
+258:ROR:==(int,int):>=(int,int):org.apache.commons.math.fraction.BigFraction@getReducedFraction(int,int):432:numerator == 0 |==> numerator >= 0
+259:ROR:==(int,int):FALSE(int,int):org.apache.commons.math.fraction.BigFraction@getReducedFraction(int,int):432:numerator == 0 |==> false
+260:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@abs():447:0 |==> 1
+261:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@abs():447:0 |==> -1
+262:ROR:<=(int,int):<(int,int):org.apache.commons.math.fraction.BigFraction@abs():447:BigInteger.ZERO.compareTo(numerator) <= 0 |==> BigInteger.ZERO.compareTo(numerator) < 0
+263:ROR:<=(int,int):==(int,int):org.apache.commons.math.fraction.BigFraction@abs():447:BigInteger.ZERO.compareTo(numerator) <= 0 |==> BigInteger.ZERO.compareTo(numerator) == 0
+264:ROR:<=(int,int):TRUE(int,int):org.apache.commons.math.fraction.BigFraction@abs():447:BigInteger.ZERO.compareTo(numerator) <= 0 |==> true
+265:STD:<CALL>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@add(java.math.BigInteger):463:MathUtils.checkNotNull(bg) |==> <NO-OP>
+266:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.math.fraction.BigFraction@add(org.apache.commons.math.fraction.BigFraction):507:fraction == null |==> false
+267:COR:ZERO.equals(fraction):TRUE:org.apache.commons.math.fraction.BigFraction@add(org.apache.commons.math.fraction.BigFraction):510:ZERO.equals(fraction) |==> false
+268:COR:ZERO.equals(fraction):FALSE:org.apache.commons.math.fraction.BigFraction@add(org.apache.commons.math.fraction.BigFraction):510:ZERO.equals(fraction) |==> true
+269:COR:denominator.equals(fraction.denominator):TRUE:org.apache.commons.math.fraction.BigFraction@add(org.apache.commons.math.fraction.BigFraction):517:denominator.equals(fraction.denominator) |==> false
+270:COR:denominator.equals(fraction.denominator):FALSE:org.apache.commons.math.fraction.BigFraction@add(org.apache.commons.math.fraction.BigFraction):517:denominator.equals(fraction.denominator) |==> true
+271:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@add(org.apache.commons.math.fraction.BigFraction):518:num = numerator.add(fraction.numerator) |==> <NO-OP>
+272:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@add(org.apache.commons.math.fraction.BigFraction):519:den = denominator |==> <NO-OP>
+273:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@add(org.apache.commons.math.fraction.BigFraction):521:num = (numerator.multiply(fraction.denominator)).add((fraction.numerator).multiply(denominator)) |==> <NO-OP>
+274:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@add(org.apache.commons.math.fraction.BigFraction):522:den = denominator.multiply(fraction.denominator) |==> <NO-OP>
+275:COR:BigInteger.ZERO.equals(bg):TRUE:org.apache.commons.math.fraction.BigFraction@divide(java.math.BigInteger):614:BigInteger.ZERO.equals(bg) |==> false
+276:COR:BigInteger.ZERO.equals(bg):FALSE:org.apache.commons.math.fraction.BigFraction@divide(java.math.BigInteger):614:BigInteger.ZERO.equals(bg) |==> true
+277:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.math.fraction.BigFraction@divide(org.apache.commons.math.fraction.BigFraction):664:fraction == null |==> false
+278:COR:BigInteger.ZERO.equals(fraction.numerator):TRUE:org.apache.commons.math.fraction.BigFraction@divide(org.apache.commons.math.fraction.BigFraction):667:BigInteger.ZERO.equals(fraction.numerator) |==> false
+279:COR:BigInteger.ZERO.equals(fraction.numerator):FALSE:org.apache.commons.math.fraction.BigFraction@divide(org.apache.commons.math.fraction.BigFraction):667:BigInteger.ZERO.equals(fraction.numerator) |==> true
+280:AOR:/(double,double):%(double,double):org.apache.commons.math.fraction.BigFraction@doubleValue():685:numerator.doubleValue() / denominator.doubleValue() |==> numerator.doubleValue() % denominator.doubleValue()
+281:AOR:/(double,double):*(double,double):org.apache.commons.math.fraction.BigFraction@doubleValue():685:numerator.doubleValue() / denominator.doubleValue() |==> numerator.doubleValue() * denominator.doubleValue()
+282:AOR:/(double,double):+(double,double):org.apache.commons.math.fraction.BigFraction@doubleValue():685:numerator.doubleValue() / denominator.doubleValue() |==> numerator.doubleValue() + denominator.doubleValue()
+283:AOR:/(double,double):-(double,double):org.apache.commons.math.fraction.BigFraction@doubleValue():685:numerator.doubleValue() / denominator.doubleValue() |==> numerator.doubleValue() - denominator.doubleValue()
+284:LVR:FALSE:TRUE:org.apache.commons.math.fraction.BigFraction@equals(java.lang.Object):708:false |==> true
+285:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.math.fraction.BigFraction@equals(java.lang.Object):710:this == other |==> false
+286:LVR:TRUE:FALSE:org.apache.commons.math.fraction.BigFraction@equals(java.lang.Object):711:true |==> false
+287:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@equals(java.lang.Object):711:ret = true |==> <NO-OP>
+288:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.math.fraction.BigFraction@equals(java.lang.Object):715:thisOne.numerator.equals(rhs.numerator) && thisOne.denominator.equals(rhs.denominator) |==> thisOne.numerator.equals(rhs.numerator) == thisOne.denominator.equals(rhs.denominator)
+289:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.math.fraction.BigFraction@equals(java.lang.Object):715:thisOne.numerator.equals(rhs.numerator) && thisOne.denominator.equals(rhs.denominator) |==> false
+290:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@equals(java.lang.Object):715:thisOne.numerator.equals(rhs.numerator) && thisOne.denominator.equals(rhs.denominator) |==> thisOne.numerator.equals(rhs.numerator)
+291:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@equals(java.lang.Object):715:thisOne.numerator.equals(rhs.numerator) && thisOne.denominator.equals(rhs.denominator) |==> thisOne.denominator.equals(rhs.denominator)
+292:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@equals(java.lang.Object):715:ret = thisOne.numerator.equals(rhs.numerator) && thisOne.denominator.equals(rhs.denominator) |==> <NO-OP>
+293:AOR:/(float,float):%(float,float):org.apache.commons.math.fraction.BigFraction@floatValue():732:numerator.floatValue() / denominator.floatValue() |==> numerator.floatValue() % denominator.floatValue()
+294:AOR:/(float,float):*(float,float):org.apache.commons.math.fraction.BigFraction@floatValue():732:numerator.floatValue() / denominator.floatValue() |==> numerator.floatValue() * denominator.floatValue()
+295:AOR:/(float,float):+(float,float):org.apache.commons.math.fraction.BigFraction@floatValue():732:numerator.floatValue() / denominator.floatValue() |==> numerator.floatValue() + denominator.floatValue()
+296:AOR:/(float,float):-(float,float):org.apache.commons.math.fraction.BigFraction@floatValue():732:numerator.floatValue() / denominator.floatValue() |==> numerator.floatValue() - denominator.floatValue()
+297:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@hashCode():814:37 |==> 0
+298:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@hashCode():814:37 |==> -37
+299:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@hashCode():814:37 |==> 0
+300:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@hashCode():814:37 |==> -37
+301:LVR:POS:0:org.apache.commons.math.fraction.BigFraction@hashCode():814:17 |==> 0
+302:LVR:POS:NEG:org.apache.commons.math.fraction.BigFraction@hashCode():814:17 |==> -17
+303:AOR:*(int,int):%(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * 17 |==> 37 % 17
+304:AOR:*(int,int):+(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * 17 |==> 37 + 17
+305:AOR:*(int,int):-(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * 17 |==> 37 - 17
+306:AOR:*(int,int):/(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * 17 |==> 37 / 17
+307:AOR:+(int,int):%(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * 17 + numerator.hashCode() |==> 37 * 17 % numerator.hashCode()
+308:AOR:+(int,int):*(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * 17 + numerator.hashCode() |==> 37 * 17 * numerator.hashCode()
+309:AOR:+(int,int):-(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * 17 + numerator.hashCode() |==> 37 * 17 - numerator.hashCode()
+310:AOR:+(int,int):/(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * 17 + numerator.hashCode() |==> 37 * 17 / numerator.hashCode()
+311:AOR:*(int,int):%(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * (37 * 17 + numerator.hashCode()) |==> 37 % (37 * 17 + numerator.hashCode())
+312:AOR:*(int,int):+(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * (37 * 17 + numerator.hashCode()) |==> 37 + (37 * 17 + numerator.hashCode())
+313:AOR:*(int,int):-(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * (37 * 17 + numerator.hashCode()) |==> 37 - (37 * 17 + numerator.hashCode())
+314:AOR:*(int,int):/(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * (37 * 17 + numerator.hashCode()) |==> 37 / (37 * 17 + numerator.hashCode())
+315:AOR:+(int,int):%(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * (37 * 17 + numerator.hashCode()) + denominator.hashCode() |==> 37 * (37 * 17 + numerator.hashCode()) % denominator.hashCode()
+316:AOR:+(int,int):*(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * (37 * 17 + numerator.hashCode()) + denominator.hashCode() |==> 37 * (37 * 17 + numerator.hashCode()) * denominator.hashCode()
+317:AOR:+(int,int):-(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * (37 * 17 + numerator.hashCode()) + denominator.hashCode() |==> 37 * (37 * 17 + numerator.hashCode()) - denominator.hashCode()
+318:AOR:+(int,int):/(int,int):org.apache.commons.math.fraction.BigFraction@hashCode():814:37 * (37 * 17 + numerator.hashCode()) + denominator.hashCode() |==> 37 * (37 * 17 + numerator.hashCode()) / denominator.hashCode()
+319:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.math.fraction.BigFraction@multiply(java.math.BigInteger):856:bg == null |==> false
+320:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.math.fraction.BigFraction@multiply(org.apache.commons.math.fraction.BigFraction):901:fraction == null |==> false
+321:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.commons.math.fraction.BigFraction@multiply(org.apache.commons.math.fraction.BigFraction):904:numerator.equals(BigInteger.ZERO) || fraction.numerator.equals(BigInteger.ZERO) |==> numerator.equals(BigInteger.ZERO) != fraction.numerator.equals(BigInteger.ZERO)
+322:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@multiply(org.apache.commons.math.fraction.BigFraction):904:numerator.equals(BigInteger.ZERO) || fraction.numerator.equals(BigInteger.ZERO) |==> numerator.equals(BigInteger.ZERO)
+323:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.commons.math.fraction.BigFraction@multiply(org.apache.commons.math.fraction.BigFraction):905:numerator.equals(BigInteger.ZERO) || fraction.numerator.equals(BigInteger.ZERO) |==> fraction.numerator.equals(BigInteger.ZERO)
+324:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.commons.math.fraction.BigFraction@multiply(org.apache.commons.math.fraction.BigFraction):904:numerator.equals(BigInteger.ZERO) || fraction.numerator.equals(BigInteger.ZERO) |==> true
+325:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@pow(int):948:0 |==> 1
+326:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@pow(int):948:0 |==> -1
+327:ROR:<(int,int):!=(int,int):org.apache.commons.math.fraction.BigFraction@pow(int):948:exponent < 0 |==> exponent != 0
+328:ROR:<(int,int):<=(int,int):org.apache.commons.math.fraction.BigFraction@pow(int):948:exponent < 0 |==> exponent <= 0
+329:ROR:<(int,int):FALSE(int,int):org.apache.commons.math.fraction.BigFraction@pow(int):948:exponent < 0 |==> false
+330:ORU:-(int):+(int):org.apache.commons.math.fraction.BigFraction@pow(int):949:-exponent |==> +exponent
+331:ORU:-(int):~(int):org.apache.commons.math.fraction.BigFraction@pow(int):949:-exponent |==> ~exponent
+332:ORU:-(int):+(int):org.apache.commons.math.fraction.BigFraction@pow(int):949:-exponent |==> +exponent
+333:ORU:-(int):~(int):org.apache.commons.math.fraction.BigFraction@pow(int):949:-exponent |==> ~exponent
+334:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@pow(long):965:0 |==> 1
+335:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@pow(long):965:0 |==> -1
+336:ROR:<(long,long):!=(long,long):org.apache.commons.math.fraction.BigFraction@pow(long):965:exponent < 0 |==> exponent != 0
+337:ROR:<(long,long):<=(long,long):org.apache.commons.math.fraction.BigFraction@pow(long):965:exponent < 0 |==> exponent <= 0
+338:ROR:<(long,long):FALSE(long,long):org.apache.commons.math.fraction.BigFraction@pow(long):965:exponent < 0 |==> false
+339:ORU:-(long):+(long):org.apache.commons.math.fraction.BigFraction@pow(long):966:-exponent |==> +exponent
+340:ORU:-(long):~(long):org.apache.commons.math.fraction.BigFraction@pow(long):966:-exponent |==> ~exponent
+341:ORU:-(long):+(long):org.apache.commons.math.fraction.BigFraction@pow(long):967:-exponent |==> +exponent
+342:ORU:-(long):~(long):org.apache.commons.math.fraction.BigFraction@pow(long):967:-exponent |==> ~exponent
+343:LVR:0:POS:org.apache.commons.math.fraction.BigFraction@pow(java.math.BigInteger):984:0 |==> 1
+344:LVR:0:NEG:org.apache.commons.math.fraction.BigFraction@pow(java.math.BigInteger):984:0 |==> -1
+345:ROR:<(int,int):!=(int,int):org.apache.commons.math.fraction.BigFraction@pow(java.math.BigInteger):984:exponent.compareTo(BigInteger.ZERO) < 0 |==> exponent.compareTo(BigInteger.ZERO) != 0
+346:ROR:<(int,int):<=(int,int):org.apache.commons.math.fraction.BigFraction@pow(java.math.BigInteger):984:exponent.compareTo(BigInteger.ZERO) < 0 |==> exponent.compareTo(BigInteger.ZERO) <= 0
+347:ROR:<(int,int):FALSE(int,int):org.apache.commons.math.fraction.BigFraction@pow(java.math.BigInteger):984:exponent.compareTo(BigInteger.ZERO) < 0 |==> false
+348:AOR:/(double,double):%(double,double):org.apache.commons.math.fraction.BigFraction@pow(double):1004:FastMath.pow(numerator.doubleValue(), exponent) / FastMath.pow(denominator.doubleValue(), exponent) |==> FastMath.pow(numerator.doubleValue(), exponent) % FastMath.pow(denominator.doubleValue(), exponent)
+349:AOR:/(double,double):*(double,double):org.apache.commons.math.fraction.BigFraction@pow(double):1004:FastMath.pow(numerator.doubleValue(), exponent) / FastMath.pow(denominator.doubleValue(), exponent) |==> FastMath.pow(numerator.doubleValue(), exponent) * FastMath.pow(denominator.doubleValue(), exponent)
+350:AOR:/(double,double):+(double,double):org.apache.commons.math.fraction.BigFraction@pow(double):1004:FastMath.pow(numerator.doubleValue(), exponent) / FastMath.pow(denominator.doubleValue(), exponent) |==> FastMath.pow(numerator.doubleValue(), exponent) + FastMath.pow(denominator.doubleValue(), exponent)
+351:AOR:/(double,double):-(double,double):org.apache.commons.math.fraction.BigFraction@pow(double):1004:FastMath.pow(numerator.doubleValue(), exponent) / FastMath.pow(denominator.doubleValue(), exponent) |==> FastMath.pow(numerator.doubleValue(), exponent) - FastMath.pow(denominator.doubleValue(), exponent)
+352:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.math.fraction.BigFraction@subtract(java.math.BigInteger):1043:bg == null |==> false
+353:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.math.fraction.BigFraction@subtract(org.apache.commons.math.fraction.BigFraction):1086:fraction == null |==> false
+354:COR:ZERO.equals(fraction):TRUE:org.apache.commons.math.fraction.BigFraction@subtract(org.apache.commons.math.fraction.BigFraction):1089:ZERO.equals(fraction) |==> false
+355:COR:ZERO.equals(fraction):FALSE:org.apache.commons.math.fraction.BigFraction@subtract(org.apache.commons.math.fraction.BigFraction):1089:ZERO.equals(fraction) |==> true
+356:COR:denominator.equals(fraction.denominator):TRUE:org.apache.commons.math.fraction.BigFraction@subtract(org.apache.commons.math.fraction.BigFraction):1095:denominator.equals(fraction.denominator) |==> false
+357:COR:denominator.equals(fraction.denominator):FALSE:org.apache.commons.math.fraction.BigFraction@subtract(org.apache.commons.math.fraction.BigFraction):1095:denominator.equals(fraction.denominator) |==> true
+358:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@subtract(org.apache.commons.math.fraction.BigFraction):1096:num = numerator.subtract(fraction.numerator) |==> <NO-OP>
+359:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@subtract(org.apache.commons.math.fraction.BigFraction):1097:den = denominator |==> <NO-OP>
+360:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@subtract(org.apache.commons.math.fraction.BigFraction):1099:num = (numerator.multiply(fraction.denominator)).subtract((fraction.numerator).multiply(denominator)) |==> <NO-OP>
+361:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@subtract(org.apache.commons.math.fraction.BigFraction):1100:den = denominator.multiply(fraction.denominator) |==> <NO-OP>
+362:COR:BigInteger.ONE.equals(denominator):TRUE:org.apache.commons.math.fraction.BigFraction@toString():1118:BigInteger.ONE.equals(denominator) |==> false
+363:COR:BigInteger.ONE.equals(denominator):FALSE:org.apache.commons.math.fraction.BigFraction@toString():1118:BigInteger.ONE.equals(denominator) |==> true
+364:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@toString():1119:str = numerator.toString() |==> <NO-OP>
+365:COR:BigInteger.ZERO.equals(numerator):TRUE:org.apache.commons.math.fraction.BigFraction@toString():1120:BigInteger.ZERO.equals(numerator) |==> false
+366:COR:BigInteger.ZERO.equals(numerator):FALSE:org.apache.commons.math.fraction.BigFraction@toString():1120:BigInteger.ZERO.equals(numerator) |==> true
+367:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@toString():1121:str = "0" |==> <NO-OP>
+368:STD:<ASSIGN>:<NO-OP>:org.apache.commons.math.fraction.BigFraction@toString():1123:str = numerator + " / " + denominator |==> <NO-OP>

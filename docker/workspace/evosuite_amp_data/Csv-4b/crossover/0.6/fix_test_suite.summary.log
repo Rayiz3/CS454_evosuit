@@ -1,0 +1,11 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-17 18:45:50  ######
+- Found 1 test archive(s)
+ - Removing uncompilable test method(s): Csv-4b-evosuite.1.tar.bz2
+  - Removing 3 uncompilable test method(s):
+--- org.apache.commons.csv.CSVParser_ESTest::test03
+--- org.apache.commons.csv.CSVParser_ESTest::test04
+--- org.apache.commons.csv.CSVParser_ESTest::test08
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 3 (see /root/workspace/evosuite_amp_data/Csv-4b/crossover/0.6/fix_test_suite.compile.log file for more information)
+Number of failing tests: 0
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-17 18:46:08  ######

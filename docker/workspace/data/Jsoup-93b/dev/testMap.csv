@@ -12,13 +12,13 @@ TestNo,TestName
 11,org.jsoup.nodes.TextNodeTest
 12,org.jsoup.select.TraversorTest
 13,org.jsoup.parser.AttributeParseTest
-14,org.jsoup.parser.TokenQueueTest
-15,org.jsoup.internal.StringUtilTest
+14,org.jsoup.internal.StringUtilTest
+15,org.jsoup.parser.TokenQueueTest
 16,org.jsoup.nodes.EntitiesTest
 17,org.jsoup.nodes.NodeTest
 18,org.jsoup.parser.XmlTreeBuilderTest
-19,org.jsoup.nodes.AttributeTest
-20,org.jsoup.parser.TokeniserStateTest
+19,org.jsoup.parser.TokeniserStateTest
+20,org.jsoup.nodes.AttributeTest
 21,org.jsoup.select.ElementsTest
 22,org.jsoup.parser.TokeniserTest
 23,org.jsoup.helper.DataUtilTest
@@ -27,7 +27,7 @@ TestNo,TestName
 26,org.jsoup.nodes.DocumentTest
 27,org.jsoup.select.CssTest
 28,org.jsoup.nodes.ElementTest
-29,org.jsoup.helper.W3CDomTest
-30,org.jsoup.integration.ParseTest
+29,org.jsoup.integration.ParseTest
+30,org.jsoup.helper.W3CDomTest
 31,org.jsoup.parser.HtmlParserTest
 32,org.jsoup.integration.ConnectTest

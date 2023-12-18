@@ -1,0 +1,71 @@
+1:STD:<ASSIGN>:<NO-OP>:org.jsoup.parser.Parser@<init>(org.jsoup.parser.TreeBuilder):26:this.treeBuilder = treeBuilder |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.jsoup.parser.Parser@<init>(org.jsoup.parser.TreeBuilder):27:settings = treeBuilder.defaultSettings() |==> <NO-OP>
+3:COR:isTrackErrors():TRUE:org.jsoup.parser.Parser@parseInput(java.lang.String,java.lang.String):31:isTrackErrors() |==> false
+4:COR:isTrackErrors():FALSE:org.jsoup.parser.Parser@parseInput(java.lang.String,java.lang.String):31:isTrackErrors() |==> true
+5:STD:<ASSIGN>:<NO-OP>:org.jsoup.parser.Parser@parseInput(java.lang.String,java.lang.String):31:errors = isTrackErrors() ? ParseErrorList.tracking(maxErrors) : ParseErrorList.noTracking() |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.jsoup.parser.Parser@setTreeBuilder(org.jsoup.parser.TreeBuilder):50:this.treeBuilder = treeBuilder |==> <NO-OP>
+7:LVR:0:POS:org.jsoup.parser.Parser@isTrackErrors():59:0 |==> 1
+8:LVR:0:NEG:org.jsoup.parser.Parser@isTrackErrors():59:0 |==> -1
+9:ROR:>(int,int):!=(int,int):org.jsoup.parser.Parser@isTrackErrors():59:maxErrors > 0 |==> maxErrors != 0
+10:ROR:>(int,int):>=(int,int):org.jsoup.parser.Parser@isTrackErrors():59:maxErrors > 0 |==> maxErrors >= 0
+11:ROR:>(int,int):FALSE(int,int):org.jsoup.parser.Parser@isTrackErrors():59:maxErrors > 0 |==> false
+12:STD:<ASSIGN>:<NO-OP>:org.jsoup.parser.Parser@setTrackErrors(int):68:this.maxErrors = maxErrors |==> <NO-OP>
+13:STD:<ASSIGN>:<NO-OP>:org.jsoup.parser.Parser@settings(org.jsoup.parser.ParseSettings):81:this.settings = settings |==> <NO-OP>
+14:LVR:POS:0:org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:1 |==> 0
+15:LVR:POS:NEG:org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:1 |==> -1
+16:AOR:-(int,int):%(int,int):org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:nodes.length - 1 |==> nodes.length % 1
+17:AOR:-(int,int):*(int,int):org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:nodes.length - 1 |==> nodes.length * 1
+18:AOR:-(int,int):+(int,int):org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:nodes.length - 1 |==> nodes.length + 1
+19:AOR:-(int,int):/(int,int):org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:nodes.length - 1 |==> nodes.length / 1
+20:LVR:0:POS:org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:0 |==> 1
+21:LVR:0:NEG:org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:0 |==> -1
+22:ROR:>(int,int):!=(int,int):org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:i > 0 |==> i != 0
+23:ROR:>(int,int):>=(int,int):org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:i > 0 |==> i >= 0
+24:ROR:>(int,int):FALSE(int,int):org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):155:i > 0 |==> false
+25:STD:<CALL>:<NO-OP>:org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):156:nodes[i].remove() |==> <NO-OP>
+26:STD:<CALL>:<NO-OP>:org.jsoup.parser.Parser@parseBodyFragment(java.lang.String,java.lang.String):159:body.appendChild(node) |==> <NO-OP>
+27:STD:<CALL>:<NO-OP>:org.jsoup.Jsoup@parse(java.net.URL,int):182:con.timeout(timeoutMillis) |==> <NO-OP>
+28:STD:<CALL>:<NO-OP>:org.jsoup.Jsoup@clean(java.lang.String,java.lang.String,org.jsoup.safety.Whitelist,org.jsoup.nodes.Document.OutputSettings):236:clean.outputSettings(outputSettings) |==> <NO-OP>
+29:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner@<init>(org.jsoup.safety.Whitelist):42:Validate.notNull(whitelist) |==> <NO-OP>
+30:STD:<ASSIGN>:<NO-OP>:org.jsoup.safety.Cleaner@<init>(org.jsoup.safety.Whitelist):43:this.whitelist = whitelist |==> <NO-OP>
+31:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner@clean(org.jsoup.nodes.Document):53:Validate.notNull(dirtyDocument) |==> <NO-OP>
+32:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.jsoup.safety.Cleaner@clean(org.jsoup.nodes.Document):56:dirtyDocument.body() != null |==> true
+33:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner@clean(org.jsoup.nodes.Document):57:copySafeNodes(dirtyDocument.body(), clean.body()) |==> <NO-OP>
+34:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner@isValid(org.jsoup.nodes.Document):74:Validate.notNull(dirtyDocument) |==> <NO-OP>
+35:LVR:0:POS:org.jsoup.safety.Cleaner@isValid(org.jsoup.nodes.Document):78:0 |==> 1
+36:LVR:0:NEG:org.jsoup.safety.Cleaner@isValid(org.jsoup.nodes.Document):78:0 |==> -1
+37:ROR:==(int,int):<=(int,int):org.jsoup.safety.Cleaner@isValid(org.jsoup.nodes.Document):78:numDiscarded == 0 |==> numDiscarded <= 0
+38:ROR:==(int,int):>=(int,int):org.jsoup.safety.Cleaner@isValid(org.jsoup.nodes.Document):78:numDiscarded == 0 |==> numDiscarded >= 0
+39:ROR:==(int,int):FALSE(int,int):org.jsoup.safety.Cleaner@isValid(org.jsoup.nodes.Document):78:numDiscarded == 0 |==> false
+40:LVR:0:POS:org.jsoup.safety.Cleaner$CleaningVisitor:86:0 |==> 1
+41:LVR:0:NEG:org.jsoup.safety.Cleaner$CleaningVisitor:86:0 |==> -1
+42:STD:<ASSIGN>:<NO-OP>:org.jsoup.safety.Cleaner$CleaningVisitor@<init>(org.jsoup.nodes.Element,org.jsoup.nodes.Element):92:this.destination = destination |==> <NO-OP>
+43:COR:whitelist.isSafeTag(sourceEl.tagName()):TRUE:org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):99:whitelist.isSafeTag(sourceEl.tagName()) |==> false
+44:COR:whitelist.isSafeTag(sourceEl.tagName()):FALSE:org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):99:whitelist.isSafeTag(sourceEl.tagName()) |==> true
+45:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):102:destination.appendChild(destChild) |==> <NO-OP>
+46:STD:<ASSIGN>:<NO-OP>:org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):104:numDiscarded += meta.numAttribsDiscarded |==> <NO-OP>
+47:STD:<ASSIGN>:<NO-OP>:org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):105:destination = destChild |==> <NO-OP>
+48:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):106:source != root |==> true
+49:STD:<INC>:<NO-OP>:org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):107:numDiscarded++ |==> <NO-OP>
+50:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):112:destination.appendChild(destText) |==> <NO-OP>
+51:COR:&&(boolean,boolean):==(boolean,boolean):org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):113:source instanceof DataNode && whitelist.isSafeTag(source.parent().nodeName()) |==> source instanceof DataNode == whitelist.isSafeTag(source.parent().nodeName())
+52:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):113:source instanceof DataNode && whitelist.isSafeTag(source.parent().nodeName()) |==> false
+53:COR:&&(boolean,boolean):LHS(boolean,boolean):org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):113:source instanceof DataNode && whitelist.isSafeTag(source.parent().nodeName()) |==> source instanceof DataNode
+54:COR:&&(boolean,boolean):RHS(boolean,boolean):org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):113:source instanceof DataNode && whitelist.isSafeTag(source.parent().nodeName()) |==> whitelist.isSafeTag(source.parent().nodeName())
+55:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):116:destination.appendChild(destData) |==> <NO-OP>
+56:STD:<INC>:<NO-OP>:org.jsoup.safety.Cleaner$CleaningVisitor@head(org.jsoup.nodes.Node,int):118:numDiscarded++ |==> <NO-OP>
+57:COR:&&(boolean,boolean):==(boolean,boolean):org.jsoup.safety.Cleaner$CleaningVisitor@tail(org.jsoup.nodes.Node,int):123:source instanceof Element && whitelist.isSafeTag(source.nodeName()) |==> source instanceof Element == whitelist.isSafeTag(source.nodeName())
+58:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.jsoup.safety.Cleaner$CleaningVisitor@tail(org.jsoup.nodes.Node,int):123:source instanceof Element && whitelist.isSafeTag(source.nodeName()) |==> false
+59:COR:&&(boolean,boolean):LHS(boolean,boolean):org.jsoup.safety.Cleaner$CleaningVisitor@tail(org.jsoup.nodes.Node,int):123:source instanceof Element && whitelist.isSafeTag(source.nodeName()) |==> source instanceof Element
+60:COR:&&(boolean,boolean):RHS(boolean,boolean):org.jsoup.safety.Cleaner$CleaningVisitor@tail(org.jsoup.nodes.Node,int):123:source instanceof Element && whitelist.isSafeTag(source.nodeName()) |==> whitelist.isSafeTag(source.nodeName())
+61:STD:<ASSIGN>:<NO-OP>:org.jsoup.safety.Cleaner$CleaningVisitor@tail(org.jsoup.nodes.Node,int):124:destination = destination.parent() |==> <NO-OP>
+62:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner@copySafeNodes(org.jsoup.nodes.Element,org.jsoup.nodes.Element):132:traversor.traverse(source) |==> <NO-OP>
+63:LVR:0:POS:org.jsoup.safety.Cleaner@createSafeElement(org.jsoup.nodes.Element):140:0 |==> 1
+64:LVR:0:NEG:org.jsoup.safety.Cleaner@createSafeElement(org.jsoup.nodes.Element):140:0 |==> -1
+65:COR:whitelist.isSafeAttribute(sourceTag, sourceEl, sourceAttr):TRUE:org.jsoup.safety.Cleaner@createSafeElement(org.jsoup.nodes.Element):144:whitelist.isSafeAttribute(sourceTag, sourceEl, sourceAttr) |==> false
+66:COR:whitelist.isSafeAttribute(sourceTag, sourceEl, sourceAttr):FALSE:org.jsoup.safety.Cleaner@createSafeElement(org.jsoup.nodes.Element):144:whitelist.isSafeAttribute(sourceTag, sourceEl, sourceAttr) |==> true
+67:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner@createSafeElement(org.jsoup.nodes.Element):145:destAttrs.put(sourceAttr) |==> <NO-OP>
+68:STD:<INC>:<NO-OP>:org.jsoup.safety.Cleaner@createSafeElement(org.jsoup.nodes.Element):147:numDiscarded++ |==> <NO-OP>
+69:STD:<CALL>:<NO-OP>:org.jsoup.safety.Cleaner@createSafeElement(org.jsoup.nodes.Element):150:destAttrs.addAll(enforcedAttrs) |==> <NO-OP>
+70:STD:<ASSIGN>:<NO-OP>:org.jsoup.safety.Cleaner$ElementMeta@<init>(org.jsoup.nodes.Element,int):160:this.el = el |==> <NO-OP>
+71:STD:<ASSIGN>:<NO-OP>:org.jsoup.safety.Cleaner$ElementMeta@<init>(org.jsoup.nodes.Element,int):161:this.numAttribsDiscarded = numAttribsDiscarded |==> <NO-OP>
