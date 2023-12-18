@@ -1,8 +1,0 @@
-######  Start fixing tests  ./fix_test_suite.pl: 2023-12-17 19:45:59  ######
-- Found 1 test archive(s)
- - Removing uncompilable test method(s): Lang-4b-evosuite.1.tar.bz2
-org.apache.commons.lang3.text.translate.LookupTranslator_ESTest
-Number of uncompilable test classes: 1 (see /root/workspace/evosuite_amp_data/Lang-4b/mutation/0.65/fix_test_suite.compile.log file for more information)
-Number of uncompilable tests: 0
-Number of failing tests: 0
-######  End fixing tests  ./fix_test_suite.pl: 2023-12-17 19:46:11  ######
