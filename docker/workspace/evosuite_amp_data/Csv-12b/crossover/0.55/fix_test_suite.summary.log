@@ -1,0 +1,9 @@
+######  Start fixing tests  ./fix_test_suite.pl: 2023-12-17 18:33:44  ######
+- Found 1 test archive(s)
+ - Removing 2 broken test method(s): Csv-12b-evosuite.1.tar.bz2
+org.apache.commons.csv.CSVFormat_ESTest::test45
+org.apache.commons.csv.CSVFormat_ESTest::test35
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 2 (see /root/workspace/evosuite_amp_data/Csv-12b/crossover/0.55/fix_test_suite.run.log file for more information)
+######  End fixing tests  ./fix_test_suite.pl: 2023-12-17 18:34:03  ######

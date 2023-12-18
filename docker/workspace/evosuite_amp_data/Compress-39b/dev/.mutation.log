@@ -1,0 +1,404 @@
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [javac] /tmp/Compress-39t/maven-build.xml:89: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-compress-from-maven.compile-tests:
+    [javac] /tmp/Compress-39t/maven-build.xml:122: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 90 ordered tests to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 13.36 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 112
+    [junit] MAJOR: Mutants covered:   54 (48.21%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 90 individual tests
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m1/90 - org.apache.commons.compress.archivers.memory.MemoryArchiveTestCase (1ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m2/90 - org.apache.commons.compress.archivers.zip.BinaryTreeTest (1ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m3/90 - org.apache.commons.compress.compressors.xz.XZCompressorInputStreamTest (1ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m4/90 - org.apache.commons.compress.archivers.zip.CircularBufferTest (2ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m5/90 - org.apache.commons.compress.archivers.zip.X000A_NTFSTest (2ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m6/90 - org.apache.commons.compress.compressors.deflate.DeflateCompressorOutputStreamTest (2ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m7/90 - org.apache.commons.compress.utils.CountingStreamTest (2ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m8/90 - org.apache.commons.compress.archivers.dump.DumpArchiveEntryTest (3ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m9/90 - org.apache.commons.compress.archivers.dump.DumpArchiveUtilTest (3ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m10/90 - org.apache.commons.compress.archivers.zip.StreamCompressorTest (3ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m11/90 - org.apache.commons.compress.compressors.deflate.DeflateParametersTest (3ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m12/90 - org.apache.commons.compress.archivers.cpio.CpioUtilTest (4ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m13/90 - org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntryTest (4ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m14/90 - org.apache.commons.compress.compressors.BZip2UtilsTestCase (4ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m15/90 - org.apache.commons.compress.compressors.GzipUtilsTestCase (4ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m16/90 - org.apache.commons.compress.utils.IOUtilsTest (4ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m17/90 - org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest (5ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m18/90 - org.apache.commons.compress.archivers.zip.AsiExtraFieldTest (5ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m19/90 - org.apache.commons.compress.archivers.ar.ArArchiveInputStreamTest (6ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m20/90 - org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStreamTest (6ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m21/90 - org.apache.commons.compress.archivers.zip.BitStreamTest (6ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m22/90 - org.apache.commons.compress.archivers.zip.ZipEightByteIntegerTest (6ms / 0):[0m
+    [junit] MAJOR: 2 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m23/90 - org.apache.commons.compress.archivers.zip.ZipLongTest (6ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m24/90 - org.apache.commons.compress.archivers.zip.ZipShortTest (6ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m25/90 - org.apache.commons.compress.compressors.bzip2.PythonTruncatedBzip2Test (6ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m26/90 - org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStreamTest (6ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m27/90 - org.apache.commons.compress.archivers.ar.ArArchiveOutputStreamTest (7ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m28/90 - org.apache.commons.compress.archivers.zip.ZipEncodingTest (7ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m29/90 - org.apache.commons.compress.compressors.DeflateTestCase (7ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m30/90 - org.apache.commons.compress.utils.CharsetsTest (7ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m31/90 - org.apache.commons.compress.archivers.ExceptionMessageTest (8ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m32/90 - org.apache.commons.compress.archivers.arj.ArjArchiveInputStreamTest (8ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m33/90 - org.apache.commons.compress.archivers.zip.ExtraFieldUtilsTest (8ms / 0):[0m
+    [junit] MAJOR: 3 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m34/90 - org.apache.commons.compress.archivers.zip.GeneralPurposeBitTest (8ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m35/90 - org.apache.commons.compress.compressors.lzma.LZMAUtilsTestCase (8ms / 0):[0m
+    [junit] MAJOR: 4 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 54
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m36/90 - org.apache.commons.compress.archivers.tar.SparseFilesTest (9ms / 38):[0m
+    [junit] MAJOR: 309 (19 / 38 / 38) -> AVG-RTPM: 8ms
+    [junit] MAJOR: Mutants killed / live: 19 (7-12-0) / 35
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m37/90 - org.apache.commons.compress.compressors.xz.XZUtilsTestCase (9ms / 0):[0m
+    [junit] MAJOR: 309 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 19 (7-12-0) / 35
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m38/90 - org.apache.commons.compress.archivers.dump.DumpArchiveInputStreamTest (11ms / 0):[0m
+    [junit] MAJOR: 309 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 19 (7-12-0) / 35
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m39/90 - org.apache.commons.compress.archivers.zip.ZipUtilTest (11ms / 0):[0m
+    [junit] MAJOR: 309 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 19 (7-12-0) / 35
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m40/90 - org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraFieldTest (13ms / 0):[0m
+    [junit] MAJOR: 309 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 19 (7-12-0) / 35
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m41/90 - org.apache.commons.compress.utils.BitInputStreamTest (13ms / 0):[0m
+    [junit] MAJOR: 309 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 19 (7-12-0) / 35
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m42/90 - org.apache.commons.compress.ChainingTestCase (14ms / 37):[0m
+    [junit] MAJOR: 561 (0 / 18 / 37) -> AVG-RTPM: 14ms
+    [junit] MAJOR: Mutants killed / live: 19 (7-12-0) / 35
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m43/90 - org.apache.commons.compress.archivers.LongSymLinkTest (14ms / 39):[0m
+    [junit] MAJOR: 888 (5 / 20 / 39) -> AVG-RTPM: 16ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m44/90 - org.apache.commons.compress.archivers.zip.EncryptedArchiveTest (14ms / 0):[0m
+    [junit] MAJOR: 888 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m45/90 - org.apache.commons.compress.archivers.zip.ScatterZipOutputStreamTest (14ms / 0):[0m
+    [junit] MAJOR: 888 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m46/90 - org.apache.commons.compress.archivers.zip.ScatterSampleTest (15ms / 0):[0m
+    [junit] MAJOR: 888 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m47/90 - org.apache.commons.compress.compressors.BZip2TestCase (15ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m48/90 - org.apache.commons.compress.compressors.LZMATestCase (15ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m49/90 - org.apache.commons.compress.compressors.ZTestCase (15ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m50/90 - org.apache.commons.compress.archivers.ArTestCase (16ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m51/90 - org.apache.commons.compress.archivers.CpioTestCase (16ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m52/90 - org.apache.commons.compress.archivers.sevenz.SevenZMethodConfigurationTest (16ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m53/90 - org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest (17ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m54/90 - org.apache.commons.compress.compressors.bzip2.BlockSortTest (17ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m55/90 - org.apache.commons.compress.archivers.tar.TarUtilsTest (18ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m56/90 - org.apache.commons.compress.compressors.FramedSnappyTestCase (19ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m57/90 - org.apache.commons.compress.archivers.JarTestCase (20ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m58/90 - org.apache.commons.compress.archivers.zip.X7875_NewUnixTest (21ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m59/90 - org.apache.commons.compress.compressors.GZipTestCase (21ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m60/90 - org.apache.commons.compress.compressors.pack200.Pack200UtilsTest (21ms / 0):[0m
+    [junit] MAJOR: 889 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m61/90 - org.apache.commons.compress.archivers.TarTestCase (22ms / 38):[0m
+    [junit] MAJOR: 1182 (0 / 15 / 38) -> AVG-RTPM: 19ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m62/90 - org.apache.commons.compress.compressors.DetectCompressorTestCase (22ms / 0):[0m
+    [junit] MAJOR: 1182 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m63/90 - org.apache.commons.compress.archivers.DumpTestCase (23ms / 0):[0m
+    [junit] MAJOR: 1182 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m64/90 - org.apache.commons.compress.archivers.ArchiveOutputStreamTest (25ms / 0):[0m
+    [junit] MAJOR: 1182 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 24 (7-17-0) / 30
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m65/90 - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest (27ms / 38):[0m
+    [junit] MAJOR: 1804 (3 / 15 / 38) -> AVG-RTPM: 41ms
+    [junit] MAJOR: Mutants killed / live: 27 (10-17-0) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m66/90 - org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest (28ms / 0):[0m
+    [junit] MAJOR: 1804 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 27 (10-17-0) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m67/90 - org.apache.commons.compress.archivers.LongPathTest (30ms / 0):[0m
+    [junit] MAJOR: 1804 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 27 (10-17-0) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m68/90 - org.apache.commons.compress.archivers.tar.TarArchiveEntryTest (30ms / 38):[0m
+    [junit] MAJOR: 1937 (0 / 12 / 38) -> AVG-RTPM: 11ms
+    [junit] MAJOR: Mutants killed / live: 27 (10-17-0) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m69/90 - org.apache.commons.compress.DetectArchiverTestCase (31ms / 38):[0m
+    [junit] MAJOR: 2239 (0 / 12 / 38) -> AVG-RTPM: 25ms
+    [junit] MAJOR: Mutants killed / live: 27 (10-17-0) / 27
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m70/90 - org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest (33ms / 15):[0m
+    [junit] MAJOR: 2633 (9 / 15 / 15) -> AVG-RTPM: 26ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m71/90 - org.apache.commons.compress.archivers.zip.ZipFileTest (37ms / 0):[0m
+    [junit] MAJOR: 2633 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m72/90 - org.apache.commons.compress.archivers.ZipTestCase (43ms / 0):[0m
+    [junit] MAJOR: 2633 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m73/90 - org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest (44ms / 0):[0m
+    [junit] MAJOR: 2633 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m74/90 - org.apache.commons.compress.compressors.XZTestCase (45ms / 0):[0m
+    [junit] MAJOR: 2633 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m75/90 - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest (46ms / 39):[0m
+    [junit] MAJOR: 3057 (0 / 12 / 39) -> AVG-RTPM: 35ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m76/90 - org.apache.commons.compress.archivers.zip.ExplodeSupportTest (50ms / 0):[0m
+    [junit] MAJOR: 3057 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m77/90 - org.apache.commons.compress.IOMethodsTest (54ms / 38):[0m
+    [junit] MAJOR: 3362 (0 / 12 / 38) -> AVG-RTPM: 25ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m78/90 - org.apache.commons.compress.compressors.Pack200TestCase (72ms / 0):[0m
+    [junit] MAJOR: 3363 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m79/90 - org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest (81ms / 0):[0m
+    [junit] MAJOR: 3363 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m80/90 - org.apache.commons.compress.archivers.SevenZTestCase (96ms / 0):[0m
+    [junit] MAJOR: 3363 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m81/90 - org.apache.commons.compress.ArchiveReadTest (101ms / 39):[0m
+    [junit] MAJOR: 3961 (0 / 12 / 39) -> AVG-RTPM: 49ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m82/90 - org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorInputStreamTest (104ms / 0):[0m
+    [junit] MAJOR: 3961 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m83/90 - org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest (107ms / 14):[0m
+    [junit] MAJOR: 4571 (0 / 6 / 14) -> AVG-RTPM: 101ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m84/90 - org.apache.commons.compress.changes.ChangeSetTestCase (110ms / 39):[0m
+    [junit] MAJOR: 5831 (0 / 12 / 39) -> AVG-RTPM: 104ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m85/90 - org.apache.commons.compress.archivers.sevenz.SevenZNativeHeapTest (280ms / 0):[0m
+    [junit] MAJOR: 5831 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m86/90 - org.apache.commons.compress.archivers.zip.ParallelScatterZipCreatorTest (443ms / 0):[0m
+    [junit] MAJOR: 5831 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m87/90 - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest (554ms / 0):[0m
+    [junit] MAJOR: 5831 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m88/90 - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest (655ms / 0):[0m
+    [junit] MAJOR: 5831 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m89/90 - org.apache.commons.compress.archivers.sevenz.SevenZFileTest (802ms / 0):[0m
+    [junit] MAJOR: 5831 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m90/90 - org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest (2051ms / 38):[0m
+    [junit] MAJOR: 30172 (0 / 12 / 38) -> AVG-RTPM: 2028ms
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time:  30.2 seconds
+    [junit] MAJOR: Mutation score: 32.14% (66.67%)
+    [junit] MAJOR: Mutants killed / live: 36 (17-19-0) / 18
+    [junit] MAJOR: Mutant executions: 211
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant kill details to /tmp/Compress-39t/kill.csv
+
+BUILD SUCCESSFUL
+Total time: 43 seconds

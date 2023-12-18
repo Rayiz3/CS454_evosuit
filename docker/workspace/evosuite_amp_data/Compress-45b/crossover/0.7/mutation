@@ -1,0 +1,2 @@
+project_id,version_id,test_suite_source,test_id,mut_generated,mut_excluded,mut_covered,mut_killed
+Compress,45b,evosuite,1,578,0,503,326

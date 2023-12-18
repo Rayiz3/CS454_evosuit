@@ -10,7 +10,7 @@ import tiktoken
 import signal
 
 ### have to be changed with private key !!!! ###
-openai.api_key = "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"
+openai.api_key = "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"
 ### have to be changed with private key !!!! ###    
 
 JAVA_ANALYZER="java_analyzer/target/java-analyzer-1.0-SNAPSHOT-shaded.jar"
@@ -668,9 +668,10 @@ The format below should only appear once in your answer.
 
 if __name__ == "__main__":
     mode = sys.argv[1]
+    os.system("cp ./fix_test_suite.pl /defects4j/framework/util/")
 
     if mode == "test":
-        pid, vid = "Csv", "1"
+        pid, vid = "Jsoup", "69"
         if not os.path.exists(f"./data/{pid}-{vid}b/tests"):
             os.system(f"mkdir -p ./data/{pid}-{vid}b/tests")
             os.system(f"mkdir -p ./data/{pid}-{vid}b/mut_results")
@@ -696,8 +697,8 @@ if __name__ == "__main__":
             pid, vid = version.split(",")
             pid = pid.strip()
             vid = vid.strip()
-            if pid != 'Csv' or vid != '1':
-                continue
+            # if pid != 'Csv' or vid != '1':
+            #     continue
             if not os.path.exists(f"./data/{pid}-{vid}b/tests"):
                 os.system(f"mkdir -p ./data/{pid}-{vid}b/tests")
                 os.system(f"mkdir -p ./data/{pid}-{vid}b/mut_results")
@@ -706,7 +707,6 @@ if __name__ == "__main__":
             while len(os.listdir(f"./data/{pid}-{vid}b/tests")) < 30:
                 env = D4JEnv(pid, vid)
                 result = env.amplify_test()
-                if result == None:
-                    # os.system(f"rm -rf ./data/{pid}-{vid}b")
+                if result == None: # not a single modified class or not a single developer-written test class
                     break
 

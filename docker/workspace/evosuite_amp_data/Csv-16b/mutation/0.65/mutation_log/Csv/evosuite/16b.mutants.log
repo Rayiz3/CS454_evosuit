@@ -1,0 +1,114 @@
+1:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.io.File,java.nio.charset.Charset,org.apache.commons.csv.CSVFormat):153:Assertions.notNull(file, "file") |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.io.File,java.nio.charset.Charset,org.apache.commons.csv.CSVFormat):154:Assertions.notNull(format, "format") |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.io.InputStream,java.nio.charset.Charset,org.apache.commons.csv.CSVFormat):182:Assertions.notNull(inputStream, "inputStream") |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.io.InputStream,java.nio.charset.Charset,org.apache.commons.csv.CSVFormat):183:Assertions.notNull(format, "format") |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.nio.file.Path,java.nio.charset.Charset,org.apache.commons.csv.CSVFormat):204:Assertions.notNull(path, "path") |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.nio.file.Path,java.nio.charset.Charset,org.apache.commons.csv.CSVFormat):205:Assertions.notNull(format, "format") |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.lang.String,org.apache.commons.csv.CSVFormat):246:Assertions.notNull(string, "string") |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.lang.String,org.apache.commons.csv.CSVFormat):247:Assertions.notNull(format, "format") |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.net.URL,java.nio.charset.Charset,org.apache.commons.csv.CSVFormat):273:Assertions.notNull(url, "url") |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.net.URL,java.nio.charset.Charset,org.apache.commons.csv.CSVFormat):274:Assertions.notNull(charset, "charset") |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@parse(java.net.URL,java.nio.charset.Charset,org.apache.commons.csv.CSVFormat):275:Assertions.notNull(format, "format") |==> <NO-OP>
+12:LVR:0:POS:org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat):324:0 |==> 1
+13:LVR:0:NEG:org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat):324:0 |==> -1
+14:LVR:POS:0:org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat):324:1 |==> 0
+15:LVR:POS:NEG:org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat):324:1 |==> -1
+16:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat,long,long):352:Assertions.notNull(reader, "reader") |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat,long,long):353:Assertions.notNull(format, "format") |==> <NO-OP>
+18:LVR:POS:0:org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat,long,long):359:1 |==> 0
+19:LVR:POS:NEG:org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat,long,long):359:1 |==> -1
+20:AOR:-(long,long):%(long,long):org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat,long,long):359:recordNumber - 1 |==> recordNumber % 1
+21:AOR:-(long,long):*(long,long):org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat,long,long):359:recordNumber - 1 |==> recordNumber * 1
+22:AOR:-(long,long):+(long,long):org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat,long,long):359:recordNumber - 1 |==> recordNumber + 1
+23:AOR:-(long,long):/(long,long):org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat,long,long):359:recordNumber - 1 |==> recordNumber / 1
+24:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser@<init>(java.io.Reader,org.apache.commons.csv.CSVFormat,long,long):359:this.recordNumber = recordNumber - 1 |==> <NO-OP>
+25:COR:this.format.getTrim():TRUE:org.apache.commons.csv.CSVParser@addRecordValue(boolean):364:this.format.getTrim() |==> false
+26:COR:this.format.getTrim():FALSE:org.apache.commons.csv.CSVParser@addRecordValue(boolean):364:this.format.getTrim() |==> true
+27:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.csv.CSVParser@addRecordValue(boolean):365:lastRecord && inputClean.isEmpty() |==> lastRecord == inputClean.isEmpty()
+28:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.csv.CSVParser@addRecordValue(boolean):365:lastRecord && inputClean.isEmpty() |==> false
+29:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.csv.CSVParser@addRecordValue(boolean):365:lastRecord && inputClean.isEmpty() |==> lastRecord
+30:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.csv.CSVParser@addRecordValue(boolean):365:lastRecord && inputClean.isEmpty() |==> inputClean.isEmpty()
+31:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.csv.CSVParser@addRecordValue(boolean):365:lastRecord && inputClean.isEmpty() && this.format.getTrailingDelimiter() |==> (lastRecord && inputClean.isEmpty()) == this.format.getTrailingDelimiter()
+32:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.csv.CSVParser@addRecordValue(boolean):365:lastRecord && inputClean.isEmpty() && this.format.getTrailingDelimiter() |==> false
+33:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.csv.CSVParser@addRecordValue(boolean):365:lastRecord && inputClean.isEmpty() && this.format.getTrailingDelimiter() |==> lastRecord && inputClean.isEmpty()
+34:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.csv.CSVParser@addRecordValue(boolean):365:lastRecord && inputClean.isEmpty() && this.format.getTrailingDelimiter() |==> this.format.getTrailingDelimiter()
+35:COR:inputClean.equals(nullString):TRUE:org.apache.commons.csv.CSVParser@addRecordValue(boolean):369:inputClean.equals(nullString) |==> false
+36:COR:inputClean.equals(nullString):FALSE:org.apache.commons.csv.CSVParser@addRecordValue(boolean):369:inputClean.equals(nullString) |==> true
+37:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@addRecordValue(boolean):369:this.recordList.add(inputClean.equals(nullString) ? null : inputClean) |==> <NO-OP>
+38:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser@close():380:this.lexer != null |==> true
+39:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@close():381:this.lexer.close() |==> <NO-OP>
+40:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser@getHeaderMap():417:this.headerMap == null |==> false
+41:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@getRecords():450:records.add(rec) |==> <NO-OP>
+42:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser@initializeHeader():464:formatHeader != null |==> true
+43:COR:this.format.getIgnoreHeaderCase():TRUE:org.apache.commons.csv.CSVParser@initializeHeader():465:this.format.getIgnoreHeaderCase() |==> false
+44:COR:this.format.getIgnoreHeaderCase():FALSE:org.apache.commons.csv.CSVParser@initializeHeader():465:this.format.getIgnoreHeaderCase() |==> true
+45:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser@initializeHeader():465:hdrMap = this.format.getIgnoreHeaderCase() ? new TreeMap<String, Integer>(String.CASE_INSENSITIVE_ORDER) : new LinkedHashMap<String, Integer>() |==> <NO-OP>
+46:LVR:0:POS:org.apache.commons.csv.CSVParser@initializeHeader():470:0 |==> 1
+47:LVR:0:NEG:org.apache.commons.csv.CSVParser@initializeHeader():470:0 |==> -1
+48:ROR:==(int,int):<=(int,int):org.apache.commons.csv.CSVParser@initializeHeader():470:formatHeader.length == 0 |==> formatHeader.length <= 0
+49:ROR:==(int,int):>=(int,int):org.apache.commons.csv.CSVParser@initializeHeader():470:formatHeader.length == 0 |==> formatHeader.length >= 0
+50:ROR:==(int,int):FALSE(int,int):org.apache.commons.csv.CSVParser@initializeHeader():470:formatHeader.length == 0 |==> false
+51:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser@initializeHeader():473:nextRecord != null |==> true
+52:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser@initializeHeader():474:headerRecord = nextRecord.values() |==> <NO-OP>
+53:COR:this.format.getSkipHeaderRecord():TRUE:org.apache.commons.csv.CSVParser@initializeHeader():477:this.format.getSkipHeaderRecord() |==> false
+54:COR:this.format.getSkipHeaderRecord():FALSE:org.apache.commons.csv.CSVParser@initializeHeader():477:this.format.getSkipHeaderRecord() |==> true
+55:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@initializeHeader():478:this.nextRecord() |==> <NO-OP>
+56:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser@initializeHeader():480:headerRecord = formatHeader |==> <NO-OP>
+57:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser@initializeHeader():484:headerRecord != null |==> true
+58:LVR:0:POS:org.apache.commons.csv.CSVParser@initializeHeader():485:0 |==> 1
+59:LVR:0:NEG:org.apache.commons.csv.CSVParser@initializeHeader():485:0 |==> -1
+60:ROR:<(int,int):!=(int,int):org.apache.commons.csv.CSVParser@initializeHeader():485:i < headerRecord.length |==> i != headerRecord.length
+61:ROR:<(int,int):<=(int,int):org.apache.commons.csv.CSVParser@initializeHeader():485:i < headerRecord.length |==> i <= headerRecord.length
+62:ROR:<(int,int):FALSE(int,int):org.apache.commons.csv.CSVParser@initializeHeader():485:i < headerRecord.length |==> false
+63:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser@initializeHeader():488:header == null |==> false
+64:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():488:header == null || header.trim().isEmpty() |==> header == null != header.trim().isEmpty()
+65:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():488:header == null || header.trim().isEmpty() |==> header == null
+66:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():488:header == null || header.trim().isEmpty() |==> header.trim().isEmpty()
+67:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():488:header == null || header.trim().isEmpty() |==> true
+68:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():489:!emptyHeader || !this.format.getAllowMissingColumnNames() |==> !emptyHeader != !this.format.getAllowMissingColumnNames()
+69:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():489:!emptyHeader || !this.format.getAllowMissingColumnNames() |==> !emptyHeader
+70:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():489:!emptyHeader || !this.format.getAllowMissingColumnNames() |==> !this.format.getAllowMissingColumnNames()
+71:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():489:!emptyHeader || !this.format.getAllowMissingColumnNames() |==> true
+72:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():489:containsHeader && (!emptyHeader || !this.format.getAllowMissingColumnNames()) |==> containsHeader == (!emptyHeader || !this.format.getAllowMissingColumnNames())
+73:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():489:containsHeader && (!emptyHeader || !this.format.getAllowMissingColumnNames()) |==> false
+74:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():489:containsHeader && (!emptyHeader || !this.format.getAllowMissingColumnNames()) |==> containsHeader
+75:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.commons.csv.CSVParser@initializeHeader():489:containsHeader && (!emptyHeader || !this.format.getAllowMissingColumnNames()) |==> (!emptyHeader || !this.format.getAllowMissingColumnNames())
+76:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@initializeHeader():493:hdrMap.put(header, Integer.valueOf(i)) |==> <NO-OP>
+77:COR:CSVParser.this.isClosed():TRUE:org.apache.commons.csv.CSVParser$1@hasNext():537:CSVParser.this.isClosed() |==> false
+78:COR:CSVParser.this.isClosed():FALSE:org.apache.commons.csv.CSVParser$1@hasNext():537:CSVParser.this.isClosed() |==> true
+79:LVR:FALSE:TRUE:org.apache.commons.csv.CSVParser$1@hasNext():538:false |==> true
+80:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser$1@hasNext():540:this.current == null |==> false
+81:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser$1@hasNext():541:this.current = this.getNextRecord() |==> <NO-OP>
+82:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser$1@hasNext():544:this.current != null |==> true
+83:COR:CSVParser.this.isClosed():TRUE:org.apache.commons.csv.CSVParser$1@next():549:CSVParser.this.isClosed() |==> false
+84:COR:CSVParser.this.isClosed():FALSE:org.apache.commons.csv.CSVParser$1@next():549:CSVParser.this.isClosed() |==> true
+85:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser$1@next():553:this.current = null |==> <NO-OP>
+86:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser$1@next():555:next == null |==> false
+87:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser$1@next():557:next = this.getNextRecord() |==> <NO-OP>
+88:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser$1@next():558:next == null |==> false
+89:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():582:this.recordList.clear() |==> <NO-OP>
+90:AOR:+(long,long):%(long,long):org.apache.commons.csv.CSVParser@nextRecord():584:lexer.getCharacterPosition() + this.characterOffset |==> lexer.getCharacterPosition() % this.characterOffset
+91:AOR:+(long,long):*(long,long):org.apache.commons.csv.CSVParser@nextRecord():584:lexer.getCharacterPosition() + this.characterOffset |==> lexer.getCharacterPosition() * this.characterOffset
+92:AOR:+(long,long):-(long,long):org.apache.commons.csv.CSVParser@nextRecord():584:lexer.getCharacterPosition() + this.characterOffset |==> lexer.getCharacterPosition() - this.characterOffset
+93:AOR:+(long,long):/(long,long):org.apache.commons.csv.CSVParser@nextRecord():584:lexer.getCharacterPosition() + this.characterOffset |==> lexer.getCharacterPosition() / this.characterOffset
+94:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():586:this.reusableToken.reset() |==> <NO-OP>
+95:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():587:this.lexer.nextToken(this.reusableToken) |==> <NO-OP>
+96:LVR:FALSE:TRUE:org.apache.commons.csv.CSVParser@nextRecord():590:false |==> true
+97:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():590:this.addRecordValue(false) |==> <NO-OP>
+98:LVR:TRUE:FALSE:org.apache.commons.csv.CSVParser@nextRecord():593:true |==> false
+99:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():593:this.addRecordValue(true) |==> <NO-OP>
+100:COR:this.reusableToken.isReady:TRUE:org.apache.commons.csv.CSVParser@nextRecord():596:this.reusableToken.isReady |==> false
+101:COR:this.reusableToken.isReady:FALSE:org.apache.commons.csv.CSVParser@nextRecord():596:this.reusableToken.isReady |==> true
+102:LVR:TRUE:FALSE:org.apache.commons.csv.CSVParser@nextRecord():597:true |==> false
+103:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():597:this.addRecordValue(true) |==> <NO-OP>
+104:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser@nextRecord():603:sb == null |==> false
+105:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():604:sb = new StringBuilder() |==> <NO-OP>
+106:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():606:sb.append(Constants.LF) |==> <NO-OP>
+107:STD:<CALL>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():608:sb.append(this.reusableToken.content) |==> <NO-OP>
+108:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():609:this.reusableToken.type = TOKEN |==> <NO-OP>
+109:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser@nextRecord():614:this.reusableToken.type == TOKEN |==> false
+110:COR:this.recordList.isEmpty():TRUE:org.apache.commons.csv.CSVParser@nextRecord():616:this.recordList.isEmpty() |==> false
+111:COR:this.recordList.isEmpty():FALSE:org.apache.commons.csv.CSVParser@nextRecord():616:this.recordList.isEmpty() |==> true
+112:STD:<INC>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():617:this.recordNumber++ |==> <NO-OP>
+113:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.commons.csv.CSVParser@nextRecord():618:sb == null |==> false
+114:STD:<ASSIGN>:<NO-OP>:org.apache.commons.csv.CSVParser@nextRecord():619:result = new CSVRecord(this.recordList.toArray(new String[this.recordList.size()]), this.headerMap, comment, this.recordNumber, startCharPosition) |==> <NO-OP>

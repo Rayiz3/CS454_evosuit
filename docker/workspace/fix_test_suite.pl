@@ -281,9 +281,11 @@ suite: foreach (@list) {
 
     # Counter for successful runs of fixed test suite
     my $counter = $RUNS;
+    my $budget = 10;
 
     my $fixed = 0;
-    while ($counter > 0) {
+    while ($counter > 0 and $ budget > 0) {
+	--$budget;
         # Temporary log file to monitor uncompilable tests
         my $comp_log = Log::create_log("$TMP_DIR/comp_tests.log", ">")->{file_name};
 

@@ -1,0 +1,80 @@
+
+test-offline:
+
+get-deps:
+
+commons-csv-from-maven.compile:
+    [javac] /tmp/Csv-12t/maven-build.xml:79: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-csv-from-maven.compile-tests:
+    [javac] /tmp/Csv-12t/maven-build.xml:112: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 9 ordered tests to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 1.19 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 312
+    [junit] MAJOR: Mutants covered:   287 (91.99%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 9 individual tests
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m1/9 - org.apache.commons.csv.FercGovTest (2ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 287
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m2/9 - org.apache.commons.csv.AssertionsTest (3ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 287
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m3/9 - org.apache.commons.csv.ExtendedBufferedReaderTest (5ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 287
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m4/9 - org.apache.commons.csv.TokenMatchersTest (5ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 287
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m5/9 - org.apache.commons.csv.CSVFileParserTest (22ms / 106):[0m
+    [junit] MAJOR: 1118 (67 / 106 / 106) -> AVG-RTPM: 10ms
+    [junit] MAJOR: Mutants killed / live: 67 (25-42-0) / 220
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m6/9 - org.apache.commons.csv.CSVRecordTest (23ms / 78):[0m
+    [junit] MAJOR: 1474 (2 / 35 / 78) -> AVG-RTPM: 10ms
+    [junit] MAJOR: Mutants killed / live: 69 (25-44-0) / 218
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m7/9 - org.apache.commons.csv.LexerTest (37ms / 76):[0m
+    [junit] MAJOR: 1814 (3 / 33 / 76) -> AVG-RTPM: 10ms
+    [junit] MAJOR: Mutants killed / live: 72 (27-45-0) / 215
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m8/9 - org.apache.commons.csv.CSVFormatTest (86ms / 263):[0m
+    [junit] MAJOR: 4258 (83 / 212 / 263) -> AVG-RTPM: 11ms
+    [junit] MAJOR: Mutants killed / live: 155 (91-64-0) / 132
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m9/9 - org.apache.commons.csv.CSVPrinterTest (504ms / 81):[0m
+    [junit] MAJOR: 8931 (2 / 9 / 81) -> AVG-RTPM: 519ms
+    [junit] MAJOR: Mutants killed / live: 157 (92-65-0) / 130
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time:  8.9 seconds
+    [junit] MAJOR: Mutation score: 50.32% (54.70%)
+    [junit] MAJOR: Mutants killed / live: 157 (92-65-0) / 130
+    [junit] MAJOR: Mutant executions: 395
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant kill details to /tmp/Csv-12t/kill.csv
+
+BUILD SUCCESSFUL
+Total time: 10 seconds

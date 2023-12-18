@@ -1,0 +1,6 @@
+######  Start mutation analysis  ./run_mutation.pl: 2023-12-17 18:23:21  ######
+ - Executing test suite: Cli-37b-evosuite.1.tar.bz2
+######  End mutation analysis  ./run_mutation.pl: 2023-12-17 18:25:13  ######
+######  Start mutation analysis  ./run_mutation.pl: 2023-12-17 19:51:26  ######
+ - Skipping Cli-37b-evosuite.1.tar.bz2 since results already exist in database!
+######  End mutation analysis  ./run_mutation.pl: 2023-12-17 19:51:26  ######

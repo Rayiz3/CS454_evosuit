@@ -1,0 +1,172 @@
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [javac] /tmp/Jsoup-93t/maven-build.xml:84: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+jsoup-from-maven.compile-tests:
+    [javac] /tmp/Jsoup-93t/maven-build.xml:123: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+mutation.test:
+     [echo] Running mutation analysis ...
+    [junit] MAJOR: Mutation analysis enabled
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run 32 ordered tests to verify independence
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Preprocessing time: 6.01 seconds
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Mutants generated: 40
+    [junit] MAJOR: Mutants covered:   1 (2.50%)
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export test map to testMap.csv
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Run mutation analysis with 32 individual tests
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m1/32 - org.jsoup.parser.HtmlTreeBuilderStateTest (2ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m2/32 - org.jsoup.parser.HtmlTreeBuilderTest (5ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m3/32 - org.jsoup.parser.ParserSettingsTest (5ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m4/32 - org.jsoup.select.QueryParserTest (8ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m5/32 - org.jsoup.parser.TagTest (12ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m6/32 - org.jsoup.parser.CharacterReaderTest (26ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m7/32 - org.jsoup.nodes.AttributesTest (37ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m8/32 - org.jsoup.helper.HttpConnectionTest (39ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m9/32 - org.jsoup.parser.ParserTest (44ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m10/32 - org.jsoup.nodes.DocumentTypeTest (47ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m11/32 - org.jsoup.parser.AttributeParseTest (49ms / 0):[0m
+    [junit] MAJOR: 0 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m12/32 - org.jsoup.internal.StringUtilTest (57ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m13/32 - org.jsoup.nodes.TextNodeTest (57ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m14/32 - org.jsoup.parser.TokenQueueTest (58ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m15/32 - org.jsoup.select.TraversorTest (66ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m16/32 - org.jsoup.parser.XmlTreeBuilderTest (70ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m17/32 - org.jsoup.nodes.NodeTest (78ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m18/32 - org.jsoup.parser.TokeniserStateTest (78ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m19/32 - org.jsoup.nodes.AttributeTest (82ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m20/32 - org.jsoup.parser.TokeniserTest (89ms / 0):[0m
+    [junit] MAJOR: 1 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m21/32 - org.jsoup.select.ElementsTest (90ms / 1):[0m
+    [junit] MAJOR: 73 (0 / 1 / 1) -> AVG-RTPM: 72ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m22/32 - org.jsoup.nodes.EntitiesTest (91ms / 0):[0m
+    [junit] MAJOR: 73 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m23/32 - org.jsoup.safety.CleanerTest (94ms / 0):[0m
+    [junit] MAJOR: 73 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m24/32 - org.jsoup.helper.DataUtilTest (107ms / 0):[0m
+    [junit] MAJOR: 73 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m25/32 - org.jsoup.select.SelectorTest (137ms / 0):[0m
+    [junit] MAJOR: 73 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m26/32 - org.jsoup.nodes.DocumentTest (165ms / 1):[0m
+    [junit] MAJOR: 196 (0 / 1 / 1) -> AVG-RTPM: 123ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m27/32 - org.jsoup.nodes.ElementTest (175ms / 0):[0m
+    [junit] MAJOR: 196 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m28/32 - org.jsoup.select.CssTest (199ms / 0):[0m
+    [junit] MAJOR: 196 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m29/32 - org.jsoup.integration.ParseTest (204ms / 1):[0m
+    [junit] MAJOR: 383 (0 / 1 / 1) -> AVG-RTPM: 186ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m30/32 - org.jsoup.helper.W3CDomTest (222ms / 1):[0m
+    [junit] MAJOR: 500 (0 / 1 / 1) -> AVG-RTPM: 117ms
+    [junit] MAJOR: Mutants killed / live: 0 (0-0-0) / 1
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m31/32 - org.jsoup.parser.HtmlParserTest (291ms / 1):[0m
+    [junit] MAJOR: 569 (1 / 1 / 1) -> AVG-RTPM: 69ms
+    [junit] MAJOR: Mutants killed / live: 1 (1-0-0) / 0
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: [1;34m32/32 - org.jsoup.integration.ConnectTest (579ms / 0):[0m
+    [junit] MAJOR: 569 (0 / 0 / 0) -> AVG-RTPM: 0ms
+    [junit] MAJOR: Mutants killed / live: 1 (1-0-0) / 0
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Summary:
+    [junit] MAJOR: 
+    [junit] MAJOR: Analysis time:  0.6 seconds
+    [junit] MAJOR: Mutation score: 2.50% (100.00%)
+    [junit] MAJOR: Mutants killed / live: 1 (1-0-0) / 0
+    [junit] MAJOR: Mutant executions: 5
+    [junit] MAJOR: ------------------------------------------------------------
+    [junit] MAJOR: Export summary of results to summary.csv
+    [junit] MAJOR: Export mutant kill details to /tmp/Jsoup-93t/kill.csv
+
+BUILD SUCCESSFUL
+Total time: 6 seconds

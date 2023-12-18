@@ -1,0 +1,3 @@
+######  Start mutation analysis  ./run_mutation.pl: 2023-12-18 00:57:14  ######
+ - Executing test suite: Csv-10b-evosuite.1.tar.bz2
+######  End mutation analysis  ./run_mutation.pl: 2023-12-18 00:57:20  ######
